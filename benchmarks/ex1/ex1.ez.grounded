@@ -1,0 +1,26 @@
+1 2 0 0
+1 3 0 0
+1 4 0 0
+1 5 0 0
+1 6 0 0
+1 7 0 0
+1 8 0 0
+1 9 0 0
+1 10 0 0
+0
+7 d(1)
+8 d(2)
+5 cspvar(s,20,40)
+9 cspvar(v(1),10,20)
+10 cspvar(v(2),10,20)
+2 cspdomain(fd)
+3 required(ezcsp__geq(v(1),v(2)))
+4 required(ezcsp__sum(list(v,1),ezcsp__geq,39))
+6 required(ezcsp__sum(list(v,1),ezcsp__eq,s))
+0
+B+
+0
+B-
+1
+0
+1

@@ -1,0 +1,981 @@
+sat
+(model 
+  (define-fun |required(ezcsp__eq(nWeight(4),45))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |leafPos(8,6)| () Bool
+    false)
+  (define-fun |nWeight(6)| () Int
+    45)
+  (define-fun |posColor(4,blue)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),5))| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(1),32))| () Bool
+    false)
+  (define-fun |nWeight(5)| () Int
+    76)
+  (define-fun |required(ezcsp__eq(nWeight(3),74))| () Bool
+    false)
+  (define-fun |leafPos(5,5)| () Bool
+    false)
+  (define-fun |478| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),149))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),74))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),45))| () Bool
+    false)
+  (define-fun |leafPos(8,1)| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |leafPos(3,7)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),51))| () Bool
+    false)
+  (define-fun |458| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),94))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |462| () Bool
+    false)
+  (define-fun |leafPos(7,3)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |leafPos(1,6)| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(6),104))| () Bool
+    false)
+  (define-fun |posColor(6,blue)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |470| () Bool
+    false)
+  (define-fun |leafPos(4,2)| () Bool
+    false)
+  (define-fun |posColor(3,blue)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |posColor(1,green)| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |leafPos(7,7)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),11))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),74))| () Bool
+    false)
+  (define-fun |leafPos(5,7)| () Bool
+    false)
+  (define-fun |leafPos(3,1)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),74))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),104))| () Bool
+    false)
+  (define-fun |leafPos(2,6)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),52))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),111))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),94))| () Bool
+    false)
+  (define-fun |leafPos(1,5)| () Bool
+    false)
+  (define-fun |leafPos(2,3)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),52))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),45))| () Bool
+    false)
+  (define-fun |446| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),104))| () Bool
+    false)
+  (define-fun |posColor(5,red)| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),2)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),72)))| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(2),74))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),45))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |nWeight(3)| () Int
+    17)
+  (define-fun |464| () Bool
+    false)
+  (define-fun |leafPos(7,5)| () Bool
+    false)
+  (define-fun |461| () Bool
+    false)
+  (define-fun |leafPos(4,0)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),104))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),46))| () Bool
+    false)
+  (define-fun |leafPos(6,6)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |posColor(3,red)| () Bool
+    true)
+  (define-fun |431| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),93))| () Bool
+    false)
+  (define-fun |432| () Bool
+    false)
+  (define-fun |posColor(5,blue)| () Bool
+    false)
+  (define-fun |leafPos(4,3)| () Bool
+    true)
+  (define-fun |434| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    true)
+  (define-fun |required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),88))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |leafPos(2,7)| () Bool
+    false)
+  (define-fun |467| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),12))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),90))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),149))| () Bool
+    false)
+  (define-fun |leafPos(2,1)| () Bool
+    false)
+  (define-fun |leafPos(4,6)| () Bool
+    false)
+  (define-fun |leafPos(5,0)| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),3)))| () Bool
+    false)
+  (define-fun |posColor(2,blue)| () Bool
+    true)
+  (define-fun |required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |leafPos(7,4)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |468| () Bool
+    false)
+  (define-fun |posColor(2,green)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),149))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),11)))| () Bool
+    false)
+  (define-fun |leafPos(4,5)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |480| () Bool
+    false)
+  (define-fun |leafPos(6,7)| () Bool
+    false)
+  (define-fun |459| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),104))| () Bool
+    false)
+  (define-fun |leafPos(6,2)| () Bool
+    true)
+  (define-fun |leafPos(4,1)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),94))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),80))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),13))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),59))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),45))| () Bool
+    false)
+  (define-fun |455| () Bool
+    false)
+  (define-fun |leafPos(8,5)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),77))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),103))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),81))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),86))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    true)
+  (define-fun |444| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),108))| () Bool
+    false)
+  (define-fun |437| () Bool
+    false)
+  (define-fun |433| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |leafPos(2,5)| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),109))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),2)))| () Bool
+    false)
+  (define-fun |posColor(4,green)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),109))| () Bool
+    false)
+  (define-fun |leafPos(4,7)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),149))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |leafPos(7,0)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),20))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),94))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),116))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |451| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),102))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),143))| () Bool
+    false)
+  (define-fun |leafPos(2,4)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |posColor(6,red)| () Bool
+    false)
+  (define-fun |482| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),52))| () Bool
+    false)
+  (define-fun |450| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),149))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),45))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |441| () Bool
+    false)
+  (define-fun |479| () Bool
+    false)
+  (define-fun |430| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),75))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),4))| () Bool
+    false)
+  (define-fun |447| () Bool
+    false)
+  (define-fun |leafPos(5,1)| () Bool
+    false)
+  (define-fun |posColor(1,blue)| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(2),90))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),8)))| () Bool
+    true)
+  (define-fun |required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |472| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |posColor(1,red)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),11)))| () Bool
+    false)
+  (define-fun |leafPos(1,0)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),19))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),45))| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),43)))| () Bool
+    false)
+  (define-fun |454| () Bool
+    false)
+  (define-fun |440| () Bool
+    false)
+  (define-fun |leafPos(6,3)| () Bool
+    false)
+  (define-fun |leafPos(7,1)| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),72)))| () Bool
+    false)
+  (define-fun |leafPos(8,7)| () Bool
+    true)
+  (define-fun |leafPos(6,5)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),90))| () Bool
+    false)
+  (define-fun |posColor(7,green)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),52))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),109))| () Bool
+    false)
+  (define-fun |leafPos(1,1)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    true)
+  (define-fun |required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    true)
+  (define-fun |required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |476| () Bool
+    false)
+  (define-fun |477| () Bool
+    false)
+  (define-fun |leafPos(3,6)| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |leafPos(3,5)| () Bool
+    true)
+  (define-fun |required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    true)
+  (define-fun |posColor(2,red)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),54))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),24))| () Bool
+    false)
+  (define-fun |438| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),72)))| () Bool
+    false)
+  (define-fun |leafPos(5,2)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),149))| () Bool
+    false)
+  (define-fun |leafPos(4,4)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),90))| () Bool
+    false)
+  (define-fun |leafPos(3,2)| () Bool
+    false)
+  (define-fun |posColor(7,blue)| () Bool
+    true)
+  (define-fun |leafPos(6,1)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),2)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |leafPos(2,0)| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(1),37))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),6))| () Bool
+    false)
+  (define-fun |posColor(7,red)| () Bool
+    false)
+  (define-fun |posColor(6,green)| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(6),109))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),94))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),38))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),104))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(43,47),43)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),16)))| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),43)))| () Bool
+    true)
+  (define-fun |435| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),16)))| () Bool
+    false)
+  (define-fun |452| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),74))| () Bool
+    false)
+  (define-fun |481| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),94))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |leafPos(2,2)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),3)))| () Bool
+    false)
+  (define-fun |leafPos(3,0)| () Bool
+    false)
+  (define-fun |457| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),4)))| () Bool
+    false)
+  (define-fun |leafPos(8,2)| () Bool
+    false)
+  (define-fun |leafPos(7,6)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),4)))| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(3),109))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),114))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),16))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),74))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),36))| () Bool
+    false)
+  (define-fun |leafPos(6,4)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),52))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),94))| () Bool
+    false)
+  (define-fun |leafPos(1,2)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),2)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),109))| () Bool
+    false)
+  (define-fun |nWeight(1)| () Int
+    5)
+  (define-fun |required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),52))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),50))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),120))| () Bool
+    false)
+  (define-fun |442| () Bool
+    false)
+  (define-fun |469| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),79))| () Bool
+    false)
+  (define-fun |453| () Bool
+    false)
+  (define-fun |439| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),2)))| () Bool
+    false)
+  (define-fun |leafPos(1,3)| () Bool
+    false)
+  (define-fun |443| () Bool
+    false)
+  (define-fun |473| () Bool
+    false)
+  (define-fun |leafPos(3,4)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),10))| () Bool
+    false)
+  (define-fun |leafPos(8,3)| () Bool
+    false)
+  (define-fun |nWeight(7)| () Int
+    117)
+  (define-fun |required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(2,92),2)))| () Bool
+    false)
+  (define-fun |leafPos(5,3)| () Bool
+    false)
+  (define-fun |460| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |456| () Bool
+    false)
+  (define-fun |445| () Bool
+    true)
+  (define-fun |required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),87))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),172))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |448| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),42))| () Bool
+    false)
+  (define-fun |leafPos(5,4)| () Bool
+    true)
+  (define-fun |leafPos(1,7)| () Bool
+    false)
+  (define-fun |leafPos(1,4)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),82))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),43)))| () Bool
+    false)
+  (define-fun |474| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),106))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),2)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    true)
+  (define-fun |required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |471| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),47))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(16,93),16)))| () Bool
+    false)
+  (define-fun |466| () Bool
+    false)
+  (define-fun |436| () Bool
+    false)
+  (define-fun |leafPos(6,0)| () Bool
+    false)
+  (define-fun |leafPos(7,2)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),73))| () Bool
+    false)
+  (define-fun |posColor(3,green)| () Bool
+    false)
+  (define-fun |475| () Bool
+    false)
+  (define-fun |465| () Bool
+    false)
+  (define-fun |449| () Bool
+    false)
+  (define-fun |leafPos(8,0)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),16)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),90))| () Bool
+    false)
+  (define-fun |posColor(5,green)| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(71,3),3)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),104))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),72)))| () Bool
+    false)
+  (define-fun |leafPos(8,4)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),18))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),90))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(77,72),72)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),85))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(4),149))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(3),90))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(2),109))| () Bool
+    false)
+  (define-fun |leafPos(3,3)| () Bool
+    false)
+  (define-fun |posColor(4,red)| () Bool
+    true)
+  (define-fun |leafPos(5,6)| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),115))| () Bool
+    false)
+  (define-fun |required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(8,44),8)))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(7),52))| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),4)))| () Bool
+    false)
+  (define-fun |429| () Bool
+    false)
+  (define-fun |required(ezcsp__eq(nWeight(1),27))| () Bool
+    false)
+  (define-fun |nWeight(4)| () Int
+    33)
+  (define-fun |required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(100,4),4)))| () Bool
+    false)
+  (define-fun |required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(34,11),11)))| () Bool
+    false)
+  (define-fun |463| () Bool
+    false)
+  (define-fun |nWeight(2)| () Int
+    9)
+  (define-fun |428| () Bool
+    true)
+  (define-fun |label_order(nWeight(1),1)| () Bool
+    true)
+  (define-fun |label_order(nWeight(2),1)| () Bool
+    true)
+  (define-fun |label_order(nWeight(3),1)| () Bool
+    true)
+  (define-fun |label_order(nWeight(4),1)| () Bool
+    true)
+  (define-fun |label_order(nWeight(5),1)| () Bool
+    true)
+  (define-fun |label_order(nWeight(6),1)| () Bool
+    true)
+  (define-fun |label_order(nWeight(7),1)| () Bool
+    true)
+  (define-fun |required(ezcsp__sum(list(nWeight,1),ezcsp__leq,302))| () Bool
+    true)
+  (define-fun |172| () Bool
+    true)
+  (define-fun |171| () Bool
+    true)
+  (define-fun |167| () Bool
+    true)
+  (define-fun |166| () Bool
+    true)
+  (define-fun |162| () Bool
+    true)
+  (define-fun |161| () Bool
+    true)
+  (define-fun |157| () Bool
+    true)
+  (define-fun |156| () Bool
+    true)
+  (define-fun |152| () Bool
+    true)
+  (define-fun |151| () Bool
+    true)
+  (define-fun |147| () Bool
+    true)
+  (define-fun |146| () Bool
+    true)
+  (define-fun |139| () Bool
+    true)
+  (define-fun |138| () Bool
+    true)
+  (define-fun |129| () Bool
+    true)
+  (define-fun |128| () Bool
+    true)
+  (define-fun |119| () Bool
+    true)
+  (define-fun |118| () Bool
+    true)
+  (define-fun |109| () Bool
+    true)
+  (define-fun |108| () Bool
+    true)
+  (define-fun |99| () Bool
+    true)
+  (define-fun |98| () Bool
+    true)
+  (define-fun |89| () Bool
+    true)
+  (define-fun |88| () Bool
+    true)
+  (define-fun |79| () Bool
+    true)
+  (define-fun |78| () Bool
+    true)
+  (define-fun |69| () Bool
+    false)
+  (define-fun |68| () Bool
+    true)
+  (define-fun |67| () Bool
+    true)
+  (define-fun |location(7)| () Bool
+    true)
+  (define-fun |location(6)| () Bool
+    true)
+  (define-fun |location(5)| () Bool
+    true)
+  (define-fun |location(4)| () Bool
+    true)
+  (define-fun |location(3)| () Bool
+    true)
+  (define-fun |location(2)| () Bool
+    true)
+  (define-fun |location(1)| () Bool
+    true)
+  (define-fun |leafCost(1,11)| () Bool
+    true)
+  (define-fun |leafCost(6,4)| () Bool
+    true)
+  (define-fun |leafCost(7,3)| () Bool
+    true)
+  (define-fun |leafCost(8,72)| () Bool
+    true)
+  (define-fun |leafCost(2,2)| () Bool
+    true)
+  (define-fun |leafCost(3,43)| () Bool
+    true)
+  (define-fun |leafCost(4,8)| () Bool
+    true)
+  (define-fun |leafCost(5,16)| () Bool
+    true)
+  (define-fun |cspvar(nWeight(1),0,302)| () Bool
+    true)
+  (define-fun |cspvar(nWeight(2),0,302)| () Bool
+    true)
+  (define-fun |cspvar(nWeight(3),0,302)| () Bool
+    true)
+  (define-fun |cspvar(nWeight(4),0,302)| () Bool
+    true)
+  (define-fun |cspvar(nWeight(5),0,302)| () Bool
+    true)
+  (define-fun |cspvar(nWeight(6),0,302)| () Bool
+    true)
+  (define-fun |cspvar(nWeight(7),0,302)| () Bool
+    true)
+  (define-fun |coloredPos(7)| () Bool
+    true)
+  (define-fun |coloredPos(6)| () Bool
+    true)
+  (define-fun |coloredPos(5)| () Bool
+    true)
+  (define-fun |coloredPos(4)| () Bool
+    true)
+  (define-fun |coloredPos(3)| () Bool
+    true)
+  (define-fun |coloredPos(2)| () Bool
+    true)
+  (define-fun |coloredPos(1)| () Bool
+    true)
+  (define-fun |leaf(1)| () Bool
+    true)
+  (define-fun |leaf(2)| () Bool
+    true)
+  (define-fun |leaf(3)| () Bool
+    true)
+  (define-fun |leaf(4)| () Bool
+    true)
+  (define-fun |leaf(5)| () Bool
+    true)
+  (define-fun |leaf(6)| () Bool
+    true)
+  (define-fun |leaf(7)| () Bool
+    true)
+  (define-fun |leaf(8)| () Bool
+    true)
+  (define-fun |max_total_weight(302)| () Bool
+    true)
+  (define-fun |num(8)| () Bool
+    true)
+  (define-fun |innerNode(7)| () Bool
+    true)
+  (define-fun |innerNode(6)| () Bool
+    true)
+  (define-fun |innerNode(5)| () Bool
+    true)
+  (define-fun |innerNode(4)| () Bool
+    true)
+  (define-fun |innerNode(3)| () Bool
+    true)
+  (define-fun |innerNode(2)| () Bool
+    true)
+  (define-fun |innerNode(1)| () Bool
+    true)
+  (define-fun |leafWeightCardinality(8,77,72)| () Bool
+    true)
+  (define-fun |leafWeightCardinality(7,71,3)| () Bool
+    true)
+  (define-fun |leafWeightCardinality(6,100,4)| () Bool
+    true)
+  (define-fun |leafWeightCardinality(5,16,93)| () Bool
+    true)
+  (define-fun |leafWeightCardinality(4,8,44)| () Bool
+    true)
+  (define-fun |leafWeightCardinality(3,43,47)| () Bool
+    true)
+  (define-fun |leafWeightCardinality(2,2,92)| () Bool
+    true)
+  (define-fun |leafWeightCardinality(1,34,11)| () Bool
+    true)
+  (define-fun |location(0)| () Bool
+    true)
+  (define-fun |color(green)| () Bool
+    true)
+  (define-fun |color(blue)| () Bool
+    true)
+  (define-fun |color(red)| () Bool
+    true)
+)

@@ -1,0 +1,6 @@
+cmodels version 3.86 Reading...param value:15-treeWeight-228-8leaves.grounding-output file size42
+done
+operator new failed: out of memory
+Command exited with non-zero status 23
+8.32user 1.08system 0:09.41elapsed 99%CPU (0avgtext+0avgdata 4156672maxresident)k
+0inputs+16outputs (0major+1032460minor)pagefaults 0swaps

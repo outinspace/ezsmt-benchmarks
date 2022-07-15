@@ -1,0 +1,9 @@
+Answer: 1
+color(red) color(blue) color(green) leafWeightCardinality(1,29,6) leafWeightCardinality(2,57,30) leafWeightCardinality(3,50,80) leafWeightCardinality(4,61,53) leafWeightCardinality(5,45,55) leafWeightCardinality(6,64,68) leafWeightCardinality(7,14,90) leafWeightCardinality(8,11,87) innerNode(1) innerNode(2) innerNode(3) innerNode(4) innerNode(5) innerNode(6) innerNode(7) num(8) max_total_weight(533) leaf(8) leaf(7) leaf(6) leaf(5) leaf(4) leaf(3) leaf(2) leaf(1) leafCost(8,11) leafCost(7,14) leafCost(6,64) leafCost(5,45) leafCost(3,50) leafCost(4,53) leafCost(2,30) leafCost(1,6) coloredPos(1) coloredPos(2) coloredPos(3) coloredPos(4) coloredPos(5) coloredPos(6) coloredPos(7) location(0) location(1) location(2) location(3) location(4) location(5) location(6) location(7) leafPos(1,4) leafPos(2,2) leafPos(3,3) leafPos(4,6) leafPos(5,7) leafPos(6,5) leafPos(7,1) leafPos(8,0) posColor(7,green) posColor(6,green) posColor(5,red) posColor(4,green) posColor(3,red) posColor(2,blue) posColor(1,red) nWeight(1)=25 nWeight(2)=55 nWeight(3)=105 nWeight(4)=35 nWeight(5)=99 nWeight(6)=114 nWeight(7)=100 mv=533 
+SATISFIABLE
+
+Models      : 1+    
+Time        : 0.260
+  Prepare   : 0.000
+  Prepro.   : 0.000
+  Solving   : 0.260

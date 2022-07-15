@@ -1,0 +1,2592 @@
+smt cnf 487 2591
+-67 -leafPos(1,7) leafPos(1,7) 0
+-67 -leafPos(1,6) leafPos(1,6) 0
+-67 -leafPos(1,5) leafPos(1,5) 0
+-67 -leafPos(1,4) leafPos(1,4) 0
+-67 -leafPos(1,3) leafPos(1,3) 0
+-67 -leafPos(1,2) leafPos(1,2) 0
+-67 -leafPos(1,1) leafPos(1,1) 0
+-67 -leafPos(1,0) leafPos(1,0) 0
+-leafPos(1,7) 68 0
+-leafPos(1,6) 68 0
+-leafPos(1,5) 68 0
+-leafPos(1,4) 68 0
+-leafPos(1,3) 68 0
+-leafPos(1,2) 68 0
+-leafPos(1,1) 68 0
+-leafPos(1,0) 68 0
+-leafPos(1,7) -leafPos(1,6) 0
+-leafPos(1,7) -leafPos(1,5) 0
+-leafPos(1,7) -leafPos(1,4) 0
+-leafPos(1,7) -leafPos(1,3) 0
+-leafPos(1,7) -leafPos(1,2) 0
+-leafPos(1,7) -leafPos(1,1) 0
+-leafPos(1,7) -leafPos(1,0) 0
+-leafPos(1,6) -leafPos(1,5) 0
+-leafPos(1,6) -leafPos(1,4) 0
+-leafPos(1,6) -leafPos(1,3) 0
+-leafPos(1,6) -leafPos(1,2) 0
+-leafPos(1,6) -leafPos(1,1) 0
+-leafPos(1,6) -leafPos(1,0) 0
+-leafPos(1,5) -leafPos(1,4) 0
+-leafPos(1,5) -leafPos(1,3) 0
+-leafPos(1,5) -leafPos(1,2) 0
+-leafPos(1,5) -leafPos(1,1) 0
+-leafPos(1,5) -leafPos(1,0) 0
+-leafPos(1,4) -leafPos(1,3) 0
+-leafPos(1,4) -leafPos(1,2) 0
+-leafPos(1,4) -leafPos(1,1) 0
+-leafPos(1,4) -leafPos(1,0) 0
+-leafPos(1,3) -leafPos(1,2) 0
+-leafPos(1,3) -leafPos(1,1) 0
+-leafPos(1,3) -leafPos(1,0) 0
+-leafPos(1,2) -leafPos(1,1) 0
+-leafPos(1,2) -leafPos(1,0) 0
+-leafPos(1,1) -leafPos(1,0) 0
+-leafPos(2,7) -leafPos(2,6) 0
+-leafPos(2,7) -leafPos(2,5) 0
+-leafPos(2,7) -leafPos(2,4) 0
+-leafPos(2,7) -leafPos(2,3) 0
+-leafPos(2,7) -leafPos(2,2) 0
+-leafPos(2,7) -leafPos(2,1) 0
+-leafPos(2,7) -leafPos(2,0) 0
+-leafPos(2,6) -leafPos(2,5) 0
+-leafPos(2,6) -leafPos(2,4) 0
+-leafPos(2,6) -leafPos(2,3) 0
+-leafPos(2,6) -leafPos(2,2) 0
+-leafPos(2,6) -leafPos(2,1) 0
+-leafPos(2,6) -leafPos(2,0) 0
+-leafPos(2,5) -leafPos(2,4) 0
+-leafPos(2,5) -leafPos(2,3) 0
+-leafPos(2,5) -leafPos(2,2) 0
+-leafPos(2,5) -leafPos(2,1) 0
+-leafPos(2,5) -leafPos(2,0) 0
+-leafPos(2,4) -leafPos(2,3) 0
+-leafPos(2,4) -leafPos(2,2) 0
+-leafPos(2,4) -leafPos(2,1) 0
+-leafPos(2,4) -leafPos(2,0) 0
+-leafPos(2,3) -leafPos(2,2) 0
+-leafPos(2,3) -leafPos(2,1) 0
+-leafPos(2,3) -leafPos(2,0) 0
+-leafPos(2,2) -leafPos(2,1) 0
+-leafPos(2,2) -leafPos(2,0) 0
+-leafPos(2,1) -leafPos(2,0) 0
+-leafPos(3,7) -leafPos(3,6) 0
+-leafPos(3,7) -leafPos(3,5) 0
+-leafPos(3,7) -leafPos(3,4) 0
+-leafPos(3,7) -leafPos(3,3) 0
+-leafPos(3,7) -leafPos(3,2) 0
+-leafPos(3,7) -leafPos(3,1) 0
+-leafPos(3,7) -leafPos(3,0) 0
+-leafPos(3,6) -leafPos(3,5) 0
+-leafPos(3,6) -leafPos(3,4) 0
+-leafPos(3,6) -leafPos(3,3) 0
+-leafPos(3,6) -leafPos(3,2) 0
+-leafPos(3,6) -leafPos(3,1) 0
+-leafPos(3,6) -leafPos(3,0) 0
+-leafPos(3,5) -leafPos(3,4) 0
+-leafPos(3,5) -leafPos(3,3) 0
+-leafPos(3,5) -leafPos(3,2) 0
+-leafPos(3,5) -leafPos(3,1) 0
+-leafPos(3,5) -leafPos(3,0) 0
+-leafPos(3,4) -leafPos(3,3) 0
+-leafPos(3,4) -leafPos(3,2) 0
+-leafPos(3,4) -leafPos(3,1) 0
+-leafPos(3,4) -leafPos(3,0) 0
+-leafPos(3,3) -leafPos(3,2) 0
+-leafPos(3,3) -leafPos(3,1) 0
+-leafPos(3,3) -leafPos(3,0) 0
+-leafPos(3,2) -leafPos(3,1) 0
+-leafPos(3,2) -leafPos(3,0) 0
+-leafPos(3,1) -leafPos(3,0) 0
+-leafPos(4,7) -leafPos(4,6) 0
+-leafPos(4,7) -leafPos(4,5) 0
+-leafPos(4,7) -leafPos(4,4) 0
+-leafPos(4,7) -leafPos(4,3) 0
+-leafPos(4,7) -leafPos(4,2) 0
+-leafPos(4,7) -leafPos(4,1) 0
+-leafPos(4,7) -leafPos(4,0) 0
+-leafPos(4,6) -leafPos(4,5) 0
+-leafPos(4,6) -leafPos(4,4) 0
+-leafPos(4,6) -leafPos(4,3) 0
+-leafPos(4,6) -leafPos(4,2) 0
+-leafPos(4,6) -leafPos(4,1) 0
+-leafPos(4,6) -leafPos(4,0) 0
+-leafPos(4,5) -leafPos(4,4) 0
+-leafPos(4,5) -leafPos(4,3) 0
+-leafPos(4,5) -leafPos(4,2) 0
+-leafPos(4,5) -leafPos(4,1) 0
+-leafPos(4,5) -leafPos(4,0) 0
+-leafPos(4,4) -leafPos(4,3) 0
+-leafPos(4,4) -leafPos(4,2) 0
+-leafPos(4,4) -leafPos(4,1) 0
+-leafPos(4,4) -leafPos(4,0) 0
+-leafPos(4,3) -leafPos(4,2) 0
+-leafPos(4,3) -leafPos(4,1) 0
+-leafPos(4,3) -leafPos(4,0) 0
+-leafPos(4,2) -leafPos(4,1) 0
+-leafPos(4,2) -leafPos(4,0) 0
+-leafPos(4,1) -leafPos(4,0) 0
+-leafPos(5,7) -leafPos(5,6) 0
+-leafPos(5,7) -leafPos(5,5) 0
+-leafPos(5,7) -leafPos(5,4) 0
+-leafPos(5,7) -leafPos(5,3) 0
+-leafPos(5,7) -leafPos(5,2) 0
+-leafPos(5,7) -leafPos(5,1) 0
+-leafPos(5,7) -leafPos(5,0) 0
+-leafPos(5,6) -leafPos(5,5) 0
+-leafPos(5,6) -leafPos(5,4) 0
+-leafPos(5,6) -leafPos(5,3) 0
+-leafPos(5,6) -leafPos(5,2) 0
+-leafPos(5,6) -leafPos(5,1) 0
+-leafPos(5,6) -leafPos(5,0) 0
+-leafPos(5,5) -leafPos(5,4) 0
+-leafPos(5,5) -leafPos(5,3) 0
+-leafPos(5,5) -leafPos(5,2) 0
+-leafPos(5,5) -leafPos(5,1) 0
+-leafPos(5,5) -leafPos(5,0) 0
+-leafPos(5,4) -leafPos(5,3) 0
+-leafPos(5,4) -leafPos(5,2) 0
+-leafPos(5,4) -leafPos(5,1) 0
+-leafPos(5,4) -leafPos(5,0) 0
+-leafPos(5,3) -leafPos(5,2) 0
+-leafPos(5,3) -leafPos(5,1) 0
+-leafPos(5,3) -leafPos(5,0) 0
+-leafPos(5,2) -leafPos(5,1) 0
+-leafPos(5,2) -leafPos(5,0) 0
+-leafPos(5,1) -leafPos(5,0) 0
+-leafPos(6,7) -leafPos(6,6) 0
+-leafPos(6,7) -leafPos(6,5) 0
+-leafPos(6,7) -leafPos(6,4) 0
+-leafPos(6,7) -leafPos(6,3) 0
+-leafPos(6,7) -leafPos(6,2) 0
+-leafPos(6,7) -leafPos(6,1) 0
+-leafPos(6,7) -leafPos(6,0) 0
+-leafPos(6,6) -leafPos(6,5) 0
+-leafPos(6,6) -leafPos(6,4) 0
+-leafPos(6,6) -leafPos(6,3) 0
+-leafPos(6,6) -leafPos(6,2) 0
+-leafPos(6,6) -leafPos(6,1) 0
+-leafPos(6,6) -leafPos(6,0) 0
+-leafPos(6,5) -leafPos(6,4) 0
+-leafPos(6,5) -leafPos(6,3) 0
+-leafPos(6,5) -leafPos(6,2) 0
+-leafPos(6,5) -leafPos(6,1) 0
+-leafPos(6,5) -leafPos(6,0) 0
+-leafPos(6,4) -leafPos(6,3) 0
+-leafPos(6,4) -leafPos(6,2) 0
+-leafPos(6,4) -leafPos(6,1) 0
+-leafPos(6,4) -leafPos(6,0) 0
+-leafPos(6,3) -leafPos(6,2) 0
+-leafPos(6,3) -leafPos(6,1) 0
+-leafPos(6,3) -leafPos(6,0) 0
+-leafPos(6,2) -leafPos(6,1) 0
+-leafPos(6,2) -leafPos(6,0) 0
+-leafPos(6,1) -leafPos(6,0) 0
+-leafPos(7,7) -leafPos(7,6) 0
+-leafPos(7,7) -leafPos(7,5) 0
+-leafPos(7,7) -leafPos(7,4) 0
+-leafPos(7,7) -leafPos(7,3) 0
+-leafPos(7,7) -leafPos(7,2) 0
+-leafPos(7,7) -leafPos(7,1) 0
+-leafPos(7,7) -leafPos(7,0) 0
+-leafPos(7,6) -leafPos(7,5) 0
+-leafPos(7,6) -leafPos(7,4) 0
+-leafPos(7,6) -leafPos(7,3) 0
+-leafPos(7,6) -leafPos(7,2) 0
+-leafPos(7,6) -leafPos(7,1) 0
+-leafPos(7,6) -leafPos(7,0) 0
+-leafPos(7,5) -leafPos(7,4) 0
+-leafPos(7,5) -leafPos(7,3) 0
+-leafPos(7,5) -leafPos(7,2) 0
+-leafPos(7,5) -leafPos(7,1) 0
+-leafPos(7,5) -leafPos(7,0) 0
+-leafPos(7,4) -leafPos(7,3) 0
+-leafPos(7,4) -leafPos(7,2) 0
+-leafPos(7,4) -leafPos(7,1) 0
+-leafPos(7,4) -leafPos(7,0) 0
+-leafPos(7,3) -leafPos(7,2) 0
+-leafPos(7,3) -leafPos(7,1) 0
+-leafPos(7,3) -leafPos(7,0) 0
+-leafPos(7,2) -leafPos(7,1) 0
+-leafPos(7,2) -leafPos(7,0) 0
+-leafPos(7,1) -leafPos(7,0) 0
+-leafPos(8,7) -leafPos(8,6) 0
+-leafPos(8,7) -leafPos(8,5) 0
+-leafPos(8,7) -leafPos(8,4) 0
+-leafPos(8,7) -leafPos(8,3) 0
+-leafPos(8,7) -leafPos(8,2) 0
+-leafPos(8,7) -leafPos(8,1) 0
+-leafPos(8,7) -leafPos(8,0) 0
+-leafPos(8,6) -leafPos(8,5) 0
+-leafPos(8,6) -leafPos(8,4) 0
+-leafPos(8,6) -leafPos(8,3) 0
+-leafPos(8,6) -leafPos(8,2) 0
+-leafPos(8,6) -leafPos(8,1) 0
+-leafPos(8,6) -leafPos(8,0) 0
+-leafPos(8,5) -leafPos(8,4) 0
+-leafPos(8,5) -leafPos(8,3) 0
+-leafPos(8,5) -leafPos(8,2) 0
+-leafPos(8,5) -leafPos(8,1) 0
+-leafPos(8,5) -leafPos(8,0) 0
+-leafPos(8,4) -leafPos(8,3) 0
+-leafPos(8,4) -leafPos(8,2) 0
+-leafPos(8,4) -leafPos(8,1) 0
+-leafPos(8,4) -leafPos(8,0) 0
+-leafPos(8,3) -leafPos(8,2) 0
+-leafPos(8,3) -leafPos(8,1) 0
+-leafPos(8,3) -leafPos(8,0) 0
+-leafPos(8,2) -leafPos(8,1) 0
+-leafPos(8,2) -leafPos(8,0) 0
+-leafPos(8,1) -leafPos(8,0) 0
+-leafPos(7,0) -leafPos(8,0) 0
+-leafPos(7,1) -leafPos(8,1) 0
+-leafPos(7,2) -leafPos(8,2) 0
+-leafPos(7,3) -leafPos(8,3) 0
+-leafPos(7,4) -leafPos(8,4) 0
+-leafPos(7,5) -leafPos(8,5) 0
+-leafPos(7,6) -leafPos(8,6) 0
+-leafPos(7,7) -leafPos(8,7) 0
+-leafPos(6,0) -leafPos(8,0) 0
+-leafPos(6,0) -leafPos(7,0) 0
+-leafPos(6,1) -leafPos(8,1) 0
+-leafPos(6,1) -leafPos(7,1) 0
+-leafPos(6,2) -leafPos(8,2) 0
+-leafPos(6,2) -leafPos(7,2) 0
+-leafPos(6,3) -leafPos(8,3) 0
+-leafPos(6,3) -leafPos(7,3) 0
+-leafPos(6,4) -leafPos(8,4) 0
+-leafPos(6,4) -leafPos(7,4) 0
+-leafPos(6,5) -leafPos(8,5) 0
+-leafPos(6,5) -leafPos(7,5) 0
+-leafPos(6,6) -leafPos(8,6) 0
+-leafPos(6,6) -leafPos(7,6) 0
+-leafPos(6,7) -leafPos(8,7) 0
+-leafPos(6,7) -leafPos(7,7) 0
+-leafPos(5,0) -leafPos(8,0) 0
+-leafPos(5,0) -leafPos(7,0) 0
+-leafPos(5,0) -leafPos(6,0) 0
+-leafPos(5,1) -leafPos(8,1) 0
+-leafPos(5,1) -leafPos(7,1) 0
+-leafPos(5,1) -leafPos(6,1) 0
+-leafPos(5,2) -leafPos(8,2) 0
+-leafPos(5,2) -leafPos(7,2) 0
+-leafPos(5,2) -leafPos(6,2) 0
+-leafPos(5,3) -leafPos(8,3) 0
+-leafPos(5,3) -leafPos(7,3) 0
+-leafPos(5,3) -leafPos(6,3) 0
+-leafPos(5,4) -leafPos(8,4) 0
+-leafPos(5,4) -leafPos(7,4) 0
+-leafPos(5,4) -leafPos(6,4) 0
+-leafPos(5,5) -leafPos(8,5) 0
+-leafPos(5,5) -leafPos(7,5) 0
+-leafPos(5,5) -leafPos(6,5) 0
+-leafPos(5,6) -leafPos(8,6) 0
+-leafPos(5,6) -leafPos(7,6) 0
+-leafPos(5,6) -leafPos(6,6) 0
+-leafPos(5,7) -leafPos(8,7) 0
+-leafPos(5,7) -leafPos(7,7) 0
+-leafPos(5,7) -leafPos(6,7) 0
+-leafPos(4,0) -leafPos(8,0) 0
+-leafPos(4,0) -leafPos(7,0) 0
+-leafPos(4,0) -leafPos(6,0) 0
+-leafPos(4,0) -leafPos(5,0) 0
+-leafPos(4,1) -leafPos(8,1) 0
+-leafPos(4,1) -leafPos(7,1) 0
+-leafPos(4,1) -leafPos(6,1) 0
+-leafPos(4,1) -leafPos(5,1) 0
+-leafPos(4,2) -leafPos(8,2) 0
+-leafPos(4,2) -leafPos(7,2) 0
+-leafPos(4,2) -leafPos(6,2) 0
+-leafPos(4,2) -leafPos(5,2) 0
+-leafPos(4,3) -leafPos(8,3) 0
+-leafPos(4,3) -leafPos(7,3) 0
+-leafPos(4,3) -leafPos(6,3) 0
+-leafPos(4,3) -leafPos(5,3) 0
+-leafPos(4,4) -leafPos(8,4) 0
+-leafPos(4,4) -leafPos(7,4) 0
+-leafPos(4,4) -leafPos(6,4) 0
+-leafPos(4,4) -leafPos(5,4) 0
+-leafPos(4,5) -leafPos(8,5) 0
+-leafPos(4,5) -leafPos(7,5) 0
+-leafPos(4,5) -leafPos(6,5) 0
+-leafPos(4,5) -leafPos(5,5) 0
+-leafPos(4,6) -leafPos(8,6) 0
+-leafPos(4,6) -leafPos(7,6) 0
+-leafPos(4,6) -leafPos(6,6) 0
+-leafPos(4,6) -leafPos(5,6) 0
+-leafPos(4,7) -leafPos(8,7) 0
+-leafPos(4,7) -leafPos(7,7) 0
+-leafPos(4,7) -leafPos(6,7) 0
+-leafPos(4,7) -leafPos(5,7) 0
+-leafPos(3,0) -leafPos(8,0) 0
+-leafPos(3,0) -leafPos(7,0) 0
+-leafPos(3,0) -leafPos(6,0) 0
+-leafPos(3,0) -leafPos(5,0) 0
+-leafPos(3,0) -leafPos(4,0) 0
+-leafPos(3,1) -leafPos(8,1) 0
+-leafPos(3,1) -leafPos(7,1) 0
+-leafPos(3,1) -leafPos(6,1) 0
+-leafPos(3,1) -leafPos(5,1) 0
+-leafPos(3,1) -leafPos(4,1) 0
+-leafPos(3,2) -leafPos(8,2) 0
+-leafPos(3,2) -leafPos(7,2) 0
+-leafPos(3,2) -leafPos(6,2) 0
+-leafPos(3,2) -leafPos(5,2) 0
+-leafPos(3,2) -leafPos(4,2) 0
+-leafPos(3,3) -leafPos(8,3) 0
+-leafPos(3,3) -leafPos(7,3) 0
+-leafPos(3,3) -leafPos(6,3) 0
+-leafPos(3,3) -leafPos(5,3) 0
+-leafPos(3,3) -leafPos(4,3) 0
+-leafPos(3,4) -leafPos(8,4) 0
+-leafPos(3,4) -leafPos(7,4) 0
+-leafPos(3,4) -leafPos(6,4) 0
+-leafPos(3,4) -leafPos(5,4) 0
+-leafPos(3,4) -leafPos(4,4) 0
+-leafPos(3,5) -leafPos(8,5) 0
+-leafPos(3,5) -leafPos(7,5) 0
+-leafPos(3,5) -leafPos(6,5) 0
+-leafPos(3,5) -leafPos(5,5) 0
+-leafPos(3,5) -leafPos(4,5) 0
+-leafPos(3,6) -leafPos(8,6) 0
+-leafPos(3,6) -leafPos(7,6) 0
+-leafPos(3,6) -leafPos(6,6) 0
+-leafPos(3,6) -leafPos(5,6) 0
+-leafPos(3,6) -leafPos(4,6) 0
+-leafPos(3,7) -leafPos(8,7) 0
+-leafPos(3,7) -leafPos(7,7) 0
+-leafPos(3,7) -leafPos(6,7) 0
+-leafPos(3,7) -leafPos(5,7) 0
+-leafPos(3,7) -leafPos(4,7) 0
+-leafPos(2,0) -leafPos(8,0) 0
+-leafPos(2,0) -leafPos(7,0) 0
+-leafPos(2,0) -leafPos(6,0) 0
+-leafPos(2,0) -leafPos(5,0) 0
+-leafPos(2,0) -leafPos(4,0) 0
+-leafPos(2,0) -leafPos(3,0) 0
+-leafPos(2,1) -leafPos(8,1) 0
+-leafPos(2,1) -leafPos(7,1) 0
+-leafPos(2,1) -leafPos(6,1) 0
+-leafPos(2,1) -leafPos(5,1) 0
+-leafPos(2,1) -leafPos(4,1) 0
+-leafPos(2,1) -leafPos(3,1) 0
+-leafPos(2,2) -leafPos(8,2) 0
+-leafPos(2,2) -leafPos(7,2) 0
+-leafPos(2,2) -leafPos(6,2) 0
+-leafPos(2,2) -leafPos(5,2) 0
+-leafPos(2,2) -leafPos(4,2) 0
+-leafPos(2,2) -leafPos(3,2) 0
+-leafPos(2,3) -leafPos(8,3) 0
+-leafPos(2,3) -leafPos(7,3) 0
+-leafPos(2,3) -leafPos(6,3) 0
+-leafPos(2,3) -leafPos(5,3) 0
+-leafPos(2,3) -leafPos(4,3) 0
+-leafPos(2,3) -leafPos(3,3) 0
+-leafPos(2,4) -leafPos(8,4) 0
+-leafPos(2,4) -leafPos(7,4) 0
+-leafPos(2,4) -leafPos(6,4) 0
+-leafPos(2,4) -leafPos(5,4) 0
+-leafPos(2,4) -leafPos(4,4) 0
+-leafPos(2,4) -leafPos(3,4) 0
+-leafPos(2,5) -leafPos(8,5) 0
+-leafPos(2,5) -leafPos(7,5) 0
+-leafPos(2,5) -leafPos(6,5) 0
+-leafPos(2,5) -leafPos(5,5) 0
+-leafPos(2,5) -leafPos(4,5) 0
+-leafPos(2,5) -leafPos(3,5) 0
+-leafPos(2,6) -leafPos(8,6) 0
+-leafPos(2,6) -leafPos(7,6) 0
+-leafPos(2,6) -leafPos(6,6) 0
+-leafPos(2,6) -leafPos(5,6) 0
+-leafPos(2,6) -leafPos(4,6) 0
+-leafPos(2,6) -leafPos(3,6) 0
+-leafPos(2,7) -leafPos(8,7) 0
+-leafPos(2,7) -leafPos(7,7) 0
+-leafPos(2,7) -leafPos(6,7) 0
+-leafPos(2,7) -leafPos(5,7) 0
+-leafPos(2,7) -leafPos(4,7) 0
+-leafPos(2,7) -leafPos(3,7) 0
+-leafPos(1,0) -leafPos(8,0) 0
+-leafPos(1,0) -leafPos(7,0) 0
+-leafPos(1,0) -leafPos(6,0) 0
+-leafPos(1,0) -leafPos(5,0) 0
+-leafPos(1,0) -leafPos(4,0) 0
+-leafPos(1,0) -leafPos(3,0) 0
+-leafPos(1,0) -leafPos(2,0) 0
+-leafPos(1,1) -leafPos(8,1) 0
+-leafPos(1,1) -leafPos(7,1) 0
+-leafPos(1,1) -leafPos(6,1) 0
+-leafPos(1,1) -leafPos(5,1) 0
+-leafPos(1,1) -leafPos(4,1) 0
+-leafPos(1,1) -leafPos(3,1) 0
+-leafPos(1,1) -leafPos(2,1) 0
+-leafPos(1,2) -leafPos(8,2) 0
+-leafPos(1,2) -leafPos(7,2) 0
+-leafPos(1,2) -leafPos(6,2) 0
+-leafPos(1,2) -leafPos(5,2) 0
+-leafPos(1,2) -leafPos(4,2) 0
+-leafPos(1,2) -leafPos(3,2) 0
+-leafPos(1,2) -leafPos(2,2) 0
+-leafPos(1,3) -leafPos(8,3) 0
+-leafPos(1,3) -leafPos(7,3) 0
+-leafPos(1,3) -leafPos(6,3) 0
+-leafPos(1,3) -leafPos(5,3) 0
+-leafPos(1,3) -leafPos(4,3) 0
+-leafPos(1,3) -leafPos(3,3) 0
+-leafPos(1,3) -leafPos(2,3) 0
+-leafPos(1,4) -leafPos(8,4) 0
+-leafPos(1,4) -leafPos(7,4) 0
+-leafPos(1,4) -leafPos(6,4) 0
+-leafPos(1,4) -leafPos(5,4) 0
+-leafPos(1,4) -leafPos(4,4) 0
+-leafPos(1,4) -leafPos(3,4) 0
+-leafPos(1,4) -leafPos(2,4) 0
+-leafPos(1,5) -leafPos(8,5) 0
+-leafPos(1,5) -leafPos(7,5) 0
+-leafPos(1,5) -leafPos(6,5) 0
+-leafPos(1,5) -leafPos(5,5) 0
+-leafPos(1,5) -leafPos(4,5) 0
+-leafPos(1,5) -leafPos(3,5) 0
+-leafPos(1,5) -leafPos(2,5) 0
+-leafPos(1,6) -leafPos(8,6) 0
+-leafPos(1,6) -leafPos(7,6) 0
+-leafPos(1,6) -leafPos(6,6) 0
+-leafPos(1,6) -leafPos(5,6) 0
+-leafPos(1,6) -leafPos(4,6) 0
+-leafPos(1,6) -leafPos(3,6) 0
+-leafPos(1,6) -leafPos(2,6) 0
+-leafPos(1,7) -leafPos(8,7) 0
+-leafPos(1,7) -leafPos(7,7) 0
+-leafPos(1,7) -leafPos(6,7) 0
+-leafPos(1,7) -leafPos(5,7) 0
+-leafPos(1,7) -leafPos(4,7) 0
+-leafPos(1,7) -leafPos(3,7) 0
+-leafPos(1,7) -leafPos(2,7) 0
+-posColor(7,green) -posColor(7,blue) 0
+-posColor(7,green) -posColor(7,red) 0
+-posColor(7,blue) -posColor(7,red) 0
+-posColor(6,green) -posColor(6,blue) 0
+-posColor(6,green) -posColor(6,red) 0
+-posColor(6,blue) -posColor(6,red) 0
+-posColor(5,green) -posColor(5,blue) 0
+-posColor(5,green) -posColor(5,red) 0
+-posColor(5,blue) -posColor(5,red) 0
+-posColor(4,green) -posColor(4,blue) 0
+-posColor(4,green) -posColor(4,red) 0
+-posColor(4,blue) -posColor(4,red) 0
+-posColor(3,green) -posColor(3,blue) 0
+-posColor(3,green) -posColor(3,red) 0
+-posColor(3,blue) -posColor(3,red) 0
+-posColor(2,green) -posColor(2,blue) 0
+-posColor(2,green) -posColor(2,red) 0
+-posColor(2,blue) -posColor(2,red) 0
+-leafPos(2,1) -leafPos(5,2) posColor(1,green) posColor(2,green) 0
+-leafPos(2,2) -leafPos(5,3) posColor(3,green) posColor(2,green) 0
+-leafPos(2,3) -leafPos(5,4) posColor(4,green) posColor(3,green) 0
+-leafPos(2,4) -leafPos(5,5) posColor(5,green) posColor(4,green) 0
+-leafPos(2,5) -leafPos(5,6) posColor(6,green) posColor(5,green) 0
+-leafPos(2,6) -leafPos(5,7) posColor(7,green) posColor(6,green) 0
+-leafPos(2,1) -leafPos(4,2) posColor(1,green) posColor(2,green) 0
+-leafPos(2,2) -leafPos(4,3) posColor(3,green) posColor(2,green) 0
+-leafPos(2,3) -leafPos(4,4) posColor(4,green) posColor(3,green) 0
+-leafPos(2,4) -leafPos(4,5) posColor(5,green) posColor(4,green) 0
+-leafPos(2,5) -leafPos(4,6) posColor(6,green) posColor(5,green) 0
+-leafPos(2,6) -leafPos(4,7) posColor(7,green) posColor(6,green) 0
+-leafPos(4,2) -leafPos(5,1) posColor(1,green) posColor(2,green) 0
+-leafPos(4,3) -leafPos(5,2) posColor(3,green) posColor(2,green) 0
+-leafPos(4,4) -leafPos(5,3) posColor(4,green) posColor(3,green) 0
+-leafPos(4,5) -leafPos(5,4) posColor(5,green) posColor(4,green) 0
+-leafPos(4,6) -leafPos(5,5) posColor(6,green) posColor(5,green) 0
+-leafPos(4,7) -leafPos(5,6) posColor(7,green) posColor(6,green) 0
+-leafPos(2,2) -leafPos(8,1) posColor(1,green) posColor(2,green) 0
+-leafPos(2,3) -leafPos(8,2) posColor(3,green) posColor(2,green) 0
+-leafPos(2,4) -leafPos(8,3) posColor(4,green) posColor(3,green) 0
+-leafPos(2,5) -leafPos(8,4) posColor(5,green) posColor(4,green) 0
+-leafPos(2,6) -leafPos(8,5) posColor(6,green) posColor(5,green) 0
+-leafPos(2,7) -leafPos(8,6) posColor(7,green) posColor(6,green) 0
+-leafPos(5,2) -leafPos(8,1) posColor(1,green) posColor(2,green) 0
+-leafPos(5,3) -leafPos(8,2) posColor(3,green) posColor(2,green) 0
+-leafPos(5,4) -leafPos(8,3) posColor(4,green) posColor(3,green) 0
+-leafPos(5,5) -leafPos(8,4) posColor(5,green) posColor(4,green) 0
+-leafPos(5,6) -leafPos(8,5) posColor(6,green) posColor(5,green) 0
+-leafPos(5,7) -leafPos(8,6) posColor(7,green) posColor(6,green) 0
+-leafPos(4,2) -leafPos(8,1) posColor(1,green) posColor(2,green) 0
+-leafPos(4,3) -leafPos(8,2) posColor(3,green) posColor(2,green) 0
+-leafPos(4,4) -leafPos(8,3) posColor(4,green) posColor(3,green) 0
+-leafPos(4,5) -leafPos(8,4) posColor(5,green) posColor(4,green) 0
+-leafPos(4,6) -leafPos(8,5) posColor(6,green) posColor(5,green) 0
+-leafPos(4,7) -leafPos(8,6) posColor(7,green) posColor(6,green) 0
+-leafPos(6,2) -leafPos(8,1) posColor(1,green) posColor(2,green) 0
+-leafPos(6,3) -leafPos(8,2) posColor(3,green) posColor(2,green) 0
+-leafPos(6,4) -leafPos(8,3) posColor(4,green) posColor(3,green) 0
+-leafPos(6,5) -leafPos(8,4) posColor(5,green) posColor(4,green) 0
+-leafPos(6,6) -leafPos(8,5) posColor(6,green) posColor(5,green) 0
+-leafPos(6,7) -leafPos(8,6) posColor(7,green) posColor(6,green) 0
+-leafPos(7,2) -leafPos(8,1) posColor(1,green) posColor(2,green) 0
+-leafPos(7,3) -leafPos(8,2) posColor(3,green) posColor(2,green) 0
+-leafPos(7,4) -leafPos(8,3) posColor(4,green) posColor(3,green) 0
+-leafPos(7,5) -leafPos(8,4) posColor(5,green) posColor(4,green) 0
+-leafPos(7,6) -leafPos(8,5) posColor(6,green) posColor(5,green) 0
+-leafPos(7,7) -leafPos(8,6) posColor(7,green) posColor(6,green) 0
+-leafPos(1,1) -leafPos(2,2) posColor(1,green) posColor(2,green) 0
+-leafPos(1,2) -leafPos(2,3) posColor(3,green) posColor(2,green) 0
+-leafPos(1,3) -leafPos(2,4) posColor(4,green) posColor(3,green) 0
+-leafPos(1,4) -leafPos(2,5) posColor(5,green) posColor(4,green) 0
+-leafPos(1,5) -leafPos(2,6) posColor(6,green) posColor(5,green) 0
+-leafPos(1,6) -leafPos(2,7) posColor(7,green) posColor(6,green) 0
+-leafPos(1,1) -leafPos(5,2) posColor(1,green) posColor(2,green) 0
+-leafPos(1,2) -leafPos(5,3) posColor(3,green) posColor(2,green) 0
+-leafPos(1,3) -leafPos(5,4) posColor(4,green) posColor(3,green) 0
+-leafPos(1,4) -leafPos(5,5) posColor(5,green) posColor(4,green) 0
+-leafPos(1,5) -leafPos(5,6) posColor(6,green) posColor(5,green) 0
+-leafPos(1,6) -leafPos(5,7) posColor(7,green) posColor(6,green) 0
+-leafPos(1,1) -leafPos(8,2) posColor(1,green) posColor(2,green) 0
+-leafPos(1,2) -leafPos(8,3) posColor(3,green) posColor(2,green) 0
+-leafPos(1,3) -leafPos(8,4) posColor(4,green) posColor(3,green) 0
+-leafPos(1,4) -leafPos(8,5) posColor(5,green) posColor(4,green) 0
+-leafPos(1,5) -leafPos(8,6) posColor(6,green) posColor(5,green) 0
+-leafPos(1,6) -leafPos(8,7) posColor(7,green) posColor(6,green) 0
+-leafPos(1,1) -leafPos(4,2) posColor(1,green) posColor(2,green) 0
+-leafPos(1,2) -leafPos(4,3) posColor(3,green) posColor(2,green) 0
+-leafPos(1,3) -leafPos(4,4) posColor(4,green) posColor(3,green) 0
+-leafPos(1,4) -leafPos(4,5) posColor(5,green) posColor(4,green) 0
+-leafPos(1,5) -leafPos(4,6) posColor(6,green) posColor(5,green) 0
+-leafPos(1,6) -leafPos(4,7) posColor(7,green) posColor(6,green) 0
+-leafPos(1,1) -leafPos(6,2) posColor(1,green) posColor(2,green) 0
+-leafPos(1,2) -leafPos(6,3) posColor(3,green) posColor(2,green) 0
+-leafPos(1,3) -leafPos(6,4) posColor(4,green) posColor(3,green) 0
+-leafPos(1,4) -leafPos(6,5) posColor(5,green) posColor(4,green) 0
+-leafPos(1,5) -leafPos(6,6) posColor(6,green) posColor(5,green) 0
+-leafPos(1,6) -leafPos(6,7) posColor(7,green) posColor(6,green) 0
+-leafPos(1,1) -leafPos(7,2) posColor(1,green) posColor(2,green) 0
+-leafPos(1,2) -leafPos(7,3) posColor(3,green) posColor(2,green) 0
+-leafPos(1,3) -leafPos(7,4) posColor(4,green) posColor(3,green) 0
+-leafPos(1,4) -leafPos(7,5) posColor(5,green) posColor(4,green) 0
+-leafPos(1,5) -leafPos(7,6) posColor(6,green) posColor(5,green) 0
+-leafPos(1,6) -leafPos(7,7) posColor(7,green) posColor(6,green) 0
+-leafPos(2,2) -leafPos(3,1) posColor(1,green) posColor(2,green) 0
+-leafPos(2,3) -leafPos(3,2) posColor(3,green) posColor(2,green) 0
+-leafPos(2,4) -leafPos(3,3) posColor(4,green) posColor(3,green) 0
+-leafPos(2,5) -leafPos(3,4) posColor(5,green) posColor(4,green) 0
+-leafPos(2,6) -leafPos(3,5) posColor(6,green) posColor(5,green) 0
+-leafPos(2,7) -leafPos(3,6) posColor(7,green) posColor(6,green) 0
+-leafPos(3,1) -leafPos(5,2) posColor(1,green) posColor(2,green) 0
+-leafPos(3,2) -leafPos(5,3) posColor(3,green) posColor(2,green) 0
+-leafPos(3,3) -leafPos(5,4) posColor(4,green) posColor(3,green) 0
+-leafPos(3,4) -leafPos(5,5) posColor(5,green) posColor(4,green) 0
+-leafPos(3,5) -leafPos(5,6) posColor(6,green) posColor(5,green) 0
+-leafPos(3,6) -leafPos(5,7) posColor(7,green) posColor(6,green) 0
+-leafPos(3,1) -leafPos(8,2) posColor(1,green) posColor(2,green) 0
+-leafPos(3,2) -leafPos(8,3) posColor(3,green) posColor(2,green) 0
+-leafPos(3,3) -leafPos(8,4) posColor(4,green) posColor(3,green) 0
+-leafPos(3,4) -leafPos(8,5) posColor(5,green) posColor(4,green) 0
+-leafPos(3,5) -leafPos(8,6) posColor(6,green) posColor(5,green) 0
+-leafPos(3,6) -leafPos(8,7) posColor(7,green) posColor(6,green) 0
+-leafPos(1,2) -leafPos(3,1) posColor(1,green) posColor(2,green) 0
+-leafPos(1,3) -leafPos(3,2) posColor(3,green) posColor(2,green) 0
+-leafPos(1,4) -leafPos(3,3) posColor(4,green) posColor(3,green) 0
+-leafPos(1,5) -leafPos(3,4) posColor(5,green) posColor(4,green) 0
+-leafPos(1,6) -leafPos(3,5) posColor(6,green) posColor(5,green) 0
+-leafPos(1,7) -leafPos(3,6) posColor(7,green) posColor(6,green) 0
+-leafPos(3,1) -leafPos(4,2) posColor(1,green) posColor(2,green) 0
+-leafPos(3,2) -leafPos(4,3) posColor(3,green) posColor(2,green) 0
+-leafPos(3,3) -leafPos(4,4) posColor(4,green) posColor(3,green) 0
+-leafPos(3,4) -leafPos(4,5) posColor(5,green) posColor(4,green) 0
+-leafPos(3,5) -leafPos(4,6) posColor(6,green) posColor(5,green) 0
+-leafPos(3,6) -leafPos(4,7) posColor(7,green) posColor(6,green) 0
+-leafPos(3,1) -leafPos(6,2) posColor(1,green) posColor(2,green) 0
+-leafPos(3,2) -leafPos(6,3) posColor(3,green) posColor(2,green) 0
+-leafPos(3,3) -leafPos(6,4) posColor(4,green) posColor(3,green) 0
+-leafPos(3,4) -leafPos(6,5) posColor(5,green) posColor(4,green) 0
+-leafPos(3,5) -leafPos(6,6) posColor(6,green) posColor(5,green) 0
+-leafPos(3,6) -leafPos(6,7) posColor(7,green) posColor(6,green) 0
+-leafPos(3,1) -leafPos(7,2) posColor(1,green) posColor(2,green) 0
+-leafPos(3,2) -leafPos(7,3) posColor(3,green) posColor(2,green) 0
+-leafPos(3,3) -leafPos(7,4) posColor(4,green) posColor(3,green) 0
+-leafPos(3,4) -leafPos(7,5) posColor(5,green) posColor(4,green) 0
+-leafPos(3,5) -leafPos(7,6) posColor(6,green) posColor(5,green) 0
+-leafPos(3,6) -leafPos(7,7) posColor(7,green) posColor(6,green) 0
+-leafPos(2,2) -leafPos(6,1) posColor(1,green) posColor(2,green) 0
+-leafPos(2,3) -leafPos(6,2) posColor(3,green) posColor(2,green) 0
+-leafPos(2,4) -leafPos(6,3) posColor(4,green) posColor(3,green) 0
+-leafPos(2,5) -leafPos(6,4) posColor(5,green) posColor(4,green) 0
+-leafPos(2,6) -leafPos(6,5) posColor(6,green) posColor(5,green) 0
+-leafPos(2,7) -leafPos(6,6) posColor(7,green) posColor(6,green) 0
+-leafPos(5,2) -leafPos(6,1) posColor(1,green) posColor(2,green) 0
+-leafPos(5,3) -leafPos(6,2) posColor(3,green) posColor(2,green) 0
+-leafPos(5,4) -leafPos(6,3) posColor(4,green) posColor(3,green) 0
+-leafPos(5,5) -leafPos(6,4) posColor(5,green) posColor(4,green) 0
+-leafPos(5,6) -leafPos(6,5) posColor(6,green) posColor(5,green) 0
+-leafPos(5,7) -leafPos(6,6) posColor(7,green) posColor(6,green) 0
+-leafPos(4,2) -leafPos(6,1) posColor(1,green) posColor(2,green) 0
+-leafPos(4,3) -leafPos(6,2) posColor(3,green) posColor(2,green) 0
+-leafPos(4,4) -leafPos(6,3) posColor(4,green) posColor(3,green) 0
+-leafPos(4,5) -leafPos(6,4) posColor(5,green) posColor(4,green) 0
+-leafPos(4,6) -leafPos(6,5) posColor(6,green) posColor(5,green) 0
+-leafPos(4,7) -leafPos(6,6) posColor(7,green) posColor(6,green) 0
+-leafPos(6,1) -leafPos(7,2) posColor(1,green) posColor(2,green) 0
+-leafPos(6,2) -leafPos(7,3) posColor(3,green) posColor(2,green) 0
+-leafPos(6,3) -leafPos(7,4) posColor(4,green) posColor(3,green) 0
+-leafPos(6,4) -leafPos(7,5) posColor(5,green) posColor(4,green) 0
+-leafPos(6,5) -leafPos(7,6) posColor(6,green) posColor(5,green) 0
+-leafPos(6,6) -leafPos(7,7) posColor(7,green) posColor(6,green) 0
+-leafPos(5,2) -leafPos(7,1) posColor(1,green) posColor(2,green) 0
+-leafPos(5,3) -leafPos(7,2) posColor(3,green) posColor(2,green) 0
+-leafPos(5,4) -leafPos(7,3) posColor(4,green) posColor(3,green) 0
+-leafPos(5,5) -leafPos(7,4) posColor(5,green) posColor(4,green) 0
+-leafPos(5,6) -leafPos(7,5) posColor(6,green) posColor(5,green) 0
+-leafPos(5,7) -leafPos(7,6) posColor(7,green) posColor(6,green) 0
+-leafPos(4,2) -leafPos(7,1) posColor(1,green) posColor(2,green) 0
+-leafPos(4,3) -leafPos(7,2) posColor(3,green) posColor(2,green) 0
+-leafPos(4,4) -leafPos(7,3) posColor(4,green) posColor(3,green) 0
+-leafPos(4,5) -leafPos(7,4) posColor(5,green) posColor(4,green) 0
+-leafPos(4,6) -leafPos(7,5) posColor(6,green) posColor(5,green) 0
+-leafPos(4,7) -leafPos(7,6) posColor(7,green) posColor(6,green) 0
+-leafPos(2,2) -leafPos(7,1) posColor(1,green) posColor(2,green) 0
+-leafPos(2,3) -leafPos(7,2) posColor(3,green) posColor(2,green) 0
+-leafPos(2,4) -leafPos(7,3) posColor(4,green) posColor(3,green) 0
+-leafPos(2,5) -leafPos(7,4) posColor(5,green) posColor(4,green) 0
+-leafPos(2,6) -leafPos(7,5) posColor(6,green) posColor(5,green) 0
+-leafPos(2,7) -leafPos(7,6) posColor(7,green) posColor(6,green) 0
+-leafPos(7,2) -leafPos(8,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(6,2) -leafPos(8,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(6,2) -leafPos(7,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(5,2) -leafPos(8,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(5,2) -leafPos(7,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(5,2) -leafPos(6,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(4,2) -leafPos(8,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(4,2) -leafPos(7,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(4,2) -leafPos(6,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(4,2) -leafPos(5,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(3,2) -leafPos(8,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(3,2) -leafPos(7,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(3,2) -leafPos(6,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(3,2) -leafPos(5,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(3,2) -leafPos(4,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(2,2) -leafPos(8,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(2,2) -leafPos(7,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(2,2) -leafPos(6,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(2,2) -leafPos(5,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(2,2) -leafPos(4,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(2,2) -leafPos(3,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(1,2) -leafPos(8,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(1,2) -leafPos(7,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(1,2) -leafPos(6,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(1,2) -leafPos(5,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(1,2) -leafPos(4,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(1,2) -leafPos(3,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(1,2) -leafPos(2,1) -posColor(1,green) -posColor(2,green) 0
+-leafPos(7,3) -leafPos(8,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(6,3) -leafPos(8,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(6,3) -leafPos(7,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(5,3) -leafPos(8,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(5,3) -leafPos(7,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(5,3) -leafPos(6,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(4,3) -leafPos(8,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(4,3) -leafPos(7,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(4,3) -leafPos(6,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(4,3) -leafPos(5,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(3,3) -leafPos(8,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(3,3) -leafPos(7,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(3,3) -leafPos(6,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(3,3) -leafPos(5,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(3,3) -leafPos(4,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(2,3) -leafPos(8,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(2,3) -leafPos(7,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(2,3) -leafPos(6,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(2,3) -leafPos(5,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(2,3) -leafPos(4,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(2,3) -leafPos(3,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(1,3) -leafPos(8,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(1,3) -leafPos(7,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(1,3) -leafPos(6,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(1,3) -leafPos(5,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(1,3) -leafPos(4,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(1,3) -leafPos(3,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(1,3) -leafPos(2,2) -posColor(3,green) -posColor(2,green) 0
+-leafPos(7,3) -leafPos(8,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(6,3) -leafPos(8,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(6,3) -leafPos(7,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(5,3) -leafPos(8,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(5,3) -leafPos(7,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(5,3) -leafPos(6,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(4,3) -leafPos(8,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(4,3) -leafPos(7,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(4,3) -leafPos(6,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(4,3) -leafPos(5,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(3,3) -leafPos(8,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(3,3) -leafPos(7,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(3,3) -leafPos(6,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(3,3) -leafPos(5,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(3,3) -leafPos(4,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(2,3) -leafPos(8,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(2,3) -leafPos(7,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(2,3) -leafPos(6,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(2,3) -leafPos(5,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(2,3) -leafPos(4,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(2,3) -leafPos(3,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(1,3) -leafPos(8,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(1,3) -leafPos(7,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(1,3) -leafPos(6,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(1,3) -leafPos(5,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(1,3) -leafPos(4,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(1,3) -leafPos(3,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(1,3) -leafPos(2,1) -posColor(1,green) -posColor(3,green) 0
+-leafPos(7,4) -leafPos(8,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(6,4) -leafPos(8,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(6,4) -leafPos(7,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(5,4) -leafPos(8,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(5,4) -leafPos(7,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(5,4) -leafPos(6,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(4,4) -leafPos(8,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(4,4) -leafPos(7,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(4,4) -leafPos(6,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(4,4) -leafPos(5,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(3,4) -leafPos(8,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(3,4) -leafPos(7,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(3,4) -leafPos(6,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(3,4) -leafPos(5,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(3,4) -leafPos(4,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(2,4) -leafPos(8,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(2,4) -leafPos(7,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(2,4) -leafPos(6,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(2,4) -leafPos(5,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(2,4) -leafPos(4,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(2,4) -leafPos(3,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(1,4) -leafPos(8,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(1,4) -leafPos(7,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(1,4) -leafPos(6,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(1,4) -leafPos(5,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(1,4) -leafPos(4,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(1,4) -leafPos(3,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(1,4) -leafPos(2,2) -posColor(4,green) -posColor(2,green) 0
+-leafPos(7,4) -leafPos(8,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(6,4) -leafPos(8,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(6,4) -leafPos(7,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(5,4) -leafPos(8,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(5,4) -leafPos(7,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(5,4) -leafPos(6,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(4,4) -leafPos(8,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(4,4) -leafPos(7,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(4,4) -leafPos(6,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(4,4) -leafPos(5,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(3,4) -leafPos(8,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(3,4) -leafPos(7,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(3,4) -leafPos(6,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(3,4) -leafPos(5,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(3,4) -leafPos(4,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(2,4) -leafPos(8,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(2,4) -leafPos(7,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(2,4) -leafPos(6,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(2,4) -leafPos(5,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(2,4) -leafPos(4,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(2,4) -leafPos(3,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(1,4) -leafPos(8,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(1,4) -leafPos(7,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(1,4) -leafPos(6,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(1,4) -leafPos(5,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(1,4) -leafPos(4,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(1,4) -leafPos(3,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(1,4) -leafPos(2,3) -posColor(4,green) -posColor(3,green) 0
+-leafPos(7,4) -leafPos(8,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(6,4) -leafPos(8,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(6,4) -leafPos(7,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(5,4) -leafPos(8,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(5,4) -leafPos(7,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(5,4) -leafPos(6,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(4,4) -leafPos(8,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(4,4) -leafPos(7,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(4,4) -leafPos(6,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(4,4) -leafPos(5,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(3,4) -leafPos(8,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(3,4) -leafPos(7,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(3,4) -leafPos(6,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(3,4) -leafPos(5,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(3,4) -leafPos(4,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(2,4) -leafPos(8,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(2,4) -leafPos(7,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(2,4) -leafPos(6,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(2,4) -leafPos(5,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(2,4) -leafPos(4,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(2,4) -leafPos(3,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(1,4) -leafPos(8,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(1,4) -leafPos(7,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(1,4) -leafPos(6,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(1,4) -leafPos(5,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(1,4) -leafPos(4,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(1,4) -leafPos(3,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(1,4) -leafPos(2,1) -posColor(1,green) -posColor(4,green) 0
+-leafPos(7,5) -leafPos(8,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(6,5) -leafPos(8,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(6,5) -leafPos(7,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(5,5) -leafPos(8,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(5,5) -leafPos(7,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(5,5) -leafPos(6,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(4,5) -leafPos(8,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(4,5) -leafPos(7,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(4,5) -leafPos(6,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(4,5) -leafPos(5,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(3,5) -leafPos(8,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(3,5) -leafPos(7,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(3,5) -leafPos(6,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(3,5) -leafPos(5,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(3,5) -leafPos(4,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(2,5) -leafPos(8,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(2,5) -leafPos(7,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(2,5) -leafPos(6,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(2,5) -leafPos(5,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(2,5) -leafPos(4,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(2,5) -leafPos(3,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(1,5) -leafPos(8,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(1,5) -leafPos(7,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(1,5) -leafPos(6,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(1,5) -leafPos(5,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(1,5) -leafPos(4,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(1,5) -leafPos(3,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(1,5) -leafPos(2,2) -posColor(5,green) -posColor(2,green) 0
+-leafPos(7,5) -leafPos(8,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(6,5) -leafPos(8,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(6,5) -leafPos(7,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(5,5) -leafPos(8,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(5,5) -leafPos(7,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(5,5) -leafPos(6,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(4,5) -leafPos(8,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(4,5) -leafPos(7,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(4,5) -leafPos(6,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(4,5) -leafPos(5,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(3,5) -leafPos(8,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(3,5) -leafPos(7,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(3,5) -leafPos(6,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(3,5) -leafPos(5,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(3,5) -leafPos(4,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(2,5) -leafPos(8,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(2,5) -leafPos(7,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(2,5) -leafPos(6,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(2,5) -leafPos(5,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(2,5) -leafPos(4,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(2,5) -leafPos(3,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(1,5) -leafPos(8,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(1,5) -leafPos(7,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(1,5) -leafPos(6,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(1,5) -leafPos(5,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(1,5) -leafPos(4,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(1,5) -leafPos(3,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(1,5) -leafPos(2,3) -posColor(5,green) -posColor(3,green) 0
+-leafPos(7,5) -leafPos(8,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(6,5) -leafPos(8,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(6,5) -leafPos(7,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(5,5) -leafPos(8,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(5,5) -leafPos(7,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(5,5) -leafPos(6,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(4,5) -leafPos(8,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(4,5) -leafPos(7,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(4,5) -leafPos(6,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(4,5) -leafPos(5,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(3,5) -leafPos(8,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(3,5) -leafPos(7,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(3,5) -leafPos(6,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(3,5) -leafPos(5,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(3,5) -leafPos(4,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(2,5) -leafPos(8,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(2,5) -leafPos(7,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(2,5) -leafPos(6,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(2,5) -leafPos(5,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(2,5) -leafPos(4,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(2,5) -leafPos(3,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(1,5) -leafPos(8,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(1,5) -leafPos(7,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(1,5) -leafPos(6,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(1,5) -leafPos(5,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(1,5) -leafPos(4,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(1,5) -leafPos(3,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(1,5) -leafPos(2,4) -posColor(5,green) -posColor(4,green) 0
+-leafPos(7,5) -leafPos(8,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(6,5) -leafPos(8,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(6,5) -leafPos(7,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(5,5) -leafPos(8,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(5,5) -leafPos(7,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(5,5) -leafPos(6,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(4,5) -leafPos(8,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(4,5) -leafPos(7,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(4,5) -leafPos(6,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(4,5) -leafPos(5,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(3,5) -leafPos(8,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(3,5) -leafPos(7,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(3,5) -leafPos(6,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(3,5) -leafPos(5,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(3,5) -leafPos(4,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(2,5) -leafPos(8,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(2,5) -leafPos(7,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(2,5) -leafPos(6,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(2,5) -leafPos(5,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(2,5) -leafPos(4,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(2,5) -leafPos(3,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(1,5) -leafPos(8,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(1,5) -leafPos(7,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(1,5) -leafPos(6,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(1,5) -leafPos(5,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(1,5) -leafPos(4,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(1,5) -leafPos(3,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(1,5) -leafPos(2,1) -posColor(1,green) -posColor(5,green) 0
+-leafPos(7,6) -leafPos(8,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(6,6) -leafPos(8,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(6,6) -leafPos(7,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(5,6) -leafPos(8,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(5,6) -leafPos(7,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(5,6) -leafPos(6,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(4,6) -leafPos(8,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(4,6) -leafPos(7,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(4,6) -leafPos(6,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(4,6) -leafPos(5,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(3,6) -leafPos(8,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(3,6) -leafPos(7,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(3,6) -leafPos(6,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(3,6) -leafPos(5,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(3,6) -leafPos(4,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(2,6) -leafPos(8,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(2,6) -leafPos(7,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(2,6) -leafPos(6,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(2,6) -leafPos(5,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(2,6) -leafPos(4,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(2,6) -leafPos(3,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(1,6) -leafPos(8,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(1,6) -leafPos(7,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(1,6) -leafPos(6,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(1,6) -leafPos(5,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(1,6) -leafPos(4,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(1,6) -leafPos(3,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(1,6) -leafPos(2,2) -posColor(6,green) -posColor(2,green) 0
+-leafPos(7,6) -leafPos(8,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(6,6) -leafPos(8,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(6,6) -leafPos(7,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(5,6) -leafPos(8,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(5,6) -leafPos(7,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(5,6) -leafPos(6,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(4,6) -leafPos(8,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(4,6) -leafPos(7,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(4,6) -leafPos(6,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(4,6) -leafPos(5,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(3,6) -leafPos(8,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(3,6) -leafPos(7,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(3,6) -leafPos(6,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(3,6) -leafPos(5,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(3,6) -leafPos(4,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(2,6) -leafPos(8,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(2,6) -leafPos(7,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(2,6) -leafPos(6,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(2,6) -leafPos(5,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(2,6) -leafPos(4,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(2,6) -leafPos(3,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(1,6) -leafPos(8,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(1,6) -leafPos(7,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(1,6) -leafPos(6,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(1,6) -leafPos(5,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(1,6) -leafPos(4,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(1,6) -leafPos(3,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(1,6) -leafPos(2,3) -posColor(6,green) -posColor(3,green) 0
+-leafPos(7,6) -leafPos(8,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(6,6) -leafPos(8,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(6,6) -leafPos(7,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(5,6) -leafPos(8,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(5,6) -leafPos(7,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(5,6) -leafPos(6,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(4,6) -leafPos(8,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(4,6) -leafPos(7,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(4,6) -leafPos(6,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(4,6) -leafPos(5,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(3,6) -leafPos(8,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(3,6) -leafPos(7,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(3,6) -leafPos(6,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(3,6) -leafPos(5,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(3,6) -leafPos(4,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(2,6) -leafPos(8,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(2,6) -leafPos(7,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(2,6) -leafPos(6,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(2,6) -leafPos(5,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(2,6) -leafPos(4,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(2,6) -leafPos(3,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(1,6) -leafPos(8,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(1,6) -leafPos(7,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(1,6) -leafPos(6,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(1,6) -leafPos(5,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(1,6) -leafPos(4,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(1,6) -leafPos(3,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(1,6) -leafPos(2,4) -posColor(6,green) -posColor(4,green) 0
+-leafPos(7,6) -leafPos(8,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(6,6) -leafPos(8,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(6,6) -leafPos(7,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(5,6) -leafPos(8,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(5,6) -leafPos(7,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(5,6) -leafPos(6,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(4,6) -leafPos(8,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(4,6) -leafPos(7,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(4,6) -leafPos(6,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(4,6) -leafPos(5,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(3,6) -leafPos(8,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(3,6) -leafPos(7,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(3,6) -leafPos(6,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(3,6) -leafPos(5,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(3,6) -leafPos(4,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(2,6) -leafPos(8,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(2,6) -leafPos(7,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(2,6) -leafPos(6,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(2,6) -leafPos(5,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(2,6) -leafPos(4,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(2,6) -leafPos(3,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(1,6) -leafPos(8,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(1,6) -leafPos(7,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(1,6) -leafPos(6,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(1,6) -leafPos(5,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(1,6) -leafPos(4,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(1,6) -leafPos(3,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(1,6) -leafPos(2,5) -posColor(6,green) -posColor(5,green) 0
+-leafPos(7,6) -leafPos(8,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(6,6) -leafPos(8,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(6,6) -leafPos(7,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(5,6) -leafPos(8,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(5,6) -leafPos(7,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(5,6) -leafPos(6,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(4,6) -leafPos(8,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(4,6) -leafPos(7,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(4,6) -leafPos(6,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(4,6) -leafPos(5,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(3,6) -leafPos(8,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(3,6) -leafPos(7,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(3,6) -leafPos(6,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(3,6) -leafPos(5,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(3,6) -leafPos(4,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(2,6) -leafPos(8,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(2,6) -leafPos(7,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(2,6) -leafPos(6,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(2,6) -leafPos(5,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(2,6) -leafPos(4,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(2,6) -leafPos(3,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(1,6) -leafPos(8,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(1,6) -leafPos(7,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(1,6) -leafPos(6,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(1,6) -leafPos(5,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(1,6) -leafPos(4,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(1,6) -leafPos(3,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(1,6) -leafPos(2,1) -posColor(1,green) -posColor(6,green) 0
+-leafPos(7,7) -leafPos(8,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(6,7) -leafPos(8,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(6,7) -leafPos(7,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(5,7) -leafPos(8,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(5,7) -leafPos(7,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(5,7) -leafPos(6,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(4,7) -leafPos(8,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(4,7) -leafPos(7,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(4,7) -leafPos(6,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(4,7) -leafPos(5,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(3,7) -leafPos(8,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(3,7) -leafPos(7,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(3,7) -leafPos(6,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(3,7) -leafPos(5,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(3,7) -leafPos(4,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(2,7) -leafPos(8,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(2,7) -leafPos(7,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(2,7) -leafPos(6,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(2,7) -leafPos(5,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(2,7) -leafPos(4,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(2,7) -leafPos(3,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(1,7) -leafPos(8,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(1,7) -leafPos(7,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(1,7) -leafPos(6,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(1,7) -leafPos(5,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(1,7) -leafPos(4,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(1,7) -leafPos(3,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(1,7) -leafPos(2,2) -posColor(7,green) -posColor(2,green) 0
+-leafPos(7,7) -leafPos(8,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(6,7) -leafPos(8,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(6,7) -leafPos(7,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(5,7) -leafPos(8,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(5,7) -leafPos(7,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(5,7) -leafPos(6,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(4,7) -leafPos(8,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(4,7) -leafPos(7,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(4,7) -leafPos(6,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(4,7) -leafPos(5,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(3,7) -leafPos(8,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(3,7) -leafPos(7,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(3,7) -leafPos(6,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(3,7) -leafPos(5,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(3,7) -leafPos(4,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(2,7) -leafPos(8,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(2,7) -leafPos(7,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(2,7) -leafPos(6,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(2,7) -leafPos(5,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(2,7) -leafPos(4,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(2,7) -leafPos(3,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(1,7) -leafPos(8,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(1,7) -leafPos(7,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(1,7) -leafPos(6,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(1,7) -leafPos(5,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(1,7) -leafPos(4,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(1,7) -leafPos(3,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(1,7) -leafPos(2,3) -posColor(7,green) -posColor(3,green) 0
+-leafPos(7,7) -leafPos(8,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(6,7) -leafPos(8,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(6,7) -leafPos(7,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(5,7) -leafPos(8,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(5,7) -leafPos(7,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(5,7) -leafPos(6,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(4,7) -leafPos(8,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(4,7) -leafPos(7,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(4,7) -leafPos(6,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(4,7) -leafPos(5,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(3,7) -leafPos(8,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(3,7) -leafPos(7,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(3,7) -leafPos(6,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(3,7) -leafPos(5,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(3,7) -leafPos(4,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(2,7) -leafPos(8,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(2,7) -leafPos(7,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(2,7) -leafPos(6,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(2,7) -leafPos(5,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(2,7) -leafPos(4,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(2,7) -leafPos(3,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(1,7) -leafPos(8,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(1,7) -leafPos(7,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(1,7) -leafPos(6,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(1,7) -leafPos(5,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(1,7) -leafPos(4,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(1,7) -leafPos(3,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(1,7) -leafPos(2,4) -posColor(7,green) -posColor(4,green) 0
+-leafPos(7,7) -leafPos(8,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(6,7) -leafPos(8,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(6,7) -leafPos(7,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(5,7) -leafPos(8,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(5,7) -leafPos(7,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(5,7) -leafPos(6,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(4,7) -leafPos(8,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(4,7) -leafPos(7,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(4,7) -leafPos(6,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(4,7) -leafPos(5,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(3,7) -leafPos(8,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(3,7) -leafPos(7,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(3,7) -leafPos(6,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(3,7) -leafPos(5,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(3,7) -leafPos(4,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(2,7) -leafPos(8,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(2,7) -leafPos(7,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(2,7) -leafPos(6,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(2,7) -leafPos(5,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(2,7) -leafPos(4,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(2,7) -leafPos(3,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(1,7) -leafPos(8,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(1,7) -leafPos(7,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(1,7) -leafPos(6,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(1,7) -leafPos(5,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(1,7) -leafPos(4,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(1,7) -leafPos(3,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(1,7) -leafPos(2,5) -posColor(7,green) -posColor(5,green) 0
+-leafPos(7,7) -leafPos(8,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(6,7) -leafPos(8,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(6,7) -leafPos(7,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(5,7) -leafPos(8,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(5,7) -leafPos(7,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(5,7) -leafPos(6,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(4,7) -leafPos(8,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(4,7) -leafPos(7,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(4,7) -leafPos(6,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(4,7) -leafPos(5,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(3,7) -leafPos(8,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(3,7) -leafPos(7,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(3,7) -leafPos(6,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(3,7) -leafPos(5,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(3,7) -leafPos(4,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(2,7) -leafPos(8,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(2,7) -leafPos(7,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(2,7) -leafPos(6,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(2,7) -leafPos(5,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(2,7) -leafPos(4,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(2,7) -leafPos(3,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(1,7) -leafPos(8,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(1,7) -leafPos(7,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(1,7) -leafPos(6,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(1,7) -leafPos(5,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(1,7) -leafPos(4,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(1,7) -leafPos(3,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(1,7) -leafPos(2,6) -posColor(7,green) -posColor(6,green) 0
+-leafPos(7,7) -leafPos(8,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(6,7) -leafPos(8,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(6,7) -leafPos(7,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(5,7) -leafPos(8,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(5,7) -leafPos(7,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(5,7) -leafPos(6,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(4,7) -leafPos(8,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(4,7) -leafPos(7,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(4,7) -leafPos(6,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(4,7) -leafPos(5,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(3,7) -leafPos(8,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(3,7) -leafPos(7,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(3,7) -leafPos(6,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(3,7) -leafPos(5,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(3,7) -leafPos(4,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(2,7) -leafPos(8,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(2,7) -leafPos(7,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(2,7) -leafPos(6,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(2,7) -leafPos(5,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(2,7) -leafPos(4,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(2,7) -leafPos(3,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(1,7) -leafPos(8,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(1,7) -leafPos(7,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(1,7) -leafPos(6,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(1,7) -leafPos(5,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(1,7) -leafPos(4,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(1,7) -leafPos(3,1) -posColor(1,green) -posColor(7,green) 0
+-leafPos(1,7) -leafPos(2,1) -posColor(1,green) -posColor(7,green) 0
+-78 -leafPos(2,7) leafPos(2,7) 0
+-78 -leafPos(2,6) leafPos(2,6) 0
+-78 -leafPos(2,5) leafPos(2,5) 0
+-78 -leafPos(2,4) leafPos(2,4) 0
+-78 -leafPos(2,3) leafPos(2,3) 0
+-78 -leafPos(2,2) leafPos(2,2) 0
+-78 -leafPos(2,1) leafPos(2,1) 0
+-78 -leafPos(2,0) leafPos(2,0) 0
+-leafPos(2,7) 79 0
+-leafPos(2,6) 79 0
+-leafPos(2,5) 79 0
+-leafPos(2,4) 79 0
+-leafPos(2,3) 79 0
+-leafPos(2,2) 79 0
+-leafPos(2,1) 79 0
+-leafPos(2,0) 79 0
+-88 -leafPos(3,7) leafPos(3,7) 0
+-88 -leafPos(3,6) leafPos(3,6) 0
+-88 -leafPos(3,5) leafPos(3,5) 0
+-88 -leafPos(3,4) leafPos(3,4) 0
+-88 -leafPos(3,3) leafPos(3,3) 0
+-88 -leafPos(3,2) leafPos(3,2) 0
+-88 -leafPos(3,1) leafPos(3,1) 0
+-88 -leafPos(3,0) leafPos(3,0) 0
+-leafPos(3,7) 89 0
+-leafPos(3,6) 89 0
+-leafPos(3,5) 89 0
+-leafPos(3,4) 89 0
+-leafPos(3,3) 89 0
+-leafPos(3,2) 89 0
+-leafPos(3,1) 89 0
+-leafPos(3,0) 89 0
+-98 -leafPos(4,7) leafPos(4,7) 0
+-98 -leafPos(4,6) leafPos(4,6) 0
+-98 -leafPos(4,5) leafPos(4,5) 0
+-98 -leafPos(4,4) leafPos(4,4) 0
+-98 -leafPos(4,3) leafPos(4,3) 0
+-98 -leafPos(4,2) leafPos(4,2) 0
+-98 -leafPos(4,1) leafPos(4,1) 0
+-98 -leafPos(4,0) leafPos(4,0) 0
+-leafPos(4,7) 99 0
+-leafPos(4,6) 99 0
+-leafPos(4,5) 99 0
+-leafPos(4,4) 99 0
+-leafPos(4,3) 99 0
+-leafPos(4,2) 99 0
+-leafPos(4,1) 99 0
+-leafPos(4,0) 99 0
+-108 -leafPos(5,7) leafPos(5,7) 0
+-108 -leafPos(5,6) leafPos(5,6) 0
+-108 -leafPos(5,5) leafPos(5,5) 0
+-108 -leafPos(5,4) leafPos(5,4) 0
+-108 -leafPos(5,3) leafPos(5,3) 0
+-108 -leafPos(5,2) leafPos(5,2) 0
+-108 -leafPos(5,1) leafPos(5,1) 0
+-108 -leafPos(5,0) leafPos(5,0) 0
+-leafPos(5,7) 109 0
+-leafPos(5,6) 109 0
+-leafPos(5,5) 109 0
+-leafPos(5,4) 109 0
+-leafPos(5,3) 109 0
+-leafPos(5,2) 109 0
+-leafPos(5,1) 109 0
+-leafPos(5,0) 109 0
+-118 -leafPos(6,7) leafPos(6,7) 0
+-118 -leafPos(6,6) leafPos(6,6) 0
+-118 -leafPos(6,5) leafPos(6,5) 0
+-118 -leafPos(6,4) leafPos(6,4) 0
+-118 -leafPos(6,3) leafPos(6,3) 0
+-118 -leafPos(6,2) leafPos(6,2) 0
+-118 -leafPos(6,1) leafPos(6,1) 0
+-118 -leafPos(6,0) leafPos(6,0) 0
+-leafPos(6,7) 119 0
+-leafPos(6,6) 119 0
+-leafPos(6,5) 119 0
+-leafPos(6,4) 119 0
+-leafPos(6,3) 119 0
+-leafPos(6,2) 119 0
+-leafPos(6,1) 119 0
+-leafPos(6,0) 119 0
+-128 -leafPos(7,7) leafPos(7,7) 0
+-128 -leafPos(7,6) leafPos(7,6) 0
+-128 -leafPos(7,5) leafPos(7,5) 0
+-128 -leafPos(7,4) leafPos(7,4) 0
+-128 -leafPos(7,3) leafPos(7,3) 0
+-128 -leafPos(7,2) leafPos(7,2) 0
+-128 -leafPos(7,1) leafPos(7,1) 0
+-128 -leafPos(7,0) leafPos(7,0) 0
+-leafPos(7,7) 129 0
+-leafPos(7,6) 129 0
+-leafPos(7,5) 129 0
+-leafPos(7,4) 129 0
+-leafPos(7,3) 129 0
+-leafPos(7,2) 129 0
+-leafPos(7,1) 129 0
+-leafPos(7,0) 129 0
+-138 -leafPos(8,7) leafPos(8,7) 0
+-138 -leafPos(8,6) leafPos(8,6) 0
+-138 -leafPos(8,5) leafPos(8,5) 0
+-138 -leafPos(8,4) leafPos(8,4) 0
+-138 -leafPos(8,3) leafPos(8,3) 0
+-138 -leafPos(8,2) leafPos(8,2) 0
+-138 -leafPos(8,1) leafPos(8,1) 0
+-138 -leafPos(8,0) leafPos(8,0) 0
+-leafPos(8,7) 139 0
+-leafPos(8,6) 139 0
+-leafPos(8,5) 139 0
+-leafPos(8,4) 139 0
+-leafPos(8,3) 139 0
+-leafPos(8,2) 139 0
+-leafPos(8,1) 139 0
+-leafPos(8,0) 139 0
+-414 posColor(1,green) 0
+-415 posColor(1,green) 0
+-416 posColor(1,green) 0
+-417 posColor(1,green) 0
+-418 posColor(1,green) 0
+-419 posColor(1,green) 0
+-420 posColor(1,green) 0
+-421 posColor(1,green) 0
+-422 posColor(1,green) 0
+-423 posColor(1,green) 0
+-424 posColor(1,green) 0
+-425 posColor(1,blue) 0
+-426 posColor(1,blue) 0
+-427 posColor(1,blue) 0
+-428 posColor(1,red) 0
+-429 posColor(1,red) 0
+-430 posColor(1,red) 0
+-431 posColor(1,red) 0
+-432 posColor(1,red) 0
+-146 -posColor(7,green) posColor(7,green) 0
+-146 -posColor(7,blue) posColor(7,blue) 0
+-146 -posColor(7,red) posColor(7,red) 0
+-posColor(7,green) 147 0
+-posColor(7,blue) 147 0
+-posColor(7,red) 147 0
+-151 -posColor(6,green) posColor(6,green) 0
+-151 -posColor(6,blue) posColor(6,blue) 0
+-151 -posColor(6,red) posColor(6,red) 0
+-posColor(6,green) 152 0
+-posColor(6,blue) 152 0
+-posColor(6,red) 152 0
+-156 -posColor(5,green) posColor(5,green) 0
+-156 -posColor(5,blue) posColor(5,blue) 0
+-156 -posColor(5,red) posColor(5,red) 0
+-posColor(5,green) 157 0
+-posColor(5,blue) 157 0
+-posColor(5,red) 157 0
+-161 -posColor(4,green) posColor(4,green) 0
+-161 -posColor(4,blue) posColor(4,blue) 0
+-161 -posColor(4,red) posColor(4,red) 0
+-posColor(4,green) 162 0
+-posColor(4,blue) 162 0
+-posColor(4,red) 162 0
+-166 -posColor(3,green) posColor(3,green) 0
+-166 -posColor(3,blue) posColor(3,blue) 0
+-166 -posColor(3,red) posColor(3,red) 0
+-posColor(3,green) 167 0
+-posColor(3,blue) 167 0
+-posColor(3,red) 167 0
+-171 -posColor(2,green) posColor(2,green) 0
+-171 -posColor(2,blue) posColor(2,blue) 0
+-171 -posColor(2,red) posColor(2,red) 0
+-posColor(2,green) 172 0
+-posColor(2,blue) 172 0
+-posColor(2,red) 172 0
+-leafPos(8,2) required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(2,green) 0
+-leafPos(8,3) required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(3,green) 0
+-leafPos(8,4) required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(4,green) 0
+-leafPos(8,5) required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(5,green) 0
+-leafPos(8,6) required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(6,green) 0
+-leafPos(8,7) required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(7,green) 0
+-leafPos(7,2) required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(2,green) 0
+-leafPos(7,3) required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(3,green) 0
+-leafPos(7,4) required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(4,green) 0
+-leafPos(7,5) required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(5,green) 0
+-leafPos(7,6) required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(6,green) 0
+-leafPos(7,7) required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(7,green) 0
+-leafPos(6,2) required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(2,green) 0
+-leafPos(6,3) required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(3,green) 0
+-leafPos(6,4) required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(4,green) 0
+-leafPos(6,5) required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(5,green) 0
+-leafPos(6,6) required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(6,green) 0
+-leafPos(6,7) required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(7,green) 0
+-leafPos(5,2) required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(2,green) 0
+-leafPos(5,3) required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(3,green) 0
+-leafPos(5,4) required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(4,green) 0
+-leafPos(5,5) required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(5,green) 0
+-leafPos(5,6) required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(6,green) 0
+-leafPos(5,7) required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(7,green) 0
+-leafPos(4,2) required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(2,green) 0
+-leafPos(4,3) required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(3,green) 0
+-leafPos(4,4) required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(4,green) 0
+-leafPos(4,5) required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(5,green) 0
+-leafPos(4,6) required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(6,green) 0
+-leafPos(4,7) required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(7,green) 0
+-leafPos(3,2) required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(2,green) 0
+-leafPos(3,3) required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(3,green) 0
+-leafPos(3,4) required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(4,green) 0
+-leafPos(3,5) required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(5,green) 0
+-leafPos(3,6) required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(6,green) 0
+-leafPos(3,7) required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(7,green) 0
+-leafPos(2,2) required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(2,green) 0
+-leafPos(2,3) required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(3,green) 0
+-leafPos(2,4) required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(4,green) 0
+-leafPos(2,5) required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(5,green) 0
+-leafPos(2,6) required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(6,green) 0
+-leafPos(2,7) required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(7,green) 0
+-leafPos(1,2) required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(2,green) 0
+-leafPos(1,3) required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(3,green) 0
+-leafPos(1,4) required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(4,green) 0
+-leafPos(1,5) required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(5,green) 0
+-leafPos(1,6) required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(6,green) 0
+-leafPos(1,7) required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(7,green) 0
+-433 required(ezcsp__eq(nWeight(1),108)) 0
+-434 required(ezcsp__eq(nWeight(1),108)) 0
+-leafPos(7,1) -posColor(1,green) required(ezcsp__eq(nWeight(1),69)) 0
+-leafPos(6,1) -posColor(1,green) required(ezcsp__eq(nWeight(1),82)) 0
+-435 required(ezcsp__eq(nWeight(1),31)) 0
+-436 required(ezcsp__eq(nWeight(1),31)) 0
+-437 required(ezcsp__eq(nWeight(1),87)) 0
+-438 required(ezcsp__eq(nWeight(1),87)) 0
+-439 required(ezcsp__eq(nWeight(1),87)) 0
+-leafPos(3,1) -posColor(1,green) required(ezcsp__eq(nWeight(1),160)) 0
+-440 required(ezcsp__eq(nWeight(1),72)) 0
+-441 required(ezcsp__eq(nWeight(1),72)) 0
+-442 required(ezcsp__eq(nWeight(1),72)) 0
+-443 required(ezcsp__eq(nWeight(1),72)) 0
+-leafPos(1,1) -posColor(1,green) required(ezcsp__eq(nWeight(1),141)) 0
+-444 required(ezcsp__eq(nWeight(1),93)) 0
+-445 required(ezcsp__eq(nWeight(1),93)) 0
+-leafPos(1,1) -leafPos(8,0) required(ezcsp__eq(nWeight(1),128)) posColor(1,green) 0
+-leafPos(3,1) -leafPos(8,0) required(ezcsp__eq(nWeight(1),151)) posColor(1,green) 0
+-leafPos(4,1) -leafPos(8,0) required(ezcsp__eq(nWeight(1),85)) posColor(1,green) 0
+-leafPos(6,1) -leafPos(8,0) required(ezcsp__eq(nWeight(1),100)) posColor(1,green) 0
+-446 required(ezcsp__eq(nWeight(1),18)) 0
+-447 required(ezcsp__eq(nWeight(1),18)) 0
+-leafPos(5,1) -leafPos(7,0) required(ezcsp__eq(nWeight(1),12)) posColor(1,green) 0
+-leafPos(7,0) -leafPos(8,1) required(ezcsp__eq(nWeight(1),33)) posColor(1,green) 0
+-448 required(ezcsp__eq(nWeight(1),53)) 0
+-449 required(ezcsp__eq(nWeight(1),53)) 0
+-450 required(ezcsp__eq(nWeight(1),53)) 0
+-451 required(ezcsp__eq(nWeight(1),76)) 0
+-452 required(ezcsp__eq(nWeight(1),76)) 0
+-453 required(ezcsp__eq(nWeight(1),76)) 0
+-454 required(ezcsp__eq(nWeight(1),10)) 0
+-455 required(ezcsp__eq(nWeight(1),10)) 0
+-456 required(ezcsp__eq(nWeight(1),10)) 0
+-457 required(ezcsp__eq(nWeight(1),25)) 0
+-458 required(ezcsp__eq(nWeight(1),25)) 0
+-459 required(ezcsp__eq(nWeight(1),25)) 0
+-460 required(ezcsp__eq(nWeight(1),25)) 0
+-leafPos(5,1) -leafPos(6,0) required(ezcsp__eq(nWeight(1),19)) posColor(1,green) 0
+-leafPos(6,0) -leafPos(8,1) required(ezcsp__eq(nWeight(1),40)) posColor(1,green) 0
+-461 required(ezcsp__eq(nWeight(1),60)) 0
+-462 required(ezcsp__eq(nWeight(1),60)) 0
+-463 required(ezcsp__eq(nWeight(1),83)) 0
+-464 required(ezcsp__eq(nWeight(1),83)) 0
+-465 required(ezcsp__eq(nWeight(1),17)) 0
+-466 required(ezcsp__eq(nWeight(1),17)) 0
+-leafPos(6,1) -leafPos(6,0) required(ezcsp__eq(nWeight(1),32)) posColor(1,green) 0
+-467 required(ezcsp__eq(nWeight(1),37)) 0
+-468 required(ezcsp__eq(nWeight(1),37)) 0
+-leafPos(5,0) -leafPos(8,1) required(ezcsp__eq(nWeight(1),52)) posColor(1,green) 0
+-leafPos(3,1) -leafPos(5,0) required(ezcsp__eq(nWeight(1),95)) posColor(1,green) 0
+-leafPos(4,1) -leafPos(5,0) required(ezcsp__eq(nWeight(1),29)) posColor(1,green) 0
+-leafPos(5,0) -leafPos(6,1) required(ezcsp__eq(nWeight(1),44)) posColor(1,green) 0
+-leafPos(4,0) -leafPos(5,1) required(ezcsp__eq(nWeight(1),4)) posColor(1,green) 0
+-469 required(ezcsp__eq(nWeight(1),45)) 0
+-470 required(ezcsp__eq(nWeight(1),45)) 0
+-471 required(ezcsp__eq(nWeight(1),68)) 0
+-472 required(ezcsp__eq(nWeight(1),68)) 0
+-473 required(ezcsp__eq(nWeight(1),68)) 0
+-leafPos(4,1) -leafPos(4,0) required(ezcsp__eq(nWeight(1),2)) posColor(1,green) 0
+-leafPos(3,0) -leafPos(5,1) required(ezcsp__eq(nWeight(1),70)) posColor(1,green) 0
+-leafPos(3,0) -leafPos(8,1) required(ezcsp__eq(nWeight(1),91)) posColor(1,green) 0
+-474 required(ezcsp__eq(nWeight(1),111)) 0
+-475 required(ezcsp__eq(nWeight(1),111)) 0
+-leafPos(3,1) -leafPos(3,0) required(ezcsp__eq(nWeight(1),134)) posColor(1,green) 0
+-leafPos(2,0) -leafPos(5,1) required(ezcsp__eq(nWeight(1),66)) posColor(1,green) 0
+-leafPos(1,1) -leafPos(2,0) required(ezcsp__eq(nWeight(1),107)) posColor(1,green) 0
+-leafPos(2,0) -leafPos(3,1) required(ezcsp__eq(nWeight(1),130)) posColor(1,green) 0
+-leafPos(2,0) -leafPos(4,1) required(ezcsp__eq(nWeight(1),64)) posColor(1,green) 0
+-leafPos(2,0) -leafPos(6,1) required(ezcsp__eq(nWeight(1),79)) posColor(1,green) 0
+-leafPos(1,0) -leafPos(5,1) required(ezcsp__eq(nWeight(1),47)) posColor(1,green) 0
+-leafPos(1,1) -leafPos(1,0) required(ezcsp__eq(nWeight(1),88)) posColor(1,green) 0
+-leafPos(8,2) -posColor(2,green) required(ezcsp__eq(nWeight(2),108)) 0
+-leafPos(8,3) -posColor(3,green) required(ezcsp__eq(nWeight(3),108)) 0
+-leafPos(8,4) -posColor(4,green) required(ezcsp__eq(nWeight(4),108)) 0
+-leafPos(8,5) -posColor(5,green) required(ezcsp__eq(nWeight(5),108)) 0
+-leafPos(8,6) -posColor(6,green) required(ezcsp__eq(nWeight(6),108)) 0
+-leafPos(8,7) -posColor(7,green) required(ezcsp__eq(nWeight(7),108)) 0
+-leafPos(7,2) -posColor(2,green) required(ezcsp__eq(nWeight(2),69)) 0
+-leafPos(7,3) -posColor(3,green) required(ezcsp__eq(nWeight(3),69)) 0
+-leafPos(7,4) -posColor(4,green) required(ezcsp__eq(nWeight(4),69)) 0
+-leafPos(7,5) -posColor(5,green) required(ezcsp__eq(nWeight(5),69)) 0
+-leafPos(7,6) -posColor(6,green) required(ezcsp__eq(nWeight(6),69)) 0
+-leafPos(7,7) -posColor(7,green) required(ezcsp__eq(nWeight(7),69)) 0
+-leafPos(6,2) -posColor(2,green) required(ezcsp__eq(nWeight(2),82)) 0
+-leafPos(6,3) -posColor(3,green) required(ezcsp__eq(nWeight(3),82)) 0
+-leafPos(6,4) -posColor(4,green) required(ezcsp__eq(nWeight(4),82)) 0
+-leafPos(6,5) -posColor(5,green) required(ezcsp__eq(nWeight(5),82)) 0
+-leafPos(6,6) -posColor(6,green) required(ezcsp__eq(nWeight(6),82)) 0
+-leafPos(6,7) -posColor(7,green) required(ezcsp__eq(nWeight(7),82)) 0
+-leafPos(5,2) -posColor(2,green) required(ezcsp__eq(nWeight(2),31)) 0
+-leafPos(5,3) -posColor(3,green) required(ezcsp__eq(nWeight(3),31)) 0
+-leafPos(5,4) -posColor(4,green) required(ezcsp__eq(nWeight(4),31)) 0
+-leafPos(5,5) -posColor(5,green) required(ezcsp__eq(nWeight(5),31)) 0
+-leafPos(5,6) -posColor(6,green) required(ezcsp__eq(nWeight(6),31)) 0
+-leafPos(5,7) -posColor(7,green) required(ezcsp__eq(nWeight(7),31)) 0
+-leafPos(4,2) -posColor(2,green) required(ezcsp__eq(nWeight(2),87)) 0
+-leafPos(4,3) -posColor(3,green) required(ezcsp__eq(nWeight(3),87)) 0
+-leafPos(4,4) -posColor(4,green) required(ezcsp__eq(nWeight(4),87)) 0
+-leafPos(4,5) -posColor(5,green) required(ezcsp__eq(nWeight(5),87)) 0
+-leafPos(4,6) -posColor(6,green) required(ezcsp__eq(nWeight(6),87)) 0
+-leafPos(4,7) -posColor(7,green) required(ezcsp__eq(nWeight(7),87)) 0
+-leafPos(3,2) -posColor(2,green) required(ezcsp__eq(nWeight(2),160)) 0
+-leafPos(3,3) -posColor(3,green) required(ezcsp__eq(nWeight(3),160)) 0
+-leafPos(3,4) -posColor(4,green) required(ezcsp__eq(nWeight(4),160)) 0
+-leafPos(3,5) -posColor(5,green) required(ezcsp__eq(nWeight(5),160)) 0
+-leafPos(3,6) -posColor(6,green) required(ezcsp__eq(nWeight(6),160)) 0
+-leafPos(3,7) -posColor(7,green) required(ezcsp__eq(nWeight(7),160)) 0
+-leafPos(2,2) -posColor(2,green) required(ezcsp__eq(nWeight(2),72)) 0
+-leafPos(2,3) -posColor(3,green) required(ezcsp__eq(nWeight(3),72)) 0
+-leafPos(2,4) -posColor(4,green) required(ezcsp__eq(nWeight(4),72)) 0
+-leafPos(2,5) -posColor(5,green) required(ezcsp__eq(nWeight(5),72)) 0
+-leafPos(2,6) -posColor(6,green) required(ezcsp__eq(nWeight(6),72)) 0
+-leafPos(2,7) -posColor(7,green) required(ezcsp__eq(nWeight(7),72)) 0
+-leafPos(1,2) -posColor(2,green) required(ezcsp__eq(nWeight(2),141)) 0
+-leafPos(1,3) -posColor(3,green) required(ezcsp__eq(nWeight(3),141)) 0
+-leafPos(1,4) -posColor(4,green) required(ezcsp__eq(nWeight(4),141)) 0
+-leafPos(1,5) -posColor(5,green) required(ezcsp__eq(nWeight(5),141)) 0
+-leafPos(1,6) -posColor(6,green) required(ezcsp__eq(nWeight(6),141)) 0
+-leafPos(1,7) -posColor(7,green) required(ezcsp__eq(nWeight(7),141)) 0
+-476 required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),9))) 0
+-477 required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),9))) 0
+-478 required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),9))) 0
+-479 required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),9))) 0
+-480 required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),9))) 0
+-481 required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),9))) 0
+-482 required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),9))) 0
+-483 required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),9))) 0
+-484 required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),9))) 0
+-485 required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),9))) 0
+-486 required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),9))) 0
+-487 required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),9))) 0
+-leafPos(5,2) required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),3))) posColor(2,green) 0
+-leafPos(5,3) required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),3))) posColor(3,green) 0
+-leafPos(5,4) required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),3))) posColor(4,green) 0
+-leafPos(5,5) required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),3))) posColor(5,green) 0
+-leafPos(5,6) required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),3))) posColor(6,green) 0
+-leafPos(5,7) required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),3))) posColor(7,green) 0
+-leafPos(8,2) required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),24))) posColor(2,green) 0
+-leafPos(8,3) required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),24))) posColor(3,green) 0
+-leafPos(8,4) required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),24))) posColor(4,green) 0
+-leafPos(8,5) required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),24))) posColor(5,green) 0
+-leafPos(8,6) required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),24))) posColor(6,green) 0
+-leafPos(8,7) required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),24))) posColor(7,green) 0
+-leafPos(1,2) required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),44))) posColor(2,green) 0
+-leafPos(1,3) required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),44))) posColor(3,green) 0
+-leafPos(1,4) required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),44))) posColor(4,green) 0
+-leafPos(1,5) required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),44))) posColor(5,green) 0
+-leafPos(1,6) required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),44))) posColor(6,green) 0
+-leafPos(1,7) required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),44))) posColor(7,green) 0
+-leafPos(3,2) required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),67))) posColor(2,green) 0
+-leafPos(3,3) required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),67))) posColor(3,green) 0
+-leafPos(3,4) required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),67))) posColor(4,green) 0
+-leafPos(3,5) required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),67))) posColor(5,green) 0
+-leafPos(3,6) required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),67))) posColor(6,green) 0
+-leafPos(3,7) required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),67))) posColor(7,green) 0
+-leafPos(4,2) required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),1))) posColor(2,green) 0
+-leafPos(4,3) required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),1))) posColor(3,green) 0
+-leafPos(4,4) required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),1))) posColor(4,green) 0
+-leafPos(4,5) required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),1))) posColor(5,green) 0
+-leafPos(4,6) required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),1))) posColor(6,green) 0
+-leafPos(4,7) required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),1))) posColor(7,green) 0
+-leafPos(6,2) required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),16))) posColor(2,green) 0
+-leafPos(6,3) required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),16))) posColor(3,green) 0
+-leafPos(6,4) required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),16))) posColor(4,green) 0
+-leafPos(6,5) required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),16))) posColor(5,green) 0
+-leafPos(6,6) required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),16))) posColor(6,green) 0
+-leafPos(6,7) required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),16))) posColor(7,green) 0
+-leafPos(8,2) required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(2,blue) 0
+-leafPos(8,3) required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(3,blue) 0
+-leafPos(8,4) required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(4,blue) 0
+-leafPos(8,5) required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(5,blue) 0
+-leafPos(8,6) required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(6,blue) 0
+-leafPos(8,7) required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(84,24),24))) posColor(7,blue) 0
+-leafPos(5,2) required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(2,blue) 0
+-leafPos(5,3) required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(3,blue) 0
+-leafPos(5,4) required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(4,blue) 0
+-leafPos(5,5) required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(5,blue) 0
+-leafPos(5,6) required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(6,blue) 0
+-leafPos(5,7) required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(28,3),3))) posColor(7,blue) 0
+-leafPos(2,2) required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(2,blue) 0
+-leafPos(2,3) required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(3,blue) 0
+-leafPos(2,4) required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(4,blue) 0
+-leafPos(2,5) required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(5,blue) 0
+-leafPos(2,6) required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(6,blue) 0
+-leafPos(2,7) required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(63,9),9))) posColor(7,blue) 0
+-leafPos(7,2) required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(2,red) 0
+-leafPos(7,3) required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(3,red) 0
+-leafPos(7,4) required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(4,red) 0
+-leafPos(7,5) required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(5,red) 0
+-leafPos(7,6) required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(6,red) 0
+-leafPos(7,7) required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(9,60),9))) posColor(7,red) 0
+-leafPos(6,2) required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(2,red) 0
+-leafPos(6,3) required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(3,red) 0
+-leafPos(6,4) required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(4,red) 0
+-leafPos(6,5) required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(5,red) 0
+-leafPos(6,6) required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(6,red) 0
+-leafPos(6,7) required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(16,66),16))) posColor(7,red) 0
+-leafPos(4,2) required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(2,red) 0
+-leafPos(4,3) required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(3,red) 0
+-leafPos(4,4) required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(4,red) 0
+-leafPos(4,5) required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(5,red) 0
+-leafPos(4,6) required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(6,red) 0
+-leafPos(4,7) required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(1,86),1))) posColor(7,red) 0
+-leafPos(3,2) required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(2,red) 0
+-leafPos(3,3) required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(3,red) 0
+-leafPos(3,4) required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(4,red) 0
+-leafPos(3,5) required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(5,red) 0
+-leafPos(3,6) required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(6,red) 0
+-leafPos(3,7) required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(67,93),67))) posColor(7,red) 0
+-leafPos(1,2) required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(2,red) 0
+-leafPos(1,3) required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(3,red) 0
+-leafPos(1,4) required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(4,red) 0
+-leafPos(1,5) required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(5,red) 0
+-leafPos(1,6) required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(6,red) 0
+-leafPos(1,7) required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(44,97),44))) posColor(7,red) 0
+-leafPos(1,7) leafPos(1,7) 0
+-leafPos(1,6) leafPos(1,6) 0
+-leafPos(1,5) leafPos(1,5) 0
+-leafPos(1,4) leafPos(1,4) 0
+-leafPos(1,3) leafPos(1,3) 0
+-leafPos(1,2) leafPos(1,2) 0
+-leafPos(1,1) leafPos(1,1) 0
+-leafPos(1,0) leafPos(1,0) 0
+-68 leafPos(1,7) leafPos(1,6) leafPos(1,5) leafPos(1,4) leafPos(1,3) leafPos(1,2) leafPos(1,1) leafPos(1,0) 0
+-leafPos(2,7) leafPos(2,7) 0
+-leafPos(2,6) leafPos(2,6) 0
+-leafPos(2,5) leafPos(2,5) 0
+-leafPos(2,4) leafPos(2,4) 0
+-leafPos(2,3) leafPos(2,3) 0
+-leafPos(2,2) leafPos(2,2) 0
+-leafPos(2,1) leafPos(2,1) 0
+-leafPos(2,0) leafPos(2,0) 0
+-79 leafPos(2,7) leafPos(2,6) leafPos(2,5) leafPos(2,4) leafPos(2,3) leafPos(2,2) leafPos(2,1) leafPos(2,0) 0
+-leafPos(3,7) leafPos(3,7) 0
+-leafPos(3,6) leafPos(3,6) 0
+-leafPos(3,5) leafPos(3,5) 0
+-leafPos(3,4) leafPos(3,4) 0
+-leafPos(3,3) leafPos(3,3) 0
+-leafPos(3,2) leafPos(3,2) 0
+-leafPos(3,1) leafPos(3,1) 0
+-leafPos(3,0) leafPos(3,0) 0
+-89 leafPos(3,7) leafPos(3,6) leafPos(3,5) leafPos(3,4) leafPos(3,3) leafPos(3,2) leafPos(3,1) leafPos(3,0) 0
+-leafPos(4,7) leafPos(4,7) 0
+-leafPos(4,6) leafPos(4,6) 0
+-leafPos(4,5) leafPos(4,5) 0
+-leafPos(4,4) leafPos(4,4) 0
+-leafPos(4,3) leafPos(4,3) 0
+-leafPos(4,2) leafPos(4,2) 0
+-leafPos(4,1) leafPos(4,1) 0
+-leafPos(4,0) leafPos(4,0) 0
+-99 leafPos(4,7) leafPos(4,6) leafPos(4,5) leafPos(4,4) leafPos(4,3) leafPos(4,2) leafPos(4,1) leafPos(4,0) 0
+-leafPos(5,7) leafPos(5,7) 0
+-leafPos(5,6) leafPos(5,6) 0
+-leafPos(5,5) leafPos(5,5) 0
+-leafPos(5,4) leafPos(5,4) 0
+-leafPos(5,3) leafPos(5,3) 0
+-leafPos(5,2) leafPos(5,2) 0
+-leafPos(5,1) leafPos(5,1) 0
+-leafPos(5,0) leafPos(5,0) 0
+-109 leafPos(5,7) leafPos(5,6) leafPos(5,5) leafPos(5,4) leafPos(5,3) leafPos(5,2) leafPos(5,1) leafPos(5,0) 0
+-leafPos(6,7) leafPos(6,7) 0
+-leafPos(6,6) leafPos(6,6) 0
+-leafPos(6,5) leafPos(6,5) 0
+-leafPos(6,4) leafPos(6,4) 0
+-leafPos(6,3) leafPos(6,3) 0
+-leafPos(6,2) leafPos(6,2) 0
+-leafPos(6,1) leafPos(6,1) 0
+-leafPos(6,0) leafPos(6,0) 0
+-119 leafPos(6,7) leafPos(6,6) leafPos(6,5) leafPos(6,4) leafPos(6,3) leafPos(6,2) leafPos(6,1) leafPos(6,0) 0
+-leafPos(7,7) leafPos(7,7) 0
+-leafPos(7,6) leafPos(7,6) 0
+-leafPos(7,5) leafPos(7,5) 0
+-leafPos(7,4) leafPos(7,4) 0
+-leafPos(7,3) leafPos(7,3) 0
+-leafPos(7,2) leafPos(7,2) 0
+-leafPos(7,1) leafPos(7,1) 0
+-leafPos(7,0) leafPos(7,0) 0
+-129 leafPos(7,7) leafPos(7,6) leafPos(7,5) leafPos(7,4) leafPos(7,3) leafPos(7,2) leafPos(7,1) leafPos(7,0) 0
+-leafPos(8,7) leafPos(8,7) 0
+-leafPos(8,6) leafPos(8,6) 0
+-leafPos(8,5) leafPos(8,5) 0
+-leafPos(8,4) leafPos(8,4) 0
+-leafPos(8,3) leafPos(8,3) 0
+-leafPos(8,2) leafPos(8,2) 0
+-leafPos(8,1) leafPos(8,1) 0
+-leafPos(8,0) leafPos(8,0) 0
+-139 leafPos(8,7) leafPos(8,6) leafPos(8,5) leafPos(8,4) leafPos(8,3) leafPos(8,2) leafPos(8,1) leafPos(8,0) 0
+-414 leafPos(7,1) 0
+-414 leafPos(8,0) 0
+-leafPos(7,1) -leafPos(8,0) 414 0
+-415 leafPos(6,1) 0
+-415 leafPos(8,0) 0
+-leafPos(6,1) -leafPos(8,0) 415 0
+-416 leafPos(5,1) 0
+-416 leafPos(8,0) 0
+-leafPos(5,1) -leafPos(8,0) 416 0
+-417 leafPos(2,1) 0
+-417 leafPos(8,0) 0
+-leafPos(2,1) -leafPos(8,0) 417 0
+-418 leafPos(3,0) 0
+-418 leafPos(7,1) 0
+-leafPos(3,0) -leafPos(7,1) 418 0
+-419 leafPos(3,0) 0
+-419 leafPos(6,1) 0
+-leafPos(3,0) -leafPos(6,1) 419 0
+-420 leafPos(3,0) 0
+-420 leafPos(5,1) 0
+-leafPos(3,0) -leafPos(5,1) 420 0
+-421 leafPos(2,1) 0
+-421 leafPos(3,0) 0
+-leafPos(2,1) -leafPos(3,0) 421 0
+-422 leafPos(2,0) 0
+-422 leafPos(7,1) 0
+-leafPos(2,0) -leafPos(7,1) 422 0
+-423 leafPos(2,0) 0
+-423 leafPos(5,1) 0
+-leafPos(2,0) -leafPos(5,1) 423 0
+-424 leafPos(1,0) 0
+-424 leafPos(5,1) 0
+-leafPos(1,0) -leafPos(5,1) 424 0
+-posColor(1,green) 414 415 416 417 418 419 420 421 422 423 424 0
+-425 leafPos(8,1) 0
+-425 -posColor(1,green) 0
+-leafPos(8,1) 425 posColor(1,green) 0
+-426 leafPos(5,1) 0
+-426 -posColor(1,green) 0
+-leafPos(5,1) 426 posColor(1,green) 0
+-427 leafPos(2,1) 0
+-427 -posColor(1,green) 0
+-leafPos(2,1) 427 posColor(1,green) 0
+-posColor(1,blue) 425 426 427 0
+-428 leafPos(7,1) 0
+-428 -posColor(1,green) 0
+-leafPos(7,1) 428 posColor(1,green) 0
+-429 leafPos(6,1) 0
+-429 -posColor(1,green) 0
+-leafPos(6,1) 429 posColor(1,green) 0
+-430 leafPos(4,1) 0
+-430 -posColor(1,green) 0
+-leafPos(4,1) 430 posColor(1,green) 0
+-431 leafPos(3,1) 0
+-431 -posColor(1,green) 0
+-leafPos(3,1) 431 posColor(1,green) 0
+-432 leafPos(1,1) 0
+-432 -posColor(1,green) 0
+-leafPos(1,1) 432 posColor(1,green) 0
+-posColor(1,red) 428 429 430 431 432 0
+-posColor(7,green) posColor(7,green) 0
+-posColor(7,blue) posColor(7,blue) 0
+-posColor(7,red) posColor(7,red) 0
+-147 posColor(7,green) posColor(7,blue) posColor(7,red) 0
+-posColor(6,green) posColor(6,green) 0
+-posColor(6,blue) posColor(6,blue) 0
+-posColor(6,red) posColor(6,red) 0
+-152 posColor(6,green) posColor(6,blue) posColor(6,red) 0
+-posColor(5,green) posColor(5,green) 0
+-posColor(5,blue) posColor(5,blue) 0
+-posColor(5,red) posColor(5,red) 0
+-157 posColor(5,green) posColor(5,blue) posColor(5,red) 0
+-posColor(4,green) posColor(4,green) 0
+-posColor(4,blue) posColor(4,blue) 0
+-posColor(4,red) posColor(4,red) 0
+-162 posColor(4,green) posColor(4,blue) posColor(4,red) 0
+-posColor(3,green) posColor(3,green) 0
+-posColor(3,blue) posColor(3,blue) 0
+-posColor(3,red) posColor(3,red) 0
+-167 posColor(3,green) posColor(3,blue) posColor(3,red) 0
+-posColor(2,green) posColor(2,green) 0
+-posColor(2,blue) posColor(2,blue) 0
+-posColor(2,red) posColor(2,red) 0
+-172 posColor(2,green) posColor(2,blue) posColor(2,red) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,2) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(2,green) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,3) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(3,green) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,4) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(4,green) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,5) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(5,green) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,6) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(6,green) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,7) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(7,green) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,2) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(2,green) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,3) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(3,green) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,4) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(4,green) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,5) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(5,green) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,6) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(6,green) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,7) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(7,green) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,2) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(2,green) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,3) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(3,green) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,4) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(4,green) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,5) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(5,green) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,6) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(6,green) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,7) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(7,green) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,2) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(2,green) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,3) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(3,green) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,4) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(4,green) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,5) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(5,green) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,6) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(6,green) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,7) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(7,green) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,2) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(2,green) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,3) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(3,green) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,4) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(4,green) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,5) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(5,green) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,6) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(6,green) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,7) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(7,green) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,2) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(2,green) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,3) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(3,green) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,4) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(4,green) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,5) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(5,green) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,6) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(6,green) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,7) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(7,green) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,2) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(2,green) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,3) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(3,green) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,4) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(4,green) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,5) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(5,green) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,6) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(6,green) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,7) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(7,green) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,2) 0
+-required(ezcsp__leq(nWeight(1),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(2,green) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,3) 0
+-required(ezcsp__leq(nWeight(2),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(3,green) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,4) 0
+-required(ezcsp__leq(nWeight(3),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(4,green) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,5) 0
+-required(ezcsp__leq(nWeight(4),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(5,green) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,6) 0
+-required(ezcsp__leq(nWeight(5),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(6,green) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,7) 0
+-required(ezcsp__leq(nWeight(6),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(7,green) 0
+-433 leafPos(8,1) 0
+-433 posColor(1,green) 0
+-leafPos(8,1) -posColor(1,green) 433 0
+-434 leafPos(8,1) 0
+-434 leafPos(8,0) 0
+-434 -posColor(1,green) 0
+-leafPos(8,1) -leafPos(8,0) 434 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),108)) 433 434 0
+-required(ezcsp__eq(nWeight(1),69)) leafPos(7,1) 0
+-required(ezcsp__eq(nWeight(1),69)) posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),82)) leafPos(6,1) 0
+-required(ezcsp__eq(nWeight(1),82)) posColor(1,green) 0
+-435 leafPos(5,1) 0
+-435 posColor(1,green) 0
+-leafPos(5,1) -posColor(1,green) 435 0
+-436 leafPos(5,1) 0
+-436 leafPos(5,0) 0
+-436 -posColor(1,green) 0
+-leafPos(5,1) -leafPos(5,0) 436 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),31)) 435 436 0
+-437 leafPos(4,1) 0
+-437 posColor(1,green) 0
+-leafPos(4,1) -posColor(1,green) 437 0
+-438 leafPos(5,1) 0
+-438 leafPos(8,0) 0
+-438 -posColor(1,green) 0
+-leafPos(5,1) -leafPos(8,0) 438 posColor(1,green) 0
+-439 leafPos(2,0) 0
+-439 leafPos(8,1) 0
+-439 -posColor(1,green) 0
+-leafPos(2,0) -leafPos(8,1) 439 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),87)) 437 438 439 0
+-required(ezcsp__eq(nWeight(1),160)) leafPos(3,1) 0
+-required(ezcsp__eq(nWeight(1),160)) posColor(1,green) 0
+-440 leafPos(2,1) 0
+-440 posColor(1,green) 0
+-leafPos(2,1) -posColor(1,green) 440 0
+-441 leafPos(1,1) 0
+-441 leafPos(5,0) 0
+-441 -posColor(1,green) 0
+-leafPos(1,1) -leafPos(5,0) 441 posColor(1,green) 0
+-442 leafPos(2,1) 0
+-442 leafPos(2,0) 0
+-442 -posColor(1,green) 0
+-leafPos(2,1) -leafPos(2,0) 442 posColor(1,green) 0
+-443 leafPos(2,0) 0
+-443 leafPos(7,1) 0
+-443 -posColor(1,green) 0
+-leafPos(2,0) -leafPos(7,1) 443 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),72)) 440 441 442 443 0
+-required(ezcsp__eq(nWeight(1),141)) leafPos(1,1) 0
+-required(ezcsp__eq(nWeight(1),141)) posColor(1,green) 0
+-444 leafPos(2,1) 0
+-444 leafPos(8,0) 0
+-444 -posColor(1,green) 0
+-leafPos(2,1) -leafPos(8,0) 444 posColor(1,green) 0
+-445 leafPos(7,1) 0
+-445 leafPos(8,0) 0
+-445 -posColor(1,green) 0
+-leafPos(7,1) -leafPos(8,0) 445 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),93)) 444 445 0
+-required(ezcsp__eq(nWeight(1),128)) leafPos(1,1) 0
+-required(ezcsp__eq(nWeight(1),128)) leafPos(8,0) 0
+-required(ezcsp__eq(nWeight(1),128)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),151)) leafPos(3,1) 0
+-required(ezcsp__eq(nWeight(1),151)) leafPos(8,0) 0
+-required(ezcsp__eq(nWeight(1),151)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),85)) leafPos(4,1) 0
+-required(ezcsp__eq(nWeight(1),85)) leafPos(8,0) 0
+-required(ezcsp__eq(nWeight(1),85)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),100)) leafPos(6,1) 0
+-required(ezcsp__eq(nWeight(1),100)) leafPos(8,0) 0
+-required(ezcsp__eq(nWeight(1),100)) -posColor(1,green) 0
+-446 leafPos(2,1) 0
+-446 leafPos(7,0) 0
+-446 -posColor(1,green) 0
+-leafPos(2,1) -leafPos(7,0) 446 posColor(1,green) 0
+-447 leafPos(7,1) 0
+-447 leafPos(7,0) 0
+-447 -posColor(1,green) 0
+-leafPos(7,1) -leafPos(7,0) 447 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),18)) 446 447 0
+-required(ezcsp__eq(nWeight(1),12)) leafPos(5,1) 0
+-required(ezcsp__eq(nWeight(1),12)) leafPos(7,0) 0
+-required(ezcsp__eq(nWeight(1),12)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),33)) leafPos(7,0) 0
+-required(ezcsp__eq(nWeight(1),33)) leafPos(8,1) 0
+-required(ezcsp__eq(nWeight(1),33)) -posColor(1,green) 0
+-448 leafPos(1,1) 0
+-448 leafPos(7,0) 0
+-448 -posColor(1,green) 0
+-leafPos(1,1) -leafPos(7,0) 448 posColor(1,green) 0
+-449 leafPos(1,0) 0
+-449 leafPos(2,1) 0
+-449 -posColor(1,green) 0
+-leafPos(1,0) -leafPos(2,1) 449 posColor(1,green) 0
+-450 leafPos(1,0) 0
+-450 leafPos(7,1) 0
+-450 -posColor(1,green) 0
+-leafPos(1,0) -leafPos(7,1) 450 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),53)) 448 449 450 0
+-451 leafPos(3,1) 0
+-451 leafPos(7,0) 0
+-451 -posColor(1,green) 0
+-leafPos(3,1) -leafPos(7,0) 451 posColor(1,green) 0
+-452 leafPos(2,1) 0
+-452 leafPos(3,0) 0
+-452 -posColor(1,green) 0
+-leafPos(2,1) -leafPos(3,0) 452 posColor(1,green) 0
+-453 leafPos(3,0) 0
+-453 leafPos(7,1) 0
+-453 -posColor(1,green) 0
+-leafPos(3,0) -leafPos(7,1) 453 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),76)) 451 452 453 0
+-454 leafPos(4,1) 0
+-454 leafPos(7,0) 0
+-454 -posColor(1,green) 0
+-leafPos(4,1) -leafPos(7,0) 454 posColor(1,green) 0
+-455 leafPos(2,1) 0
+-455 leafPos(4,0) 0
+-455 -posColor(1,green) 0
+-leafPos(2,1) -leafPos(4,0) 455 posColor(1,green) 0
+-456 leafPos(4,0) 0
+-456 leafPos(7,1) 0
+-456 -posColor(1,green) 0
+-leafPos(4,0) -leafPos(7,1) 456 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),10)) 454 455 456 0
+-457 leafPos(6,1) 0
+-457 leafPos(7,0) 0
+-457 -posColor(1,green) 0
+-leafPos(6,1) -leafPos(7,0) 457 posColor(1,green) 0
+-458 leafPos(2,1) 0
+-458 leafPos(6,0) 0
+-458 -posColor(1,green) 0
+-leafPos(2,1) -leafPos(6,0) 458 posColor(1,green) 0
+-459 leafPos(6,0) 0
+-459 leafPos(7,1) 0
+-459 -posColor(1,green) 0
+-leafPos(6,0) -leafPos(7,1) 459 posColor(1,green) 0
+-460 leafPos(4,0) 0
+-460 leafPos(8,1) 0
+-460 -posColor(1,green) 0
+-leafPos(4,0) -leafPos(8,1) 460 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),25)) 457 458 459 460 0
+-required(ezcsp__eq(nWeight(1),19)) leafPos(5,1) 0
+-required(ezcsp__eq(nWeight(1),19)) leafPos(6,0) 0
+-required(ezcsp__eq(nWeight(1),19)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),40)) leafPos(6,0) 0
+-required(ezcsp__eq(nWeight(1),40)) leafPos(8,1) 0
+-required(ezcsp__eq(nWeight(1),40)) -posColor(1,green) 0
+-461 leafPos(1,1) 0
+-461 leafPos(6,0) 0
+-461 -posColor(1,green) 0
+-leafPos(1,1) -leafPos(6,0) 461 posColor(1,green) 0
+-462 leafPos(1,0) 0
+-462 leafPos(6,1) 0
+-462 -posColor(1,green) 0
+-leafPos(1,0) -leafPos(6,1) 462 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),60)) 461 462 0
+-463 leafPos(3,1) 0
+-463 leafPos(6,0) 0
+-463 -posColor(1,green) 0
+-leafPos(3,1) -leafPos(6,0) 463 posColor(1,green) 0
+-464 leafPos(3,0) 0
+-464 leafPos(6,1) 0
+-464 -posColor(1,green) 0
+-leafPos(3,0) -leafPos(6,1) 464 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),83)) 463 464 0
+-465 leafPos(4,1) 0
+-465 leafPos(6,0) 0
+-465 -posColor(1,green) 0
+-leafPos(4,1) -leafPos(6,0) 465 posColor(1,green) 0
+-466 leafPos(4,0) 0
+-466 leafPos(6,1) 0
+-466 -posColor(1,green) 0
+-leafPos(4,0) -leafPos(6,1) 466 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),17)) 465 466 0
+-required(ezcsp__eq(nWeight(1),32)) leafPos(6,1) 0
+-required(ezcsp__eq(nWeight(1),32)) leafPos(6,0) 0
+-required(ezcsp__eq(nWeight(1),32)) -posColor(1,green) 0
+-467 leafPos(2,1) 0
+-467 leafPos(5,0) 0
+-467 -posColor(1,green) 0
+-leafPos(2,1) -leafPos(5,0) 467 posColor(1,green) 0
+-468 leafPos(5,0) 0
+-468 leafPos(7,1) 0
+-468 -posColor(1,green) 0
+-leafPos(5,0) -leafPos(7,1) 468 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),37)) 467 468 0
+-required(ezcsp__eq(nWeight(1),52)) leafPos(5,0) 0
+-required(ezcsp__eq(nWeight(1),52)) leafPos(8,1) 0
+-required(ezcsp__eq(nWeight(1),52)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),95)) leafPos(3,1) 0
+-required(ezcsp__eq(nWeight(1),95)) leafPos(5,0) 0
+-required(ezcsp__eq(nWeight(1),95)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),29)) leafPos(4,1) 0
+-required(ezcsp__eq(nWeight(1),29)) leafPos(5,0) 0
+-required(ezcsp__eq(nWeight(1),29)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),44)) leafPos(5,0) 0
+-required(ezcsp__eq(nWeight(1),44)) leafPos(6,1) 0
+-required(ezcsp__eq(nWeight(1),44)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),4)) leafPos(4,0) 0
+-required(ezcsp__eq(nWeight(1),4)) leafPos(5,1) 0
+-required(ezcsp__eq(nWeight(1),4)) -posColor(1,green) 0
+-469 leafPos(1,1) 0
+-469 leafPos(4,0) 0
+-469 -posColor(1,green) 0
+-leafPos(1,1) -leafPos(4,0) 469 posColor(1,green) 0
+-470 leafPos(1,0) 0
+-470 leafPos(4,1) 0
+-470 -posColor(1,green) 0
+-leafPos(1,0) -leafPos(4,1) 470 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),45)) 469 470 0
+-471 leafPos(3,1) 0
+-471 leafPos(4,0) 0
+-471 -posColor(1,green) 0
+-leafPos(3,1) -leafPos(4,0) 471 posColor(1,green) 0
+-472 leafPos(3,0) 0
+-472 leafPos(4,1) 0
+-472 -posColor(1,green) 0
+-leafPos(3,0) -leafPos(4,1) 472 posColor(1,green) 0
+-473 leafPos(1,0) 0
+-473 leafPos(8,1) 0
+-473 -posColor(1,green) 0
+-leafPos(1,0) -leafPos(8,1) 473 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),68)) 471 472 473 0
+-required(ezcsp__eq(nWeight(1),2)) leafPos(4,1) 0
+-required(ezcsp__eq(nWeight(1),2)) leafPos(4,0) 0
+-required(ezcsp__eq(nWeight(1),2)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),70)) leafPos(3,0) 0
+-required(ezcsp__eq(nWeight(1),70)) leafPos(5,1) 0
+-required(ezcsp__eq(nWeight(1),70)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),91)) leafPos(3,0) 0
+-required(ezcsp__eq(nWeight(1),91)) leafPos(8,1) 0
+-required(ezcsp__eq(nWeight(1),91)) -posColor(1,green) 0
+-474 leafPos(1,1) 0
+-474 leafPos(3,0) 0
+-474 -posColor(1,green) 0
+-leafPos(1,1) -leafPos(3,0) 474 posColor(1,green) 0
+-475 leafPos(1,0) 0
+-475 leafPos(3,1) 0
+-475 -posColor(1,green) 0
+-leafPos(1,0) -leafPos(3,1) 475 posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),111)) 474 475 0
+-required(ezcsp__eq(nWeight(1),134)) leafPos(3,1) 0
+-required(ezcsp__eq(nWeight(1),134)) leafPos(3,0) 0
+-required(ezcsp__eq(nWeight(1),134)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),66)) leafPos(2,0) 0
+-required(ezcsp__eq(nWeight(1),66)) leafPos(5,1) 0
+-required(ezcsp__eq(nWeight(1),66)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),107)) leafPos(1,1) 0
+-required(ezcsp__eq(nWeight(1),107)) leafPos(2,0) 0
+-required(ezcsp__eq(nWeight(1),107)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),130)) leafPos(2,0) 0
+-required(ezcsp__eq(nWeight(1),130)) leafPos(3,1) 0
+-required(ezcsp__eq(nWeight(1),130)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),64)) leafPos(2,0) 0
+-required(ezcsp__eq(nWeight(1),64)) leafPos(4,1) 0
+-required(ezcsp__eq(nWeight(1),64)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),79)) leafPos(2,0) 0
+-required(ezcsp__eq(nWeight(1),79)) leafPos(6,1) 0
+-required(ezcsp__eq(nWeight(1),79)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),47)) leafPos(1,0) 0
+-required(ezcsp__eq(nWeight(1),47)) leafPos(5,1) 0
+-required(ezcsp__eq(nWeight(1),47)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(1),88)) leafPos(1,1) 0
+-required(ezcsp__eq(nWeight(1),88)) leafPos(1,0) 0
+-required(ezcsp__eq(nWeight(1),88)) -posColor(1,green) 0
+-required(ezcsp__eq(nWeight(2),108)) leafPos(8,2) 0
+-required(ezcsp__eq(nWeight(2),108)) posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),108)) leafPos(8,3) 0
+-required(ezcsp__eq(nWeight(3),108)) posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),108)) leafPos(8,4) 0
+-required(ezcsp__eq(nWeight(4),108)) posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),108)) leafPos(8,5) 0
+-required(ezcsp__eq(nWeight(5),108)) posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),108)) leafPos(8,6) 0
+-required(ezcsp__eq(nWeight(6),108)) posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),108)) leafPos(8,7) 0
+-required(ezcsp__eq(nWeight(7),108)) posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),69)) leafPos(7,2) 0
+-required(ezcsp__eq(nWeight(2),69)) posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),69)) leafPos(7,3) 0
+-required(ezcsp__eq(nWeight(3),69)) posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),69)) leafPos(7,4) 0
+-required(ezcsp__eq(nWeight(4),69)) posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),69)) leafPos(7,5) 0
+-required(ezcsp__eq(nWeight(5),69)) posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),69)) leafPos(7,6) 0
+-required(ezcsp__eq(nWeight(6),69)) posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),69)) leafPos(7,7) 0
+-required(ezcsp__eq(nWeight(7),69)) posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),82)) leafPos(6,2) 0
+-required(ezcsp__eq(nWeight(2),82)) posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),82)) leafPos(6,3) 0
+-required(ezcsp__eq(nWeight(3),82)) posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),82)) leafPos(6,4) 0
+-required(ezcsp__eq(nWeight(4),82)) posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),82)) leafPos(6,5) 0
+-required(ezcsp__eq(nWeight(5),82)) posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),82)) leafPos(6,6) 0
+-required(ezcsp__eq(nWeight(6),82)) posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),82)) leafPos(6,7) 0
+-required(ezcsp__eq(nWeight(7),82)) posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),31)) leafPos(5,2) 0
+-required(ezcsp__eq(nWeight(2),31)) posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),31)) leafPos(5,3) 0
+-required(ezcsp__eq(nWeight(3),31)) posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),31)) leafPos(5,4) 0
+-required(ezcsp__eq(nWeight(4),31)) posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),31)) leafPos(5,5) 0
+-required(ezcsp__eq(nWeight(5),31)) posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),31)) leafPos(5,6) 0
+-required(ezcsp__eq(nWeight(6),31)) posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),31)) leafPos(5,7) 0
+-required(ezcsp__eq(nWeight(7),31)) posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),87)) leafPos(4,2) 0
+-required(ezcsp__eq(nWeight(2),87)) posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),87)) leafPos(4,3) 0
+-required(ezcsp__eq(nWeight(3),87)) posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),87)) leafPos(4,4) 0
+-required(ezcsp__eq(nWeight(4),87)) posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),87)) leafPos(4,5) 0
+-required(ezcsp__eq(nWeight(5),87)) posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),87)) leafPos(4,6) 0
+-required(ezcsp__eq(nWeight(6),87)) posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),87)) leafPos(4,7) 0
+-required(ezcsp__eq(nWeight(7),87)) posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),160)) leafPos(3,2) 0
+-required(ezcsp__eq(nWeight(2),160)) posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),160)) leafPos(3,3) 0
+-required(ezcsp__eq(nWeight(3),160)) posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),160)) leafPos(3,4) 0
+-required(ezcsp__eq(nWeight(4),160)) posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),160)) leafPos(3,5) 0
+-required(ezcsp__eq(nWeight(5),160)) posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),160)) leafPos(3,6) 0
+-required(ezcsp__eq(nWeight(6),160)) posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),160)) leafPos(3,7) 0
+-required(ezcsp__eq(nWeight(7),160)) posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),72)) leafPos(2,2) 0
+-required(ezcsp__eq(nWeight(2),72)) posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),72)) leafPos(2,3) 0
+-required(ezcsp__eq(nWeight(3),72)) posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),72)) leafPos(2,4) 0
+-required(ezcsp__eq(nWeight(4),72)) posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),72)) leafPos(2,5) 0
+-required(ezcsp__eq(nWeight(5),72)) posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),72)) leafPos(2,6) 0
+-required(ezcsp__eq(nWeight(6),72)) posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),72)) leafPos(2,7) 0
+-required(ezcsp__eq(nWeight(7),72)) posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),141)) leafPos(1,2) 0
+-required(ezcsp__eq(nWeight(2),141)) posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),141)) leafPos(1,3) 0
+-required(ezcsp__eq(nWeight(3),141)) posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),141)) leafPos(1,4) 0
+-required(ezcsp__eq(nWeight(4),141)) posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),141)) leafPos(1,5) 0
+-required(ezcsp__eq(nWeight(5),141)) posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),141)) leafPos(1,6) 0
+-required(ezcsp__eq(nWeight(6),141)) posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),141)) leafPos(1,7) 0
+-required(ezcsp__eq(nWeight(7),141)) posColor(7,green) 0
+-476 leafPos(2,2) 0
+-476 -posColor(2,green) 0
+-leafPos(2,2) 476 posColor(2,green) 0
+-477 leafPos(7,2) 0
+-477 -posColor(2,green) 0
+-leafPos(7,2) 477 posColor(2,green) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),9))) 476 477 0
+-478 leafPos(2,3) 0
+-478 -posColor(3,green) 0
+-leafPos(2,3) 478 posColor(3,green) 0
+-479 leafPos(7,3) 0
+-479 -posColor(3,green) 0
+-leafPos(7,3) 479 posColor(3,green) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),9))) 478 479 0
+-480 leafPos(2,4) 0
+-480 -posColor(4,green) 0
+-leafPos(2,4) 480 posColor(4,green) 0
+-481 leafPos(7,4) 0
+-481 -posColor(4,green) 0
+-leafPos(7,4) 481 posColor(4,green) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),9))) 480 481 0
+-482 leafPos(2,5) 0
+-482 -posColor(5,green) 0
+-leafPos(2,5) 482 posColor(5,green) 0
+-483 leafPos(7,5) 0
+-483 -posColor(5,green) 0
+-leafPos(7,5) 483 posColor(5,green) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),9))) 482 483 0
+-484 leafPos(2,6) 0
+-484 -posColor(6,green) 0
+-leafPos(2,6) 484 posColor(6,green) 0
+-485 leafPos(7,6) 0
+-485 -posColor(6,green) 0
+-leafPos(7,6) 485 posColor(6,green) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),9))) 484 485 0
+-486 leafPos(2,7) 0
+-486 -posColor(7,green) 0
+-leafPos(2,7) 486 posColor(7,green) 0
+-487 leafPos(7,7) 0
+-487 -posColor(7,green) 0
+-leafPos(7,7) 487 posColor(7,green) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),9))) 486 487 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),3))) leafPos(5,2) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),3))) -posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),3))) leafPos(5,3) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),3))) -posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),3))) leafPos(5,4) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),3))) -posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),3))) leafPos(5,5) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),3))) -posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),3))) leafPos(5,6) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),3))) -posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),3))) leafPos(5,7) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),3))) -posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),24))) leafPos(8,2) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),24))) -posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),24))) leafPos(8,3) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),24))) -posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),24))) leafPos(8,4) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),24))) -posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),24))) leafPos(8,5) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),24))) -posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),24))) leafPos(8,6) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),24))) -posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),24))) leafPos(8,7) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),24))) -posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),44))) leafPos(1,2) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),44))) -posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),44))) leafPos(1,3) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),44))) -posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),44))) leafPos(1,4) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),44))) -posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),44))) leafPos(1,5) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),44))) -posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),44))) leafPos(1,6) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),44))) -posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),44))) leafPos(1,7) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),44))) -posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),67))) leafPos(3,2) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),67))) -posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),67))) leafPos(3,3) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),67))) -posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),67))) leafPos(3,4) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),67))) -posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),67))) leafPos(3,5) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),67))) -posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),67))) leafPos(3,6) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),67))) -posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),67))) leafPos(3,7) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),67))) -posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),1))) leafPos(4,2) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),1))) -posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),1))) leafPos(4,3) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),1))) -posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),1))) leafPos(4,4) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),1))) -posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),1))) leafPos(4,5) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),1))) -posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),1))) leafPos(4,6) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),1))) -posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),1))) leafPos(4,7) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),1))) -posColor(7,green) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),16))) leafPos(6,2) 0
+-required(ezcsp__eq(nWeight(2),ezcsp__pl(nWeight(1),16))) -posColor(2,green) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),16))) leafPos(6,3) 0
+-required(ezcsp__eq(nWeight(3),ezcsp__pl(nWeight(2),16))) -posColor(3,green) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),16))) leafPos(6,4) 0
+-required(ezcsp__eq(nWeight(4),ezcsp__pl(nWeight(3),16))) -posColor(4,green) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),16))) leafPos(6,5) 0
+-required(ezcsp__eq(nWeight(5),ezcsp__pl(nWeight(4),16))) -posColor(5,green) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),16))) leafPos(6,6) 0
+-required(ezcsp__eq(nWeight(6),ezcsp__pl(nWeight(5),16))) -posColor(6,green) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),16))) leafPos(6,7) 0
+-required(ezcsp__eq(nWeight(7),ezcsp__pl(nWeight(6),16))) -posColor(7,green) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,2) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(2,blue) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,3) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(3,blue) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,4) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(4,blue) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,5) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(5,blue) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,6) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(6,blue) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(84,24),24))) leafPos(8,7) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(84,24),24))) -posColor(7,blue) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,2) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(2,blue) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,3) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(3,blue) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,4) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(4,blue) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,5) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(5,blue) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,6) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(6,blue) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(28,3),3))) leafPos(5,7) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(28,3),3))) -posColor(7,blue) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,2) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(2,blue) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,3) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(3,blue) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,4) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(4,blue) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,5) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(5,blue) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,6) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(6,blue) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(63,9),9))) leafPos(2,7) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(63,9),9))) -posColor(7,blue) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,2) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(2,red) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,3) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(3,red) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,4) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(4,red) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,5) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(5,red) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,6) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(6,red) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(9,60),9))) leafPos(7,7) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(9,60),9))) -posColor(7,red) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,2) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(2,red) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,3) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(3,red) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,4) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(4,red) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,5) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(5,red) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,6) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(6,red) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(16,66),16))) leafPos(6,7) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(16,66),16))) -posColor(7,red) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,2) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(2,red) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,3) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(3,red) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,4) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(4,red) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,5) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(5,red) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,6) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(6,red) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(1,86),1))) leafPos(4,7) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(1,86),1))) -posColor(7,red) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,2) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(2,red) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,3) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(3,red) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,4) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(4,red) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,5) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(5,red) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,6) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(6,red) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(67,93),67))) leafPos(3,7) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(67,93),67))) -posColor(7,red) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,2) 0
+-required(ezcsp__gt(nWeight(1),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(2,red) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,3) 0
+-required(ezcsp__gt(nWeight(2),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(3,red) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,4) 0
+-required(ezcsp__gt(nWeight(3),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(4,red) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,5) 0
+-required(ezcsp__gt(nWeight(4),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(5,red) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,6) 0
+-required(ezcsp__gt(nWeight(5),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(6,red) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(44,97),44))) leafPos(1,7) 0
+-required(ezcsp__gt(nWeight(6),ezcsp__mn(ezcsp__pl(44,97),44))) -posColor(7,red) 0
+color(red) 0
+color(blue) 0
+color(green) 0
+location(0) 0
+leafWeightCardinality(1,44,97) 0
+leafWeightCardinality(2,63,9) 0
+leafWeightCardinality(3,67,93) 0
+leafWeightCardinality(4,1,86) 0
+leafWeightCardinality(5,28,3) 0
+leafWeightCardinality(6,16,66) 0
+leafWeightCardinality(7,9,60) 0
+leafWeightCardinality(8,84,24) 0
+innerNode(1) 0
+innerNode(2) 0
+innerNode(3) 0
+innerNode(4) 0
+innerNode(5) 0
+innerNode(6) 0
+innerNode(7) 0
+num(8) 0
+max_total_weight(351) 0
+leaf(8) 0
+leaf(7) 0
+leaf(6) 0
+leaf(5) 0
+leaf(4) 0
+leaf(3) 0
+leaf(2) 0
+leaf(1) 0
+coloredPos(1) 0
+coloredPos(2) 0
+coloredPos(3) 0
+coloredPos(4) 0
+coloredPos(5) 0
+coloredPos(6) 0
+coloredPos(7) 0
+cspvar(nWeight(7),0,351) 0
+cspvar(nWeight(6),0,351) 0
+cspvar(nWeight(5),0,351) 0
+cspvar(nWeight(4),0,351) 0
+cspvar(nWeight(3),0,351) 0
+cspvar(nWeight(2),0,351) 0
+cspvar(nWeight(1),0,351) 0
+leafCost(7,9) 0
+leafCost(6,16) 0
+leafCost(4,1) 0
+leafCost(3,67) 0
+leafCost(1,44) 0
+leafCost(8,24) 0
+leafCost(5,3) 0
+leafCost(2,9) 0
+location(1) 0
+location(2) 0
+location(3) 0
+location(4) 0
+location(5) 0
+location(6) 0
+location(7) 0
+67 0
+68 0
+-69 0
+78 0
+79 0
+88 0
+89 0
+98 0
+99 0
+108 0
+109 0
+118 0
+119 0
+128 0
+129 0
+138 0
+139 0
+146 0
+147 0
+151 0
+152 0
+156 0
+157 0
+161 0
+162 0
+166 0
+167 0
+171 0
+172 0
+required(ezcsp__sum(list(nWeight,1),ezcsp__leq,351)) 0
+label_order(nWeight(7),1) 0
+label_order(nWeight(6),1) 0
+label_order(nWeight(5),1) 0
+label_order(nWeight(4),1) 0
+label_order(nWeight(3),1) 0
+label_order(nWeight(2),1) 0
+label_order(nWeight(1),1) 0
+413 0

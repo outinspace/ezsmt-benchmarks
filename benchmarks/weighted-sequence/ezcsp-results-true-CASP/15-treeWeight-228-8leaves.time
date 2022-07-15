@@ -1,0 +1,4 @@
+ezcsp version 1.6.20b49-r3345...
+FIXME: call_asp_solver() calls two functions that silently modify param file INPUT and ezcsp *heavily* relies on this modification!!!
+11.96user 1.16system 0:20.06elapsed 65%CPU (0avgtext+0avgdata 11920maxresident)k
+0inputs+95688outputs (0major+1569523minor)pagefaults 0swaps

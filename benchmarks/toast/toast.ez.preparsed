@@ -1,0 +1,24 @@
+#const numBread=10.
+bread(1 .. numBread).
+
+side(1 .. 2).
+
+toast(B, S) :-
+  bread(B), side(S).
+
+cspvar(csptoast(B, S), 1, numBread) :-
+  toast(B, S).
+
+required(ezcsp__lt(csptoast(B, S1), csptoast(B, S2))) :-
+  toast(B, S1), toast(B, S2), S1 < S2.
+
+required(ezcsp__leq(csptoast(B1, S), csptoast(B2, S))) :-
+  toast(B1, S), toast(B2, S), B1 < B2.
+
+required(ezcsp__neq(csptoast(B3, S3), csptoast(B1, S1))) :-
+  required(ezcsp__eq(csptoast(B1, S1), csptoast(B2, S2))), toast(B1, S1), toast(B2, S2), toast(B3, S3), B3 != B1, B3 != B2, B1 != B2.
+
+cspvar(totalMinutes, 0, 1000).
+
+required(ezcsp__eq(totalMinutes, csptoast(numBread, 2))).
+

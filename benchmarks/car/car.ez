@@ -1,0 +1,42 @@
+cspdomain(r).
+
+step(0..st).
+astep(0..st-1).
+
+#domain step(S).
+#domain astep(AS).
+
+ezsmtvar(real,totaltime(S)).
+ezsmtvar(real,duration(AS)).
+ezsmtvar(real,speed(S)).
+ezsmtvar(real,location(S)).
+
+{accel(AS)}.
+{decel(AS)}.
+
+:- accel(AS), decel(AS).
+
+required(totaltime(AS_PLUSONE) == totaltime(AS) + duration(AS)):- AS_PLUSONE = AS+1.
+
+required(speed(AS_PLUSONE) == speed(AS)) :- not accel(AS), not decel(AS), AS_PLUSONE = AS+1.
+required(speed(AS_PLUSONE) == speed(AS) + ar * duration(AS)) :- accel(AS), AS_PLUSONE = AS+1.
+required(speed(AS_PLUSONE) == speed(AS) - ar * duration(AS)) :- decel(AS), AS_PLUSONE = AS+1.
+required(speed(S) >= 0).
+required(speed(S) <= ms).
+
+required(location(AS_PLUSONE) == duration(AS)*X + location(AS) /\ (speed(AS)+speed(AS_PLUSONE))/2 == X) :- AS_PLUSONE = AS+1,.
+
+
+required(totaltime(0) == 0).
+required(speed(0) == 0).
+required(location(0) == 0).
+
+required(location(st) == l).
+required(speed(st) == 0).
+required(totaltime(st) == t).
+
+#hide step/1.
+#hide astep/1.
+#hide time/1.
+#hide distance/1.
+

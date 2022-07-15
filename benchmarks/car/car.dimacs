@@ -1,0 +1,616 @@
+smt cnf 465 615
+-accel(29) accel(29) 0
+-accel(28) accel(28) 0
+-accel(27) accel(27) 0
+-accel(26) accel(26) 0
+-accel(25) accel(25) 0
+-accel(24) accel(24) 0
+-accel(23) accel(23) 0
+-accel(22) accel(22) 0
+-accel(21) accel(21) 0
+-accel(20) accel(20) 0
+-accel(19) accel(19) 0
+-accel(18) accel(18) 0
+-accel(17) accel(17) 0
+-accel(16) accel(16) 0
+-accel(15) accel(15) 0
+-accel(14) accel(14) 0
+-accel(13) accel(13) 0
+-accel(12) accel(12) 0
+-accel(11) accel(11) 0
+-accel(10) accel(10) 0
+-accel(9) accel(9) 0
+-accel(8) accel(8) 0
+-accel(7) accel(7) 0
+-accel(6) accel(6) 0
+-accel(5) accel(5) 0
+-accel(4) accel(4) 0
+-accel(3) accel(3) 0
+-accel(2) accel(2) 0
+-accel(1) accel(1) 0
+-accel(0) accel(0) 0
+-decel(29) decel(29) 0
+-decel(28) decel(28) 0
+-decel(27) decel(27) 0
+-decel(26) decel(26) 0
+-decel(25) decel(25) 0
+-decel(24) decel(24) 0
+-decel(23) decel(23) 0
+-decel(22) decel(22) 0
+-decel(21) decel(21) 0
+-decel(20) decel(20) 0
+-decel(19) decel(19) 0
+-decel(18) decel(18) 0
+-decel(17) decel(17) 0
+-decel(16) decel(16) 0
+-decel(15) decel(15) 0
+-decel(14) decel(14) 0
+-decel(13) decel(13) 0
+-decel(12) decel(12) 0
+-decel(11) decel(11) 0
+-decel(10) decel(10) 0
+-decel(9) decel(9) 0
+-decel(8) decel(8) 0
+-decel(7) decel(7) 0
+-decel(6) decel(6) 0
+-decel(5) decel(5) 0
+-decel(4) decel(4) 0
+-decel(3) decel(3) 0
+-decel(2) decel(2) 0
+-decel(1) decel(1) 0
+-decel(0) decel(0) 0
+-accel(0) -decel(0) 0
+-accel(1) -decel(1) 0
+-accel(2) -decel(2) 0
+-accel(3) -decel(3) 0
+-accel(4) -decel(4) 0
+-accel(5) -decel(5) 0
+-accel(6) -decel(6) 0
+-accel(7) -decel(7) 0
+-accel(8) -decel(8) 0
+-accel(9) -decel(9) 0
+-accel(10) -decel(10) 0
+-accel(11) -decel(11) 0
+-accel(12) -decel(12) 0
+-accel(13) -decel(13) 0
+-accel(14) -decel(14) 0
+-accel(15) -decel(15) 0
+-accel(16) -decel(16) 0
+-accel(17) -decel(17) 0
+-accel(18) -decel(18) 0
+-accel(19) -decel(19) 0
+-accel(20) -decel(20) 0
+-accel(21) -decel(21) 0
+-accel(22) -decel(22) 0
+-accel(23) -decel(23) 0
+-accel(24) -decel(24) 0
+-accel(25) -decel(25) 0
+-accel(26) -decel(26) 0
+-accel(27) -decel(27) 0
+-accel(28) -decel(28) 0
+-accel(29) -decel(29) 0
+required(ezcsp__eq(speed(30),speed(29))) accel(29) decel(29) 0
+required(ezcsp__eq(speed(29),speed(28))) accel(28) decel(28) 0
+required(ezcsp__eq(speed(28),speed(27))) accel(27) decel(27) 0
+required(ezcsp__eq(speed(27),speed(26))) accel(26) decel(26) 0
+required(ezcsp__eq(speed(26),speed(25))) accel(25) decel(25) 0
+required(ezcsp__eq(speed(25),speed(24))) accel(24) decel(24) 0
+required(ezcsp__eq(speed(24),speed(23))) accel(23) decel(23) 0
+required(ezcsp__eq(speed(23),speed(22))) accel(22) decel(22) 0
+required(ezcsp__eq(speed(22),speed(21))) accel(21) decel(21) 0
+required(ezcsp__eq(speed(21),speed(20))) accel(20) decel(20) 0
+required(ezcsp__eq(speed(20),speed(19))) accel(19) decel(19) 0
+required(ezcsp__eq(speed(19),speed(18))) accel(18) decel(18) 0
+required(ezcsp__eq(speed(18),speed(17))) accel(17) decel(17) 0
+required(ezcsp__eq(speed(17),speed(16))) accel(16) decel(16) 0
+required(ezcsp__eq(speed(16),speed(15))) accel(15) decel(15) 0
+required(ezcsp__eq(speed(15),speed(14))) accel(14) decel(14) 0
+required(ezcsp__eq(speed(14),speed(13))) accel(13) decel(13) 0
+required(ezcsp__eq(speed(13),speed(12))) accel(12) decel(12) 0
+required(ezcsp__eq(speed(12),speed(11))) accel(11) decel(11) 0
+required(ezcsp__eq(speed(11),speed(10))) accel(10) decel(10) 0
+required(ezcsp__eq(speed(10),speed(9))) accel(9) decel(9) 0
+required(ezcsp__eq(speed(9),speed(8))) accel(8) decel(8) 0
+required(ezcsp__eq(speed(8),speed(7))) accel(7) decel(7) 0
+required(ezcsp__eq(speed(7),speed(6))) accel(6) decel(6) 0
+required(ezcsp__eq(speed(6),speed(5))) accel(5) decel(5) 0
+required(ezcsp__eq(speed(5),speed(4))) accel(4) decel(4) 0
+required(ezcsp__eq(speed(4),speed(3))) accel(3) decel(3) 0
+required(ezcsp__eq(speed(3),speed(2))) accel(2) decel(2) 0
+required(ezcsp__eq(speed(2),speed(1))) accel(1) decel(1) 0
+required(ezcsp__eq(speed(1),speed(0))) accel(0) decel(0) 0
+-accel(0) required(ezcsp__eq(speed(1),ezcsp__pl(speed(0),ezcsp__tm(30,duration(0))))) 0
+-accel(1) required(ezcsp__eq(speed(2),ezcsp__pl(speed(1),ezcsp__tm(30,duration(1))))) 0
+-accel(2) required(ezcsp__eq(speed(3),ezcsp__pl(speed(2),ezcsp__tm(30,duration(2))))) 0
+-accel(3) required(ezcsp__eq(speed(4),ezcsp__pl(speed(3),ezcsp__tm(30,duration(3))))) 0
+-accel(4) required(ezcsp__eq(speed(5),ezcsp__pl(speed(4),ezcsp__tm(30,duration(4))))) 0
+-accel(5) required(ezcsp__eq(speed(6),ezcsp__pl(speed(5),ezcsp__tm(30,duration(5))))) 0
+-accel(6) required(ezcsp__eq(speed(7),ezcsp__pl(speed(6),ezcsp__tm(30,duration(6))))) 0
+-accel(7) required(ezcsp__eq(speed(8),ezcsp__pl(speed(7),ezcsp__tm(30,duration(7))))) 0
+-accel(8) required(ezcsp__eq(speed(9),ezcsp__pl(speed(8),ezcsp__tm(30,duration(8))))) 0
+-accel(9) required(ezcsp__eq(speed(10),ezcsp__pl(speed(9),ezcsp__tm(30,duration(9))))) 0
+-accel(10) required(ezcsp__eq(speed(11),ezcsp__pl(speed(10),ezcsp__tm(30,duration(10))))) 0
+-accel(11) required(ezcsp__eq(speed(12),ezcsp__pl(speed(11),ezcsp__tm(30,duration(11))))) 0
+-accel(12) required(ezcsp__eq(speed(13),ezcsp__pl(speed(12),ezcsp__tm(30,duration(12))))) 0
+-accel(13) required(ezcsp__eq(speed(14),ezcsp__pl(speed(13),ezcsp__tm(30,duration(13))))) 0
+-accel(14) required(ezcsp__eq(speed(15),ezcsp__pl(speed(14),ezcsp__tm(30,duration(14))))) 0
+-accel(15) required(ezcsp__eq(speed(16),ezcsp__pl(speed(15),ezcsp__tm(30,duration(15))))) 0
+-accel(16) required(ezcsp__eq(speed(17),ezcsp__pl(speed(16),ezcsp__tm(30,duration(16))))) 0
+-accel(17) required(ezcsp__eq(speed(18),ezcsp__pl(speed(17),ezcsp__tm(30,duration(17))))) 0
+-accel(18) required(ezcsp__eq(speed(19),ezcsp__pl(speed(18),ezcsp__tm(30,duration(18))))) 0
+-accel(19) required(ezcsp__eq(speed(20),ezcsp__pl(speed(19),ezcsp__tm(30,duration(19))))) 0
+-accel(20) required(ezcsp__eq(speed(21),ezcsp__pl(speed(20),ezcsp__tm(30,duration(20))))) 0
+-accel(21) required(ezcsp__eq(speed(22),ezcsp__pl(speed(21),ezcsp__tm(30,duration(21))))) 0
+-accel(22) required(ezcsp__eq(speed(23),ezcsp__pl(speed(22),ezcsp__tm(30,duration(22))))) 0
+-accel(23) required(ezcsp__eq(speed(24),ezcsp__pl(speed(23),ezcsp__tm(30,duration(23))))) 0
+-accel(24) required(ezcsp__eq(speed(25),ezcsp__pl(speed(24),ezcsp__tm(30,duration(24))))) 0
+-accel(25) required(ezcsp__eq(speed(26),ezcsp__pl(speed(25),ezcsp__tm(30,duration(25))))) 0
+-accel(26) required(ezcsp__eq(speed(27),ezcsp__pl(speed(26),ezcsp__tm(30,duration(26))))) 0
+-accel(27) required(ezcsp__eq(speed(28),ezcsp__pl(speed(27),ezcsp__tm(30,duration(27))))) 0
+-accel(28) required(ezcsp__eq(speed(29),ezcsp__pl(speed(28),ezcsp__tm(30,duration(28))))) 0
+-accel(29) required(ezcsp__eq(speed(30),ezcsp__pl(speed(29),ezcsp__tm(30,duration(29))))) 0
+-decel(0) required(ezcsp__eq(speed(1),ezcsp__mn(speed(0),ezcsp__tm(30,duration(0))))) 0
+-decel(1) required(ezcsp__eq(speed(2),ezcsp__mn(speed(1),ezcsp__tm(30,duration(1))))) 0
+-decel(2) required(ezcsp__eq(speed(3),ezcsp__mn(speed(2),ezcsp__tm(30,duration(2))))) 0
+-decel(3) required(ezcsp__eq(speed(4),ezcsp__mn(speed(3),ezcsp__tm(30,duration(3))))) 0
+-decel(4) required(ezcsp__eq(speed(5),ezcsp__mn(speed(4),ezcsp__tm(30,duration(4))))) 0
+-decel(5) required(ezcsp__eq(speed(6),ezcsp__mn(speed(5),ezcsp__tm(30,duration(5))))) 0
+-decel(6) required(ezcsp__eq(speed(7),ezcsp__mn(speed(6),ezcsp__tm(30,duration(6))))) 0
+-decel(7) required(ezcsp__eq(speed(8),ezcsp__mn(speed(7),ezcsp__tm(30,duration(7))))) 0
+-decel(8) required(ezcsp__eq(speed(9),ezcsp__mn(speed(8),ezcsp__tm(30,duration(8))))) 0
+-decel(9) required(ezcsp__eq(speed(10),ezcsp__mn(speed(9),ezcsp__tm(30,duration(9))))) 0
+-decel(10) required(ezcsp__eq(speed(11),ezcsp__mn(speed(10),ezcsp__tm(30,duration(10))))) 0
+-decel(11) required(ezcsp__eq(speed(12),ezcsp__mn(speed(11),ezcsp__tm(30,duration(11))))) 0
+-decel(12) required(ezcsp__eq(speed(13),ezcsp__mn(speed(12),ezcsp__tm(30,duration(12))))) 0
+-decel(13) required(ezcsp__eq(speed(14),ezcsp__mn(speed(13),ezcsp__tm(30,duration(13))))) 0
+-decel(14) required(ezcsp__eq(speed(15),ezcsp__mn(speed(14),ezcsp__tm(30,duration(14))))) 0
+-decel(15) required(ezcsp__eq(speed(16),ezcsp__mn(speed(15),ezcsp__tm(30,duration(15))))) 0
+-decel(16) required(ezcsp__eq(speed(17),ezcsp__mn(speed(16),ezcsp__tm(30,duration(16))))) 0
+-decel(17) required(ezcsp__eq(speed(18),ezcsp__mn(speed(17),ezcsp__tm(30,duration(17))))) 0
+-decel(18) required(ezcsp__eq(speed(19),ezcsp__mn(speed(18),ezcsp__tm(30,duration(18))))) 0
+-decel(19) required(ezcsp__eq(speed(20),ezcsp__mn(speed(19),ezcsp__tm(30,duration(19))))) 0
+-decel(20) required(ezcsp__eq(speed(21),ezcsp__mn(speed(20),ezcsp__tm(30,duration(20))))) 0
+-decel(21) required(ezcsp__eq(speed(22),ezcsp__mn(speed(21),ezcsp__tm(30,duration(21))))) 0
+-decel(22) required(ezcsp__eq(speed(23),ezcsp__mn(speed(22),ezcsp__tm(30,duration(22))))) 0
+-decel(23) required(ezcsp__eq(speed(24),ezcsp__mn(speed(23),ezcsp__tm(30,duration(23))))) 0
+-decel(24) required(ezcsp__eq(speed(25),ezcsp__mn(speed(24),ezcsp__tm(30,duration(24))))) 0
+-decel(25) required(ezcsp__eq(speed(26),ezcsp__mn(speed(25),ezcsp__tm(30,duration(25))))) 0
+-decel(26) required(ezcsp__eq(speed(27),ezcsp__mn(speed(26),ezcsp__tm(30,duration(26))))) 0
+-decel(27) required(ezcsp__eq(speed(28),ezcsp__mn(speed(27),ezcsp__tm(30,duration(27))))) 0
+-decel(28) required(ezcsp__eq(speed(29),ezcsp__mn(speed(28),ezcsp__tm(30,duration(28))))) 0
+-decel(29) required(ezcsp__eq(speed(30),ezcsp__mn(speed(29),ezcsp__tm(30,duration(29))))) 0
+-required(ezcsp__eq(speed(30),speed(29))) -accel(29) 0
+-required(ezcsp__eq(speed(30),speed(29))) -decel(29) 0
+-required(ezcsp__eq(speed(29),speed(28))) -accel(28) 0
+-required(ezcsp__eq(speed(29),speed(28))) -decel(28) 0
+-required(ezcsp__eq(speed(28),speed(27))) -accel(27) 0
+-required(ezcsp__eq(speed(28),speed(27))) -decel(27) 0
+-required(ezcsp__eq(speed(27),speed(26))) -accel(26) 0
+-required(ezcsp__eq(speed(27),speed(26))) -decel(26) 0
+-required(ezcsp__eq(speed(26),speed(25))) -accel(25) 0
+-required(ezcsp__eq(speed(26),speed(25))) -decel(25) 0
+-required(ezcsp__eq(speed(25),speed(24))) -accel(24) 0
+-required(ezcsp__eq(speed(25),speed(24))) -decel(24) 0
+-required(ezcsp__eq(speed(24),speed(23))) -accel(23) 0
+-required(ezcsp__eq(speed(24),speed(23))) -decel(23) 0
+-required(ezcsp__eq(speed(23),speed(22))) -accel(22) 0
+-required(ezcsp__eq(speed(23),speed(22))) -decel(22) 0
+-required(ezcsp__eq(speed(22),speed(21))) -accel(21) 0
+-required(ezcsp__eq(speed(22),speed(21))) -decel(21) 0
+-required(ezcsp__eq(speed(21),speed(20))) -accel(20) 0
+-required(ezcsp__eq(speed(21),speed(20))) -decel(20) 0
+-required(ezcsp__eq(speed(20),speed(19))) -accel(19) 0
+-required(ezcsp__eq(speed(20),speed(19))) -decel(19) 0
+-required(ezcsp__eq(speed(19),speed(18))) -accel(18) 0
+-required(ezcsp__eq(speed(19),speed(18))) -decel(18) 0
+-required(ezcsp__eq(speed(18),speed(17))) -accel(17) 0
+-required(ezcsp__eq(speed(18),speed(17))) -decel(17) 0
+-required(ezcsp__eq(speed(17),speed(16))) -accel(16) 0
+-required(ezcsp__eq(speed(17),speed(16))) -decel(16) 0
+-required(ezcsp__eq(speed(16),speed(15))) -accel(15) 0
+-required(ezcsp__eq(speed(16),speed(15))) -decel(15) 0
+-required(ezcsp__eq(speed(15),speed(14))) -accel(14) 0
+-required(ezcsp__eq(speed(15),speed(14))) -decel(14) 0
+-required(ezcsp__eq(speed(14),speed(13))) -accel(13) 0
+-required(ezcsp__eq(speed(14),speed(13))) -decel(13) 0
+-required(ezcsp__eq(speed(13),speed(12))) -accel(12) 0
+-required(ezcsp__eq(speed(13),speed(12))) -decel(12) 0
+-required(ezcsp__eq(speed(12),speed(11))) -accel(11) 0
+-required(ezcsp__eq(speed(12),speed(11))) -decel(11) 0
+-required(ezcsp__eq(speed(11),speed(10))) -accel(10) 0
+-required(ezcsp__eq(speed(11),speed(10))) -decel(10) 0
+-required(ezcsp__eq(speed(10),speed(9))) -accel(9) 0
+-required(ezcsp__eq(speed(10),speed(9))) -decel(9) 0
+-required(ezcsp__eq(speed(9),speed(8))) -accel(8) 0
+-required(ezcsp__eq(speed(9),speed(8))) -decel(8) 0
+-required(ezcsp__eq(speed(8),speed(7))) -accel(7) 0
+-required(ezcsp__eq(speed(8),speed(7))) -decel(7) 0
+-required(ezcsp__eq(speed(7),speed(6))) -accel(6) 0
+-required(ezcsp__eq(speed(7),speed(6))) -decel(6) 0
+-required(ezcsp__eq(speed(6),speed(5))) -accel(5) 0
+-required(ezcsp__eq(speed(6),speed(5))) -decel(5) 0
+-required(ezcsp__eq(speed(5),speed(4))) -accel(4) 0
+-required(ezcsp__eq(speed(5),speed(4))) -decel(4) 0
+-required(ezcsp__eq(speed(4),speed(3))) -accel(3) 0
+-required(ezcsp__eq(speed(4),speed(3))) -decel(3) 0
+-required(ezcsp__eq(speed(3),speed(2))) -accel(2) 0
+-required(ezcsp__eq(speed(3),speed(2))) -decel(2) 0
+-required(ezcsp__eq(speed(2),speed(1))) -accel(1) 0
+-required(ezcsp__eq(speed(2),speed(1))) -decel(1) 0
+-required(ezcsp__eq(speed(1),speed(0))) -accel(0) 0
+-required(ezcsp__eq(speed(1),speed(0))) -decel(0) 0
+-required(ezcsp__eq(speed(1),ezcsp__pl(speed(0),ezcsp__tm(30,duration(0))))) accel(0) 0
+-required(ezcsp__eq(speed(2),ezcsp__pl(speed(1),ezcsp__tm(30,duration(1))))) accel(1) 0
+-required(ezcsp__eq(speed(3),ezcsp__pl(speed(2),ezcsp__tm(30,duration(2))))) accel(2) 0
+-required(ezcsp__eq(speed(4),ezcsp__pl(speed(3),ezcsp__tm(30,duration(3))))) accel(3) 0
+-required(ezcsp__eq(speed(5),ezcsp__pl(speed(4),ezcsp__tm(30,duration(4))))) accel(4) 0
+-required(ezcsp__eq(speed(6),ezcsp__pl(speed(5),ezcsp__tm(30,duration(5))))) accel(5) 0
+-required(ezcsp__eq(speed(7),ezcsp__pl(speed(6),ezcsp__tm(30,duration(6))))) accel(6) 0
+-required(ezcsp__eq(speed(8),ezcsp__pl(speed(7),ezcsp__tm(30,duration(7))))) accel(7) 0
+-required(ezcsp__eq(speed(9),ezcsp__pl(speed(8),ezcsp__tm(30,duration(8))))) accel(8) 0
+-required(ezcsp__eq(speed(10),ezcsp__pl(speed(9),ezcsp__tm(30,duration(9))))) accel(9) 0
+-required(ezcsp__eq(speed(11),ezcsp__pl(speed(10),ezcsp__tm(30,duration(10))))) accel(10) 0
+-required(ezcsp__eq(speed(12),ezcsp__pl(speed(11),ezcsp__tm(30,duration(11))))) accel(11) 0
+-required(ezcsp__eq(speed(13),ezcsp__pl(speed(12),ezcsp__tm(30,duration(12))))) accel(12) 0
+-required(ezcsp__eq(speed(14),ezcsp__pl(speed(13),ezcsp__tm(30,duration(13))))) accel(13) 0
+-required(ezcsp__eq(speed(15),ezcsp__pl(speed(14),ezcsp__tm(30,duration(14))))) accel(14) 0
+-required(ezcsp__eq(speed(16),ezcsp__pl(speed(15),ezcsp__tm(30,duration(15))))) accel(15) 0
+-required(ezcsp__eq(speed(17),ezcsp__pl(speed(16),ezcsp__tm(30,duration(16))))) accel(16) 0
+-required(ezcsp__eq(speed(18),ezcsp__pl(speed(17),ezcsp__tm(30,duration(17))))) accel(17) 0
+-required(ezcsp__eq(speed(19),ezcsp__pl(speed(18),ezcsp__tm(30,duration(18))))) accel(18) 0
+-required(ezcsp__eq(speed(20),ezcsp__pl(speed(19),ezcsp__tm(30,duration(19))))) accel(19) 0
+-required(ezcsp__eq(speed(21),ezcsp__pl(speed(20),ezcsp__tm(30,duration(20))))) accel(20) 0
+-required(ezcsp__eq(speed(22),ezcsp__pl(speed(21),ezcsp__tm(30,duration(21))))) accel(21) 0
+-required(ezcsp__eq(speed(23),ezcsp__pl(speed(22),ezcsp__tm(30,duration(22))))) accel(22) 0
+-required(ezcsp__eq(speed(24),ezcsp__pl(speed(23),ezcsp__tm(30,duration(23))))) accel(23) 0
+-required(ezcsp__eq(speed(25),ezcsp__pl(speed(24),ezcsp__tm(30,duration(24))))) accel(24) 0
+-required(ezcsp__eq(speed(26),ezcsp__pl(speed(25),ezcsp__tm(30,duration(25))))) accel(25) 0
+-required(ezcsp__eq(speed(27),ezcsp__pl(speed(26),ezcsp__tm(30,duration(26))))) accel(26) 0
+-required(ezcsp__eq(speed(28),ezcsp__pl(speed(27),ezcsp__tm(30,duration(27))))) accel(27) 0
+-required(ezcsp__eq(speed(29),ezcsp__pl(speed(28),ezcsp__tm(30,duration(28))))) accel(28) 0
+-required(ezcsp__eq(speed(30),ezcsp__pl(speed(29),ezcsp__tm(30,duration(29))))) accel(29) 0
+-required(ezcsp__eq(speed(1),ezcsp__mn(speed(0),ezcsp__tm(30,duration(0))))) decel(0) 0
+-required(ezcsp__eq(speed(2),ezcsp__mn(speed(1),ezcsp__tm(30,duration(1))))) decel(1) 0
+-required(ezcsp__eq(speed(3),ezcsp__mn(speed(2),ezcsp__tm(30,duration(2))))) decel(2) 0
+-required(ezcsp__eq(speed(4),ezcsp__mn(speed(3),ezcsp__tm(30,duration(3))))) decel(3) 0
+-required(ezcsp__eq(speed(5),ezcsp__mn(speed(4),ezcsp__tm(30,duration(4))))) decel(4) 0
+-required(ezcsp__eq(speed(6),ezcsp__mn(speed(5),ezcsp__tm(30,duration(5))))) decel(5) 0
+-required(ezcsp__eq(speed(7),ezcsp__mn(speed(6),ezcsp__tm(30,duration(6))))) decel(6) 0
+-required(ezcsp__eq(speed(8),ezcsp__mn(speed(7),ezcsp__tm(30,duration(7))))) decel(7) 0
+-required(ezcsp__eq(speed(9),ezcsp__mn(speed(8),ezcsp__tm(30,duration(8))))) decel(8) 0
+-required(ezcsp__eq(speed(10),ezcsp__mn(speed(9),ezcsp__tm(30,duration(9))))) decel(9) 0
+-required(ezcsp__eq(speed(11),ezcsp__mn(speed(10),ezcsp__tm(30,duration(10))))) decel(10) 0
+-required(ezcsp__eq(speed(12),ezcsp__mn(speed(11),ezcsp__tm(30,duration(11))))) decel(11) 0
+-required(ezcsp__eq(speed(13),ezcsp__mn(speed(12),ezcsp__tm(30,duration(12))))) decel(12) 0
+-required(ezcsp__eq(speed(14),ezcsp__mn(speed(13),ezcsp__tm(30,duration(13))))) decel(13) 0
+-required(ezcsp__eq(speed(15),ezcsp__mn(speed(14),ezcsp__tm(30,duration(14))))) decel(14) 0
+-required(ezcsp__eq(speed(16),ezcsp__mn(speed(15),ezcsp__tm(30,duration(15))))) decel(15) 0
+-required(ezcsp__eq(speed(17),ezcsp__mn(speed(16),ezcsp__tm(30,duration(16))))) decel(16) 0
+-required(ezcsp__eq(speed(18),ezcsp__mn(speed(17),ezcsp__tm(30,duration(17))))) decel(17) 0
+-required(ezcsp__eq(speed(19),ezcsp__mn(speed(18),ezcsp__tm(30,duration(18))))) decel(18) 0
+-required(ezcsp__eq(speed(20),ezcsp__mn(speed(19),ezcsp__tm(30,duration(19))))) decel(19) 0
+-required(ezcsp__eq(speed(21),ezcsp__mn(speed(20),ezcsp__tm(30,duration(20))))) decel(20) 0
+-required(ezcsp__eq(speed(22),ezcsp__mn(speed(21),ezcsp__tm(30,duration(21))))) decel(21) 0
+-required(ezcsp__eq(speed(23),ezcsp__mn(speed(22),ezcsp__tm(30,duration(22))))) decel(22) 0
+-required(ezcsp__eq(speed(24),ezcsp__mn(speed(23),ezcsp__tm(30,duration(23))))) decel(23) 0
+-required(ezcsp__eq(speed(25),ezcsp__mn(speed(24),ezcsp__tm(30,duration(24))))) decel(24) 0
+-required(ezcsp__eq(speed(26),ezcsp__mn(speed(25),ezcsp__tm(30,duration(25))))) decel(25) 0
+-required(ezcsp__eq(speed(27),ezcsp__mn(speed(26),ezcsp__tm(30,duration(26))))) decel(26) 0
+-required(ezcsp__eq(speed(28),ezcsp__mn(speed(27),ezcsp__tm(30,duration(27))))) decel(27) 0
+-required(ezcsp__eq(speed(29),ezcsp__mn(speed(28),ezcsp__tm(30,duration(28))))) decel(28) 0
+-required(ezcsp__eq(speed(30),ezcsp__mn(speed(29),ezcsp__tm(30,duration(29))))) decel(29) 0
+cspdomain(r) 0
+required(ezcsp__eq(totaltime(0),0)) 0
+required(ezcsp__eq(speed(0),0)) 0
+required(ezcsp__eq(location(0),0)) 0
+required(ezcsp__eq(location(30),100)) 0
+required(ezcsp__eq(speed(30),0)) 0
+required(ezcsp__eq(totaltime(30),40)) 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+ezsmtvar(real,totaltime(30)) 0
+ezsmtvar(real,totaltime(29)) 0
+ezsmtvar(real,totaltime(28)) 0
+ezsmtvar(real,totaltime(27)) 0
+ezsmtvar(real,totaltime(26)) 0
+ezsmtvar(real,totaltime(25)) 0
+ezsmtvar(real,totaltime(24)) 0
+ezsmtvar(real,totaltime(23)) 0
+ezsmtvar(real,totaltime(22)) 0
+ezsmtvar(real,totaltime(21)) 0
+ezsmtvar(real,totaltime(20)) 0
+ezsmtvar(real,totaltime(19)) 0
+ezsmtvar(real,totaltime(18)) 0
+ezsmtvar(real,totaltime(17)) 0
+ezsmtvar(real,totaltime(16)) 0
+ezsmtvar(real,totaltime(15)) 0
+ezsmtvar(real,totaltime(14)) 0
+ezsmtvar(real,totaltime(13)) 0
+ezsmtvar(real,totaltime(12)) 0
+ezsmtvar(real,totaltime(11)) 0
+ezsmtvar(real,totaltime(10)) 0
+ezsmtvar(real,totaltime(9)) 0
+ezsmtvar(real,totaltime(8)) 0
+ezsmtvar(real,totaltime(7)) 0
+ezsmtvar(real,totaltime(6)) 0
+ezsmtvar(real,totaltime(5)) 0
+ezsmtvar(real,totaltime(4)) 0
+ezsmtvar(real,totaltime(3)) 0
+ezsmtvar(real,totaltime(2)) 0
+ezsmtvar(real,totaltime(1)) 0
+ezsmtvar(real,totaltime(0)) 0
+ezsmtvar(real,duration(29)) 0
+ezsmtvar(real,duration(28)) 0
+ezsmtvar(real,duration(27)) 0
+ezsmtvar(real,duration(26)) 0
+ezsmtvar(real,duration(25)) 0
+ezsmtvar(real,duration(24)) 0
+ezsmtvar(real,duration(23)) 0
+ezsmtvar(real,duration(22)) 0
+ezsmtvar(real,duration(21)) 0
+ezsmtvar(real,duration(20)) 0
+ezsmtvar(real,duration(19)) 0
+ezsmtvar(real,duration(18)) 0
+ezsmtvar(real,duration(17)) 0
+ezsmtvar(real,duration(16)) 0
+ezsmtvar(real,duration(15)) 0
+ezsmtvar(real,duration(14)) 0
+ezsmtvar(real,duration(13)) 0
+ezsmtvar(real,duration(12)) 0
+ezsmtvar(real,duration(11)) 0
+ezsmtvar(real,duration(10)) 0
+ezsmtvar(real,duration(9)) 0
+ezsmtvar(real,duration(8)) 0
+ezsmtvar(real,duration(7)) 0
+ezsmtvar(real,duration(6)) 0
+ezsmtvar(real,duration(5)) 0
+ezsmtvar(real,duration(4)) 0
+ezsmtvar(real,duration(3)) 0
+ezsmtvar(real,duration(2)) 0
+ezsmtvar(real,duration(1)) 0
+ezsmtvar(real,duration(0)) 0
+ezsmtvar(real,speed(30)) 0
+ezsmtvar(real,speed(29)) 0
+ezsmtvar(real,speed(28)) 0
+ezsmtvar(real,speed(27)) 0
+ezsmtvar(real,speed(26)) 0
+ezsmtvar(real,speed(25)) 0
+ezsmtvar(real,speed(24)) 0
+ezsmtvar(real,speed(23)) 0
+ezsmtvar(real,speed(22)) 0
+ezsmtvar(real,speed(21)) 0
+ezsmtvar(real,speed(20)) 0
+ezsmtvar(real,speed(19)) 0
+ezsmtvar(real,speed(18)) 0
+ezsmtvar(real,speed(17)) 0
+ezsmtvar(real,speed(16)) 0
+ezsmtvar(real,speed(15)) 0
+ezsmtvar(real,speed(14)) 0
+ezsmtvar(real,speed(13)) 0
+ezsmtvar(real,speed(12)) 0
+ezsmtvar(real,speed(11)) 0
+ezsmtvar(real,speed(10)) 0
+ezsmtvar(real,speed(9)) 0
+ezsmtvar(real,speed(8)) 0
+ezsmtvar(real,speed(7)) 0
+ezsmtvar(real,speed(6)) 0
+ezsmtvar(real,speed(5)) 0
+ezsmtvar(real,speed(4)) 0
+ezsmtvar(real,speed(3)) 0
+ezsmtvar(real,speed(2)) 0
+ezsmtvar(real,speed(1)) 0
+ezsmtvar(real,speed(0)) 0
+ezsmtvar(real,location(30)) 0
+ezsmtvar(real,location(29)) 0
+ezsmtvar(real,location(28)) 0
+ezsmtvar(real,location(27)) 0
+ezsmtvar(real,location(26)) 0
+ezsmtvar(real,location(25)) 0
+ezsmtvar(real,location(24)) 0
+ezsmtvar(real,location(23)) 0
+ezsmtvar(real,location(22)) 0
+ezsmtvar(real,location(21)) 0
+ezsmtvar(real,location(20)) 0
+ezsmtvar(real,location(19)) 0
+ezsmtvar(real,location(18)) 0
+ezsmtvar(real,location(17)) 0
+ezsmtvar(real,location(16)) 0
+ezsmtvar(real,location(15)) 0
+ezsmtvar(real,location(14)) 0
+ezsmtvar(real,location(13)) 0
+ezsmtvar(real,location(12)) 0
+ezsmtvar(real,location(11)) 0
+ezsmtvar(real,location(10)) 0
+ezsmtvar(real,location(9)) 0
+ezsmtvar(real,location(8)) 0
+ezsmtvar(real,location(7)) 0
+ezsmtvar(real,location(6)) 0
+ezsmtvar(real,location(5)) 0
+ezsmtvar(real,location(4)) 0
+ezsmtvar(real,location(3)) 0
+ezsmtvar(real,location(2)) 0
+ezsmtvar(real,location(1)) 0
+ezsmtvar(real,location(0)) 0
+-252 0
+required(ezcsp__eq(totaltime(30),ezcsp__pl(totaltime(29),duration(29)))) 0
+required(ezcsp__eq(totaltime(29),ezcsp__pl(totaltime(28),duration(28)))) 0
+required(ezcsp__eq(totaltime(28),ezcsp__pl(totaltime(27),duration(27)))) 0
+required(ezcsp__eq(totaltime(27),ezcsp__pl(totaltime(26),duration(26)))) 0
+required(ezcsp__eq(totaltime(26),ezcsp__pl(totaltime(25),duration(25)))) 0
+required(ezcsp__eq(totaltime(25),ezcsp__pl(totaltime(24),duration(24)))) 0
+required(ezcsp__eq(totaltime(24),ezcsp__pl(totaltime(23),duration(23)))) 0
+required(ezcsp__eq(totaltime(23),ezcsp__pl(totaltime(22),duration(22)))) 0
+required(ezcsp__eq(totaltime(22),ezcsp__pl(totaltime(21),duration(21)))) 0
+required(ezcsp__eq(totaltime(21),ezcsp__pl(totaltime(20),duration(20)))) 0
+required(ezcsp__eq(totaltime(20),ezcsp__pl(totaltime(19),duration(19)))) 0
+required(ezcsp__eq(totaltime(19),ezcsp__pl(totaltime(18),duration(18)))) 0
+required(ezcsp__eq(totaltime(18),ezcsp__pl(totaltime(17),duration(17)))) 0
+required(ezcsp__eq(totaltime(17),ezcsp__pl(totaltime(16),duration(16)))) 0
+required(ezcsp__eq(totaltime(16),ezcsp__pl(totaltime(15),duration(15)))) 0
+required(ezcsp__eq(totaltime(15),ezcsp__pl(totaltime(14),duration(14)))) 0
+required(ezcsp__eq(totaltime(14),ezcsp__pl(totaltime(13),duration(13)))) 0
+required(ezcsp__eq(totaltime(13),ezcsp__pl(totaltime(12),duration(12)))) 0
+required(ezcsp__eq(totaltime(12),ezcsp__pl(totaltime(11),duration(11)))) 0
+required(ezcsp__eq(totaltime(11),ezcsp__pl(totaltime(10),duration(10)))) 0
+required(ezcsp__eq(totaltime(10),ezcsp__pl(totaltime(9),duration(9)))) 0
+required(ezcsp__eq(totaltime(9),ezcsp__pl(totaltime(8),duration(8)))) 0
+required(ezcsp__eq(totaltime(8),ezcsp__pl(totaltime(7),duration(7)))) 0
+required(ezcsp__eq(totaltime(7),ezcsp__pl(totaltime(6),duration(6)))) 0
+required(ezcsp__eq(totaltime(6),ezcsp__pl(totaltime(5),duration(5)))) 0
+required(ezcsp__eq(totaltime(5),ezcsp__pl(totaltime(4),duration(4)))) 0
+required(ezcsp__eq(totaltime(4),ezcsp__pl(totaltime(3),duration(3)))) 0
+required(ezcsp__eq(totaltime(3),ezcsp__pl(totaltime(2),duration(2)))) 0
+required(ezcsp__eq(totaltime(2),ezcsp__pl(totaltime(1),duration(1)))) 0
+required(ezcsp__eq(totaltime(1),ezcsp__pl(totaltime(0),duration(0)))) 0
+required(ezcsp__geq(speed(30),0)) 0
+required(ezcsp__geq(speed(29),0)) 0
+required(ezcsp__geq(speed(28),0)) 0
+required(ezcsp__geq(speed(27),0)) 0
+required(ezcsp__geq(speed(26),0)) 0
+required(ezcsp__geq(speed(25),0)) 0
+required(ezcsp__geq(speed(24),0)) 0
+required(ezcsp__geq(speed(23),0)) 0
+required(ezcsp__geq(speed(22),0)) 0
+required(ezcsp__geq(speed(21),0)) 0
+required(ezcsp__geq(speed(20),0)) 0
+required(ezcsp__geq(speed(19),0)) 0
+required(ezcsp__geq(speed(18),0)) 0
+required(ezcsp__geq(speed(17),0)) 0
+required(ezcsp__geq(speed(16),0)) 0
+required(ezcsp__geq(speed(15),0)) 0
+required(ezcsp__geq(speed(14),0)) 0
+required(ezcsp__geq(speed(13),0)) 0
+required(ezcsp__geq(speed(12),0)) 0
+required(ezcsp__geq(speed(11),0)) 0
+required(ezcsp__geq(speed(10),0)) 0
+required(ezcsp__geq(speed(9),0)) 0
+required(ezcsp__geq(speed(8),0)) 0
+required(ezcsp__geq(speed(7),0)) 0
+required(ezcsp__geq(speed(6),0)) 0
+required(ezcsp__geq(speed(5),0)) 0
+required(ezcsp__geq(speed(4),0)) 0
+required(ezcsp__geq(speed(3),0)) 0
+required(ezcsp__geq(speed(2),0)) 0
+required(ezcsp__geq(speed(1),0)) 0
+required(ezcsp__geq(speed(0),0)) 0
+required(ezcsp__leq(speed(30),40)) 0
+required(ezcsp__leq(speed(29),40)) 0
+required(ezcsp__leq(speed(28),40)) 0
+required(ezcsp__leq(speed(27),40)) 0
+required(ezcsp__leq(speed(26),40)) 0
+required(ezcsp__leq(speed(25),40)) 0
+required(ezcsp__leq(speed(24),40)) 0
+required(ezcsp__leq(speed(23),40)) 0
+required(ezcsp__leq(speed(22),40)) 0
+required(ezcsp__leq(speed(21),40)) 0
+required(ezcsp__leq(speed(20),40)) 0
+required(ezcsp__leq(speed(19),40)) 0
+required(ezcsp__leq(speed(18),40)) 0
+required(ezcsp__leq(speed(17),40)) 0
+required(ezcsp__leq(speed(16),40)) 0
+required(ezcsp__leq(speed(15),40)) 0
+required(ezcsp__leq(speed(14),40)) 0
+required(ezcsp__leq(speed(13),40)) 0
+required(ezcsp__leq(speed(12),40)) 0
+required(ezcsp__leq(speed(11),40)) 0
+required(ezcsp__leq(speed(10),40)) 0
+required(ezcsp__leq(speed(9),40)) 0
+required(ezcsp__leq(speed(8),40)) 0
+required(ezcsp__leq(speed(7),40)) 0
+required(ezcsp__leq(speed(6),40)) 0
+required(ezcsp__leq(speed(5),40)) 0
+required(ezcsp__leq(speed(4),40)) 0
+required(ezcsp__leq(speed(3),40)) 0
+required(ezcsp__leq(speed(2),40)) 0
+required(ezcsp__leq(speed(1),40)) 0
+required(ezcsp__leq(speed(0),40)) 0
+required(ezcsp__eq(location(30),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(29),ezcsp__pl(speed(29),speed(30))),2),location(29)))) 0
+required(ezcsp__eq(location(29),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(28),ezcsp__pl(speed(28),speed(29))),2),location(28)))) 0
+required(ezcsp__eq(location(28),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(27),ezcsp__pl(speed(27),speed(28))),2),location(27)))) 0
+required(ezcsp__eq(location(27),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(26),ezcsp__pl(speed(26),speed(27))),2),location(26)))) 0
+required(ezcsp__eq(location(26),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(25),ezcsp__pl(speed(25),speed(26))),2),location(25)))) 0
+required(ezcsp__eq(location(25),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(24),ezcsp__pl(speed(24),speed(25))),2),location(24)))) 0
+required(ezcsp__eq(location(24),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(23),ezcsp__pl(speed(23),speed(24))),2),location(23)))) 0
+required(ezcsp__eq(location(23),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(22),ezcsp__pl(speed(22),speed(23))),2),location(22)))) 0
+required(ezcsp__eq(location(22),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(21),ezcsp__pl(speed(21),speed(22))),2),location(21)))) 0
+required(ezcsp__eq(location(21),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(20),ezcsp__pl(speed(20),speed(21))),2),location(20)))) 0
+required(ezcsp__eq(location(20),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(19),ezcsp__pl(speed(19),speed(20))),2),location(19)))) 0
+required(ezcsp__eq(location(19),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(18),ezcsp__pl(speed(18),speed(19))),2),location(18)))) 0
+required(ezcsp__eq(location(18),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(17),ezcsp__pl(speed(17),speed(18))),2),location(17)))) 0
+required(ezcsp__eq(location(17),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(16),ezcsp__pl(speed(16),speed(17))),2),location(16)))) 0
+required(ezcsp__eq(location(16),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(15),ezcsp__pl(speed(15),speed(16))),2),location(15)))) 0
+required(ezcsp__eq(location(15),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(14),ezcsp__pl(speed(14),speed(15))),2),location(14)))) 0
+required(ezcsp__eq(location(14),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(13),ezcsp__pl(speed(13),speed(14))),2),location(13)))) 0
+required(ezcsp__eq(location(13),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(12),ezcsp__pl(speed(12),speed(13))),2),location(12)))) 0
+required(ezcsp__eq(location(12),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(11),ezcsp__pl(speed(11),speed(12))),2),location(11)))) 0
+required(ezcsp__eq(location(11),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(10),ezcsp__pl(speed(10),speed(11))),2),location(10)))) 0
+required(ezcsp__eq(location(10),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(9),ezcsp__pl(speed(9),speed(10))),2),location(9)))) 0
+required(ezcsp__eq(location(9),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(8),ezcsp__pl(speed(8),speed(9))),2),location(8)))) 0
+required(ezcsp__eq(location(8),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(7),ezcsp__pl(speed(7),speed(8))),2),location(7)))) 0
+required(ezcsp__eq(location(7),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(6),ezcsp__pl(speed(6),speed(7))),2),location(6)))) 0
+required(ezcsp__eq(location(6),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(5),ezcsp__pl(speed(5),speed(6))),2),location(5)))) 0
+required(ezcsp__eq(location(5),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(4),ezcsp__pl(speed(4),speed(5))),2),location(4)))) 0
+required(ezcsp__eq(location(4),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(3),ezcsp__pl(speed(3),speed(4))),2),location(3)))) 0
+required(ezcsp__eq(location(3),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(2),ezcsp__pl(speed(2),speed(3))),2),location(2)))) 0
+required(ezcsp__eq(location(2),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(1),ezcsp__pl(speed(1),speed(2))),2),location(1)))) 0
+required(ezcsp__eq(location(1),ezcsp__pl(ezcsp__dv(ezcsp__tm(duration(0),ezcsp__pl(speed(0),speed(1))),2),location(0)))) 0
+465 0

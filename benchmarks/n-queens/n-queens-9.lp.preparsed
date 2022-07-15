@@ -1,0 +1,1 @@
+./benchmarks/n-queens/n-queens-9.lp, line 5: SYNTAX ERROR: EXPECTED ONE OF 'v', a cr-rule name, '.',':-',':~','+-' AT '1 :- I'

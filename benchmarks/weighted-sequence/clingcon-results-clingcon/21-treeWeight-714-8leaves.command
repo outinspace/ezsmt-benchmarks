@@ -1,0 +1,1 @@
+clingcon /home/blue/bitbucket/casp-to-smt-lib/data/ez-benchmarks/thesis/28-weighted-sequence/encodings/clingcon.cl /home/blue/bitbucket/casp-to-smt-lib/data/ez-benchmarks/thesis/28-weighted-sequence/instances/21-treeWeight-714-8leaves.asp
