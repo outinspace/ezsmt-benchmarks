@@ -1,0 +1,4047 @@
+ln: ./tools/gringo: File exists
+Running ./bin/ezsmt2 -file ./benchmarks/n-queens/n-queens-7.lp.ez -cvc4 1:
+ezsmt version 2.0.0 (ezsmtPlus) Reading...
+
+Running pre-parsing command: $EZSMTPLUS/tools/pre-parser ./benchmarks/n-queens/n-queens-7.lp.ez  > ./benchmarks/n-queens/n-queens-7.lp.ez.preparsed
+pre-parser version 1.8...
+parser version 1.8.11...
+
+Running grounding command: $EZSMTPLUS/tools/gringo ./benchmarks/n-queens/n-queens-7.lp.ez.preparsed > ./benchmarks/n-queens/n-queens-7.lp.ez.grounded
+done
+Program is tight.
+Program is tight, no level ranking formula is added.
+---------
+SMT1564873550 file is produced
+Computing the 1th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564873550 > Model1564873550
+Model1564873550 file is produced
+writing SMT file: SMT1564873550_1
+---------
+Number of answer sets: 1
+Answer: 1
+ Answer set: q(1,6) q(4,7) q(7,1) q(3,2) q(5,5) q(2,4) q(6,3)
+        0.13 real         0.08 user         0.02 sys
+===========================================================================================
+
+Running ./bin/ezsmt2 -file ./benchmarks/n-queens/n-queens-8.lp.ez -cvc4 1:
+ezsmt version 2.0.0 (ezsmtPlus) Reading...
+
+Running pre-parsing command: $EZSMTPLUS/tools/pre-parser ./benchmarks/n-queens/n-queens-8.lp.ez  > ./benchmarks/n-queens/n-queens-8.lp.ez.preparsed
+pre-parser version 1.8...
+parser version 1.8.11...
+
+Running grounding command: $EZSMTPLUS/tools/gringo ./benchmarks/n-queens/n-queens-8.lp.ez.preparsed > ./benchmarks/n-queens/n-queens-8.lp.ez.grounded
+done
+Program is tight.
+Program is tight, no level ranking formula is added.
+---------
+SMT1564873550 file is produced
+Computing the 1th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564873550 > Model1564873550
+Model1564873550 file is produced
+writing SMT file: SMT1564873550_1
+---------
+Number of answer sets: 1
+Answer: 1
+ Answer set: q(4,2) q(2,6) q(8,5) q(3,8) q(7,3) q(1,4) q(5,7) q(6,1)
+        0.14 real         0.10 user         0.02 sys
+===========================================================================================
+
+Running ./bin/ezsmt2 -file ./benchmarks/n-queens/n-queens-9.lp.ez -cvc4 1:
+ezsmt version 2.0.0 (ezsmtPlus) Reading...
+
+Running pre-parsing command: $EZSMTPLUS/tools/pre-parser ./benchmarks/n-queens/n-queens-9.lp.ez  > ./benchmarks/n-queens/n-queens-9.lp.ez.preparsed
+pre-parser version 1.8...
+parser version 1.8.11...
+
+Running grounding command: $EZSMTPLUS/tools/gringo ./benchmarks/n-queens/n-queens-9.lp.ez.preparsed > ./benchmarks/n-queens/n-queens-9.lp.ez.grounded
+done
+Program is tight.
+Program is tight, no level ranking formula is added.
+---------
+SMT1564873550 file is produced
+Computing the 1th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564873550 > Model1564873550
+Model1564873550 file is produced
+writing SMT file: SMT1564873550_1
+---------
+Number of answer sets: 1
+Answer: 1
+ Answer set: q(5,2) q(6,4) q(9,5) q(7,6) q(1,7) q(3,3) q(4,8) q(8,1) q(2,9)
+        0.17 real         0.13 user         0.02 sys
+===========================================================================================
+
+Running ./bin/ezsmt3 ./benchmarks/n-queens/n-queens-7.lp -s cvc4 -v 0 -e 1:
+SAT
+q(2,7) q(1,3) q(3,4) q(5,5) q(7,6) q(4,1) q(6,2) 
+
+        0.27 real         0.25 user         0.01 sys
+===========================================================================================
+
+Running ./bin/ezsmt3 ./benchmarks/n-queens/n-queens-8.lp -s cvc4 -v 0 -e 1:
+SAT
+q(2,8) q(1,5) q(3,4) q(6,6) q(8,7) q(5,3) q(4,1) q(7,2) 
+
+        0.34 real         0.32 user         0.01 sys
+===========================================================================================
+
+Running ./bin/ezsmt3 ./benchmarks/n-queens/n-queens-9.lp -s cvc4 -v 0 -e 1:
+SAT
+q(2,9) q(4,4) q(3,6) q(5,7) q(1,2) q(9,8) q(8,5) q(7,3) q(6,1) 
+
+        0.44 real         0.42 user         0.01 sys
+===========================================================================================
+
+Running ./bin/ezsmt2 -file ./benchmarks/n-queens/n-queens-7.lp.ez -cvc4 0:
+ezsmt version 2.0.0 (ezsmtPlus) Reading...
+
+Running pre-parsing command: $EZSMTPLUS/tools/pre-parser ./benchmarks/n-queens/n-queens-7.lp.ez  > ./benchmarks/n-queens/n-queens-7.lp.ez.preparsed
+pre-parser version 1.8...
+parser version 1.8.11...
+
+Running grounding command: $EZSMTPLUS/tools/gringo ./benchmarks/n-queens/n-queens-7.lp.ez.preparsed > ./benchmarks/n-queens/n-queens-7.lp.ez.grounded
+done
+Program is tight.
+Program is tight, no level ranking formula is added.
+---------
+SMT1564940778 file is produced
+Computing the 1th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778 > Model1564940778
+Model1564940778 file is produced
+writing SMT file: SMT1564940778_1
+Computing the 2th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_1 > Model1564940778_1
+Model1564940778_1 file is produced
+writing SMT file: SMT1564940778_2
+Computing the 3th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_2 > Model1564940778_2
+Model1564940778_2 file is produced
+writing SMT file: SMT1564940778_3
+Computing the 4th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_3 > Model1564940778_3
+Model1564940778_3 file is produced
+writing SMT file: SMT1564940778_4
+Computing the 5th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_4 > Model1564940778_4
+Model1564940778_4 file is produced
+writing SMT file: SMT1564940778_5
+Computing the 6th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_5 > Model1564940778_5
+Model1564940778_5 file is produced
+writing SMT file: SMT1564940778_6
+Computing the 7th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_6 > Model1564940778_6
+Model1564940778_6 file is produced
+writing SMT file: SMT1564940778_7
+Computing the 8th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_7 > Model1564940778_7
+Model1564940778_7 file is produced
+writing SMT file: SMT1564940778_8
+Computing the 9th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_8 > Model1564940778_8
+Model1564940778_8 file is produced
+writing SMT file: SMT1564940778_9
+Computing the 10th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_9 > Model1564940778_9
+Model1564940778_9 file is produced
+writing SMT file: SMT1564940778_10
+Computing the 11th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_10 > Model1564940778_10
+Model1564940778_10 file is produced
+writing SMT file: SMT1564940778_11
+Computing the 12th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_11 > Model1564940778_11
+Model1564940778_11 file is produced
+writing SMT file: SMT1564940778_12
+Computing the 13th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_12 > Model1564940778_12
+Model1564940778_12 file is produced
+writing SMT file: SMT1564940778_13
+Computing the 14th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_13 > Model1564940778_13
+Model1564940778_13 file is produced
+writing SMT file: SMT1564940778_14
+Computing the 15th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_14 > Model1564940778_14
+Model1564940778_14 file is produced
+writing SMT file: SMT1564940778_15
+Computing the 16th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_15 > Model1564940778_15
+Model1564940778_15 file is produced
+writing SMT file: SMT1564940778_16
+Computing the 17th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_16 > Model1564940778_16
+Model1564940778_16 file is produced
+writing SMT file: SMT1564940778_17
+Computing the 18th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_17 > Model1564940778_17
+Model1564940778_17 file is produced
+writing SMT file: SMT1564940778_18
+Computing the 19th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_18 > Model1564940778_18
+Model1564940778_18 file is produced
+writing SMT file: SMT1564940778_19
+Computing the 20th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_19 > Model1564940778_19
+Model1564940778_19 file is produced
+writing SMT file: SMT1564940778_20
+Computing the 21th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_20 > Model1564940778_20
+Model1564940778_20 file is produced
+writing SMT file: SMT1564940778_21
+Computing the 22th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_21 > Model1564940778_21
+Model1564940778_21 file is produced
+writing SMT file: SMT1564940778_22
+Computing the 23th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_22 > Model1564940778_22
+Model1564940778_22 file is produced
+writing SMT file: SMT1564940778_23
+Computing the 24th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_23 > Model1564940778_23
+Model1564940778_23 file is produced
+writing SMT file: SMT1564940778_24
+Computing the 25th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_24 > Model1564940778_24
+Model1564940778_24 file is produced
+writing SMT file: SMT1564940778_25
+Computing the 26th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_25 > Model1564940778_25
+Model1564940778_25 file is produced
+writing SMT file: SMT1564940778_26
+Computing the 27th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_26 > Model1564940778_26
+Model1564940778_26 file is produced
+writing SMT file: SMT1564940778_27
+Computing the 28th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_27 > Model1564940778_27
+Model1564940778_27 file is produced
+writing SMT file: SMT1564940778_28
+Computing the 29th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_28 > Model1564940778_28
+Model1564940778_28 file is produced
+writing SMT file: SMT1564940778_29
+Computing the 30th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_29 > Model1564940778_29
+Model1564940778_29 file is produced
+writing SMT file: SMT1564940778_30
+Computing the 31th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_30 > Model1564940778_30
+Model1564940778_30 file is produced
+writing SMT file: SMT1564940778_31
+Computing the 32th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_31 > Model1564940778_31
+Model1564940778_31 file is produced
+writing SMT file: SMT1564940778_32
+Computing the 33th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_32 > Model1564940778_32
+Model1564940778_32 file is produced
+writing SMT file: SMT1564940778_33
+Computing the 34th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_33 > Model1564940778_33
+Model1564940778_33 file is produced
+writing SMT file: SMT1564940778_34
+Computing the 35th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_34 > Model1564940778_34
+Model1564940778_34 file is produced
+writing SMT file: SMT1564940778_35
+Computing the 36th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_35 > Model1564940778_35
+Model1564940778_35 file is produced
+writing SMT file: SMT1564940778_36
+Computing the 37th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_36 > Model1564940778_36
+Model1564940778_36 file is produced
+writing SMT file: SMT1564940778_37
+Computing the 38th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_37 > Model1564940778_37
+Model1564940778_37 file is produced
+writing SMT file: SMT1564940778_38
+Computing the 39th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_38 > Model1564940778_38
+Model1564940778_38 file is produced
+writing SMT file: SMT1564940778_39
+Computing the 40th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_39 > Model1564940778_39
+Model1564940778_39 file is produced
+writing SMT file: SMT1564940778_40
+Computing the 41th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564940778_40 > Model1564940778_40
+Model1564940778_40 file is produced
+-------------------------
+---------
+Number of answer sets: 40
+Answer: 1
+ Answer set: q(3,2) q(1,6) q(2,4) q(6,3) q(7,1) q(5,5) q(4,7)
+Answer: 2
+ Answer set: q(3,5) q(7,2) q(1,6) q(5,1) q(6,4) q(4,7) q(2,3)
+Answer: 3
+ Answer set: q(1,7) q(7,2) q(5,6) q(2,5) q(6,4) q(4,1) q(3,3)
+Answer: 4
+ Answer set: q(2,7) q(4,2) q(3,5) q(6,1) q(5,6) q(7,3) q(1,4)
+Answer: 5
+ Answer set: q(2,7) q(3,2) q(1,5) q(6,1) q(5,6) q(4,4) q(7,3)
+Answer: 6
+ Answer set: q(2,7) q(6,5) q(1,4) q(4,6) q(7,1) q(5,2) q(3,3)
+Answer: 7
+ Answer set: q(3,7) q(7,2) q(1,6) q(6,5) q(2,4) q(4,1) q(5,3)
+Answer: 8
+ Answer set: q(3,7) q(7,2) q(1,6) q(6,5) q(4,4) q(5,1) q(2,3)
+Answer: 9
+ Answer set: q(3,4) q(1,7) q(7,5) q(6,3) q(5,1) q(4,6) q(2,2)
+Answer: 10
+ Answer set: q(2,7) q(3,2) q(1,5) q(6,1) q(7,4) q(4,6) q(5,3)
+Answer: 11
+ Answer set: q(3,7) q(1,2) q(4,4) q(7,6) q(2,5) q(6,3) q(5,1)
+Answer: 12
+ Answer set: q(3,7) q(6,1) q(7,6) q(4,5) q(1,4) q(5,3) q(2,2)
+Answer: 13
+ Answer set: q(2,7) q(3,4) q(6,2) q(7,6) q(1,3) q(4,1) q(5,5)
+Answer: 14
+ Answer set: q(4,2) q(1,7) q(6,1) q(3,6) q(7,4) q(5,5) q(2,3)
+Answer: 15
+ Answer set: q(7,7) q(1,2) q(6,5) q(3,6) q(2,4) q(4,1) q(5,3)
+Answer: 16
+ Answer set: q(3,2) q(7,7) q(2,6) q(1,3) q(4,5) q(5,1) q(6,4)
+Answer: 17
+ Answer set: q(6,2) q(7,7) q(1,5) q(3,1) q(5,4) q(4,6) q(2,3)
+Answer: 18
+ Answer set: q(4,2) q(7,7) q(3,5) q(5,6) q(6,3) q(1,4) q(2,1)
+Answer: 19
+ Answer set: q(2,7) q(3,2) q(7,5) q(6,1) q(5,6) q(4,4) q(1,3)
+Answer: 20
+ Answer set: q(4,3) q(6,2) q(3,7) q(7,5) q(1,1) q(5,6) q(2,4)
+Answer: 21
+ Answer set: q(2,6) q(7,5) q(1,2) q(6,1) q(5,4) q(4,7) q(3,3)
+Answer: 22
+ Answer set: q(3,5) q(1,1) q(7,6) q(6,4) q(4,7) q(5,2) q(2,3)
+Answer: 23
+ Answer set: q(1,2) q(7,6) q(3,1) q(2,4) q(6,3) q(5,5) q(4,7)
+Answer: 24
+ Answer set: q(5,7) q(1,2) q(4,4) q(7,6) q(3,1) q(2,5) q(6,3)
+Answer: 25
+ Answer set: q(5,7) q(1,2) q(7,6) q(2,5) q(6,4) q(4,1) q(3,3)
+Answer: 26
+ Answer set: q(4,3) q(5,7) q(1,5) q(3,6) q(6,4) q(7,1) q(2,2)
+Answer: 27
+ Answer set: q(5,7) q(6,2) q(1,6) q(4,5) q(7,4) q(3,3) q(2,1)
+Answer: 28
+ Answer set: q(4,2) q(3,4) q(5,7) q(2,6) q(1,1) q(6,5) q(7,3)
+Answer: 29
+ Answer set: q(5,7) q(7,2) q(1,6) q(6,5) q(4,4) q(3,1) q(2,3)
+Answer: 30
+ Answer set: q(2,7) q(4,3) q(6,6) q(3,5) q(1,2) q(7,4) q(5,1)
+Answer: 31
+ Answer set: q(4,2) q(6,6) q(3,7) q(2,5) q(5,4) q(1,3) q(7,1)
+Answer: 32
+ Answer set: q(3,4) q(1,5) q(6,6) q(7,2) q(5,3) q(4,7) q(2,1)
+Answer: 33
+ Answer set: q(1,7) q(6,6) q(3,1) q(7,3) q(2,4) q(4,5) q(5,2)
+Answer: 34
+ Answer set: q(3,2) q(1,1) q(2,5) q(6,7) q(7,4) q(4,6) q(5,3)
+Answer: 35
+ Answer set: q(4,2) q(3,6) q(6,7) q(1,3) q(7,4) q(5,5) q(2,1)
+Answer: 36
+ Answer set: q(3,5) q(1,6) q(5,4) q(7,3) q(6,7) q(4,1) q(2,2)
+Answer: 37
+ Answer set: q(1,5) q(4,4) q(3,6) q(7,3) q(6,7) q(5,2) q(2,1)
+Answer: 38
+ Answer set: q(7,5) q(4,4) q(3,6) q(6,7) q(1,3) q(5,2) q(2,1)
+Answer: 39
+ Answer set: q(7,5) q(6,7) q(1,4) q(4,6) q(5,2) q(3,3) q(2,1)
+Answer: 40
+ Answer set: q(4,3) q(2,6) q(7,2) q(3,1) q(6,7) q(1,4) q(5,5)
+        3.11 real         2.59 user         0.35 sys
+===========================================================================================
+
+Running ./bin/ezsmt2 -file ./benchmarks/n-queens/n-queens-8.lp.ez -cvc4 0:
+ezsmt version 2.0.0 (ezsmtPlus) Reading...
+
+Running pre-parsing command: $EZSMTPLUS/tools/pre-parser ./benchmarks/n-queens/n-queens-8.lp.ez  > ./benchmarks/n-queens/n-queens-8.lp.ez.preparsed
+pre-parser version 1.8...
+parser version 1.8.11...
+
+Running grounding command: $EZSMTPLUS/tools/gringo ./benchmarks/n-queens/n-queens-8.lp.ez.preparsed > ./benchmarks/n-queens/n-queens-8.lp.ez.grounded
+done
+Program is tight.
+Program is tight, no level ranking formula is added.
+---------
+SMT1564991199 file is produced
+Computing the 1th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199 > Model1564991199
+Model1564991199 file is produced
+writing SMT file: SMT1564991199_1
+Computing the 2th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_1 > Model1564991199_1
+Model1564991199_1 file is produced
+writing SMT file: SMT1564991199_2
+Computing the 3th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_2 > Model1564991199_2
+Model1564991199_2 file is produced
+writing SMT file: SMT1564991199_3
+Computing the 4th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_3 > Model1564991199_3
+Model1564991199_3 file is produced
+writing SMT file: SMT1564991199_4
+Computing the 5th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_4 > Model1564991199_4
+Model1564991199_4 file is produced
+writing SMT file: SMT1564991199_5
+Computing the 6th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_5 > Model1564991199_5
+Model1564991199_5 file is produced
+writing SMT file: SMT1564991199_6
+Computing the 7th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_6 > Model1564991199_6
+Model1564991199_6 file is produced
+writing SMT file: SMT1564991199_7
+Computing the 8th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_7 > Model1564991199_7
+Model1564991199_7 file is produced
+writing SMT file: SMT1564991199_8
+Computing the 9th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_8 > Model1564991199_8
+Model1564991199_8 file is produced
+writing SMT file: SMT1564991199_9
+Computing the 10th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_9 > Model1564991199_9
+Model1564991199_9 file is produced
+writing SMT file: SMT1564991199_10
+Computing the 11th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_10 > Model1564991199_10
+Model1564991199_10 file is produced
+writing SMT file: SMT1564991199_11
+Computing the 12th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_11 > Model1564991199_11
+Model1564991199_11 file is produced
+writing SMT file: SMT1564991199_12
+Computing the 13th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_12 > Model1564991199_12
+Model1564991199_12 file is produced
+writing SMT file: SMT1564991199_13
+Computing the 14th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_13 > Model1564991199_13
+Model1564991199_13 file is produced
+writing SMT file: SMT1564991199_14
+Computing the 15th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_14 > Model1564991199_14
+Model1564991199_14 file is produced
+writing SMT file: SMT1564991199_15
+Computing the 16th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_15 > Model1564991199_15
+Model1564991199_15 file is produced
+writing SMT file: SMT1564991199_16
+Computing the 17th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_16 > Model1564991199_16
+Model1564991199_16 file is produced
+writing SMT file: SMT1564991199_17
+Computing the 18th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_17 > Model1564991199_17
+Model1564991199_17 file is produced
+writing SMT file: SMT1564991199_18
+Computing the 19th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_18 > Model1564991199_18
+Model1564991199_18 file is produced
+writing SMT file: SMT1564991199_19
+Computing the 20th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_19 > Model1564991199_19
+Model1564991199_19 file is produced
+writing SMT file: SMT1564991199_20
+Computing the 21th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_20 > Model1564991199_20
+Model1564991199_20 file is produced
+writing SMT file: SMT1564991199_21
+Computing the 22th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_21 > Model1564991199_21
+Model1564991199_21 file is produced
+writing SMT file: SMT1564991199_22
+Computing the 23th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_22 > Model1564991199_22
+Model1564991199_22 file is produced
+writing SMT file: SMT1564991199_23
+Computing the 24th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_23 > Model1564991199_23
+Model1564991199_23 file is produced
+writing SMT file: SMT1564991199_24
+Computing the 25th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_24 > Model1564991199_24
+Model1564991199_24 file is produced
+writing SMT file: SMT1564991199_25
+Computing the 26th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_25 > Model1564991199_25
+Model1564991199_25 file is produced
+writing SMT file: SMT1564991199_26
+Computing the 27th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_26 > Model1564991199_26
+Model1564991199_26 file is produced
+writing SMT file: SMT1564991199_27
+Computing the 28th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_27 > Model1564991199_27
+Model1564991199_27 file is produced
+writing SMT file: SMT1564991199_28
+Computing the 29th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_28 > Model1564991199_28
+Model1564991199_28 file is produced
+writing SMT file: SMT1564991199_29
+Computing the 30th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_29 > Model1564991199_29
+Model1564991199_29 file is produced
+writing SMT file: SMT1564991199_30
+Computing the 31th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_30 > Model1564991199_30
+Model1564991199_30 file is produced
+writing SMT file: SMT1564991199_31
+Computing the 32th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_31 > Model1564991199_31
+Model1564991199_31 file is produced
+writing SMT file: SMT1564991199_32
+Computing the 33th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_32 > Model1564991199_32
+Model1564991199_32 file is produced
+writing SMT file: SMT1564991199_33
+Computing the 34th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_33 > Model1564991199_33
+Model1564991199_33 file is produced
+writing SMT file: SMT1564991199_34
+Computing the 35th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_34 > Model1564991199_34
+Model1564991199_34 file is produced
+writing SMT file: SMT1564991199_35
+Computing the 36th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_35 > Model1564991199_35
+Model1564991199_35 file is produced
+writing SMT file: SMT1564991199_36
+Computing the 37th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_36 > Model1564991199_36
+Model1564991199_36 file is produced
+writing SMT file: SMT1564991199_37
+Computing the 38th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_37 > Model1564991199_37
+Model1564991199_37 file is produced
+writing SMT file: SMT1564991199_38
+Computing the 39th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_38 > Model1564991199_38
+Model1564991199_38 file is produced
+writing SMT file: SMT1564991199_39
+Computing the 40th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_39 > Model1564991199_39
+Model1564991199_39 file is produced
+writing SMT file: SMT1564991199_40
+Computing the 41th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_40 > Model1564991199_40
+Model1564991199_40 file is produced
+writing SMT file: SMT1564991199_41
+Computing the 42th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_41 > Model1564991199_41
+Model1564991199_41 file is produced
+writing SMT file: SMT1564991199_42
+Computing the 43th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_42 > Model1564991199_42
+Model1564991199_42 file is produced
+writing SMT file: SMT1564991199_43
+Computing the 44th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_43 > Model1564991199_43
+Model1564991199_43 file is produced
+writing SMT file: SMT1564991199_44
+Computing the 45th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_44 > Model1564991199_44
+Model1564991199_44 file is produced
+writing SMT file: SMT1564991199_45
+Computing the 46th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_45 > Model1564991199_45
+Model1564991199_45 file is produced
+writing SMT file: SMT1564991199_46
+Computing the 47th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_46 > Model1564991199_46
+Model1564991199_46 file is produced
+writing SMT file: SMT1564991199_47
+Computing the 48th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_47 > Model1564991199_47
+Model1564991199_47 file is produced
+writing SMT file: SMT1564991199_48
+Computing the 49th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_48 > Model1564991199_48
+Model1564991199_48 file is produced
+writing SMT file: SMT1564991199_49
+Computing the 50th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_49 > Model1564991199_49
+Model1564991199_49 file is produced
+writing SMT file: SMT1564991199_50
+Computing the 51th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_50 > Model1564991199_50
+Model1564991199_50 file is produced
+writing SMT file: SMT1564991199_51
+Computing the 52th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_51 > Model1564991199_51
+Model1564991199_51 file is produced
+writing SMT file: SMT1564991199_52
+Computing the 53th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_52 > Model1564991199_52
+Model1564991199_52 file is produced
+writing SMT file: SMT1564991199_53
+Computing the 54th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_53 > Model1564991199_53
+Model1564991199_53 file is produced
+writing SMT file: SMT1564991199_54
+Computing the 55th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_54 > Model1564991199_54
+Model1564991199_54 file is produced
+writing SMT file: SMT1564991199_55
+Computing the 56th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_55 > Model1564991199_55
+Model1564991199_55 file is produced
+writing SMT file: SMT1564991199_56
+Computing the 57th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_56 > Model1564991199_56
+Model1564991199_56 file is produced
+writing SMT file: SMT1564991199_57
+Computing the 58th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_57 > Model1564991199_57
+Model1564991199_57 file is produced
+writing SMT file: SMT1564991199_58
+Computing the 59th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_58 > Model1564991199_58
+Model1564991199_58 file is produced
+writing SMT file: SMT1564991199_59
+Computing the 60th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_59 > Model1564991199_59
+Model1564991199_59 file is produced
+writing SMT file: SMT1564991199_60
+Computing the 61th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_60 > Model1564991199_60
+Model1564991199_60 file is produced
+writing SMT file: SMT1564991199_61
+Computing the 62th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_61 > Model1564991199_61
+Model1564991199_61 file is produced
+writing SMT file: SMT1564991199_62
+Computing the 63th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_62 > Model1564991199_62
+Model1564991199_62 file is produced
+writing SMT file: SMT1564991199_63
+Computing the 64th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_63 > Model1564991199_63
+Model1564991199_63 file is produced
+writing SMT file: SMT1564991199_64
+Computing the 65th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_64 > Model1564991199_64
+Model1564991199_64 file is produced
+writing SMT file: SMT1564991199_65
+Computing the 66th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_65 > Model1564991199_65
+Model1564991199_65 file is produced
+writing SMT file: SMT1564991199_66
+Computing the 67th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_66 > Model1564991199_66
+Model1564991199_66 file is produced
+writing SMT file: SMT1564991199_67
+Computing the 68th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_67 > Model1564991199_67
+Model1564991199_67 file is produced
+writing SMT file: SMT1564991199_68
+Computing the 69th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_68 > Model1564991199_68
+Model1564991199_68 file is produced
+writing SMT file: SMT1564991199_69
+Computing the 70th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_69 > Model1564991199_69
+Model1564991199_69 file is produced
+writing SMT file: SMT1564991199_70
+Computing the 71th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_70 > Model1564991199_70
+Model1564991199_70 file is produced
+writing SMT file: SMT1564991199_71
+Computing the 72th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_71 > Model1564991199_71
+Model1564991199_71 file is produced
+writing SMT file: SMT1564991199_72
+Computing the 73th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_72 > Model1564991199_72
+Model1564991199_72 file is produced
+writing SMT file: SMT1564991199_73
+Computing the 74th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_73 > Model1564991199_73
+Model1564991199_73 file is produced
+writing SMT file: SMT1564991199_74
+Computing the 75th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_74 > Model1564991199_74
+Model1564991199_74 file is produced
+writing SMT file: SMT1564991199_75
+Computing the 76th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_75 > Model1564991199_75
+Model1564991199_75 file is produced
+writing SMT file: SMT1564991199_76
+Computing the 77th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_76 > Model1564991199_76
+Model1564991199_76 file is produced
+writing SMT file: SMT1564991199_77
+Computing the 78th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_77 > Model1564991199_77
+Model1564991199_77 file is produced
+writing SMT file: SMT1564991199_78
+Computing the 79th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_78 > Model1564991199_78
+Model1564991199_78 file is produced
+writing SMT file: SMT1564991199_79
+Computing the 80th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_79 > Model1564991199_79
+Model1564991199_79 file is produced
+writing SMT file: SMT1564991199_80
+Computing the 81th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_80 > Model1564991199_80
+Model1564991199_80 file is produced
+writing SMT file: SMT1564991199_81
+Computing the 82th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_81 > Model1564991199_81
+Model1564991199_81 file is produced
+writing SMT file: SMT1564991199_82
+Computing the 83th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_82 > Model1564991199_82
+Model1564991199_82 file is produced
+writing SMT file: SMT1564991199_83
+Computing the 84th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_83 > Model1564991199_83
+Model1564991199_83 file is produced
+writing SMT file: SMT1564991199_84
+Computing the 85th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_84 > Model1564991199_84
+Model1564991199_84 file is produced
+writing SMT file: SMT1564991199_85
+Computing the 86th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_85 > Model1564991199_85
+Model1564991199_85 file is produced
+writing SMT file: SMT1564991199_86
+Computing the 87th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_86 > Model1564991199_86
+Model1564991199_86 file is produced
+writing SMT file: SMT1564991199_87
+Computing the 88th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_87 > Model1564991199_87
+Model1564991199_87 file is produced
+writing SMT file: SMT1564991199_88
+Computing the 89th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_88 > Model1564991199_88
+Model1564991199_88 file is produced
+writing SMT file: SMT1564991199_89
+Computing the 90th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_89 > Model1564991199_89
+Model1564991199_89 file is produced
+writing SMT file: SMT1564991199_90
+Computing the 91th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_90 > Model1564991199_90
+Model1564991199_90 file is produced
+writing SMT file: SMT1564991199_91
+Computing the 92th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_91 > Model1564991199_91
+Model1564991199_91 file is produced
+writing SMT file: SMT1564991199_92
+Computing the 93th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1564991199_92 > Model1564991199_92
+Model1564991199_92 file is produced
+-------------------------
+---------
+Number of answer sets: 92
+Answer: 1
+ Answer set: q(5,7) q(1,4) q(2,6) q(8,5) q(3,8) q(6,1) q(4,2) q(7,3)
+Answer: 2
+ Answer set: q(1,4) q(5,1) q(3,8) q(4,6) q(6,3) q(2,2) q(8,7) q(7,5)
+Answer: 3
+ Answer set: q(8,6) q(4,3) q(5,1) q(1,8) q(6,7) q(2,2) q(3,5) q(7,4)
+Answer: 4
+ Answer set: q(4,6) q(6,1) q(3,2) q(1,5) q(5,3) q(8,8) q(2,7) q(7,4)
+Answer: 5
+ Answer set: q(1,3) q(8,6) q(5,1) q(4,8) q(3,2) q(6,7) q(2,5) q(7,4)
+Answer: 6
+ Answer set: q(1,3) q(5,5) q(8,6) q(4,8) q(6,1) q(3,2) q(2,7) q(7,4)
+Answer: 7
+ Answer set: q(3,1) q(5,5) q(6,2) q(4,8) q(2,3) q(1,6) q(7,4) q(8,7)
+Answer: 8
+ Answer set: q(3,7) q(4,1) q(2,4) q(5,3) q(1,6) q(8,8) q(7,2) q(6,5)
+Answer: 9
+ Answer set: q(1,2) q(4,1) q(2,8) q(8,4) q(3,6) q(7,7) q(5,3) q(6,5)
+Answer: 10
+ Answer set: q(4,1) q(2,8) q(1,5) q(5,3) q(7,2) q(6,6) q(3,4) q(8,7)
+Answer: 11
+ Answer set: q(2,8) q(5,1) q(3,2) q(6,7) q(4,4) q(1,6) q(8,3) q(7,5)
+Answer: 12
+ Answer set: q(1,4) q(8,6) q(2,8) q(4,3) q(5,1) q(6,7) q(7,2) q(3,5)
+Answer: 13
+ Answer set: q(1,4) q(6,1) q(4,2) q(5,6) q(8,8) q(7,3) q(2,7) q(3,5)
+Answer: 14
+ Answer set: q(3,1) q(6,2) q(4,3) q(8,5) q(1,8) q(7,7) q(2,4) q(5,6)
+Answer: 15
+ Answer set: q(3,1) q(1,4) q(6,2) q(2,8) q(4,3) q(8,5) q(7,7) q(5,6)
+Answer: 16
+ Answer set: q(7,1) q(1,3) q(8,5) q(4,8) q(3,2) q(6,4) q(5,6) q(2,7)
+Answer: 17
+ Answer set: q(3,3) q(2,1) q(1,7) q(8,5) q(4,8) q(6,4) q(5,6) q(7,2)
+Answer: 18
+ Answer set: q(1,7) q(8,5) q(4,8) q(6,1) q(3,2) q(2,4) q(5,6) q(7,3)
+Answer: 19
+ Answer set: q(1,4) q(4,8) q(6,1) q(2,2) q(5,6) q(7,3) q(3,5) q(8,7)
+Answer: 20
+ Answer set: q(2,1) q(1,4) q(8,2) q(6,3) q(4,8) q(7,7) q(5,6) q(3,5)
+Answer: 21
+ Answer set: q(1,3) q(4,8) q(3,2) q(7,7) q(8,1) q(6,4) q(5,6) q(2,5)
+Answer: 22
+ Answer set: q(7,1) q(3,7) q(1,4) q(4,3) q(8,5) q(6,8) q(2,2) q(5,6)
+Answer: 23
+ Answer set: q(3,3) q(4,1) q(1,7) q(8,4) q(6,8) q(5,6) q(2,5) q(7,2)
+Answer: 24
+ Answer set: q(3,7) q(1,4) q(4,3) q(6,8) q(8,1) q(2,2) q(5,6) q(7,5)
+Answer: 25
+ Answer set: q(3,7) q(4,1) q(6,8) q(5,4) q(2,2) q(1,6) q(8,3) q(7,5)
+Answer: 26
+ Answer set: q(7,6) q(4,1) q(8,2) q(6,8) q(1,5) q(5,3) q(2,7) q(3,4)
+Answer: 27
+ Answer set: q(7,6) q(6,8) q(1,5) q(8,1) q(2,2) q(5,3) q(4,7) q(3,4)
+Answer: 28
+ Answer set: q(7,1) q(3,7) q(8,5) q(6,8) q(5,4) q(4,2) q(2,3) q(1,6)
+Answer: 29
+ Answer set: q(3,7) q(5,1) q(8,5) q(6,8) q(4,4) q(2,3) q(1,6) q(7,2)
+Answer: 30
+ Answer set: q(1,2) q(3,7) q(7,6) q(5,1) q(6,8) q(4,4) q(8,3) q(2,5)
+Answer: 31
+ Answer set: q(1,2) q(3,7) q(7,6) q(4,1) q(8,4) q(6,8) q(5,3) q(2,5)
+Answer: 32
+ Answer set: q(3,7) q(7,6) q(1,4) q(5,1) q(6,8) q(4,5) q(2,2) q(8,3)
+Answer: 33
+ Answer set: q(3,3) q(1,2) q(7,1) q(8,4) q(4,6) q(5,8) q(2,7) q(6,5)
+Answer: 34
+ Answer set: q(1,2) q(3,1) q(2,6) q(8,5) q(6,8) q(5,4) q(4,7) q(7,3)
+Answer: 35
+ Answer set: q(3,1) q(5,5) q(8,4) q(6,8) q(2,3) q(1,6) q(4,7) q(7,2)
+Answer: 36
+ Answer set: q(3,1) q(8,2) q(4,3) q(5,8) q(1,5) q(6,6) q(2,7) q(7,4)
+Answer: 37
+ Answer set: q(1,3) q(2,1) q(3,7) q(8,6) q(6,2) q(5,8) q(4,5) q(7,4)
+Answer: 38
+ Answer set: q(3,1) q(6,2) q(4,6) q(5,8) q(1,5) q(2,3) q(7,4) q(8,7)
+Answer: 39
+ Answer set: q(7,1) q(3,7) q(8,4) q(5,8) q(4,2) q(2,3) q(1,6) q(6,5)
+Answer: 40
+ Answer set: q(1,3) q(2,6) q(8,5) q(3,8) q(5,4) q(6,1) q(7,7) q(4,2)
+Answer: 41
+ Answer set: q(1,3) q(2,6) q(5,8) q(7,7) q(4,2) q(8,1) q(3,4) q(6,5)
+Answer: 42
+ Answer set: q(2,1) q(8,4) q(6,3) q(5,8) q(7,7) q(4,2) q(1,6) q(3,5)
+Answer: 43
+ Answer set: q(5,1) q(4,8) q(2,3) q(6,4) q(1,6) q(7,2) q(3,5) q(8,7)
+Answer: 44
+ Answer set: q(5,1) q(2,3) q(6,4) q(1,6) q(4,7) q(8,8) q(7,2) q(3,5)
+Answer: 45
+ Answer set: q(5,7) q(1,1) q(2,6) q(4,3) q(8,5) q(3,8) q(6,4) q(7,2)
+Answer: 46
+ Answer set: q(3,7) q(4,1) q(8,4) q(7,8) q(2,2) q(5,3) q(1,6) q(6,5)
+Answer: 47
+ Answer set: q(8,4) q(4,6) q(6,1) q(3,2) q(1,5) q(7,8) q(5,3) q(2,7)
+Answer: 48
+ Answer set: q(1,3) q(5,5) q(2,6) q(8,4) q(6,1) q(3,2) q(7,8) q(4,7)
+Answer: 49
+ Answer set: q(3,1) q(1,7) q(8,4) q(4,6) q(5,8) q(2,3) q(7,2) q(6,5)
+Answer: 50
+ Answer set: q(7,1) q(4,6) q(6,3) q(5,8) q(1,5) q(2,2) q(3,4) q(8,7)
+Answer: 51
+ Answer set: q(3,7) q(4,1) q(6,2) q(5,8) q(2,4) q(1,6) q(8,3) q(7,5)
+Answer: 52
+ Answer set: q(1,1) q(6,2) q(4,6) q(5,8) q(8,3) q(2,7) q(3,4) q(7,5)
+Answer: 53
+ Answer set: q(8,6) q(6,1) q(3,2) q(5,8) q(1,5) q(4,4) q(7,3) q(2,7)
+Answer: 54
+ Answer set: q(8,6) q(1,7) q(6,1) q(3,2) q(5,8) q(4,5) q(2,4) q(7,3)
+Answer: 55
+ Answer set: q(4,1) q(8,6) q(1,7) q(5,8) q(2,2) q(7,3) q(3,4) q(6,5)
+Answer: 56
+ Answer set: q(5,7) q(1,4) q(8,6) q(3,8) q(6,1) q(4,5) q(2,2) q(7,3)
+Answer: 57
+ Answer set: q(3,3) q(7,1) q(1,4) q(8,6) q(5,2) q(4,8) q(2,7) q(6,5)
+Answer: 58
+ Answer set: q(5,7) q(4,1) q(8,6) q(1,8) q(2,2) q(7,3) q(3,4) q(6,5)
+Answer: 59
+ Answer set: q(1,3) q(3,7) q(4,1) q(8,6) q(6,2) q(5,4) q(7,8) q(2,5)
+Answer: 60
+ Answer set: q(3,1) q(1,4) q(2,6) q(5,2) q(6,8) q(4,5) q(7,3) q(8,7)
+Answer: 61
+ Answer set: q(1,3) q(2,8) q(5,1) q(8,5) q(4,7) q(7,2) q(6,6) q(3,4)
+Answer: 62
+ Answer set: q(1,4) q(8,2) q(4,3) q(5,1) q(7,8) q(6,6) q(2,7) q(3,5)
+Answer: 63
+ Answer set: q(1,3) q(2,6) q(8,4) q(6,1) q(3,2) q(5,8) q(7,7) q(4,5)
+Answer: 64
+ Answer set: q(1,2) q(3,6) q(8,5) q(4,8) q(6,1) q(7,7) q(2,4) q(5,3)
+Answer: 65
+ Answer set: q(3,1) q(6,2) q(8,5) q(5,4) q(4,8) q(7,7) q(2,3) q(1,6)
+Answer: 66
+ Answer set: q(3,1) q(5,2) q(8,4) q(4,6) q(1,8) q(7,7) q(2,3) q(6,5)
+Answer: 67
+ Answer set: q(1,3) q(2,6) q(4,1) q(8,2) q(5,8) q(7,7) q(3,4) q(6,5)
+Answer: 68
+ Answer set: q(3,1) q(6,2) q(5,8) q(7,7) q(4,5) q(2,4) q(1,6) q(8,3)
+Answer: 69
+ Answer set: q(2,1) q(6,2) q(4,6) q(5,8) q(1,5) q(7,7) q(8,3) q(3,4)
+Answer: 70
+ Answer set: q(5,7) q(3,1) q(7,6) q(1,4) q(6,2) q(2,8) q(4,5) q(8,3)
+Answer: 71
+ Answer set: q(5,7) q(7,6) q(4,1) q(6,2) q(2,8) q(1,5) q(8,3) q(3,4)
+Answer: 72
+ Answer set: q(5,7) q(7,6) q(8,2) q(3,8) q(6,1) q(1,5) q(4,4) q(2,3)
+Answer: 73
+ Answer set: q(5,5) q(7,6) q(1,7) q(8,4) q(3,8) q(6,1) q(4,2) q(2,3)
+Answer: 74
+ Answer set: q(3,1) q(5,5) q(7,6) q(1,4) q(6,2) q(4,8) q(8,3) q(2,7)
+Answer: 75
+ Answer set: q(3,1) q(7,6) q(5,2) q(6,8) q(1,5) q(4,4) q(8,3) q(2,7)
+Answer: 76
+ Answer set: q(3,1) q(7,6) q(5,2) q(8,4) q(6,8) q(1,5) q(2,3) q(4,7)
+Answer: 77
+ Answer set: q(2,1) q(8,6) q(5,2) q(3,8) q(6,7) q(1,5) q(4,4) q(7,3)
+Answer: 78
+ Answer set: q(2,1) q(1,4) q(8,6) q(5,2) q(4,8) q(6,7) q(7,3) q(3,5)
+Answer: 79
+ Answer set: q(7,1) q(5,5) q(4,8) q(3,2) q(6,7) q(2,4) q(1,6) q(8,3)
+Answer: 80
+ Answer set: q(1,3) q(2,6) q(4,1) q(8,2) q(3,8) q(5,4) q(6,7) q(7,5)
+Answer: 81
+ Answer set: q(1,3) q(8,6) q(5,1) q(3,8) q(6,7) q(4,4) q(2,5) q(7,2)
+Answer: 82
+ Answer set: q(4,1) q(8,6) q(3,8) q(5,4) q(6,7) q(1,5) q(2,2) q(7,3)
+Answer: 83
+ Answer set: q(1,4) q(2,6) q(8,2) q(4,3) q(5,1) q(3,8) q(6,7) q(7,5)
+Answer: 84
+ Answer set: q(1,3) q(5,5) q(2,6) q(4,1) q(8,4) q(3,8) q(6,7) q(7,2)
+Answer: 85
+ Answer set: q(2,1) q(8,4) q(3,8) q(4,6) q(6,7) q(1,5) q(5,3) q(7,2)
+Answer: 86
+ Answer set: q(1,1) q(8,4) q(3,8) q(4,6) q(6,7) q(5,3) q(2,5) q(7,2)
+Answer: 87
+ Answer set: q(1,3) q(2,6) q(5,1) q(8,5) q(3,2) q(7,8) q(6,4) q(4,7)
+Answer: 88
+ Answer set: q(4,3) q(1,7) q(5,1) q(3,6) q(8,5) q(7,8) q(6,4) q(2,2)
+Answer: 89
+ Answer set: q(1,2) q(2,6) q(4,3) q(5,1) q(8,5) q(3,8) q(7,7) q(6,4)
+Answer: 90
+ Answer set: q(1,2) q(7,6) q(5,1) q(4,8) q(6,4) q(8,3) q(2,7) q(3,5)
+Answer: 91
+ Answer set: q(1,1) q(7,6) q(5,2) q(4,8) q(6,4) q(8,3) q(2,7) q(3,5)
+Answer: 92
+ Answer set: q(5,7) q(4,1) q(3,6) q(1,5) q(7,8) q(6,4) q(2,2) q(8,3)
+       10.74 real         9.63 user         0.77 sys
+===========================================================================================
+
+Running ./bin/ezsmt2 -file ./benchmarks/n-queens/n-queens-9.lp.ez -cvc4 0:
+ezsmt version 2.0.0 (ezsmtPlus) Reading...
+
+Running pre-parsing command: $EZSMTPLUS/tools/pre-parser ./benchmarks/n-queens/n-queens-9.lp.ez  > ./benchmarks/n-queens/n-queens-9.lp.ez.preparsed
+pre-parser version 1.8...
+parser version 1.8.11...
+
+Running grounding command: $EZSMTPLUS/tools/gringo ./benchmarks/n-queens/n-queens-9.lp.ez.preparsed > ./benchmarks/n-queens/n-queens-9.lp.ez.grounded
+done
+Program is tight.
+Program is tight, no level ranking formula is added.
+---------
+SMT1565176076 file is produced
+Computing the 1th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076 > Model1565176076
+Model1565176076 file is produced
+writing SMT file: SMT1565176076_1
+Computing the 2th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_1 > Model1565176076_1
+Model1565176076_1 file is produced
+writing SMT file: SMT1565176076_2
+Computing the 3th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_2 > Model1565176076_2
+Model1565176076_2 file is produced
+writing SMT file: SMT1565176076_3
+Computing the 4th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_3 > Model1565176076_3
+Model1565176076_3 file is produced
+writing SMT file: SMT1565176076_4
+Computing the 5th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_4 > Model1565176076_4
+Model1565176076_4 file is produced
+writing SMT file: SMT1565176076_5
+Computing the 6th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_5 > Model1565176076_5
+Model1565176076_5 file is produced
+writing SMT file: SMT1565176076_6
+Computing the 7th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_6 > Model1565176076_6
+Model1565176076_6 file is produced
+writing SMT file: SMT1565176076_7
+Computing the 8th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_7 > Model1565176076_7
+Model1565176076_7 file is produced
+writing SMT file: SMT1565176076_8
+Computing the 9th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_8 > Model1565176076_8
+Model1565176076_8 file is produced
+writing SMT file: SMT1565176076_9
+Computing the 10th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_9 > Model1565176076_9
+Model1565176076_9 file is produced
+writing SMT file: SMT1565176076_10
+Computing the 11th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_10 > Model1565176076_10
+Model1565176076_10 file is produced
+writing SMT file: SMT1565176076_11
+Computing the 12th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_11 > Model1565176076_11
+Model1565176076_11 file is produced
+writing SMT file: SMT1565176076_12
+Computing the 13th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_12 > Model1565176076_12
+Model1565176076_12 file is produced
+writing SMT file: SMT1565176076_13
+Computing the 14th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_13 > Model1565176076_13
+Model1565176076_13 file is produced
+writing SMT file: SMT1565176076_14
+Computing the 15th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_14 > Model1565176076_14
+Model1565176076_14 file is produced
+writing SMT file: SMT1565176076_15
+Computing the 16th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_15 > Model1565176076_15
+Model1565176076_15 file is produced
+writing SMT file: SMT1565176076_16
+Computing the 17th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_16 > Model1565176076_16
+Model1565176076_16 file is produced
+writing SMT file: SMT1565176076_17
+Computing the 18th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_17 > Model1565176076_17
+Model1565176076_17 file is produced
+writing SMT file: SMT1565176076_18
+Computing the 19th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_18 > Model1565176076_18
+Model1565176076_18 file is produced
+writing SMT file: SMT1565176076_19
+Computing the 20th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_19 > Model1565176076_19
+Model1565176076_19 file is produced
+writing SMT file: SMT1565176076_20
+Computing the 21th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_20 > Model1565176076_20
+Model1565176076_20 file is produced
+writing SMT file: SMT1565176076_21
+Computing the 22th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_21 > Model1565176076_21
+Model1565176076_21 file is produced
+writing SMT file: SMT1565176076_22
+Computing the 23th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_22 > Model1565176076_22
+Model1565176076_22 file is produced
+writing SMT file: SMT1565176076_23
+Computing the 24th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_23 > Model1565176076_23
+Model1565176076_23 file is produced
+writing SMT file: SMT1565176076_24
+Computing the 25th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_24 > Model1565176076_24
+Model1565176076_24 file is produced
+writing SMT file: SMT1565176076_25
+Computing the 26th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_25 > Model1565176076_25
+Model1565176076_25 file is produced
+writing SMT file: SMT1565176076_26
+Computing the 27th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_26 > Model1565176076_26
+Model1565176076_26 file is produced
+writing SMT file: SMT1565176076_27
+Computing the 28th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_27 > Model1565176076_27
+Model1565176076_27 file is produced
+writing SMT file: SMT1565176076_28
+Computing the 29th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_28 > Model1565176076_28
+Model1565176076_28 file is produced
+writing SMT file: SMT1565176076_29
+Computing the 30th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_29 > Model1565176076_29
+Model1565176076_29 file is produced
+writing SMT file: SMT1565176076_30
+Computing the 31th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_30 > Model1565176076_30
+Model1565176076_30 file is produced
+writing SMT file: SMT1565176076_31
+Computing the 32th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_31 > Model1565176076_31
+Model1565176076_31 file is produced
+writing SMT file: SMT1565176076_32
+Computing the 33th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_32 > Model1565176076_32
+Model1565176076_32 file is produced
+writing SMT file: SMT1565176076_33
+Computing the 34th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_33 > Model1565176076_33
+Model1565176076_33 file is produced
+writing SMT file: SMT1565176076_34
+Computing the 35th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_34 > Model1565176076_34
+Model1565176076_34 file is produced
+writing SMT file: SMT1565176076_35
+Computing the 36th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_35 > Model1565176076_35
+Model1565176076_35 file is produced
+writing SMT file: SMT1565176076_36
+Computing the 37th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_36 > Model1565176076_36
+Model1565176076_36 file is produced
+writing SMT file: SMT1565176076_37
+Computing the 38th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_37 > Model1565176076_37
+Model1565176076_37 file is produced
+writing SMT file: SMT1565176076_38
+Computing the 39th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_38 > Model1565176076_38
+Model1565176076_38 file is produced
+writing SMT file: SMT1565176076_39
+Computing the 40th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_39 > Model1565176076_39
+Model1565176076_39 file is produced
+writing SMT file: SMT1565176076_40
+Computing the 41th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_40 > Model1565176076_40
+Model1565176076_40 file is produced
+writing SMT file: SMT1565176076_41
+Computing the 42th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_41 > Model1565176076_41
+Model1565176076_41 file is produced
+writing SMT file: SMT1565176076_42
+Computing the 43th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_42 > Model1565176076_42
+Model1565176076_42 file is produced
+writing SMT file: SMT1565176076_43
+Computing the 44th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_43 > Model1565176076_43
+Model1565176076_43 file is produced
+writing SMT file: SMT1565176076_44
+Computing the 45th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_44 > Model1565176076_44
+Model1565176076_44 file is produced
+writing SMT file: SMT1565176076_45
+Computing the 46th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_45 > Model1565176076_45
+Model1565176076_45 file is produced
+writing SMT file: SMT1565176076_46
+Computing the 47th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_46 > Model1565176076_46
+Model1565176076_46 file is produced
+writing SMT file: SMT1565176076_47
+Computing the 48th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_47 > Model1565176076_47
+Model1565176076_47 file is produced
+writing SMT file: SMT1565176076_48
+Computing the 49th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_48 > Model1565176076_48
+Model1565176076_48 file is produced
+writing SMT file: SMT1565176076_49
+Computing the 50th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_49 > Model1565176076_49
+Model1565176076_49 file is produced
+writing SMT file: SMT1565176076_50
+Computing the 51th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_50 > Model1565176076_50
+Model1565176076_50 file is produced
+writing SMT file: SMT1565176076_51
+Computing the 52th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_51 > Model1565176076_51
+Model1565176076_51 file is produced
+writing SMT file: SMT1565176076_52
+Computing the 53th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_52 > Model1565176076_52
+Model1565176076_52 file is produced
+writing SMT file: SMT1565176076_53
+Computing the 54th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_53 > Model1565176076_53
+Model1565176076_53 file is produced
+writing SMT file: SMT1565176076_54
+Computing the 55th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_54 > Model1565176076_54
+Model1565176076_54 file is produced
+writing SMT file: SMT1565176076_55
+Computing the 56th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_55 > Model1565176076_55
+Model1565176076_55 file is produced
+writing SMT file: SMT1565176076_56
+Computing the 57th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_56 > Model1565176076_56
+Model1565176076_56 file is produced
+writing SMT file: SMT1565176076_57
+Computing the 58th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_57 > Model1565176076_57
+Model1565176076_57 file is produced
+writing SMT file: SMT1565176076_58
+Computing the 59th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_58 > Model1565176076_58
+Model1565176076_58 file is produced
+writing SMT file: SMT1565176076_59
+Computing the 60th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_59 > Model1565176076_59
+Model1565176076_59 file is produced
+writing SMT file: SMT1565176076_60
+Computing the 61th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_60 > Model1565176076_60
+Model1565176076_60 file is produced
+writing SMT file: SMT1565176076_61
+Computing the 62th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_61 > Model1565176076_61
+Model1565176076_61 file is produced
+writing SMT file: SMT1565176076_62
+Computing the 63th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_62 > Model1565176076_62
+Model1565176076_62 file is produced
+writing SMT file: SMT1565176076_63
+Computing the 64th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_63 > Model1565176076_63
+Model1565176076_63 file is produced
+writing SMT file: SMT1565176076_64
+Computing the 65th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_64 > Model1565176076_64
+Model1565176076_64 file is produced
+writing SMT file: SMT1565176076_65
+Computing the 66th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_65 > Model1565176076_65
+Model1565176076_65 file is produced
+writing SMT file: SMT1565176076_66
+Computing the 67th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_66 > Model1565176076_66
+Model1565176076_66 file is produced
+writing SMT file: SMT1565176076_67
+Computing the 68th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_67 > Model1565176076_67
+Model1565176076_67 file is produced
+writing SMT file: SMT1565176076_68
+Computing the 69th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_68 > Model1565176076_68
+Model1565176076_68 file is produced
+writing SMT file: SMT1565176076_69
+Computing the 70th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_69 > Model1565176076_69
+Model1565176076_69 file is produced
+writing SMT file: SMT1565176076_70
+Computing the 71th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_70 > Model1565176076_70
+Model1565176076_70 file is produced
+writing SMT file: SMT1565176076_71
+Computing the 72th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_71 > Model1565176076_71
+Model1565176076_71 file is produced
+writing SMT file: SMT1565176076_72
+Computing the 73th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_72 > Model1565176076_72
+Model1565176076_72 file is produced
+writing SMT file: SMT1565176076_73
+Computing the 74th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_73 > Model1565176076_73
+Model1565176076_73 file is produced
+writing SMT file: SMT1565176076_74
+Computing the 75th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_74 > Model1565176076_74
+Model1565176076_74 file is produced
+writing SMT file: SMT1565176076_75
+Computing the 76th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_75 > Model1565176076_75
+Model1565176076_75 file is produced
+writing SMT file: SMT1565176076_76
+Computing the 77th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_76 > Model1565176076_76
+Model1565176076_76 file is produced
+writing SMT file: SMT1565176076_77
+Computing the 78th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_77 > Model1565176076_77
+Model1565176076_77 file is produced
+writing SMT file: SMT1565176076_78
+Computing the 79th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_78 > Model1565176076_78
+Model1565176076_78 file is produced
+writing SMT file: SMT1565176076_79
+Computing the 80th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_79 > Model1565176076_79
+Model1565176076_79 file is produced
+writing SMT file: SMT1565176076_80
+Computing the 81th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_80 > Model1565176076_80
+Model1565176076_80 file is produced
+writing SMT file: SMT1565176076_81
+Computing the 82th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_81 > Model1565176076_81
+Model1565176076_81 file is produced
+writing SMT file: SMT1565176076_82
+Computing the 83th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_82 > Model1565176076_82
+Model1565176076_82 file is produced
+writing SMT file: SMT1565176076_83
+Computing the 84th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_83 > Model1565176076_83
+Model1565176076_83 file is produced
+writing SMT file: SMT1565176076_84
+Computing the 85th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_84 > Model1565176076_84
+Model1565176076_84 file is produced
+writing SMT file: SMT1565176076_85
+Computing the 86th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_85 > Model1565176076_85
+Model1565176076_85 file is produced
+writing SMT file: SMT1565176076_86
+Computing the 87th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_86 > Model1565176076_86
+Model1565176076_86 file is produced
+writing SMT file: SMT1565176076_87
+Computing the 88th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_87 > Model1565176076_87
+Model1565176076_87 file is produced
+writing SMT file: SMT1565176076_88
+Computing the 89th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_88 > Model1565176076_88
+Model1565176076_88 file is produced
+writing SMT file: SMT1565176076_89
+Computing the 90th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_89 > Model1565176076_89
+Model1565176076_89 file is produced
+writing SMT file: SMT1565176076_90
+Computing the 91th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_90 > Model1565176076_90
+Model1565176076_90 file is produced
+writing SMT file: SMT1565176076_91
+Computing the 92th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_91 > Model1565176076_91
+Model1565176076_91 file is produced
+writing SMT file: SMT1565176076_92
+Computing the 93th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_92 > Model1565176076_92
+Model1565176076_92 file is produced
+writing SMT file: SMT1565176076_93
+Computing the 94th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_93 > Model1565176076_93
+Model1565176076_93 file is produced
+writing SMT file: SMT1565176076_94
+Computing the 95th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_94 > Model1565176076_94
+Model1565176076_94 file is produced
+writing SMT file: SMT1565176076_95
+Computing the 96th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_95 > Model1565176076_95
+Model1565176076_95 file is produced
+writing SMT file: SMT1565176076_96
+Computing the 97th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_96 > Model1565176076_96
+Model1565176076_96 file is produced
+writing SMT file: SMT1565176076_97
+Computing the 98th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_97 > Model1565176076_97
+Model1565176076_97 file is produced
+writing SMT file: SMT1565176076_98
+Computing the 99th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_98 > Model1565176076_98
+Model1565176076_98 file is produced
+writing SMT file: SMT1565176076_99
+Computing the 100th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_99 > Model1565176076_99
+Model1565176076_99 file is produced
+writing SMT file: SMT1565176076_100
+Computing the 101th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_100 > Model1565176076_100
+Model1565176076_100 file is produced
+writing SMT file: SMT1565176076_101
+Computing the 102th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_101 > Model1565176076_101
+Model1565176076_101 file is produced
+writing SMT file: SMT1565176076_102
+Computing the 103th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_102 > Model1565176076_102
+Model1565176076_102 file is produced
+writing SMT file: SMT1565176076_103
+Computing the 104th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_103 > Model1565176076_103
+Model1565176076_103 file is produced
+writing SMT file: SMT1565176076_104
+Computing the 105th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_104 > Model1565176076_104
+Model1565176076_104 file is produced
+writing SMT file: SMT1565176076_105
+Computing the 106th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_105 > Model1565176076_105
+Model1565176076_105 file is produced
+writing SMT file: SMT1565176076_106
+Computing the 107th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_106 > Model1565176076_106
+Model1565176076_106 file is produced
+writing SMT file: SMT1565176076_107
+Computing the 108th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_107 > Model1565176076_107
+Model1565176076_107 file is produced
+writing SMT file: SMT1565176076_108
+Computing the 109th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_108 > Model1565176076_108
+Model1565176076_108 file is produced
+writing SMT file: SMT1565176076_109
+Computing the 110th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_109 > Model1565176076_109
+Model1565176076_109 file is produced
+writing SMT file: SMT1565176076_110
+Computing the 111th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_110 > Model1565176076_110
+Model1565176076_110 file is produced
+writing SMT file: SMT1565176076_111
+Computing the 112th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_111 > Model1565176076_111
+Model1565176076_111 file is produced
+writing SMT file: SMT1565176076_112
+Computing the 113th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_112 > Model1565176076_112
+Model1565176076_112 file is produced
+writing SMT file: SMT1565176076_113
+Computing the 114th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_113 > Model1565176076_113
+Model1565176076_113 file is produced
+writing SMT file: SMT1565176076_114
+Computing the 115th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_114 > Model1565176076_114
+Model1565176076_114 file is produced
+writing SMT file: SMT1565176076_115
+Computing the 116th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_115 > Model1565176076_115
+Model1565176076_115 file is produced
+writing SMT file: SMT1565176076_116
+Computing the 117th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_116 > Model1565176076_116
+Model1565176076_116 file is produced
+writing SMT file: SMT1565176076_117
+Computing the 118th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_117 > Model1565176076_117
+Model1565176076_117 file is produced
+writing SMT file: SMT1565176076_118
+Computing the 119th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_118 > Model1565176076_118
+Model1565176076_118 file is produced
+writing SMT file: SMT1565176076_119
+Computing the 120th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_119 > Model1565176076_119
+Model1565176076_119 file is produced
+writing SMT file: SMT1565176076_120
+Computing the 121th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_120 > Model1565176076_120
+Model1565176076_120 file is produced
+writing SMT file: SMT1565176076_121
+Computing the 122th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_121 > Model1565176076_121
+Model1565176076_121 file is produced
+writing SMT file: SMT1565176076_122
+Computing the 123th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_122 > Model1565176076_122
+Model1565176076_122 file is produced
+writing SMT file: SMT1565176076_123
+Computing the 124th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_123 > Model1565176076_123
+Model1565176076_123 file is produced
+writing SMT file: SMT1565176076_124
+Computing the 125th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_124 > Model1565176076_124
+Model1565176076_124 file is produced
+writing SMT file: SMT1565176076_125
+Computing the 126th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_125 > Model1565176076_125
+Model1565176076_125 file is produced
+writing SMT file: SMT1565176076_126
+Computing the 127th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_126 > Model1565176076_126
+Model1565176076_126 file is produced
+writing SMT file: SMT1565176076_127
+Computing the 128th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_127 > Model1565176076_127
+Model1565176076_127 file is produced
+writing SMT file: SMT1565176076_128
+Computing the 129th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_128 > Model1565176076_128
+Model1565176076_128 file is produced
+writing SMT file: SMT1565176076_129
+Computing the 130th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_129 > Model1565176076_129
+Model1565176076_129 file is produced
+writing SMT file: SMT1565176076_130
+Computing the 131th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_130 > Model1565176076_130
+Model1565176076_130 file is produced
+writing SMT file: SMT1565176076_131
+Computing the 132th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_131 > Model1565176076_131
+Model1565176076_131 file is produced
+writing SMT file: SMT1565176076_132
+Computing the 133th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_132 > Model1565176076_132
+Model1565176076_132 file is produced
+writing SMT file: SMT1565176076_133
+Computing the 134th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_133 > Model1565176076_133
+Model1565176076_133 file is produced
+writing SMT file: SMT1565176076_134
+Computing the 135th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_134 > Model1565176076_134
+Model1565176076_134 file is produced
+writing SMT file: SMT1565176076_135
+Computing the 136th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_135 > Model1565176076_135
+Model1565176076_135 file is produced
+writing SMT file: SMT1565176076_136
+Computing the 137th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_136 > Model1565176076_136
+Model1565176076_136 file is produced
+writing SMT file: SMT1565176076_137
+Computing the 138th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_137 > Model1565176076_137
+Model1565176076_137 file is produced
+writing SMT file: SMT1565176076_138
+Computing the 139th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_138 > Model1565176076_138
+Model1565176076_138 file is produced
+writing SMT file: SMT1565176076_139
+Computing the 140th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_139 > Model1565176076_139
+Model1565176076_139 file is produced
+writing SMT file: SMT1565176076_140
+Computing the 141th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_140 > Model1565176076_140
+Model1565176076_140 file is produced
+writing SMT file: SMT1565176076_141
+Computing the 142th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_141 > Model1565176076_141
+Model1565176076_141 file is produced
+writing SMT file: SMT1565176076_142
+Computing the 143th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_142 > Model1565176076_142
+Model1565176076_142 file is produced
+writing SMT file: SMT1565176076_143
+Computing the 144th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_143 > Model1565176076_143
+Model1565176076_143 file is produced
+writing SMT file: SMT1565176076_144
+Computing the 145th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_144 > Model1565176076_144
+Model1565176076_144 file is produced
+writing SMT file: SMT1565176076_145
+Computing the 146th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_145 > Model1565176076_145
+Model1565176076_145 file is produced
+writing SMT file: SMT1565176076_146
+Computing the 147th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_146 > Model1565176076_146
+Model1565176076_146 file is produced
+writing SMT file: SMT1565176076_147
+Computing the 148th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_147 > Model1565176076_147
+Model1565176076_147 file is produced
+writing SMT file: SMT1565176076_148
+Computing the 149th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_148 > Model1565176076_148
+Model1565176076_148 file is produced
+writing SMT file: SMT1565176076_149
+Computing the 150th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_149 > Model1565176076_149
+Model1565176076_149 file is produced
+writing SMT file: SMT1565176076_150
+Computing the 151th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_150 > Model1565176076_150
+Model1565176076_150 file is produced
+writing SMT file: SMT1565176076_151
+Computing the 152th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_151 > Model1565176076_151
+Model1565176076_151 file is produced
+writing SMT file: SMT1565176076_152
+Computing the 153th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_152 > Model1565176076_152
+Model1565176076_152 file is produced
+writing SMT file: SMT1565176076_153
+Computing the 154th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_153 > Model1565176076_153
+Model1565176076_153 file is produced
+writing SMT file: SMT1565176076_154
+Computing the 155th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_154 > Model1565176076_154
+Model1565176076_154 file is produced
+writing SMT file: SMT1565176076_155
+Computing the 156th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_155 > Model1565176076_155
+Model1565176076_155 file is produced
+writing SMT file: SMT1565176076_156
+Computing the 157th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_156 > Model1565176076_156
+Model1565176076_156 file is produced
+writing SMT file: SMT1565176076_157
+Computing the 158th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_157 > Model1565176076_157
+Model1565176076_157 file is produced
+writing SMT file: SMT1565176076_158
+Computing the 159th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_158 > Model1565176076_158
+Model1565176076_158 file is produced
+writing SMT file: SMT1565176076_159
+Computing the 160th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_159 > Model1565176076_159
+Model1565176076_159 file is produced
+writing SMT file: SMT1565176076_160
+Computing the 161th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_160 > Model1565176076_160
+Model1565176076_160 file is produced
+writing SMT file: SMT1565176076_161
+Computing the 162th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_161 > Model1565176076_161
+Model1565176076_161 file is produced
+writing SMT file: SMT1565176076_162
+Computing the 163th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_162 > Model1565176076_162
+Model1565176076_162 file is produced
+writing SMT file: SMT1565176076_163
+Computing the 164th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_163 > Model1565176076_163
+Model1565176076_163 file is produced
+writing SMT file: SMT1565176076_164
+Computing the 165th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_164 > Model1565176076_164
+Model1565176076_164 file is produced
+writing SMT file: SMT1565176076_165
+Computing the 166th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_165 > Model1565176076_165
+Model1565176076_165 file is produced
+writing SMT file: SMT1565176076_166
+Computing the 167th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_166 > Model1565176076_166
+Model1565176076_166 file is produced
+writing SMT file: SMT1565176076_167
+Computing the 168th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_167 > Model1565176076_167
+Model1565176076_167 file is produced
+writing SMT file: SMT1565176076_168
+Computing the 169th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_168 > Model1565176076_168
+Model1565176076_168 file is produced
+writing SMT file: SMT1565176076_169
+Computing the 170th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_169 > Model1565176076_169
+Model1565176076_169 file is produced
+writing SMT file: SMT1565176076_170
+Computing the 171th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_170 > Model1565176076_170
+Model1565176076_170 file is produced
+writing SMT file: SMT1565176076_171
+Computing the 172th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_171 > Model1565176076_171
+Model1565176076_171 file is produced
+writing SMT file: SMT1565176076_172
+Computing the 173th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_172 > Model1565176076_172
+Model1565176076_172 file is produced
+writing SMT file: SMT1565176076_173
+Computing the 174th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_173 > Model1565176076_173
+Model1565176076_173 file is produced
+writing SMT file: SMT1565176076_174
+Computing the 175th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_174 > Model1565176076_174
+Model1565176076_174 file is produced
+writing SMT file: SMT1565176076_175
+Computing the 176th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_175 > Model1565176076_175
+Model1565176076_175 file is produced
+writing SMT file: SMT1565176076_176
+Computing the 177th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_176 > Model1565176076_176
+Model1565176076_176 file is produced
+writing SMT file: SMT1565176076_177
+Computing the 178th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_177 > Model1565176076_177
+Model1565176076_177 file is produced
+writing SMT file: SMT1565176076_178
+Computing the 179th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_178 > Model1565176076_178
+Model1565176076_178 file is produced
+writing SMT file: SMT1565176076_179
+Computing the 180th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_179 > Model1565176076_179
+Model1565176076_179 file is produced
+writing SMT file: SMT1565176076_180
+Computing the 181th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_180 > Model1565176076_180
+Model1565176076_180 file is produced
+writing SMT file: SMT1565176076_181
+Computing the 182th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_181 > Model1565176076_181
+Model1565176076_181 file is produced
+writing SMT file: SMT1565176076_182
+Computing the 183th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_182 > Model1565176076_182
+Model1565176076_182 file is produced
+writing SMT file: SMT1565176076_183
+Computing the 184th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_183 > Model1565176076_183
+Model1565176076_183 file is produced
+writing SMT file: SMT1565176076_184
+Computing the 185th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_184 > Model1565176076_184
+Model1565176076_184 file is produced
+writing SMT file: SMT1565176076_185
+Computing the 186th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_185 > Model1565176076_185
+Model1565176076_185 file is produced
+writing SMT file: SMT1565176076_186
+Computing the 187th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_186 > Model1565176076_186
+Model1565176076_186 file is produced
+writing SMT file: SMT1565176076_187
+Computing the 188th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_187 > Model1565176076_187
+Model1565176076_187 file is produced
+writing SMT file: SMT1565176076_188
+Computing the 189th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_188 > Model1565176076_188
+Model1565176076_188 file is produced
+writing SMT file: SMT1565176076_189
+Computing the 190th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_189 > Model1565176076_189
+Model1565176076_189 file is produced
+writing SMT file: SMT1565176076_190
+Computing the 191th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_190 > Model1565176076_190
+Model1565176076_190 file is produced
+writing SMT file: SMT1565176076_191
+Computing the 192th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_191 > Model1565176076_191
+Model1565176076_191 file is produced
+writing SMT file: SMT1565176076_192
+Computing the 193th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_192 > Model1565176076_192
+Model1565176076_192 file is produced
+writing SMT file: SMT1565176076_193
+Computing the 194th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_193 > Model1565176076_193
+Model1565176076_193 file is produced
+writing SMT file: SMT1565176076_194
+Computing the 195th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_194 > Model1565176076_194
+Model1565176076_194 file is produced
+writing SMT file: SMT1565176076_195
+Computing the 196th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_195 > Model1565176076_195
+Model1565176076_195 file is produced
+writing SMT file: SMT1565176076_196
+Computing the 197th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_196 > Model1565176076_196
+Model1565176076_196 file is produced
+writing SMT file: SMT1565176076_197
+Computing the 198th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_197 > Model1565176076_197
+Model1565176076_197 file is produced
+writing SMT file: SMT1565176076_198
+Computing the 199th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_198 > Model1565176076_198
+Model1565176076_198 file is produced
+writing SMT file: SMT1565176076_199
+Computing the 200th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_199 > Model1565176076_199
+Model1565176076_199 file is produced
+writing SMT file: SMT1565176076_200
+Computing the 201th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_200 > Model1565176076_200
+Model1565176076_200 file is produced
+writing SMT file: SMT1565176076_201
+Computing the 202th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_201 > Model1565176076_201
+Model1565176076_201 file is produced
+writing SMT file: SMT1565176076_202
+Computing the 203th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_202 > Model1565176076_202
+Model1565176076_202 file is produced
+writing SMT file: SMT1565176076_203
+Computing the 204th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_203 > Model1565176076_203
+Model1565176076_203 file is produced
+writing SMT file: SMT1565176076_204
+Computing the 205th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_204 > Model1565176076_204
+Model1565176076_204 file is produced
+writing SMT file: SMT1565176076_205
+Computing the 206th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_205 > Model1565176076_205
+Model1565176076_205 file is produced
+writing SMT file: SMT1565176076_206
+Computing the 207th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_206 > Model1565176076_206
+Model1565176076_206 file is produced
+writing SMT file: SMT1565176076_207
+Computing the 208th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_207 > Model1565176076_207
+Model1565176076_207 file is produced
+writing SMT file: SMT1565176076_208
+Computing the 209th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_208 > Model1565176076_208
+Model1565176076_208 file is produced
+writing SMT file: SMT1565176076_209
+Computing the 210th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_209 > Model1565176076_209
+Model1565176076_209 file is produced
+writing SMT file: SMT1565176076_210
+Computing the 211th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_210 > Model1565176076_210
+Model1565176076_210 file is produced
+writing SMT file: SMT1565176076_211
+Computing the 212th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_211 > Model1565176076_211
+Model1565176076_211 file is produced
+writing SMT file: SMT1565176076_212
+Computing the 213th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_212 > Model1565176076_212
+Model1565176076_212 file is produced
+writing SMT file: SMT1565176076_213
+Computing the 214th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_213 > Model1565176076_213
+Model1565176076_213 file is produced
+writing SMT file: SMT1565176076_214
+Computing the 215th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_214 > Model1565176076_214
+Model1565176076_214 file is produced
+writing SMT file: SMT1565176076_215
+Computing the 216th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_215 > Model1565176076_215
+Model1565176076_215 file is produced
+writing SMT file: SMT1565176076_216
+Computing the 217th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_216 > Model1565176076_216
+Model1565176076_216 file is produced
+writing SMT file: SMT1565176076_217
+Computing the 218th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_217 > Model1565176076_217
+Model1565176076_217 file is produced
+writing SMT file: SMT1565176076_218
+Computing the 219th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_218 > Model1565176076_218
+Model1565176076_218 file is produced
+writing SMT file: SMT1565176076_219
+Computing the 220th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_219 > Model1565176076_219
+Model1565176076_219 file is produced
+writing SMT file: SMT1565176076_220
+Computing the 221th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_220 > Model1565176076_220
+Model1565176076_220 file is produced
+writing SMT file: SMT1565176076_221
+Computing the 222th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_221 > Model1565176076_221
+Model1565176076_221 file is produced
+writing SMT file: SMT1565176076_222
+Computing the 223th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_222 > Model1565176076_222
+Model1565176076_222 file is produced
+writing SMT file: SMT1565176076_223
+Computing the 224th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_223 > Model1565176076_223
+Model1565176076_223 file is produced
+writing SMT file: SMT1565176076_224
+Computing the 225th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_224 > Model1565176076_224
+Model1565176076_224 file is produced
+writing SMT file: SMT1565176076_225
+Computing the 226th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_225 > Model1565176076_225
+Model1565176076_225 file is produced
+writing SMT file: SMT1565176076_226
+Computing the 227th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_226 > Model1565176076_226
+Model1565176076_226 file is produced
+writing SMT file: SMT1565176076_227
+Computing the 228th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_227 > Model1565176076_227
+Model1565176076_227 file is produced
+writing SMT file: SMT1565176076_228
+Computing the 229th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_228 > Model1565176076_228
+Model1565176076_228 file is produced
+writing SMT file: SMT1565176076_229
+Computing the 230th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_229 > Model1565176076_229
+Model1565176076_229 file is produced
+writing SMT file: SMT1565176076_230
+Computing the 231th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_230 > Model1565176076_230
+Model1565176076_230 file is produced
+writing SMT file: SMT1565176076_231
+Computing the 232th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_231 > Model1565176076_231
+Model1565176076_231 file is produced
+writing SMT file: SMT1565176076_232
+Computing the 233th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_232 > Model1565176076_232
+Model1565176076_232 file is produced
+writing SMT file: SMT1565176076_233
+Computing the 234th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_233 > Model1565176076_233
+Model1565176076_233 file is produced
+writing SMT file: SMT1565176076_234
+Computing the 235th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_234 > Model1565176076_234
+Model1565176076_234 file is produced
+writing SMT file: SMT1565176076_235
+Computing the 236th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_235 > Model1565176076_235
+Model1565176076_235 file is produced
+writing SMT file: SMT1565176076_236
+Computing the 237th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_236 > Model1565176076_236
+Model1565176076_236 file is produced
+writing SMT file: SMT1565176076_237
+Computing the 238th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_237 > Model1565176076_237
+Model1565176076_237 file is produced
+writing SMT file: SMT1565176076_238
+Computing the 239th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_238 > Model1565176076_238
+Model1565176076_238 file is produced
+writing SMT file: SMT1565176076_239
+Computing the 240th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_239 > Model1565176076_239
+Model1565176076_239 file is produced
+writing SMT file: SMT1565176076_240
+Computing the 241th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_240 > Model1565176076_240
+Model1565176076_240 file is produced
+writing SMT file: SMT1565176076_241
+Computing the 242th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_241 > Model1565176076_241
+Model1565176076_241 file is produced
+writing SMT file: SMT1565176076_242
+Computing the 243th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_242 > Model1565176076_242
+Model1565176076_242 file is produced
+writing SMT file: SMT1565176076_243
+Computing the 244th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_243 > Model1565176076_243
+Model1565176076_243 file is produced
+writing SMT file: SMT1565176076_244
+Computing the 245th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_244 > Model1565176076_244
+Model1565176076_244 file is produced
+writing SMT file: SMT1565176076_245
+Computing the 246th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_245 > Model1565176076_245
+Model1565176076_245 file is produced
+writing SMT file: SMT1565176076_246
+Computing the 247th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_246 > Model1565176076_246
+Model1565176076_246 file is produced
+writing SMT file: SMT1565176076_247
+Computing the 248th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_247 > Model1565176076_247
+Model1565176076_247 file is produced
+writing SMT file: SMT1565176076_248
+Computing the 249th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_248 > Model1565176076_248
+Model1565176076_248 file is produced
+writing SMT file: SMT1565176076_249
+Computing the 250th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_249 > Model1565176076_249
+Model1565176076_249 file is produced
+writing SMT file: SMT1565176076_250
+Computing the 251th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_250 > Model1565176076_250
+Model1565176076_250 file is produced
+writing SMT file: SMT1565176076_251
+Computing the 252th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_251 > Model1565176076_251
+Model1565176076_251 file is produced
+writing SMT file: SMT1565176076_252
+Computing the 253th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_252 > Model1565176076_252
+Model1565176076_252 file is produced
+writing SMT file: SMT1565176076_253
+Computing the 254th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_253 > Model1565176076_253
+Model1565176076_253 file is produced
+writing SMT file: SMT1565176076_254
+Computing the 255th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_254 > Model1565176076_254
+Model1565176076_254 file is produced
+writing SMT file: SMT1565176076_255
+Computing the 256th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_255 > Model1565176076_255
+Model1565176076_255 file is produced
+writing SMT file: SMT1565176076_256
+Computing the 257th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_256 > Model1565176076_256
+Model1565176076_256 file is produced
+writing SMT file: SMT1565176076_257
+Computing the 258th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_257 > Model1565176076_257
+Model1565176076_257 file is produced
+writing SMT file: SMT1565176076_258
+Computing the 259th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_258 > Model1565176076_258
+Model1565176076_258 file is produced
+writing SMT file: SMT1565176076_259
+Computing the 260th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_259 > Model1565176076_259
+Model1565176076_259 file is produced
+writing SMT file: SMT1565176076_260
+Computing the 261th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_260 > Model1565176076_260
+Model1565176076_260 file is produced
+writing SMT file: SMT1565176076_261
+Computing the 262th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_261 > Model1565176076_261
+Model1565176076_261 file is produced
+writing SMT file: SMT1565176076_262
+Computing the 263th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_262 > Model1565176076_262
+Model1565176076_262 file is produced
+writing SMT file: SMT1565176076_263
+Computing the 264th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_263 > Model1565176076_263
+Model1565176076_263 file is produced
+writing SMT file: SMT1565176076_264
+Computing the 265th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_264 > Model1565176076_264
+Model1565176076_264 file is produced
+writing SMT file: SMT1565176076_265
+Computing the 266th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_265 > Model1565176076_265
+Model1565176076_265 file is produced
+writing SMT file: SMT1565176076_266
+Computing the 267th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_266 > Model1565176076_266
+Model1565176076_266 file is produced
+writing SMT file: SMT1565176076_267
+Computing the 268th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_267 > Model1565176076_267
+Model1565176076_267 file is produced
+writing SMT file: SMT1565176076_268
+Computing the 269th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_268 > Model1565176076_268
+Model1565176076_268 file is produced
+writing SMT file: SMT1565176076_269
+Computing the 270th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_269 > Model1565176076_269
+Model1565176076_269 file is produced
+writing SMT file: SMT1565176076_270
+Computing the 271th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_270 > Model1565176076_270
+Model1565176076_270 file is produced
+writing SMT file: SMT1565176076_271
+Computing the 272th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_271 > Model1565176076_271
+Model1565176076_271 file is produced
+writing SMT file: SMT1565176076_272
+Computing the 273th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_272 > Model1565176076_272
+Model1565176076_272 file is produced
+writing SMT file: SMT1565176076_273
+Computing the 274th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_273 > Model1565176076_273
+Model1565176076_273 file is produced
+writing SMT file: SMT1565176076_274
+Computing the 275th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_274 > Model1565176076_274
+Model1565176076_274 file is produced
+writing SMT file: SMT1565176076_275
+Computing the 276th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_275 > Model1565176076_275
+Model1565176076_275 file is produced
+writing SMT file: SMT1565176076_276
+Computing the 277th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_276 > Model1565176076_276
+Model1565176076_276 file is produced
+writing SMT file: SMT1565176076_277
+Computing the 278th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_277 > Model1565176076_277
+Model1565176076_277 file is produced
+writing SMT file: SMT1565176076_278
+Computing the 279th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_278 > Model1565176076_278
+Model1565176076_278 file is produced
+writing SMT file: SMT1565176076_279
+Computing the 280th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_279 > Model1565176076_279
+Model1565176076_279 file is produced
+writing SMT file: SMT1565176076_280
+Computing the 281th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_280 > Model1565176076_280
+Model1565176076_280 file is produced
+writing SMT file: SMT1565176076_281
+Computing the 282th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_281 > Model1565176076_281
+Model1565176076_281 file is produced
+writing SMT file: SMT1565176076_282
+Computing the 283th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_282 > Model1565176076_282
+Model1565176076_282 file is produced
+writing SMT file: SMT1565176076_283
+Computing the 284th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_283 > Model1565176076_283
+Model1565176076_283 file is produced
+writing SMT file: SMT1565176076_284
+Computing the 285th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_284 > Model1565176076_284
+Model1565176076_284 file is produced
+writing SMT file: SMT1565176076_285
+Computing the 286th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_285 > Model1565176076_285
+Model1565176076_285 file is produced
+writing SMT file: SMT1565176076_286
+Computing the 287th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_286 > Model1565176076_286
+Model1565176076_286 file is produced
+writing SMT file: SMT1565176076_287
+Computing the 288th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_287 > Model1565176076_287
+Model1565176076_287 file is produced
+writing SMT file: SMT1565176076_288
+Computing the 289th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_288 > Model1565176076_288
+Model1565176076_288 file is produced
+writing SMT file: SMT1565176076_289
+Computing the 290th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_289 > Model1565176076_289
+Model1565176076_289 file is produced
+writing SMT file: SMT1565176076_290
+Computing the 291th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_290 > Model1565176076_290
+Model1565176076_290 file is produced
+writing SMT file: SMT1565176076_291
+Computing the 292th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_291 > Model1565176076_291
+Model1565176076_291 file is produced
+writing SMT file: SMT1565176076_292
+Computing the 293th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_292 > Model1565176076_292
+Model1565176076_292 file is produced
+writing SMT file: SMT1565176076_293
+Computing the 294th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_293 > Model1565176076_293
+Model1565176076_293 file is produced
+writing SMT file: SMT1565176076_294
+Computing the 295th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_294 > Model1565176076_294
+Model1565176076_294 file is produced
+writing SMT file: SMT1565176076_295
+Computing the 296th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_295 > Model1565176076_295
+Model1565176076_295 file is produced
+writing SMT file: SMT1565176076_296
+Computing the 297th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_296 > Model1565176076_296
+Model1565176076_296 file is produced
+writing SMT file: SMT1565176076_297
+Computing the 298th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_297 > Model1565176076_297
+Model1565176076_297 file is produced
+writing SMT file: SMT1565176076_298
+Computing the 299th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_298 > Model1565176076_298
+Model1565176076_298 file is produced
+writing SMT file: SMT1565176076_299
+Computing the 300th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_299 > Model1565176076_299
+Model1565176076_299 file is produced
+writing SMT file: SMT1565176076_300
+Computing the 301th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_300 > Model1565176076_300
+Model1565176076_300 file is produced
+writing SMT file: SMT1565176076_301
+Computing the 302th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_301 > Model1565176076_301
+Model1565176076_301 file is produced
+writing SMT file: SMT1565176076_302
+Computing the 303th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_302 > Model1565176076_302
+Model1565176076_302 file is produced
+writing SMT file: SMT1565176076_303
+Computing the 304th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_303 > Model1565176076_303
+Model1565176076_303 file is produced
+writing SMT file: SMT1565176076_304
+Computing the 305th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_304 > Model1565176076_304
+Model1565176076_304 file is produced
+writing SMT file: SMT1565176076_305
+Computing the 306th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_305 > Model1565176076_305
+Model1565176076_305 file is produced
+writing SMT file: SMT1565176076_306
+Computing the 307th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_306 > Model1565176076_306
+Model1565176076_306 file is produced
+writing SMT file: SMT1565176076_307
+Computing the 308th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_307 > Model1565176076_307
+Model1565176076_307 file is produced
+writing SMT file: SMT1565176076_308
+Computing the 309th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_308 > Model1565176076_308
+Model1565176076_308 file is produced
+writing SMT file: SMT1565176076_309
+Computing the 310th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_309 > Model1565176076_309
+Model1565176076_309 file is produced
+writing SMT file: SMT1565176076_310
+Computing the 311th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_310 > Model1565176076_310
+Model1565176076_310 file is produced
+writing SMT file: SMT1565176076_311
+Computing the 312th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_311 > Model1565176076_311
+Model1565176076_311 file is produced
+writing SMT file: SMT1565176076_312
+Computing the 313th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_312 > Model1565176076_312
+Model1565176076_312 file is produced
+writing SMT file: SMT1565176076_313
+Computing the 314th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_313 > Model1565176076_313
+Model1565176076_313 file is produced
+writing SMT file: SMT1565176076_314
+Computing the 315th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_314 > Model1565176076_314
+Model1565176076_314 file is produced
+writing SMT file: SMT1565176076_315
+Computing the 316th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_315 > Model1565176076_315
+Model1565176076_315 file is produced
+writing SMT file: SMT1565176076_316
+Computing the 317th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_316 > Model1565176076_316
+Model1565176076_316 file is produced
+writing SMT file: SMT1565176076_317
+Computing the 318th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_317 > Model1565176076_317
+Model1565176076_317 file is produced
+writing SMT file: SMT1565176076_318
+Computing the 319th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_318 > Model1565176076_318
+Model1565176076_318 file is produced
+writing SMT file: SMT1565176076_319
+Computing the 320th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_319 > Model1565176076_319
+Model1565176076_319 file is produced
+writing SMT file: SMT1565176076_320
+Computing the 321th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_320 > Model1565176076_320
+Model1565176076_320 file is produced
+writing SMT file: SMT1565176076_321
+Computing the 322th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_321 > Model1565176076_321
+Model1565176076_321 file is produced
+writing SMT file: SMT1565176076_322
+Computing the 323th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_322 > Model1565176076_322
+Model1565176076_322 file is produced
+writing SMT file: SMT1565176076_323
+Computing the 324th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_323 > Model1565176076_323
+Model1565176076_323 file is produced
+writing SMT file: SMT1565176076_324
+Computing the 325th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_324 > Model1565176076_324
+Model1565176076_324 file is produced
+writing SMT file: SMT1565176076_325
+Computing the 326th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_325 > Model1565176076_325
+Model1565176076_325 file is produced
+writing SMT file: SMT1565176076_326
+Computing the 327th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_326 > Model1565176076_326
+Model1565176076_326 file is produced
+writing SMT file: SMT1565176076_327
+Computing the 328th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_327 > Model1565176076_327
+Model1565176076_327 file is produced
+writing SMT file: SMT1565176076_328
+Computing the 329th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_328 > Model1565176076_328
+Model1565176076_328 file is produced
+writing SMT file: SMT1565176076_329
+Computing the 330th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_329 > Model1565176076_329
+Model1565176076_329 file is produced
+writing SMT file: SMT1565176076_330
+Computing the 331th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_330 > Model1565176076_330
+Model1565176076_330 file is produced
+writing SMT file: SMT1565176076_331
+Computing the 332th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_331 > Model1565176076_331
+Model1565176076_331 file is produced
+writing SMT file: SMT1565176076_332
+Computing the 333th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_332 > Model1565176076_332
+Model1565176076_332 file is produced
+writing SMT file: SMT1565176076_333
+Computing the 334th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_333 > Model1565176076_333
+Model1565176076_333 file is produced
+writing SMT file: SMT1565176076_334
+Computing the 335th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_334 > Model1565176076_334
+Model1565176076_334 file is produced
+writing SMT file: SMT1565176076_335
+Computing the 336th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_335 > Model1565176076_335
+Model1565176076_335 file is produced
+writing SMT file: SMT1565176076_336
+Computing the 337th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_336 > Model1565176076_336
+Model1565176076_336 file is produced
+writing SMT file: SMT1565176076_337
+Computing the 338th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_337 > Model1565176076_337
+Model1565176076_337 file is produced
+writing SMT file: SMT1565176076_338
+Computing the 339th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_338 > Model1565176076_338
+Model1565176076_338 file is produced
+writing SMT file: SMT1565176076_339
+Computing the 340th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_339 > Model1565176076_339
+Model1565176076_339 file is produced
+writing SMT file: SMT1565176076_340
+Computing the 341th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_340 > Model1565176076_340
+Model1565176076_340 file is produced
+writing SMT file: SMT1565176076_341
+Computing the 342th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_341 > Model1565176076_341
+Model1565176076_341 file is produced
+writing SMT file: SMT1565176076_342
+Computing the 343th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_342 > Model1565176076_342
+Model1565176076_342 file is produced
+writing SMT file: SMT1565176076_343
+Computing the 344th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_343 > Model1565176076_343
+Model1565176076_343 file is produced
+writing SMT file: SMT1565176076_344
+Computing the 345th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_344 > Model1565176076_344
+Model1565176076_344 file is produced
+writing SMT file: SMT1565176076_345
+Computing the 346th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_345 > Model1565176076_345
+Model1565176076_345 file is produced
+writing SMT file: SMT1565176076_346
+Computing the 347th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_346 > Model1565176076_346
+Model1565176076_346 file is produced
+writing SMT file: SMT1565176076_347
+Computing the 348th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_347 > Model1565176076_347
+Model1565176076_347 file is produced
+writing SMT file: SMT1565176076_348
+Computing the 349th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_348 > Model1565176076_348
+Model1565176076_348 file is produced
+writing SMT file: SMT1565176076_349
+Computing the 350th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_349 > Model1565176076_349
+Model1565176076_349 file is produced
+writing SMT file: SMT1565176076_350
+Computing the 351th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_350 > Model1565176076_350
+Model1565176076_350 file is produced
+writing SMT file: SMT1565176076_351
+Computing the 352th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_351 > Model1565176076_351
+Model1565176076_351 file is produced
+writing SMT file: SMT1565176076_352
+Computing the 353th answer set
+Running command: $EZSMTPLUS/tools/cvc4 --lang smt SMT1565176076_352 > Model1565176076_352
+Model1565176076_352 file is produced
+-------------------------
+---------
+Number of answer sets: 352
+Answer: 1
+ Answer set: q(3,3) q(6,4) q(8,1) q(2,9) q(7,6) q(4,8) q(1,7) q(5,2) q(9,5)
+Answer: 2
+ Answer set: q(3,4) q(2,7) q(6,6) q(1,9) q(8,3) q(5,8) q(4,2) q(7,1) q(9,5)
+Answer: 3
+ Answer set: q(2,4) q(6,7) q(1,9) q(8,3) q(3,6) q(7,1) q(4,8) q(5,2) q(9,5)
+Answer: 4
+ Answer set: q(2,4) q(3,7) q(6,6) q(1,8) q(8,3) q(4,9) q(7,1) q(5,2) q(9,5)
+Answer: 5
+ Answer set: q(3,3) q(5,7) q(1,8) q(6,1) q(4,9) q(2,6) q(7,4) q(8,2) q(9,5)
+Answer: 6
+ Answer set: q(2,4) q(5,3) q(1,8) q(6,1) q(7,6) q(3,9) q(8,2) q(9,5) q(4,7)
+Answer: 7
+ Answer set: q(7,3) q(5,9) q(8,1) q(6,6) q(9,4) q(3,8) q(4,2) q(1,7) q(2,5)
+Answer: 8
+ Answer set: q(6,2) q(3,3) q(5,9) q(8,1) q(2,8) q(7,5) q(9,4) q(1,6) q(4,7)
+Answer: 9
+ Answer set: q(2,3) q(4,6) q(8,1) q(7,5) q(9,4) q(3,8) q(6,9) q(1,7) q(5,2)
+Answer: 10
+ Answer set: q(9,9) q(6,7) q(7,5) q(4,3) q(1,4) q(3,8) q(2,6) q(5,1) q(8,2)
+Answer: 11
+ Answer set: q(9,9) q(6,7) q(7,5) q(3,8) q(1,3) q(2,6) q(4,1) q(8,2) q(5,4)
+Answer: 12
+ Answer set: q(9,9) q(4,6) q(5,3) q(6,7) q(8,4) q(3,8) q(1,5) q(7,2) q(2,1)
+Answer: 13
+ Answer set: q(3,3) q(4,6) q(5,9) q(6,7) q(8,4) q(1,8) q(7,1) q(9,2) q(2,5)
+Answer: 14
+ Answer set: q(5,9) q(8,1) q(6,7) q(2,8) q(9,3) q(4,2) q(3,5) q(7,4) q(1,6)
+Answer: 15
+ Answer set: q(2,9) q(7,5) q(9,4) q(4,3) q(3,6) q(6,8) q(5,1) q(1,7) q(8,2)
+Answer: 16
+ Answer set: q(3,3) q(8,1) q(7,5) q(9,4) q(1,9) q(6,8) q(2,6) q(5,2) q(4,7)
+Answer: 17
+ Answer set: q(9,1) q(5,9) q(8,4) q(2,2) q(7,8) q(3,5) q(6,3) q(1,6) q(4,7)
+Answer: 18
+ Answer set: q(4,6) q(5,9) q(8,4) q(7,8) q(6,3) q(1,7) q(9,2) q(3,1) q(2,5)
+Answer: 19
+ Answer set: q(9,9) q(4,6) q(5,3) q(2,7) q(8,4) q(6,1) q(7,8) q(1,5) q(3,2)
+Answer: 20
+ Answer set: q(2,3) q(9,9) q(3,7) q(8,4) q(6,5) q(5,8) q(4,2) q(7,1) q(1,6)
+Answer: 21
+ Answer set: q(2,3) q(9,9) q(4,6) q(8,4) q(6,5) q(5,8) q(1,7) q(7,2) q(3,1)
+Answer: 22
+ Answer set: q(6,4) q(5,9) q(2,7) q(8,8) q(9,3) q(1,2) q(7,6) q(3,5) q(4,1)
+Answer: 23
+ Answer set: q(5,9) q(2,7) q(8,8) q(9,3) q(1,4) q(6,1) q(7,6) q(4,2) q(3,5)
+Answer: 24
+ Answer set: q(6,4) q(9,9) q(2,7) q(1,2) q(8,3) q(7,6) q(5,1) q(4,8) q(3,5)
+Answer: 25
+ Answer set: q(8,9) q(6,4) q(1,8) q(9,3) q(2,2) q(7,6) q(5,1) q(3,5) q(4,7)
+Answer: 26
+ Answer set: q(6,2) q(8,9) q(2,4) q(1,8) q(9,3) q(5,5) q(7,6) q(4,7) q(3,1)
+Answer: 27
+ Answer set: q(8,9) q(2,4) q(5,5) q(7,6) q(4,8) q(6,3) q(1,7) q(9,2) q(3,1)
+Answer: 28
+ Answer set: q(6,2) q(8,9) q(9,7) q(1,3) q(5,5) q(3,6) q(4,8) q(7,4) q(2,1)
+Answer: 29
+ Answer set: q(8,9) q(2,4) q(9,7) q(5,5) q(7,1) q(3,2) q(4,8) q(6,3) q(1,6)
+Answer: 30
+ Answer set: q(8,9) q(9,3) q(5,5) q(3,6) q(4,2) q(6,8) q(1,7) q(7,4) q(2,1)
+Answer: 31
+ Answer set: q(9,3) q(1,4) q(4,9) q(5,5) q(8,7) q(6,8) q(2,6) q(7,2) q(3,1)
+Answer: 32
+ Answer set: q(6,2) q(3,4) q(1,8) q(9,3) q(5,5) q(7,9) q(8,6) q(2,1) q(4,7)
+Answer: 33
+ Answer set: q(9,3) q(1,4) q(6,1) q(3,8) q(5,5) q(8,7) q(4,2) q(2,6) q(7,9)
+Answer: 34
+ Answer set: q(8,1) q(6,7) q(9,3) q(1,4) q(3,8) q(5,5) q(4,2) q(2,6) q(7,9)
+Answer: 35
+ Answer set: q(9,3) q(1,2) q(4,9) q(5,5) q(8,7) q(6,8) q(2,6) q(7,4) q(3,1)
+Answer: 36
+ Answer set: q(2,4) q(9,3) q(6,1) q(4,9) q(5,5) q(7,8) q(3,2) q(1,7) q(8,6)
+Answer: 37
+ Answer set: q(2,4) q(9,3) q(3,8) q(5,5) q(6,9) q(1,7) q(7,2) q(8,6) q(4,1)
+Answer: 38
+ Answer set: q(2,4) q(9,7) q(8,3) q(5,5) q(6,9) q(7,1) q(3,2) q(4,8) q(1,6)
+Answer: 39
+ Answer set: q(6,2) q(2,4) q(9,7) q(8,3) q(5,5) q(7,8) q(3,9) q(4,1) q(1,6)
+Answer: 40
+ Answer set: q(9,8) q(2,4) q(1,2) q(5,5) q(7,1) q(3,9) q(6,3) q(8,6) q(4,7)
+Answer: 41
+ Answer set: q(2,4) q(6,7) q(1,8) q(4,3) q(5,5) q(7,1) q(3,9) q(8,6) q(9,2)
+Answer: 42
+ Answer set: q(2,3) q(9,4) q(5,5) q(8,7) q(4,2) q(7,1) q(6,8) q(3,9) q(1,6)
+Answer: 43
+ Answer set: q(6,2) q(2,3) q(9,4) q(5,5) q(8,7) q(7,9) q(4,8) q(1,6) q(3,1)
+Answer: 44
+ Answer set: q(8,1) q(9,7) q(4,3) q(1,2) q(5,5) q(6,8) q(3,9) q(2,6) q(7,4)
+Answer: 45
+ Answer set: q(2,9) q(9,7) q(8,4) q(4,3) q(1,2) q(5,5) q(3,6) q(7,1) q(6,8)
+Answer: 46
+ Answer set: q(9,7) q(8,4) q(6,1) q(1,3) q(4,9) q(5,5) q(7,8) q(3,2) q(2,6)
+Answer: 47
+ Answer set: q(6,2) q(9,4) q(1,3) q(5,5) q(7,8) q(3,9) q(8,6) q(2,1) q(4,7)
+Answer: 48
+ Answer set: q(3,4) q(5,5) q(7,9) q(4,8) q(6,3) q(1,7) q(8,6) q(9,2) q(2,1)
+Answer: 49
+ Answer set: q(6,7) q(8,4) q(1,8) q(4,3) q(5,5) q(2,6) q(7,9) q(9,2) q(3,1)
+Answer: 50
+ Answer set: q(9,7) q(8,4) q(3,8) q(1,3) q(5,5) q(6,9) q(2,6) q(7,2) q(4,1)
+Answer: 51
+ Answer set: q(9,8) q(6,7) q(1,3) q(3,9) q(4,4) q(5,1) q(7,2) q(8,6) q(2,5)
+Answer: 52
+ Answer set: q(9,8) q(3,7) q(1,2) q(4,4) q(7,9) q(5,1) q(6,3) q(8,6) q(2,5)
+Answer: 53
+ Answer set: q(3,4) q(7,3) q(9,8) q(5,7) q(2,2) q(1,5) q(6,9) q(8,6) q(4,1)
+Answer: 54
+ Answer set: q(3,4) q(9,8) q(5,7) q(2,2) q(4,9) q(1,5) q(7,1) q(6,3) q(8,6)
+Answer: 55
+ Answer set: q(7,3) q(2,4) q(9,9) q(6,1) q(5,8) q(4,5) q(3,2) q(1,7) q(8,6)
+Answer: 56
+ Answer set: q(2,4) q(3,7) q(6,5) q(9,3) q(4,9) q(7,8) q(8,6) q(5,2) q(1,1)
+Answer: 57
+ Answer set: q(9,9) q(6,7) q(2,8) q(4,3) q(1,4) q(5,1) q(3,5) q(7,2) q(8,6)
+Answer: 58
+ Answer set: q(6,2) q(9,1) q(2,7) q(4,3) q(5,8) q(1,5) q(3,9) q(8,6) q(7,4)
+Answer: 59
+ Answer set: q(6,2) q(2,7) q(9,4) q(1,3) q(5,5) q(7,8) q(3,9) q(8,6) q(4,1)
+Answer: 60
+ Answer set: q(2,7) q(9,4) q(1,3) q(5,5) q(6,9) q(7,1) q(3,2) q(4,8) q(8,6)
+Answer: 61
+ Answer set: q(2,7) q(9,3) q(6,1) q(5,8) q(1,5) q(3,2) q(4,4) q(7,9) q(8,6)
+Answer: 62
+ Answer set: q(7,3) q(2,7) q(6,1) q(5,8) q(1,5) q(3,9) q(4,4) q(8,6) q(9,2)
+Answer: 63
+ Answer set: q(9,1) q(2,7) q(6,5) q(1,3) q(7,8) q(3,9) q(4,4) q(8,6) q(5,2)
+Answer: 64
+ Answer set: q(9,1) q(3,3) q(2,7) q(6,5) q(1,4) q(7,9) q(4,8) q(8,6) q(5,2)
+Answer: 65
+ Answer set: q(7,3) q(2,7) q(9,4) q(6,9) q(4,8) q(3,5) q(8,6) q(5,2) q(1,1)
+Answer: 66
+ Answer set: q(3,3) q(2,7) q(9,4) q(6,5) q(1,9) q(7,1) q(4,8) q(8,6) q(5,2)
+Answer: 67
+ Answer set: q(9,4) q(3,2) q(7,9) q(5,1) q(4,8) q(6,3) q(1,7) q(8,6) q(2,5)
+Answer: 68
+ Answer set: q(9,9) q(6,7) q(1,3) q(3,2) q(5,1) q(4,8) q(8,6) q(7,4) q(2,5)
+Answer: 69
+ Answer set: q(7,3) q(9,9) q(6,7) q(1,4) q(4,8) q(3,5) q(8,6) q(2,1) q(5,2)
+Answer: 70
+ Answer set: q(9,4) q(1,9) q(2,2) q(7,8) q(5,1) q(3,5) q(6,3) q(8,6) q(4,7)
+Answer: 71
+ Answer set: q(6,2) q(9,9) q(3,7) q(5,8) q(1,3) q(4,5) q(8,6) q(7,4) q(2,1)
+Answer: 72
+ Answer set: q(3,7) q(6,5) q(9,3) q(1,4) q(2,2) q(4,9) q(7,8) q(5,1) q(8,6)
+Answer: 73
+ Answer set: q(6,7) q(1,8) q(9,3) q(3,2) q(4,4) q(7,9) q(5,1) q(8,6) q(2,5)
+Answer: 74
+ Answer set: q(6,2) q(3,7) q(9,3) q(4,9) q(7,8) q(8,6) q(5,4) q(1,1) q(2,5)
+Answer: 75
+ Answer set: q(6,2) q(9,9) q(3,7) q(1,3) q(7,8) q(8,6) q(4,1) q(5,4) q(2,5)
+Answer: 76
+ Answer set: q(9,3) q(1,9) q(6,1) q(2,2) q(7,8) q(3,5) q(8,6) q(5,4) q(4,7)
+Answer: 77
+ Answer set: q(3,3) q(6,7) q(1,9) q(7,1) q(4,8) q(8,6) q(9,2) q(5,4) q(2,5)
+Answer: 78
+ Answer set: q(9,1) q(5,7) q(2,9) q(7,8) q(1,5) q(3,2) q(4,4) q(6,3) q(8,6)
+Answer: 79
+ Answer set: q(6,2) q(9,1) q(3,3) q(5,7) q(1,8) q(4,9) q(8,6) q(7,4) q(2,5)
+Answer: 80
+ Answer set: q(6,2) q(3,3) q(5,7) q(9,4) q(1,9) q(7,8) q(8,6) q(4,1) q(2,5)
+Answer: 81
+ Answer set: q(3,4) q(5,7) q(2,8) q(4,9) q(1,5) q(7,1) q(6,3) q(8,6) q(9,2)
+Answer: 82
+ Answer set: q(3,4) q(6,5) q(9,3) q(5,8) q(2,2) q(7,9) q(1,7) q(8,6) q(4,1)
+Answer: 83
+ Answer set: q(6,2) q(3,4) q(2,7) q(9,3) q(5,8) q(1,5) q(7,9) q(8,6) q(4,1)
+Answer: 84
+ Answer set: q(3,4) q(2,7) q(1,3) q(5,5) q(6,9) q(7,1) q(4,8) q(8,6) q(9,2)
+Answer: 85
+ Answer set: q(7,3) q(9,4) q(3,8) q(4,5) q(6,9) q(1,7) q(8,6) q(2,1) q(5,2)
+Answer: 86
+ Answer set: q(7,3) q(5,7) q(9,4) q(3,8) q(2,2) q(1,5) q(6,9) q(8,6) q(4,1)
+Answer: 87
+ Answer set: q(9,1) q(2,3) q(5,7) q(3,8) q(1,5) q(6,9) q(4,4) q(7,2) q(8,6)
+Answer: 88
+ Answer set: q(5,7) q(9,4) q(4,3) q(3,8) q(2,2) q(1,5) q(6,9) q(7,1) q(8,6)
+Answer: 89
+ Answer set: q(6,7) q(9,3) q(3,8) q(1,5) q(4,4) q(7,9) q(8,6) q(2,1) q(5,2)
+Answer: 90
+ Answer set: q(6,7) q(9,3) q(1,9) q(3,8) q(4,4) q(5,1) q(7,2) q(8,6) q(2,5)
+Answer: 91
+ Answer set: q(6,7) q(9,3) q(3,8) q(2,2) q(1,5) q(7,9) q(8,6) q(4,1) q(5,4)
+Answer: 92
+ Answer set: q(6,4) q(9,3) q(3,8) q(4,5) q(8,7) q(2,6) q(7,9) q(5,2) q(1,1)
+Answer: 93
+ Answer set: q(2,4) q(8,8) q(9,3) q(4,5) q(7,6) q(6,9) q(1,7) q(5,2) q(3,1)
+Answer: 94
+ Answer set: q(6,2) q(5,9) q(2,8) q(9,3) q(4,5) q(8,7) q(7,4) q(1,6) q(3,1)
+Answer: 95
+ Answer set: q(6,2) q(9,1) q(2,4) q(8,3) q(5,8) q(4,5) q(7,7) q(3,9) q(1,6)
+Answer: 96
+ Answer set: q(6,2) q(9,6) q(2,4) q(1,9) q(8,3) q(5,8) q(4,5) q(7,7) q(3,1)
+Answer: 97
+ Answer set: q(9,4) q(3,8) q(1,3) q(4,5) q(7,7) q(6,9) q(2,6) q(5,1) q(8,2)
+Answer: 98
+ Answer set: q(9,6) q(2,9) q(8,4) q(6,1) q(5,8) q(1,3) q(4,5) q(7,7) q(3,2)
+Answer: 99
+ Answer set: q(9,1) q(8,4) q(3,8) q(1,3) q(4,5) q(7,7) q(6,9) q(2,6) q(5,2)
+Answer: 100
+ Answer set: q(7,3) q(9,6) q(2,4) q(5,9) q(8,8) q(6,1) q(4,5) q(3,2) q(1,7)
+Answer: 101
+ Answer set: q(9,1) q(3,3) q(2,9) q(8,4) q(4,5) q(7,6) q(6,8) q(1,7) q(5,2)
+Answer: 102
+ Answer set: q(9,7) q(6,1) q(5,8) q(1,3) q(4,5) q(3,9) q(2,6) q(7,4) q(8,2)
+Answer: 103
+ Answer set: q(2,4) q(9,7) q(6,6) q(1,9) q(8,3) q(5,8) q(4,5) q(7,1) q(3,2)
+Answer: 104
+ Answer set: q(9,7) q(1,4) q(8,3) q(2,2) q(4,5) q(7,6) q(6,8) q(3,9) q(5,1)
+Answer: 105
+ Answer set: q(9,1) q(5,3) q(2,2) q(4,5) q(8,7) q(6,8) q(3,9) q(7,4) q(1,6)
+Answer: 106
+ Answer set: q(7,3) q(9,9) q(1,4) q(4,5) q(8,7) q(6,8) q(2,6) q(5,2) q(3,1)
+Answer: 107
+ Answer set: q(7,3) q(9,4) q(4,5) q(8,7) q(6,8) q(3,9) q(2,6) q(5,2) q(1,1)
+Answer: 108
+ Answer set: q(6,2) q(9,9) q(5,7) q(2,8) q(1,4) q(8,3) q(4,5) q(7,6) q(3,1)
+Answer: 109
+ Answer set: q(6,2) q(3,4) q(9,9) q(5,7) q(2,8) q(8,3) q(1,5) q(7,6) q(4,1)
+Answer: 110
+ Answer set: q(3,4) q(5,7) q(1,8) q(8,3) q(2,2) q(7,6) q(6,9) q(4,1) q(9,5)
+Answer: 111
+ Answer set: q(3,4) q(5,7) q(2,8) q(8,3) q(7,6) q(6,9) q(4,2) q(9,5) q(1,1)
+Answer: 112
+ Answer set: q(5,7) q(2,8) q(1,2) q(8,3) q(7,6) q(6,9) q(4,4) q(9,5) q(3,1)
+Answer: 113
+ Answer set: q(2,4) q(8,3) q(7,6) q(6,9) q(4,8) q(1,7) q(5,2) q(9,5) q(3,1)
+Answer: 114
+ Answer set: q(2,3) q(8,1) q(9,7) q(3,8) q(1,5) q(7,6) q(6,9) q(4,4) q(5,2)
+Answer: 115
+ Answer set: q(2,3) q(5,7) q(1,8) q(7,6) q(6,9) q(4,4) q(8,2) q(9,5) q(3,1)
+Answer: 116
+ Answer set: q(2,4) q(3,7) q(5,3) q(8,8) q(1,2) q(7,6) q(6,9) q(4,1) q(9,5)
+Answer: 117
+ Answer set: q(3,4) q(5,3) q(2,7) q(7,6) q(6,9) q(4,8) q(8,2) q(9,5) q(1,1)
+Answer: 118
+ Answer set: q(3,4) q(5,3) q(2,7) q(8,8) q(1,5) q(7,6) q(6,9) q(4,1) q(9,2)
+Answer: 119
+ Answer set: q(3,4) q(4,6) q(5,3) q(8,5) q(1,8) q(7,7) q(6,9) q(9,2) q(2,1)
+Answer: 120
+ Answer set: q(5,3) q(6,7) q(2,8) q(8,4) q(1,5) q(3,6) q(7,9) q(4,1) q(9,2)
+Answer: 121
+ Answer set: q(9,8) q(5,3) q(6,7) q(8,4) q(2,2) q(1,5) q(3,6) q(7,9) q(4,1)
+Answer: 122
+ Answer set: q(9,6) q(5,3) q(2,8) q(8,4) q(6,1) q(1,5) q(3,2) q(7,9) q(4,7)
+Answer: 123
+ Answer set: q(9,6) q(3,7) q(5,3) q(8,4) q(4,9) q(6,8) q(7,2) q(1,1) q(2,5)
+Answer: 124
+ Answer set: q(9,9) q(3,7) q(5,3) q(8,4) q(1,2) q(7,6) q(6,8) q(4,1) q(2,5)
+Answer: 125
+ Answer set: q(5,3) q(2,8) q(8,4) q(6,1) q(4,9) q(7,7) q(1,5) q(3,6) q(9,2)
+Answer: 126
+ Answer set: q(9,6) q(5,3) q(2,8) q(8,4) q(6,1) q(4,9) q(7,7) q(1,5) q(3,2)
+Answer: 127
+ Answer set: q(3,4) q(9,6) q(5,3) q(2,7) q(6,5) q(7,9) q(4,8) q(8,2) q(1,1)
+Answer: 128
+ Answer set: q(9,6) q(2,4) q(5,9) q(6,7) q(7,5) q(4,3) q(3,8) q(8,2) q(1,1)
+Answer: 129
+ Answer set: q(6,2) q(9,6) q(8,9) q(2,4) q(3,7) q(7,5) q(4,3) q(5,8) q(1,1)
+Answer: 130
+ Answer set: q(6,2) q(3,4) q(9,6) q(5,9) q(8,1) q(2,8) q(7,5) q(1,3) q(4,7)
+Answer: 131
+ Answer set: q(6,2) q(3,4) q(9,6) q(5,9) q(8,8) q(7,5) q(1,3) q(2,1) q(4,7)
+Answer: 132
+ Answer set: q(7,3) q(9,6) q(5,9) q(8,8) q(6,7) q(1,4) q(4,2) q(3,5) q(2,1)
+Answer: 133
+ Answer set: q(9,6) q(2,9) q(8,8) q(6,7) q(4,3) q(1,4) q(5,1) q(3,5) q(7,2)
+Answer: 134
+ Answer set: q(7,3) q(9,6) q(5,9) q(2,7) q(8,8) q(1,4) q(6,1) q(4,2) q(3,5)
+Answer: 135
+ Answer set: q(6,2) q(9,6) q(2,7) q(1,4) q(8,3) q(5,5) q(7,9) q(4,8) q(3,1)
+Answer: 136
+ Answer set: q(9,6) q(2,7) q(1,4) q(8,3) q(5,5) q(4,2) q(7,1) q(6,8) q(3,9)
+Answer: 137
+ Answer set: q(7,3) q(9,6) q(8,9) q(2,7) q(6,1) q(5,8) q(1,5) q(3,2) q(4,4)
+Answer: 138
+ Answer set: q(9,6) q(6,7) q(1,8) q(8,3) q(3,2) q(4,4) q(7,9) q(5,1) q(2,5)
+Answer: 139
+ Answer set: q(9,6) q(6,4) q(8,3) q(3,2) q(7,9) q(5,1) q(4,8) q(1,7) q(2,5)
+Answer: 140
+ Answer set: q(9,6) q(8,9) q(6,4) q(5,7) q(4,3) q(3,8) q(2,2) q(1,5) q(7,1)
+Answer: 141
+ Answer set: q(9,6) q(6,4) q(5,7) q(1,8) q(8,3) q(4,9) q(7,1) q(3,2) q(2,5)
+Answer: 142
+ Answer set: q(9,6) q(8,8) q(6,7) q(1,3) q(4,2) q(7,1) q(3,9) q(5,4) q(2,5)
+Answer: 143
+ Answer set: q(9,6) q(3,7) q(1,2) q(8,3) q(4,9) q(7,1) q(6,8) q(5,4) q(2,5)
+Answer: 144
+ Answer set: q(6,2) q(9,6) q(2,8) q(8,3) q(4,9) q(7,7) q(1,5) q(5,4) q(3,1)
+Answer: 145
+ Answer set: q(6,2) q(9,6) q(1,9) q(8,3) q(7,7) q(4,8) q(5,4) q(3,1) q(2,5)
+Answer: 146
+ Answer set: q(9,6) q(6,4) q(1,8) q(8,3) q(4,9) q(7,7) q(3,2) q(5,1) q(2,5)
+Answer: 147
+ Answer set: q(9,6) q(8,9) q(6,4) q(1,3) q(7,7) q(3,2) q(5,1) q(4,8) q(2,5)
+Answer: 148
+ Answer set: q(9,6) q(6,4) q(8,1) q(2,9) q(4,3) q(1,2) q(5,8) q(7,7) q(3,5)
+Answer: 149
+ Answer set: q(2,3) q(4,6) q(8,1) q(9,4) q(3,8) q(7,7) q(1,5) q(6,9) q(5,2)
+Answer: 150
+ Answer set: q(6,2) q(3,4) q(4,6) q(8,1) q(2,9) q(9,3) q(5,8) q(7,7) q(1,5)
+Answer: 151
+ Answer set: q(2,4) q(5,3) q(8,5) q(1,9) q(6,1) q(7,7) q(3,6) q(4,8) q(9,2)
+Answer: 152
+ Answer set: q(9,1) q(2,4) q(5,3) q(8,5) q(7,7) q(6,9) q(3,2) q(4,8) q(1,6)
+Answer: 153
+ Answer set: q(2,9) q(9,4) q(7,7) q(5,1) q(4,8) q(3,5) q(6,3) q(8,2) q(1,6)
+Answer: 154
+ Answer set: q(2,3) q(9,4) q(7,7) q(6,9) q(5,1) q(4,8) q(3,5) q(8,2) q(1,6)
+Answer: 155
+ Answer set: q(2,3) q(6,4) q(9,9) q(8,7) q(5,1) q(4,8) q(3,5) q(7,2) q(1,6)
+Answer: 156
+ Answer set: q(2,3) q(6,4) q(8,7) q(3,6) q(7,9) q(4,8) q(5,2) q(9,5) q(1,1)
+Answer: 157
+ Answer set: q(2,3) q(6,4) q(5,7) q(8,8) q(4,9) q(1,5) q(3,6) q(7,1) q(9,2)
+Answer: 158
+ Answer set: q(6,4) q(2,9) q(9,3) q(5,8) q(8,7) q(3,5) q(7,2) q(4,1) q(1,6)
+Answer: 159
+ Answer set: q(6,4) q(5,8) q(1,3) q(8,7) q(3,9) q(2,6) q(7,2) q(4,1) q(9,5)
+Answer: 160
+ Answer set: q(6,4) q(2,9) q(1,3) q(8,7) q(3,6) q(7,1) q(4,8) q(5,2) q(9,5)
+Answer: 161
+ Answer set: q(6,4) q(8,1) q(1,3) q(7,8) q(3,9) q(2,6) q(5,2) q(9,5) q(4,7)
+Answer: 162
+ Answer set: q(9,8) q(6,4) q(8,5) q(1,3) q(3,9) q(2,6) q(5,1) q(7,2) q(4,7)
+Answer: 163
+ Answer set: q(6,4) q(9,9) q(8,5) q(1,3) q(7,8) q(3,2) q(2,6) q(5,1) q(4,7)
+Answer: 164
+ Answer set: q(6,4) q(8,5) q(1,8) q(9,3) q(3,2) q(2,6) q(7,9) q(5,1) q(4,7)
+Answer: 165
+ Answer set: q(9,1) q(2,3) q(6,6) q(8,5) q(3,8) q(4,2) q(7,9) q(1,7) q(5,4)
+Answer: 166
+ Answer set: q(2,3) q(6,4) q(8,5) q(3,6) q(7,9) q(5,1) q(4,8) q(1,7) q(9,2)
+Answer: 167
+ Answer set: q(2,3) q(9,4) q(6,5) q(3,6) q(7,9) q(5,1) q(4,8) q(1,7) q(8,2)
+Answer: 168
+ Answer set: q(2,3) q(9,8) q(8,4) q(6,1) q(5,5) q(3,6) q(4,2) q(7,9) q(1,7)
+Answer: 169
+ Answer set: q(2,3) q(9,6) q(8,4) q(6,1) q(3,8) q(5,5) q(4,2) q(7,9) q(1,7)
+Answer: 170
+ Answer set: q(2,3) q(9,6) q(3,7) q(8,4) q(6,5) q(5,8) q(4,2) q(7,9) q(1,1)
+Answer: 171
+ Answer set: q(6,2) q(2,8) q(8,5) q(9,3) q(7,9) q(5,4) q(1,6) q(4,7) q(3,1)
+Answer: 172
+ Answer set: q(3,4) q(5,3) q(6,6) q(1,8) q(7,9) q(2,1) q(8,2) q(9,5) q(4,7)
+Answer: 173
+ Answer set: q(8,1) q(5,3) q(2,8) q(6,6) q(9,4) q(1,5) q(3,2) q(7,9) q(4,7)
+Answer: 174
+ Answer set: q(9,8) q(8,4) q(1,2) q(5,5) q(2,6) q(7,9) q(6,3) q(4,7) q(3,1)
+Answer: 175
+ Answer set: q(9,8) q(5,6) q(3,7) q(8,4) q(4,2) q(7,9) q(6,3) q(1,1) q(2,5)
+Answer: 176
+ Answer set: q(3,4) q(5,8) q(8,7) q(4,2) q(2,6) q(7,9) q(6,3) q(9,5) q(1,1)
+Answer: 177
+ Answer set: q(5,6) q(9,4) q(7,9) q(4,8) q(6,3) q(1,7) q(8,2) q(3,1) q(2,5)
+Answer: 178
+ Answer set: q(3,4) q(5,3) q(2,8) q(6,6) q(1,5) q(8,7) q(7,9) q(4,1) q(9,2)
+Answer: 179
+ Answer set: q(5,3) q(6,6) q(9,4) q(1,2) q(3,8) q(8,7) q(7,9) q(4,1) q(2,5)
+Answer: 180
+ Answer set: q(3,4) q(9,8) q(5,3) q(2,7) q(6,6) q(1,5) q(7,9) q(4,1) q(8,2)
+Answer: 181
+ Answer set: q(3,4) q(6,6) q(8,3) q(5,8) q(4,2) q(7,9) q(1,7) q(2,1) q(9,5)
+Answer: 182
+ Answer set: q(9,1) q(3,3) q(7,5) q(1,4) q(4,9) q(8,7) q(6,8) q(2,6) q(5,2)
+Answer: 183
+ Answer set: q(6,2) q(3,3) q(5,9) q(2,8) q(7,5) q(9,4) q(8,7) q(4,1) q(1,6)
+Answer: 184
+ Answer set: q(6,2) q(5,9) q(2,8) q(7,5) q(9,4) q(1,3) q(8,7) q(3,6) q(4,1)
+Answer: 185
+ Answer set: q(5,9) q(2,8) q(7,5) q(6,1) q(1,3) q(8,7) q(3,6) q(4,4) q(9,2)
+Answer: 186
+ Answer set: q(2,3) q(7,5) q(1,9) q(8,7) q(3,6) q(6,8) q(4,4) q(5,1) q(9,2)
+Answer: 187
+ Answer set: q(7,3) q(8,9) q(9,7) q(1,5) q(3,6) q(6,8) q(4,4) q(2,1) q(5,2)
+Answer: 188
+ Answer set: q(2,3) q(9,7) q(8,4) q(4,9) q(1,5) q(3,6) q(7,1) q(6,8) q(5,2)
+Answer: 189
+ Answer set: q(3,7) q(2,9) q(8,5) q(9,3) q(6,8) q(4,4) q(5,1) q(7,2) q(1,6)
+Answer: 190
+ Answer set: q(2,3) q(9,7) q(8,5) q(6,8) q(3,9) q(4,4) q(5,1) q(7,2) q(1,6)
+Answer: 191
+ Answer set: q(2,3) q(9,8) q(3,7) q(8,5) q(6,9) q(4,4) q(5,1) q(7,2) q(1,6)
+Answer: 192
+ Answer set: q(2,3) q(9,7) q(6,9) q(5,1) q(4,8) q(3,5) q(7,4) q(8,2) q(1,6)
+Answer: 193
+ Answer set: q(5,9) q(8,8) q(6,7) q(9,3) q(4,2) q(3,5) q(7,4) q(2,1) q(1,6)
+Answer: 194
+ Answer set: q(9,6) q(5,9) q(6,7) q(8,4) q(3,8) q(1,3) q(4,2) q(7,1) q(2,5)
+Answer: 195
+ Answer set: q(9,6) q(5,9) q(6,7) q(7,5) q(3,8) q(1,3) q(4,4) q(2,1) q(8,2)
+Answer: 196
+ Answer set: q(9,6) q(5,9) q(8,1) q(6,7) q(2,8) q(7,5) q(1,3) q(3,2) q(4,4)
+Answer: 197
+ Answer set: q(9,6) q(3,7) q(7,5) q(1,4) q(8,3) q(2,2) q(4,9) q(6,8) q(5,1)
+Answer: 198
+ Answer set: q(3,4) q(9,6) q(7,5) q(8,3) q(2,2) q(4,9) q(6,8) q(5,1) q(1,7)
+Answer: 199
+ Answer set: q(9,8) q(2,9) q(6,7) q(7,5) q(1,3) q(3,6) q(4,4) q(5,1) q(8,2)
+Answer: 200
+ Answer set: q(2,3) q(8,1) q(9,7) q(1,5) q(7,6) q(6,8) q(3,9) q(4,4) q(5,2)
+Answer: 201
+ Answer set: q(9,7) q(1,2) q(8,3) q(7,6) q(6,8) q(3,9) q(4,4) q(5,1) q(2,5)
+Answer: 202
+ Answer set: q(9,1) q(5,9) q(8,4) q(3,8) q(7,6) q(4,2) q(6,3) q(1,7) q(2,5)
+Answer: 203
+ Answer set: q(2,9) q(9,7) q(1,4) q(7,6) q(5,1) q(4,8) q(3,5) q(6,3) q(8,2)
+Answer: 204
+ Answer set: q(8,9) q(9,7) q(1,4) q(2,2) q(7,6) q(5,1) q(4,8) q(3,5) q(6,3)
+Answer: 205
+ Answer set: q(3,3) q(8,1) q(9,7) q(6,5) q(1,4) q(4,9) q(7,8) q(2,6) q(5,2)
+Answer: 206
+ Answer set: q(7,3) q(8,9) q(2,4) q(9,7) q(6,5) q(3,6) q(4,8) q(5,2) q(1,1)
+Answer: 207
+ Answer set: q(9,7) q(2,8) q(8,4) q(6,5) q(1,3) q(4,9) q(3,6) q(7,1) q(5,2)
+Answer: 208
+ Answer set: q(3,3) q(5,9) q(9,7) q(2,8) q(8,4) q(6,5) q(7,2) q(4,1) q(1,6)
+Answer: 209
+ Answer set: q(6,4) q(8,3) q(3,6) q(7,9) q(4,8) q(1,7) q(2,1) q(5,2) q(9,5)
+Answer: 210
+ Answer set: q(6,4) q(8,3) q(4,9) q(7,8) q(3,6) q(1,7) q(2,1) q(5,2) q(9,5)
+Answer: 211
+ Answer set: q(3,4) q(8,1) q(2,9) q(9,3) q(5,5) q(7,6) q(4,2) q(6,8) q(1,7)
+Answer: 212
+ Answer set: q(6,2) q(3,4) q(8,1) q(2,9) q(9,7) q(1,3) q(5,5) q(7,6) q(4,8)
+Answer: 213
+ Answer set: q(6,2) q(2,4) q(9,7) q(1,8) q(8,3) q(5,5) q(7,6) q(3,9) q(4,1)
+Answer: 214
+ Answer set: q(9,8) q(8,1) q(6,7) q(1,3) q(5,5) q(4,2) q(3,9) q(2,6) q(7,4)
+Answer: 215
+ Answer set: q(2,3) q(9,6) q(8,4) q(4,9) q(5,5) q(6,8) q(1,7) q(7,2) q(3,1)
+Answer: 216
+ Answer set: q(9,8) q(2,9) q(6,7) q(8,4) q(1,3) q(5,5) q(3,6) q(4,2) q(7,1)
+Answer: 217
+ Answer set: q(2,3) q(9,7) q(6,6) q(1,8) q(4,9) q(5,1) q(3,5) q(7,4) q(8,2)
+Answer: 218
+ Answer set: q(9,1) q(2,3) q(5,9) q(6,6) q(1,8) q(8,7) q(4,2) q(3,5) q(7,4)
+Answer: 219
+ Answer set: q(5,9) q(6,6) q(9,4) q(3,8) q(1,3) q(8,7) q(4,2) q(7,1) q(2,5)
+Answer: 220
+ Answer set: q(7,3) q(5,9) q(6,6) q(9,4) q(1,2) q(3,8) q(8,7) q(4,1) q(2,5)
+Answer: 221
+ Answer set: q(9,7) q(6,6) q(1,4) q(8,3) q(4,9) q(7,8) q(3,5) q(2,1) q(5,2)
+Answer: 222
+ Answer set: q(3,7) q(6,6) q(1,4) q(8,3) q(4,9) q(7,8) q(2,1) q(5,2) q(9,5)
+Answer: 223
+ Answer set: q(2,4) q(6,6) q(8,3) q(4,9) q(7,8) q(1,7) q(5,2) q(9,5) q(3,1)
+Answer: 224
+ Answer set: q(8,5) q(9,3) q(1,9) q(6,1) q(3,8) q(7,7) q(4,2) q(2,6) q(5,4)
+Answer: 225
+ Answer set: q(9,1) q(8,5) q(3,8) q(1,3) q(7,7) q(6,9) q(4,2) q(2,6) q(5,4)
+Answer: 226
+ Answer set: q(2,3) q(3,7) q(8,8) q(6,9) q(4,2) q(7,1) q(5,4) q(1,6) q(9,5)
+Answer: 227
+ Answer set: q(2,3) q(8,5) q(7,7) q(6,9) q(4,8) q(9,2) q(5,4) q(1,6) q(3,1)
+Answer: 228
+ Answer set: q(2,3) q(9,9) q(3,7) q(8,5) q(4,2) q(7,1) q(6,8) q(5,4) q(1,6)
+Answer: 229
+ Answer set: q(6,2) q(2,4) q(9,9) q(3,7) q(7,5) q(8,3) q(5,8) q(4,1) q(1,6)
+Answer: 230
+ Answer set: q(8,9) q(3,7) q(7,5) q(5,8) q(4,4) q(6,3) q(9,2) q(2,1) q(1,6)
+Answer: 231
+ Answer set: q(8,9) q(2,4) q(3,7) q(6,5) q(9,3) q(5,8) q(7,2) q(4,1) q(1,6)
+Answer: 232
+ Answer set: q(8,9) q(3,7) q(6,6) q(5,8) q(1,3) q(4,2) q(7,4) q(2,1) q(9,5)
+Answer: 233
+ Answer set: q(3,3) q(9,7) q(8,4) q(6,5) q(1,9) q(5,8) q(2,6) q(7,2) q(4,1)
+Answer: 234
+ Answer set: q(3,4) q(8,1) q(6,5) q(9,3) q(1,9) q(5,8) q(7,7) q(4,2) q(2,6)
+Answer: 235
+ Answer set: q(2,3) q(9,6) q(8,4) q(1,9) q(6,1) q(5,8) q(7,7) q(4,2) q(3,5)
+Answer: 236
+ Answer set: q(9,1) q(2,9) q(8,4) q(5,8) q(7,7) q(4,2) q(3,5) q(6,3) q(1,6)
+Answer: 237
+ Answer set: q(3,4) q(2,9) q(6,6) q(5,8) q(1,3) q(8,7) q(7,2) q(4,1) q(9,5)
+Answer: 238
+ Answer set: q(6,1) q(5,8) q(1,3) q(8,7) q(4,2) q(3,9) q(2,6) q(7,4) q(9,5)
+Answer: 239
+ Answer set: q(3,4) q(2,9) q(6,6) q(5,8) q(1,3) q(8,7) q(4,2) q(7,1) q(9,5)
+Answer: 240
+ Answer set: q(3,3) q(6,4) q(2,9) q(5,8) q(8,7) q(7,2) q(4,1) q(1,6) q(9,5)
+Answer: 241
+ Answer set: q(3,3) q(6,4) q(1,2) q(5,8) q(8,7) q(2,6) q(7,9) q(4,1) q(9,5)
+Answer: 242
+ Answer set: q(6,2) q(3,3) q(5,6) q(9,4) q(1,8) q(8,7) q(7,9) q(4,1) q(2,5)
+Answer: 243
+ Answer set: q(9,1) q(3,3) q(5,6) q(8,4) q(4,9) q(6,8) q(1,7) q(7,2) q(2,5)
+Answer: 244
+ Answer set: q(3,3) q(5,6) q(9,7) q(8,4) q(1,9) q(6,8) q(7,2) q(4,1) q(2,5)
+Answer: 245
+ Answer set: q(3,3) q(5,7) q(1,4) q(6,1) q(4,9) q(7,8) q(2,6) q(8,2) q(9,5)
+Answer: 246
+ Answer set: q(6,2) q(9,1) q(3,3) q(5,6) q(2,7) q(8,5) q(1,4) q(7,9) q(4,8)
+Answer: 247
+ Answer set: q(3,3) q(5,6) q(2,7) q(1,4) q(6,1) q(7,9) q(4,8) q(8,2) q(9,5)
+Answer: 248
+ Answer set: q(3,3) q(8,9) q(6,4) q(5,7) q(1,8) q(7,6) q(4,1) q(9,2) q(2,5)
+Answer: 249
+ Answer set: q(3,4) q(9,9) q(5,3) q(2,7) q(1,5) q(7,6) q(6,8) q(4,1) q(8,2)
+Answer: 250
+ Answer set: q(8,9) q(2,7) q(9,3) q(1,5) q(7,6) q(6,8) q(4,4) q(5,2) q(3,1)
+Answer: 251
+ Answer set: q(9,1) q(2,7) q(8,3) q(1,5) q(7,6) q(6,8) q(3,9) q(4,4) q(5,2)
+Answer: 252
+ Answer set: q(9,6) q(2,7) q(7,5) q(1,9) q(8,3) q(6,8) q(3,2) q(4,4) q(5,1)
+Answer: 253
+ Answer set: q(9,6) q(8,9) q(2,7) q(7,5) q(6,1) q(5,8) q(1,3) q(3,2) q(4,4)
+Answer: 254
+ Answer set: q(9,1) q(5,9) q(2,7) q(6,6) q(1,4) q(8,3) q(7,8) q(4,2) q(3,5)
+Answer: 255
+ Answer set: q(3,4) q(9,6) q(5,9) q(2,7) q(8,8) q(6,5) q(1,3) q(4,2) q(7,1)
+Answer: 256
+ Answer set: q(3,4) q(9,8) q(5,9) q(2,7) q(6,6) q(8,5) q(1,3) q(4,2) q(7,1)
+Answer: 257
+ Answer set: q(7,3) q(9,8) q(5,6) q(2,7) q(8,5) q(1,4) q(6,1) q(4,2) q(3,9)
+Answer: 258
+ Answer set: q(5,6) q(6,4) q(9,9) q(2,7) q(8,5) q(1,3) q(7,1) q(3,2) q(4,8)
+Answer: 259
+ Answer set: q(2,3) q(9,8) q(5,7) q(8,5) q(6,9) q(4,4) q(7,2) q(1,6) q(3,1)
+Answer: 260
+ Answer set: q(7,3) q(9,8) q(5,7) q(2,9) q(8,5) q(6,1) q(1,2) q(3,6) q(4,4)
+Answer: 261
+ Answer set: q(8,9) q(5,7) q(2,8) q(1,5) q(7,6) q(4,4) q(6,3) q(9,2) q(3,1)
+Answer: 262
+ Answer set: q(5,7) q(2,9) q(7,8) q(4,4) q(6,3) q(8,2) q(1,6) q(9,5) q(3,1)
+Answer: 263
+ Answer set: q(5,6) q(9,3) q(1,9) q(8,7) q(6,8) q(4,4) q(7,2) q(3,1) q(2,5)
+Answer: 264
+ Answer set: q(2,4) q(5,3) q(8,8) q(6,1) q(1,2) q(7,6) q(3,9) q(9,5) q(4,7)
+Answer: 265
+ Answer set: q(9,1) q(5,3) q(2,2) q(4,9) q(1,5) q(8,7) q(3,6) q(6,8) q(7,4)
+Answer: 266
+ Answer set: q(5,3) q(1,9) q(6,1) q(2,2) q(8,7) q(3,6) q(4,8) q(7,4) q(9,5)
+Answer: 267
+ Answer set: q(5,3) q(2,8) q(6,1) q(1,2) q(4,9) q(8,7) q(3,6) q(7,4) q(9,5)
+Answer: 268
+ Answer set: q(9,8) q(8,1) q(3,7) q(5,3) q(6,6) q(1,2) q(4,9) q(7,4) q(2,5)
+Answer: 269
+ Answer set: q(2,4) q(8,1) q(5,3) q(6,6) q(1,9) q(7,8) q(3,2) q(9,5) q(4,7)
+Answer: 270
+ Answer set: q(2,4) q(3,7) q(5,3) q(8,8) q(6,9) q(7,2) q(4,1) q(1,6) q(9,5)
+Answer: 271
+ Answer set: q(2,4) q(5,3) q(8,8) q(6,7) q(3,9) q(7,2) q(4,1) q(1,6) q(9,5)
+Answer: 272
+ Answer set: q(2,4) q(5,3) q(6,6) q(1,9) q(3,8) q(8,7) q(7,2) q(4,1) q(9,5)
+Answer: 273
+ Answer set: q(3,4) q(8,5) q(9,3) q(1,9) q(6,8) q(2,6) q(5,1) q(7,2) q(4,7)
+Answer: 274
+ Answer set: q(7,3) q(9,9) q(8,5) q(1,2) q(6,8) q(2,6) q(5,4) q(4,7) q(3,1)
+Answer: 275
+ Answer set: q(2,3) q(9,8) q(6,4) q(8,5) q(3,9) q(5,1) q(7,2) q(1,6) q(4,7)
+Answer: 276
+ Answer set: q(7,3) q(8,9) q(6,6) q(9,4) q(1,8) q(3,5) q(2,1) q(5,2) q(4,7)
+Answer: 277
+ Answer set: q(8,8) q(7,5) q(9,4) q(1,9) q(3,2) q(2,6) q(5,1) q(6,3) q(4,7)
+Answer: 278
+ Answer set: q(8,9) q(2,8) q(7,5) q(9,4) q(3,2) q(5,1) q(6,3) q(1,6) q(4,7)
+Answer: 279
+ Answer set: q(6,4) q(5,9) q(8,8) q(9,3) q(3,5) q(7,2) q(2,1) q(1,6) q(4,7)
+Answer: 280
+ Answer set: q(6,4) q(5,9) q(8,1) q(9,3) q(2,2) q(7,8) q(3,5) q(1,6) q(4,7)
+Answer: 281
+ Answer set: q(5,9) q(9,4) q(7,8) q(3,5) q(6,3) q(2,1) q(8,2) q(1,6) q(4,7)
+Answer: 282
+ Answer set: q(6,1) q(1,3) q(7,8) q(3,9) q(2,6) q(8,2) q(5,4) q(9,5) q(4,7)
+Answer: 283
+ Answer set: q(5,7) q(1,4) q(4,9) q(7,8) q(2,6) q(6,3) q(8,2) q(9,5) q(3,1)
+Answer: 284
+ Answer set: q(6,4) q(5,7) q(8,3) q(4,9) q(7,8) q(3,2) q(2,6) q(9,5) q(1,1)
+Answer: 285
+ Answer set: q(9,8) q(6,4) q(5,7) q(8,3) q(2,2) q(4,9) q(1,5) q(3,6) q(7,1)
+Answer: 286
+ Answer set: q(7,3) q(5,6) q(9,4) q(2,2) q(1,5) q(8,7) q(6,8) q(3,9) q(4,1)
+Answer: 287
+ Answer set: q(7,3) q(5,6) q(9,4) q(8,7) q(4,2) q(6,8) q(3,9) q(1,1) q(2,5)
+Answer: 288
+ Answer set: q(2,3) q(5,7) q(8,8) q(9,4) q(6,5) q(1,9) q(3,6) q(4,2) q(7,1)
+Answer: 289
+ Answer set: q(6,2) q(9,1) q(2,3) q(5,7) q(8,8) q(4,9) q(1,5) q(3,6) q(7,4)
+Answer: 290
+ Answer set: q(2,3) q(5,7) q(8,8) q(1,9) q(6,1) q(3,6) q(4,2) q(7,4) q(9,5)
+Answer: 291
+ Answer set: q(2,3) q(9,8) q(5,7) q(6,1) q(4,9) q(1,5) q(3,6) q(7,4) q(8,2)
+Answer: 292
+ Answer set: q(3,4) q(7,3) q(9,8) q(5,7) q(8,5) q(6,9) q(4,2) q(2,6) q(1,1)
+Answer: 293
+ Answer set: q(7,3) q(9,9) q(5,7) q(8,5) q(1,4) q(6,1) q(3,8) q(4,2) q(2,6)
+Answer: 294
+ Answer set: q(7,3) q(5,6) q(2,4) q(9,9) q(8,5) q(6,1) q(3,2) q(4,8) q(1,7)
+Answer: 295
+ Answer set: q(7,3) q(5,6) q(2,4) q(9,7) q(8,5) q(6,9) q(3,2) q(4,8) q(1,1)
+Answer: 296
+ Answer set: q(9,1) q(5,6) q(2,4) q(8,8) q(7,5) q(4,9) q(3,2) q(6,3) q(1,7)
+Answer: 297
+ Answer set: q(9,1) q(2,4) q(5,9) q(8,8) q(7,5) q(3,2) q(6,3) q(1,6) q(4,7)
+Answer: 298
+ Answer set: q(6,2) q(2,4) q(5,9) q(8,5) q(9,3) q(7,8) q(1,6) q(4,7) q(3,1)
+Answer: 299
+ Answer set: q(7,3) q(9,8) q(2,4) q(5,9) q(6,6) q(8,5) q(1,2) q(4,7) q(3,1)
+Answer: 300
+ Answer set: q(5,6) q(9,7) q(2,8) q(8,4) q(4,9) q(1,5) q(7,1) q(3,2) q(6,3)
+Answer: 301
+ Answer set: q(2,3) q(9,9) q(8,4) q(1,5) q(7,6) q(6,8) q(5,2) q(4,7) q(3,1)
+Answer: 302
+ Answer set: q(9,6) q(2,9) q(8,4) q(4,3) q(5,5) q(6,8) q(1,7) q(7,2) q(3,1)
+Answer: 303
+ Answer set: q(9,6) q(5,9) q(6,7) q(2,8) q(8,4) q(4,3) q(3,5) q(7,2) q(1,1)
+Answer: 304
+ Answer set: q(5,6) q(9,7) q(2,8) q(8,4) q(4,3) q(6,9) q(3,5) q(7,2) q(1,1)
+Answer: 305
+ Answer set: q(8,9) q(2,4) q(6,6) q(4,3) q(5,8) q(1,7) q(7,2) q(9,5) q(3,1)
+Answer: 306
+ Answer set: q(5,9) q(8,1) q(9,7) q(2,8) q(6,6) q(4,3) q(1,2) q(3,5) q(7,4)
+Answer: 307
+ Answer set: q(8,9) q(9,7) q(2,8) q(6,6) q(4,3) q(1,4) q(5,1) q(3,5) q(7,2)
+Answer: 308
+ Answer set: q(2,9) q(9,7) q(6,6) q(4,3) q(1,4) q(7,8) q(5,1) q(3,5) q(8,2)
+Answer: 309
+ Answer set: q(5,6) q(2,4) q(8,8) q(4,3) q(6,9) q(1,7) q(7,2) q(9,5) q(3,1)
+Answer: 310
+ Answer set: q(9,6) q(5,9) q(8,1) q(6,7) q(7,5) q(4,3) q(1,4) q(3,8) q(2,2)
+Answer: 311
+ Answer set: q(9,6) q(8,9) q(3,7) q(7,5) q(4,3) q(1,4) q(2,2) q(6,8) q(5,1)
+Answer: 312
+ Answer set: q(8,9) q(7,5) q(9,4) q(4,3) q(2,2) q(3,6) q(6,8) q(5,1) q(1,7)
+Answer: 313
+ Answer set: q(8,9) q(6,4) q(5,7) q(4,3) q(3,8) q(2,6) q(7,2) q(9,5) q(1,1)
+Answer: 314
+ Answer set: q(5,7) q(1,8) q(4,3) q(6,9) q(2,6) q(7,4) q(8,2) q(9,5) q(3,1)
+Answer: 315
+ Answer set: q(5,7) q(8,8) q(4,3) q(1,2) q(6,9) q(2,6) q(7,4) q(9,5) q(3,1)
+Answer: 316
+ Answer set: q(6,4) q(5,7) q(2,9) q(8,8) q(4,3) q(1,2) q(3,6) q(7,1) q(9,5)
+Answer: 317
+ Answer set: q(6,2) q(2,4) q(5,9) q(9,7) q(8,5) q(4,3) q(7,8) q(3,6) q(1,1)
+Answer: 318
+ Answer set: q(9,7) q(8,5) q(4,3) q(1,4) q(6,8) q(3,9) q(2,6) q(5,1) q(7,2)
+Answer: 319
+ Answer set: q(5,6) q(9,7) q(8,5) q(4,3) q(1,4) q(2,2) q(7,1) q(6,8) q(3,9)
+Answer: 320
+ Answer set: q(9,1) q(2,4) q(5,9) q(6,6) q(8,5) q(4,3) q(3,8) q(1,7) q(7,2)
+Answer: 321
+ Answer set: q(2,4) q(5,9) q(9,7) q(6,6) q(8,5) q(4,3) q(1,2) q(3,8) q(7,1)
+Answer: 322
+ Answer set: q(2,4) q(5,9) q(6,6) q(8,5) q(4,3) q(7,8) q(1,7) q(9,2) q(3,1)
+Answer: 323
+ Answer set: q(5,9) q(2,7) q(6,6) q(8,5) q(4,3) q(1,4) q(7,8) q(9,2) q(3,1)
+Answer: 324
+ Answer set: q(6,4) q(8,5) q(1,8) q(4,3) q(7,7) q(3,9) q(2,6) q(5,1) q(9,2)
+Answer: 325
+ Answer set: q(6,2) q(9,1) q(5,6) q(2,4) q(8,5) q(1,8) q(4,3) q(7,7) q(3,9)
+Answer: 326
+ Answer set: q(2,3) q(9,8) q(4,6) q(8,4) q(7,7) q(1,5) q(6,9) q(5,2) q(3,1)
+Answer: 327
+ Answer set: q(4,6) q(5,9) q(9,7) q(8,4) q(7,8) q(3,2) q(6,3) q(1,1) q(2,5)
+Answer: 328
+ Answer set: q(4,6) q(2,9) q(9,7) q(8,4) q(5,8) q(1,5) q(7,1) q(3,2) q(6,3)
+Answer: 329
+ Answer set: q(2,3) q(4,6) q(9,7) q(8,4) q(3,8) q(1,5) q(6,9) q(7,1) q(5,2)
+Answer: 330
+ Answer set: q(4,6) q(5,9) q(9,7) q(8,4) q(1,2) q(3,8) q(7,1) q(6,3) q(2,5)
+Answer: 331
+ Answer set: q(3,3) q(4,6) q(5,9) q(2,7) q(8,5) q(1,4) q(6,1) q(7,8) q(9,2)
+Answer: 332
+ Answer set: q(9,8) q(3,3) q(4,6) q(8,1) q(2,9) q(6,7) q(7,5) q(1,4) q(5,2)
+Answer: 333
+ Answer set: q(6,2) q(3,3) q(4,6) q(5,9) q(9,7) q(8,5) q(1,4) q(7,8) q(2,1)
+Answer: 334
+ Answer set: q(6,2) q(4,6) q(5,9) q(2,7) q(8,5) q(9,3) q(1,4) q(7,8) q(3,1)
+Answer: 335
+ Answer set: q(4,6) q(5,3) q(2,7) q(8,5) q(1,4) q(6,1) q(7,8) q(3,9) q(9,2)
+Answer: 336
+ Answer set: q(6,2) q(4,6) q(9,7) q(8,3) q(7,8) q(3,9) q(5,4) q(1,1) q(2,5)
+Answer: 337
+ Answer set: q(4,6) q(5,3) q(2,7) q(8,8) q(6,1) q(1,2) q(3,9) q(7,4) q(9,5)
+Answer: 338
+ Answer set: q(8,9) q(4,6) q(2,7) q(9,3) q(6,1) q(5,8) q(1,5) q(3,2) q(7,4)
+Answer: 339
+ Answer set: q(6,2) q(8,9) q(4,6) q(2,7) q(9,3) q(5,8) q(1,5) q(7,4) q(3,1)
+Answer: 340
+ Answer set: q(6,2) q(3,4) q(9,8) q(4,6) q(5,9) q(2,7) q(7,5) q(8,3) q(1,1)
+Answer: 341
+ Answer set: q(6,2) q(4,6) q(5,9) q(1,8) q(9,3) q(8,7) q(7,4) q(3,1) q(2,5)
+Answer: 342
+ Answer set: q(4,6) q(5,3) q(1,8) q(6,1) q(2,2) q(8,7) q(3,9) q(7,4) q(9,5)
+Answer: 343
+ Answer set: q(9,8) q(4,6) q(8,1) q(5,3) q(6,7) q(2,2) q(1,5) q(3,9) q(7,4)
+Answer: 344
+ Answer set: q(4,6) q(5,3) q(8,8) q(6,7) q(1,4) q(3,9) q(7,2) q(2,1) q(9,5)
+Answer: 345
+ Answer set: q(6,2) q(2,3) q(4,6) q(5,9) q(7,5) q(9,4) q(3,8) q(8,7) q(1,1)
+Answer: 346
+ Answer set: q(3,4) q(9,8) q(4,6) q(7,5) q(8,3) q(2,2) q(6,9) q(5,1) q(1,7)
+Answer: 347
+ Answer set: q(3,4) q(4,6) q(5,9) q(8,8) q(7,5) q(6,3) q(1,7) q(9,2) q(2,1)
+Answer: 348
+ Answer set: q(4,6) q(2,9) q(8,8) q(7,5) q(9,4) q(3,2) q(5,1) q(6,3) q(1,7)
+Answer: 349
+ Answer set: q(8,9) q(4,6) q(7,5) q(9,4) q(3,8) q(2,2) q(5,1) q(6,3) q(1,7)
+Answer: 350
+ Answer set: q(4,6) q(5,9) q(9,4) q(1,2) q(3,8) q(8,7) q(7,1) q(6,3) q(2,5)
+Answer: 351
+ Answer set: q(6,2) q(2,3) q(9,9) q(4,6) q(5,8) q(1,5) q(8,7) q(7,4) q(3,1)
+Answer: 352
+ Answer set: q(6,2) q(2,3) q(4,6) q(8,1) q(9,7) q(5,8) q(1,5) q(3,9) q(7,4)
+       97.69 real        92.26 user         3.99 sys
+===========================================================================================
+
+Running ./bin/ezsmt3 ./benchmarks/n-queens/n-queens-7.lp -s cvc4 -v 0 -e 0:
+SAT
+q(2,7) q(1,3) q(3,4) q(5,5) q(7,6) q(4,1) q(6,2) 
+
+q(3,6) q(1,3) q(7,4) q(6,7) q(5,5) q(2,1) q(4,2) 
+
+q(1,6) q(4,7) q(2,4) q(5,5) q(3,2) q(6,3) q(7,1) 
+
+q(1,4) q(3,5) q(5,6) q(7,7) q(2,1) q(4,2) q(6,3) 
+
+q(2,7) q(1,4) q(3,5) q(5,6) q(4,2) q(7,3) q(6,1) 
+
+q(3,7) q(2,5) q(1,3) q(6,6) q(5,4) q(4,2) q(7,1) 
+
+q(1,6) q(3,5) q(6,7) q(2,2) q(5,4) q(4,1) q(7,3) 
+
+q(2,6) q(1,3) q(4,5) q(7,7) q(3,2) q(6,4) q(5,1) 
+
+q(2,4) q(4,5) q(6,6) q(3,1) q(5,2) q(7,3) q(1,7) 
+
+q(4,7) q(2,4) q(1,2) q(5,5) q(7,6) q(3,1) q(6,3) 
+
+q(2,5) q(5,7) q(1,2) q(3,3) q(7,6) q(6,4) q(4,1) 
+
+q(2,5) q(5,6) q(3,3) q(6,4) q(4,1) q(7,2) q(1,7) 
+
+q(2,7) q(1,4) q(4,6) q(3,3) q(6,5) q(5,2) q(7,1) 
+
+q(1,4) q(4,6) q(6,7) q(3,3) q(2,1) q(7,5) q(5,2) 
+
+q(2,6) q(4,7) q(1,2) q(3,3) q(5,4) q(7,5) q(6,1) 
+
+q(1,5) q(4,6) q(2,3) q(7,7) q(5,4) q(3,1) q(6,2) 
+
+q(3,6) q(7,4) q(2,3) q(5,5) q(4,2) q(6,1) q(1,7) 
+
+q(1,6) q(4,7) q(3,5) q(2,3) q(6,4) q(5,1) q(7,2) 
+
+q(4,7) q(3,5) q(2,3) q(1,1) q(7,6) q(6,4) q(5,2) 
+
+q(4,6) q(3,4) q(2,2) q(7,5) q(6,3) q(5,1) q(1,7) 
+
+q(2,6) q(5,7) q(3,4) q(1,1) q(6,5) q(4,2) q(7,3) 
+
+q(1,5) q(4,7) q(3,4) q(6,6) q(2,1) q(5,3) q(7,2) 
+
+q(1,6) q(3,7) q(2,4) q(6,5) q(5,3) q(4,1) q(7,2) 
+
+q(3,6) q(2,4) q(1,2) q(7,7) q(6,5) q(5,3) q(4,1) 
+
+q(2,7) q(1,5) q(4,6) q(7,4) q(3,2) q(5,3) q(6,1) 
+
+q(2,5) q(4,6) q(7,4) q(6,7) q(1,1) q(3,2) q(5,3) 
+
+q(2,7) q(1,3) q(5,6) q(4,4) q(3,2) q(7,5) q(6,1) 
+
+q(2,7) q(1,5) q(5,6) q(4,4) q(3,2) q(7,3) q(6,1) 
+
+q(3,6) q(1,3) q(6,7) q(4,4) q(2,1) q(7,5) q(5,2) 
+
+q(1,5) q(3,6) q(6,7) q(4,4) q(2,1) q(5,2) q(7,3) 
+
+q(3,7) q(2,5) q(1,2) q(4,4) q(7,6) q(6,3) q(5,1) 
+
+q(2,5) q(5,7) q(1,2) q(4,4) q(7,6) q(3,1) q(6,3) 
+
+q(1,6) q(5,7) q(2,3) q(4,4) q(6,5) q(3,1) q(7,2) 
+
+q(1,6) q(3,7) q(2,3) q(4,4) q(6,5) q(5,1) q(7,2) 
+
+q(1,6) q(5,7) q(7,4) q(4,5) q(3,3) q(2,1) q(6,2) 
+
+q(3,7) q(1,4) q(4,5) q(2,2) q(7,6) q(5,3) q(6,1) 
+
+q(2,7) q(3,5) q(7,4) q(1,2) q(6,6) q(4,3) q(5,1) 
+
+q(3,7) q(2,4) q(5,6) q(1,1) q(4,3) q(7,5) q(6,2) 
+
+q(2,6) q(1,4) q(6,7) q(5,5) q(4,3) q(3,1) q(7,2) 
+
+q(1,5) q(3,6) q(5,7) q(2,2) q(4,3) q(6,4) q(7,1) 
+
+        0.56 real         0.53 user         0.01 sys
+===========================================================================================
+
+Running ./bin/ezsmt3 ./benchmarks/n-queens/n-queens-8.lp -s cvc4 -v 0 -e 0:
+SAT
+q(2,8) q(1,5) q(3,4) q(6,6) q(8,7) q(5,3) q(4,1) q(7,2) 
+
+q(1,5) q(7,6) q(4,7) q(6,8) q(3,4) q(2,2) q(5,3) q(8,1) 
+
+q(2,7) q(1,5) q(7,6) q(6,8) q(3,4) q(5,3) q(4,1) q(8,2) 
+
+q(4,8) q(3,6) q(2,4) q(1,2) q(7,7) q(5,3) q(8,5) q(6,1) 
+
+q(2,8) q(3,6) q(1,2) q(7,7) q(6,5) q(5,3) q(4,1) q(8,4) 
+
+q(1,6) q(3,7) q(7,8) q(2,2) q(6,5) q(5,3) q(4,1) q(8,4) 
+
+q(2,7) q(1,4) q(3,5) q(7,8) q(6,6) q(4,3) q(5,1) q(8,2) 
+
+q(2,7) q(4,8) q(7,6) q(3,5) q(1,2) q(6,4) q(5,1) q(8,3) 
+
+q(4,8) q(1,4) q(3,5) q(5,6) q(7,7) q(2,1) q(6,3) q(8,2) 
+
+q(2,7) q(4,8) q(1,4) q(3,3) q(6,5) q(8,6) q(5,2) q(7,1) 
+
+q(1,5) q(3,6) q(5,7) q(7,8) q(2,2) q(6,4) q(4,1) q(8,3) 
+
+q(1,6) q(4,8) q(3,5) q(2,3) q(8,7) q(6,4) q(5,1) q(7,2) 
+
+q(1,6) q(4,7) q(3,5) q(2,3) q(8,8) q(6,4) q(5,1) q(7,2) 
+
+q(4,8) q(2,5) q(1,3) q(6,7) q(3,2) q(8,6) q(7,4) q(5,1) 
+
+q(2,6) q(4,7) q(1,3) q(7,8) q(3,2) q(6,4) q(8,5) q(5,1) 
+
+q(1,6) q(3,7) q(5,8) q(2,4) q(7,5) q(4,1) q(6,2) q(8,3) 
+
+q(2,8) q(1,6) q(6,7) q(4,4) q(3,2) q(7,5) q(5,1) q(8,3) 
+
+q(2,7) q(1,5) q(5,8) q(4,4) q(3,2) q(8,6) q(7,3) q(6,1) 
+
+q(3,7) q(2,5) q(7,6) q(6,8) q(1,2) q(4,4) q(5,1) q(8,3) 
+
+q(3,8) q(2,6) q(1,2) q(7,7) q(4,3) q(6,4) q(8,5) q(5,1) 
+
+q(1,7) q(3,6) q(7,8) q(2,2) q(4,3) q(6,4) q(8,5) q(5,1) 
+
+q(2,8) q(1,4) q(3,5) q(6,7) q(4,3) q(8,6) q(5,1) q(7,2) 
+
+q(1,6) q(3,7) q(6,8) q(2,3) q(4,4) q(8,5) q(5,1) q(7,2) 
+
+q(1,6) q(5,8) q(2,4) q(4,5) q(7,7) q(3,1) q(6,2) q(8,3) 
+
+q(3,8) q(1,4) q(5,7) q(4,5) q(2,2) q(8,6) q(7,3) q(6,1) 
+
+q(4,8) q(1,4) q(3,5) q(6,7) q(2,1) q(8,6) q(5,2) q(7,3) 
+
+q(3,8) q(1,5) q(6,7) q(4,4) q(2,1) q(8,6) q(5,2) q(7,3) 
+
+q(3,8) q(2,6) q(1,4) q(6,7) q(4,3) q(7,5) q(5,1) q(8,2) 
+
+q(3,8) q(2,6) q(1,4) q(5,7) q(4,2) q(8,5) q(7,3) q(6,1) 
+
+q(3,8) q(2,6) q(5,7) q(1,1) q(4,3) q(6,4) q(8,5) q(7,2) 
+
+q(1,6) q(3,7) q(2,4) q(8,8) q(6,5) q(5,3) q(4,1) q(7,2) 
+
+q(3,8) q(2,5) q(1,3) q(6,7) q(4,4) q(8,6) q(5,1) q(7,2) 
+
+q(1,6) q(3,7) q(5,8) q(2,3) q(6,5) q(4,2) q(8,4) q(7,1) 
+
+q(1,6) q(5,8) q(3,5) q(7,7) q(2,1) q(4,2) q(6,3) q(8,4) 
+
+q(3,8) q(2,6) q(1,3) q(6,7) q(5,5) q(4,1) q(8,4) q(7,2) 
+
+q(1,6) q(4,7) q(6,8) q(2,3) q(5,5) q(3,1) q(8,4) q(7,2) 
+
+q(1,6) q(4,8) q(2,3) q(7,7) q(5,4) q(3,1) q(8,5) q(6,2) 
+
+q(3,7) q(2,5) q(1,3) q(7,8) q(5,4) q(8,6) q(4,1) q(6,2) 
+
+q(3,8) q(1,5) q(6,7) q(2,2) q(5,4) q(8,6) q(4,1) q(7,3) 
+
+q(1,7) q(5,8) q(3,4) q(2,2) q(6,5) q(8,6) q(4,1) q(7,3) 
+
+q(5,7) q(3,4) q(2,2) q(6,5) q(8,6) q(4,1) q(7,3) q(1,8) 
+
+q(2,6) q(5,8) q(1,3) q(3,4) q(7,7) q(6,5) q(4,1) q(8,2) 
+
+q(2,6) q(4,7) q(6,8) q(1,2) q(5,4) q(3,1) q(8,5) q(7,3) 
+
+q(2,6) q(1,4) q(6,8) q(4,5) q(8,7) q(3,1) q(5,2) q(7,3) 
+
+q(3,7) q(5,8) q(1,3) q(4,5) q(2,1) q(8,6) q(7,4) q(6,2) 
+
+q(1,6) q(4,8) q(2,3) q(5,5) q(8,7) q(3,1) q(7,4) q(6,2) 
+
+q(1,6) q(3,7) q(6,8) q(2,2) q(5,4) q(7,5) q(4,1) q(8,3) 
+
+q(1,6) q(3,7) q(6,8) q(2,3) q(5,4) q(4,2) q(8,5) q(7,1) 
+
+q(3,5) q(6,7) q(2,2) q(4,3) q(8,6) q(7,4) q(5,1) q(1,8) 
+
+q(3,7) q(1,4) q(6,8) q(5,6) q(2,2) q(4,3) q(8,5) q(7,1) 
+
+q(2,4) q(5,6) q(7,7) q(4,3) q(3,1) q(8,5) q(6,2) q(1,8) 
+
+q(2,8) q(1,4) q(5,6) q(7,7) q(4,3) q(3,1) q(8,5) q(6,2) 
+
+q(4,8) q(1,4) q(3,5) q(5,6) q(2,2) q(8,7) q(7,3) q(6,1) 
+
+q(1,7) q(2,5) q(6,8) q(5,6) q(3,3) q(4,1) q(8,4) q(7,2) 
+
+q(1,7) q(4,8) q(5,6) q(3,3) q(2,1) q(6,4) q(8,5) q(7,2) 
+
+q(3,8) q(2,5) q(4,6) q(6,7) q(1,1) q(5,3) q(8,4) q(7,2) 
+
+q(3,8) q(1,5) q(4,6) q(6,7) q(2,1) q(5,3) q(8,4) q(7,2) 
+
+q(1,7) q(5,8) q(4,6) q(2,3) q(6,5) q(3,1) q(8,4) q(7,2) 
+
+q(2,7) q(4,8) q(1,4) q(7,6) q(5,5) q(3,1) q(6,2) q(8,3) 
+
+q(2,7) q(1,5) q(7,6) q(6,8) q(4,4) q(3,1) q(5,2) q(8,3) 
+
+q(1,5) q(7,6) q(4,7) q(6,8) q(2,3) q(3,1) q(5,2) q(8,4) 
+
+q(3,7) q(2,5) q(7,6) q(6,8) q(1,2) q(5,3) q(4,1) q(8,4) 
+
+q(3,8) q(1,5) q(7,6) q(5,7) q(2,3) q(4,4) q(6,1) q(8,2) 
+
+q(2,7) q(4,8) q(7,6) q(3,5) q(1,1) q(6,4) q(5,2) q(8,3) 
+
+q(3,8) q(2,6) q(1,3) q(6,7) q(5,4) q(7,5) q(4,1) q(8,2) 
+
+q(3,7) q(1,4) q(7,6) q(6,8) q(4,5) q(2,2) q(5,1) q(8,3) 
+
+q(2,8) q(1,4) q(7,6) q(5,7) q(4,5) q(3,1) q(6,2) q(8,3) 
+
+q(1,7) q(5,8) q(2,4) q(4,5) q(3,2) q(8,6) q(7,3) q(6,1) 
+
+q(2,6) q(5,8) q(1,3) q(4,5) q(7,7) q(3,2) q(8,4) q(6,1) 
+
+q(2,6) q(4,7) q(1,3) q(7,8) q(5,5) q(3,2) q(8,4) q(6,1) 
+
+q(1,6) q(4,8) q(2,4) q(6,7) q(5,5) q(3,2) q(8,3) q(7,1) 
+
+q(1,7) q(4,8) q(2,4) q(5,6) q(3,2) q(8,5) q(7,3) q(6,1) 
+
+q(2,7) q(4,8) q(1,3) q(5,6) q(3,2) q(6,4) q(8,5) q(7,1) 
+
+q(4,8) q(2,5) q(1,3) q(5,6) q(7,7) q(3,2) q(6,4) q(8,1) 
+
+q(2,7) q(1,4) q(3,5) q(5,6) q(8,8) q(4,2) q(7,3) q(6,1) 
+
+q(3,8) q(2,6) q(1,3) q(7,7) q(5,4) q(4,2) q(8,5) q(6,1) 
+
+q(1,7) q(3,8) q(7,6) q(2,3) q(5,5) q(4,2) q(8,4) q(6,1) 
+
+q(2,8) q(1,5) q(7,6) q(5,7) q(3,4) q(4,1) q(6,2) q(8,3) 
+
+q(2,6) q(5,8) q(1,3) q(3,4) q(7,7) q(6,5) q(4,2) q(8,1) 
+
+q(1,5) q(5,8) q(4,6) q(3,4) q(7,7) q(2,1) q(6,2) q(8,3) 
+
+q(1,5) q(5,8) q(4,6) q(3,4) q(2,2) q(8,7) q(6,3) q(7,1) 
+
+q(2,7) q(5,8) q(4,6) q(1,2) q(3,3) q(6,5) q(8,4) q(7,1) 
+
+q(4,6) q(2,3) q(7,7) q(6,5) q(3,1) q(5,2) q(8,4) q(1,8) 
+
+q(3,8) q(1,4) q(4,6) q(2,2) q(8,7) q(7,5) q(6,3) q(5,1) 
+
+q(2,7) q(1,5) q(4,6) q(7,8) q(3,2) q(5,3) q(8,4) q(6,1) 
+
+q(3,7) q(1,4) q(6,8) q(5,6) q(2,2) q(4,3) q(7,5) q(8,1) 
+
+q(1,5) q(5,8) q(4,6) q(2,3) q(8,7) q(3,1) q(7,4) q(6,2) 
+
+q(2,7) q(1,5) q(5,8) q(6,6) q(4,3) q(3,1) q(7,4) q(8,2) 
+
+q(2,8) q(4,7) q(1,3) q(3,4) q(6,6) q(8,5) q(5,1) q(7,2) 
+
+q(2,7) q(5,8) q(4,6) q(3,4) q(1,1) q(7,5) q(6,2) q(8,3) 
+
+q(2,7) q(4,8) q(1,3) q(5,5) q(3,2) q(8,6) q(7,4) q(6,1) 
+
+q(2,7) q(1,5) q(4,6) q(8,8) q(3,2) q(5,3) q(7,4) q(6,1) 
+
+        1.27 real         1.21 user         0.02 sys
+===========================================================================================
+
+Running ./bin/ezsmt3 ./benchmarks/n-queens/n-queens-9.lp -s cvc4 -v 0 -e 0:
+SAT
+q(2,9) q(4,4) q(3,6) q(5,7) q(1,2) q(9,8) q(8,5) q(7,3) q(6,1) 
+
+q(2,7) q(1,5) q(4,4) q(5,8) q(8,9) q(3,2) q(9,6) q(7,3) q(6,1) 
+
+q(3,9) q(2,7) q(1,5) q(4,4) q(5,8) q(8,6) q(7,3) q(6,1) q(9,2) 
+
+q(1,5) q(4,4) q(3,6) q(6,8) q(8,9) q(2,1) q(9,7) q(5,2) q(7,3) 
+
+q(4,9) q(1,5) q(3,6) q(6,8) q(2,3) q(9,7) q(5,2) q(8,4) q(7,1) 
+
+q(2,9) q(4,8) q(3,6) q(1,3) q(8,7) q(6,4) q(5,2) q(9,5) q(7,1) 
+
+q(4,8) q(3,6) q(7,9) q(2,3) q(1,1) q(8,7) q(6,4) q(5,2) q(9,5) 
+
+q(1,7) q(4,8) q(3,6) q(7,9) q(2,1) q(6,4) q(5,2) q(9,5) q(8,3) 
+
+q(4,8) q(3,6) q(2,4) q(6,7) q(5,2) q(9,5) q(8,3) q(7,1) q(1,9) 
+
+q(1,7) q(4,9) q(3,6) q(7,8) q(2,1) q(6,4) q(5,2) q(9,5) q(8,3) 
+
+q(2,9) q(1,6) q(4,4) q(5,7) q(7,8) q(3,1) q(6,3) q(9,5) q(8,2) 
+
+q(2,9) q(1,4) q(3,5) q(7,8) q(6,6) q(4,3) q(9,7) q(5,1) q(8,2) 
+
+q(1,6) q(5,9) q(4,7) q(3,5) q(7,8) q(2,1) q(6,3) q(9,4) q(8,2) 
+
+q(4,9) q(3,7) q(1,4) q(7,8) q(6,6) q(2,1) q(5,2) q(9,5) q(8,3) 
+
+q(4,9) q(1,4) q(3,5) q(7,8) q(6,6) q(2,1) q(9,7) q(5,2) q(8,3) 
+
+q(1,8) q(4,7) q(3,5) q(8,9) q(6,6) q(2,1) q(5,2) q(7,3) q(9,4) 
+
+q(1,8) q(4,7) q(7,9) q(3,4) q(5,5) q(2,1) q(8,6) q(6,2) q(9,3) 
+
+q(3,8) q(1,5) q(4,4) q(7,9) q(6,7) q(2,1) q(8,6) q(5,2) q(9,3) 
+
+q(1,7) q(3,8) q(6,9) q(4,5) q(2,1) q(8,6) q(5,2) q(7,3) q(9,4) 
+
+q(3,9) q(4,7) q(2,4) q(1,2) q(5,5) q(9,8) q(8,6) q(6,3) q(7,1) 
+
+q(5,9) q(4,7) q(2,4) q(1,2) q(6,6) q(9,8) q(3,1) q(8,5) q(7,3) 
+
+q(3,8) q(5,9) q(2,5) q(1,2) q(6,6) q(8,7) q(4,1) q(7,3) q(9,4) 
+
+q(1,8) q(2,5) q(5,7) q(8,9) q(3,3) q(7,6) q(6,4) q(4,1) q(9,2) 
+
+q(4,9) q(3,7) q(2,5) q(1,2) q(6,6) q(9,8) q(5,3) q(7,4) q(8,1) 
+
+q(3,9) q(2,6) q(1,3) q(6,7) q(5,5) q(9,8) q(4,2) q(7,4) q(8,1) 
+
+q(1,8) q(5,9) q(3,5) q(2,3) q(6,6) q(8,7) q(4,2) q(7,4) q(9,1) 
+
+q(2,9) q(1,4) q(4,6) q(6,7) q(3,3) q(9,8) q(7,5) q(5,2) q(8,1) 
+
+q(1,8) q(4,7) q(2,4) q(8,9) q(5,5) q(7,6) q(3,1) q(6,2) q(9,3) 
+
+q(1,8) q(2,5) q(7,9) q(5,6) q(3,3) q(8,7) q(4,1) q(6,2) q(9,4) 
+
+q(1,8) q(5,9) q(2,5) q(4,6) q(8,7) q(3,1) q(7,4) q(6,2) q(9,3) 
+
+q(3,9) q(1,5) q(4,6) q(6,7) q(2,2) q(9,8) q(5,3) q(7,4) q(8,1) 
+
+q(1,8) q(3,9) q(4,6) q(2,2) q(8,7) q(5,3) q(7,4) q(9,5) q(6,1) 
+
+q(1,8) q(4,7) q(3,5) q(8,9) q(2,2) q(7,6) q(6,4) q(5,1) q(9,3) 
+
+q(1,8) q(4,9) q(3,5) q(2,3) q(6,6) q(9,7) q(7,4) q(5,1) q(8,2) 
+
+q(1,8) q(4,9) q(2,6) q(5,7) q(3,3) q(7,4) q(9,5) q(6,1) q(8,2) 
+
+q(1,8) q(2,6) q(6,9) q(5,7) q(4,3) q(3,1) q(7,4) q(9,5) q(8,2) 
+
+q(4,9) q(1,5) q(3,6) q(5,7) q(2,3) q(9,8) q(7,4) q(6,1) q(8,2) 
+
+q(2,7) q(1,5) q(7,9) q(3,4) q(6,6) q(9,8) q(5,3) q(4,1) q(8,2) 
+
+q(1,8) q(3,9) q(4,7) q(2,4) q(7,6) q(5,3) q(9,5) q(6,1) q(8,2) 
+
+q(3,9) q(4,7) q(2,4) q(1,2) q(8,8) q(7,6) q(5,3) q(9,5) q(6,1) 
+
+q(1,6) q(5,9) q(4,7) q(2,4) q(8,8) q(3,2) q(7,5) q(6,3) q(9,1) 
+
+q(1,8) q(4,7) q(7,9) q(3,4) q(6,6) q(2,1) q(5,3) q(9,5) q(8,2) 
+
+q(1,6) q(5,9) q(4,7) q(3,5) q(8,8) q(2,1) q(6,4) q(7,2) q(9,3) 
+
+q(2,9) q(1,4) q(3,5) q(6,7) q(8,8) q(4,3) q(9,6) q(5,1) q(7,2) 
+
+q(1,7) q(6,9) q(2,4) q(5,6) q(8,8) q(4,3) q(3,1) q(9,5) q(7,2) 
+
+q(3,8) q(5,9) q(2,4) q(6,7) q(1,1) q(4,3) q(7,5) q(9,6) q(8,2) 
+
+q(3,8) q(2,4) q(6,6) q(8,7) q(5,3) q(4,1) q(9,5) q(7,2) q(1,9) 
+
+q(1,8) q(4,9) q(3,7) q(2,4) q(6,6) q(5,2) q(9,5) q(8,3) q(7,1) 
+
+q(3,9) q(1,6) q(2,4) q(6,7) q(8,8) q(5,3) q(4,1) q(9,5) q(7,2) 
+
+q(1,6) q(3,7) q(6,9) q(2,4) q(8,8) q(5,3) q(4,1) q(9,5) q(7,2) 
+
+q(1,7) q(3,8) q(7,9) q(2,3) q(5,5) q(4,2) q(9,6) q(8,4) q(6,1) 
+
+q(3,8) q(5,9) q(2,5) q(1,3) q(6,7) q(4,2) q(9,6) q(8,4) q(7,1) 
+
+q(1,8) q(4,9) q(2,5) q(5,7) q(3,2) q(6,4) q(9,6) q(8,3) q(7,1) 
+
+q(1,8) q(4,9) q(2,5) q(7,7) q(3,2) q(6,4) q(9,6) q(5,1) q(8,3) 
+
+q(3,9) q(1,6) q(2,4) q(7,8) q(5,5) q(9,7) q(4,1) q(6,2) q(8,3) 
+
+q(2,8) q(4,9) q(1,5) q(7,7) q(3,2) q(5,3) q(9,6) q(8,4) q(6,1) 
+
+q(2,8) q(4,9) q(1,5) q(7,7) q(5,4) q(3,1) q(9,6) q(6,2) q(8,3) 
+
+q(2,8) q(1,5) q(4,7) q(7,9) q(3,2) q(5,3) q(9,6) q(8,4) q(6,1) 
+
+q(1,7) q(4,8) q(2,5) q(7,9) q(3,2) q(6,4) q(9,6) q(5,1) q(8,3) 
+
+q(4,8) q(2,5) q(1,3) q(8,9) q(7,7) q(3,2) q(6,4) q(9,6) q(5,1) 
+
+q(2,9) q(5,8) q(3,5) q(1,2) q(7,7) q(4,3) q(6,4) q(9,6) q(8,1) 
+
+q(2,7) q(4,8) q(1,4) q(7,9) q(5,5) q(3,1) q(9,6) q(6,2) q(8,3) 
+
+q(1,6) q(4,8) q(7,9) q(2,3) q(5,5) q(8,7) q(3,1) q(6,2) q(9,4) 
+
+q(2,8) q(1,6) q(4,7) q(8,9) q(3,2) q(7,5) q(6,3) q(5,1) q(9,4) 
+
+q(2,8) q(1,6) q(5,9) q(4,7) q(3,3) q(7,5) q(6,2) q(9,4) q(8,1) 
+
+q(2,8) q(1,6) q(5,9) q(3,3) q(8,7) q(7,5) q(4,1) q(6,2) q(9,4) 
+
+q(2,8) q(5,9) q(4,7) q(1,3) q(3,4) q(7,5) q(9,6) q(6,2) q(8,1) 
+
+q(5,9) q(4,7) q(1,3) q(3,4) q(8,8) q(2,1) q(7,5) q(9,6) q(6,2) 
+
+q(2,8) q(1,5) q(4,7) q(7,9) q(6,6) q(3,2) q(5,3) q(9,4) q(8,1) 
+
+q(2,8) q(1,5) q(7,9) q(3,4) q(6,6) q(8,7) q(5,3) q(4,1) q(9,2) 
+
+q(2,6) q(4,7) q(8,8) q(3,2) q(7,5) q(6,3) q(5,1) q(9,4) q(1,9) 
+
+q(3,8) q(2,5) q(7,9) q(1,2) q(6,6) q(8,7) q(5,3) q(4,1) q(9,4) 
+
+q(4,9) q(1,5) q(3,6) q(5,7) q(2,3) q(8,8) q(6,4) q(7,1) q(9,2) 
+
+q(3,9) q(2,6) q(4,7) q(1,3) q(7,8) q(6,4) q(5,2) q(9,5) q(8,1) 
+
+q(2,9) q(3,6) q(5,7) q(1,2) q(8,8) q(4,3) q(6,4) q(9,5) q(7,1) 
+
+q(4,9) q(2,6) q(1,4) q(7,8) q(3,3) q(6,5) q(9,7) q(5,2) q(8,1) 
+
+q(4,9) q(2,6) q(5,7) q(7,8) q(1,1) q(3,2) q(6,4) q(9,5) q(8,3) 
+
+q(4,7) q(2,4) q(7,8) q(6,6) q(3,2) q(5,3) q(9,5) q(8,1) q(1,9) 
+
+q(2,6) q(6,9) q(5,7) q(1,2) q(8,8) q(4,3) q(3,1) q(7,4) q(9,5) 
+
+q(3,9) q(2,6) q(6,8) q(1,2) q(5,5) q(4,3) q(9,7) q(7,4) q(8,1) 
+
+q(4,9) q(2,6) q(6,8) q(1,2) q(5,5) q(8,7) q(3,1) q(7,4) q(9,3) 
+
+q(4,9) q(1,5) q(3,6) q(5,7) q(2,3) q(8,8) q(7,4) q(6,2) q(9,1) 
+
+q(2,8) q(4,9) q(3,6) q(1,2) q(8,7) q(5,3) q(7,4) q(9,5) q(6,1) 
+
+q(2,8) q(5,9) q(3,5) q(1,2) q(6,6) q(4,3) q(9,7) q(7,4) q(8,1) 
+
+q(4,9) q(1,5) q(3,6) q(6,8) q(2,2) q(8,7) q(5,3) q(7,4) q(9,1) 
+
+q(1,5) q(3,6) q(7,9) q(6,7) q(2,2) q(9,8) q(5,3) q(4,1) q(8,4) 
+
+q(4,9) q(1,5) q(3,6) q(5,7) q(2,2) q(9,8) q(6,4) q(8,3) q(7,1) 
+
+q(3,8) q(1,5) q(5,7) q(8,9) q(2,2) q(4,3) q(6,4) q(9,6) q(7,1) 
+
+q(1,6) q(5,9) q(4,7) q(3,5) q(7,8) q(2,2) q(6,4) q(9,3) q(8,1) 
+
+q(1,6) q(5,9) q(4,7) q(3,5) q(7,8) q(2,2) q(6,3) q(8,4) q(9,1) 
+
+q(3,8) q(5,9) q(1,4) q(6,7) q(2,2) q(4,3) q(7,5) q(9,6) q(8,1) 
+
+q(3,7) q(1,4) q(6,8) q(8,9) q(2,2) q(4,3) q(7,5) q(9,6) q(5,1) 
+
+q(4,9) q(3,7) q(1,4) q(6,8) q(2,2) q(7,5) q(9,6) q(5,1) q(8,3) 
+
+q(1,7) q(4,9) q(6,8) q(3,4) q(2,2) q(7,5) q(9,6) q(5,1) q(8,3) 
+
+q(3,9) q(1,6) q(6,8) q(4,5) q(2,2) q(8,7) q(5,3) q(7,4) q(9,1) 
+
+q(1,7) q(3,6) q(6,8) q(8,9) q(2,2) q(4,3) q(7,5) q(5,1) q(9,4) 
+
+q(4,8) q(3,6) q(2,2) q(8,7) q(5,3) q(7,4) q(9,5) q(6,1) q(1,9) 
+
+q(3,9) q(1,5) q(6,8) q(5,6) q(2,2) q(8,7) q(4,1) q(7,3) q(9,4) 
+
+q(3,9) q(1,4) q(6,8) q(5,6) q(2,2) q(4,3) q(9,7) q(8,5) q(7,1) 
+
+q(1,7) q(6,9) q(4,6) q(3,4) q(2,2) q(9,8) q(7,5) q(5,1) q(8,3) 
+
+q(1,7) q(3,8) q(4,6) q(8,9) q(2,2) q(7,5) q(6,3) q(5,1) q(9,4) 
+
+q(4,9) q(1,5) q(5,7) q(3,4) q(2,2) q(9,8) q(8,6) q(6,3) q(7,1) 
+
+q(3,8) q(1,5) q(6,9) q(5,7) q(2,2) q(4,3) q(8,6) q(9,4) q(7,1) 
+
+q(3,8) q(2,6) q(5,7) q(8,9) q(1,1) q(4,3) q(6,4) q(9,5) q(7,2) 
+
+q(1,7) q(3,8) q(5,9) q(2,4) q(6,6) q(4,3) q(8,5) q(7,2) q(9,1) 
+
+q(3,8) q(5,9) q(2,4) q(1,2) q(6,6) q(4,3) q(9,7) q(8,5) q(7,1) 
+
+q(2,7) q(5,9) q(1,3) q(3,4) q(6,6) q(9,8) q(4,2) q(8,5) q(7,1) 
+
+q(3,9) q(1,6) q(4,7) q(2,3) q(9,8) q(6,4) q(8,5) q(5,1) q(7,2) 
+
+q(5,9) q(1,4) q(3,5) q(6,7) q(8,8) q(2,1) q(4,2) q(9,6) q(7,3) 
+
+q(2,7) q(5,9) q(1,4) q(3,5) q(8,8) q(4,2) q(9,6) q(7,3) q(6,1) 
+
+q(3,8) q(5,9) q(2,5) q(1,3) q(6,6) q(8,7) q(4,2) q(9,4) q(7,1) 
+
+q(1,7) q(3,8) q(5,9) q(2,5) q(6,6) q(4,2) q(7,3) q(9,4) q(8,1) 
+
+q(1,7) q(3,8) q(7,9) q(2,3) q(6,6) q(5,4) q(4,2) q(8,5) q(9,1) 
+
+q(3,8) q(2,6) q(7,7) q(5,4) q(4,2) q(8,5) q(6,1) q(9,3) q(1,9) 
+
+q(3,8) q(2,6) q(6,9) q(1,3) q(7,7) q(5,4) q(4,2) q(8,5) q(9,1) 
+
+q(2,8) q(1,6) q(4,7) q(7,9) q(5,4) q(3,1) q(8,5) q(6,2) q(9,3) 
+
+q(3,9) q(2,5) q(1,3) q(6,7) q(8,8) q(5,4) q(4,2) q(9,6) q(7,1) 
+
+q(1,6) q(3,7) q(6,9) q(2,3) q(8,8) q(5,4) q(4,2) q(9,5) q(7,1) 
+
+q(2,6) q(4,7) q(7,9) q(1,2) q(5,5) q(9,8) q(3,1) q(6,3) q(8,4) 
+
+q(3,9) q(2,6) q(4,7) q(1,3) q(9,8) q(6,4) q(8,5) q(5,1) q(7,2) 
+
+q(2,6) q(4,7) q(6,8) q(3,4) q(8,5) q(5,1) q(7,2) q(9,3) q(1,9) 
+
+q(1,8) q(2,6) q(4,7) q(7,9) q(3,2) q(6,4) q(8,5) q(5,1) q(9,3) 
+
+q(2,6) q(6,9) q(5,7) q(3,4) q(1,1) q(9,8) q(4,2) q(8,5) q(7,3) 
+
+q(3,8) q(2,6) q(1,4) q(5,7) q(9,9) q(4,2) q(8,5) q(7,3) q(6,1) 
+
+q(2,6) q(4,7) q(1,3) q(7,8) q(9,9) q(3,2) q(6,4) q(8,5) q(5,1) 
+
+q(4,9) q(2,6) q(1,4) q(5,7) q(7,8) q(3,1) q(6,3) q(9,5) q(8,2) 
+
+q(4,9) q(2,6) q(1,4) q(5,7) q(7,8) q(3,3) q(9,5) q(6,1) q(8,2) 
+
+q(4,9) q(2,6) q(1,3) q(7,8) q(5,5) q(3,2) q(9,7) q(8,4) q(6,1) 
+
+q(3,8) q(2,6) q(6,9) q(1,3) q(5,5) q(9,7) q(4,1) q(8,4) q(7,2) 
+
+q(4,9) q(2,6) q(1,4) q(6,8) q(5,5) q(8,7) q(3,1) q(7,2) q(9,3) 
+
+q(4,9) q(2,6) q(1,4) q(6,8) q(3,3) q(8,7) q(7,5) q(5,2) q(9,1) 
+
+q(2,6) q(4,7) q(6,8) q(3,3) q(7,5) q(5,2) q(9,4) q(8,1) q(1,9) 
+
+q(3,8) q(2,6) q(1,4) q(7,9) q(5,5) q(8,7) q(4,2) q(6,1) q(9,3) 
+
+q(3,8) q(2,6) q(1,4) q(7,9) q(6,7) q(5,5) q(4,2) q(9,3) q(8,1) 
+
+q(2,6) q(5,8) q(7,9) q(3,4) q(1,1) q(8,7) q(4,2) q(6,3) q(9,5) 
+
+q(2,6) q(5,8) q(7,9) q(1,2) q(3,3) q(8,7) q(6,4) q(4,1) q(9,5) 
+
+q(3,9) q(2,6) q(5,8) q(1,3) q(8,7) q(6,4) q(4,1) q(9,5) q(7,2) 
+
+q(3,8) q(2,6) q(1,3) q(6,7) q(9,9) q(5,4) q(7,5) q(4,1) q(8,2) 
+
+q(3,9) q(2,6) q(4,7) q(1,3) q(7,8) q(5,4) q(9,5) q(6,1) q(8,2) 
+
+q(4,8) q(2,5) q(7,7) q(5,4) q(3,1) q(9,6) q(6,2) q(8,3) q(1,9) 
+
+q(1,8) q(4,4) q(2,5) q(7,9) q(6,7) q(3,2) q(9,6) q(5,1) q(8,3) 
+
+q(1,6) q(4,8) q(6,9) q(2,4) q(5,5) q(3,2) q(9,7) q(8,3) q(7,1) 
+
+q(1,6) q(4,8) q(2,4) q(8,9) q(5,5) q(3,2) q(9,7) q(6,3) q(7,1) 
+
+q(1,6) q(4,8) q(6,9) q(3,5) q(2,3) q(7,7) q(5,1) q(9,4) q(8,2) 
+
+q(2,9) q(1,6) q(4,8) q(3,5) q(7,7) q(6,3) q(5,1) q(9,4) q(8,2) 
+
+q(3,7) q(5,8) q(2,4) q(8,9) q(1,1) q(4,3) q(7,5) q(9,6) q(6,2) 
+
+q(1,6) q(3,7) q(5,8) q(2,4) q(9,9) q(7,5) q(4,1) q(6,2) q(8,3) 
+
+q(1,6) q(4,8) q(6,9) q(3,5) q(2,3) q(9,7) q(7,4) q(5,1) q(8,2) 
+
+q(2,8) q(4,4) q(5,9) q(1,3) q(6,7) q(3,2) q(7,5) q(9,6) q(8,1) 
+
+q(2,7) q(4,4) q(5,8) q(1,3) q(8,9) q(3,2) q(7,5) q(9,6) q(6,1) 
+
+q(1,6) q(4,4) q(3,7) q(5,8) q(8,9) q(2,1) q(7,5) q(6,3) q(9,2) 
+
+q(2,9) q(5,8) q(1,3) q(4,5) q(7,7) q(3,2) q(9,6) q(8,4) q(6,1) 
+
+q(1,7) q(5,9) q(2,4) q(4,5) q(8,8) q(3,2) q(9,6) q(7,3) q(6,1) 
+
+q(2,8) q(1,5) q(4,4) q(5,7) q(8,9) q(7,6) q(3,1) q(6,3) q(9,2) 
+
+q(2,8) q(4,4) q(6,9) q(5,7) q(1,2) q(7,6) q(3,1) q(9,5) q(8,3) 
+
+q(2,7) q(1,5) q(6,9) q(3,4) q(8,8) q(7,6) q(5,3) q(4,1) q(9,2) 
+
+q(2,7) q(5,9) q(3,5) q(1,2) q(8,8) q(7,6) q(6,4) q(4,1) q(9,3) 
+
+q(2,7) q(4,8) q(3,5) q(1,2) q(9,9) q(7,6) q(6,4) q(5,1) q(8,3) 
+
+q(3,8) q(5,9) q(2,5) q(4,6) q(1,2) q(8,7) q(6,3) q(9,4) q(7,1) 
+
+q(1,7) q(4,8) q(2,4) q(8,9) q(5,5) q(7,6) q(3,1) q(6,3) q(9,2) 
+
+q(2,8) q(4,4) q(5,9) q(3,6) q(1,3) q(8,7) q(7,5) q(6,1) q(9,2) 
+
+q(2,9) q(1,7) q(4,6) q(8,8) q(3,2) q(7,5) q(6,3) q(5,1) q(9,4) 
+
+q(1,7) q(4,9) q(2,4) q(5,6) q(8,8) q(3,2) q(7,5) q(6,3) q(9,1) 
+
+q(3,7) q(6,9) q(2,4) q(1,2) q(8,8) q(7,6) q(5,3) q(4,1) q(9,5) 
+
+q(1,7) q(5,9) q(4,6) q(3,4) q(8,8) q(2,1) q(7,5) q(6,3) q(9,2) 
+
+q(4,4) q(3,6) q(6,8) q(2,3) q(8,7) q(7,5) q(5,1) q(9,2) q(1,9) 
+
+q(2,9) q(1,5) q(5,8) q(4,6) q(3,4) q(7,7) q(6,2) q(9,3) q(8,1) 
+
+q(3,8) q(5,9) q(4,6) q(2,3) q(1,1) q(8,7) q(7,5) q(6,2) q(9,4) 
+
+q(1,7) q(3,8) q(6,9) q(4,6) q(2,3) q(7,5) q(5,2) q(9,4) q(8,1) 
+
+q(3,8) q(1,5) q(6,9) q(4,6) q(2,3) q(7,7) q(5,2) q(9,4) q(8,1) 
+
+q(2,7) q(5,9) q(4,6) q(3,4) q(1,1) q(9,8) q(7,5) q(6,2) q(8,3) 
+
+q(3,8) q(2,6) q(1,4) q(6,7) q(9,9) q(4,3) q(7,5) q(5,1) q(8,2) 
+
+q(1,7) q(4,9) q(2,4) q(7,8) q(6,6) q(3,1) q(5,2) q(9,5) q(8,3) 
+
+q(2,7) q(4,8) q(1,4) q(7,9) q(5,6) q(3,3) q(9,5) q(6,1) q(8,2) 
+
+q(1,7) q(4,8) q(2,5) q(7,9) q(5,6) q(3,1) q(6,3) q(9,4) q(8,2) 
+
+q(2,8) q(4,9) q(1,5) q(5,6) q(3,2) q(9,7) q(6,3) q(8,4) q(7,1) 
+
+q(3,7) q(2,5) q(7,9) q(5,6) q(1,1) q(9,8) q(4,2) q(6,3) q(8,4) 
+
+q(2,8) q(6,9) q(3,5) q(5,6) q(1,1) q(4,3) q(9,7) q(8,4) q(7,2) 
+
+q(3,8) q(4,4) q(5,9) q(1,3) q(6,7) q(2,1) q(7,5) q(9,6) q(8,2) 
+
+q(3,8) q(1,5) q(4,4) q(6,9) q(2,3) q(7,6) q(9,7) q(5,2) q(8,1) 
+
+q(1,8) q(4,4) q(6,9) q(5,7) q(2,3) q(7,6) q(3,1) q(9,5) q(8,2) 
+
+q(2,9) q(4,8) q(1,4) q(3,5) q(7,6) q(9,7) q(6,3) q(5,1) q(8,2) 
+
+q(2,7) q(4,8) q(6,9) q(3,4) q(1,1) q(7,6) q(5,3) q(9,5) q(8,2) 
+
+q(1,7) q(4,8) q(6,9) q(2,4) q(7,6) q(3,1) q(5,2) q(9,5) q(8,3) 
+
+q(2,9) q(1,7) q(4,8) q(3,3) q(7,6) q(6,4) q(5,2) q(9,5) q(8,1) 
+
+q(4,8) q(1,4) q(3,5) q(8,9) q(2,2) q(7,6) q(9,7) q(6,3) q(5,1) 
+
+q(1,6) q(4,8) q(3,5) q(2,3) q(9,9) q(8,7) q(6,4) q(5,1) q(7,2) 
+
+q(1,7) q(4,8) q(3,6) q(7,9) q(2,3) q(6,4) q(8,5) q(5,1) q(9,2) 
+
+q(1,7) q(4,8) q(3,6) q(7,9) q(2,3) q(6,5) q(5,1) q(9,4) q(8,2) 
+
+q(4,8) q(3,6) q(1,3) q(8,9) q(5,5) q(2,1) q(9,7) q(7,4) q(6,2) 
+
+q(1,7) q(3,6) q(6,8) q(8,9) q(5,5) q(2,1) q(4,2) q(7,4) q(9,3) 
+
+q(3,9) q(2,7) q(4,6) q(1,2) q(8,8) q(5,3) q(7,4) q(9,5) q(6,1) 
+
+q(2,8) q(1,6) q(5,9) q(4,5) q(8,7) q(3,1) q(7,4) q(6,2) q(9,3) 
+
+q(2,7) q(1,5) q(5,8) q(4,6) q(8,9) q(3,1) q(7,4) q(6,2) q(9,3) 
+
+q(3,9) q(2,6) q(5,8) q(1,3) q(4,5) q(9,7) q(7,4) q(6,1) q(8,2) 
+
+q(3,9) q(2,6) q(5,8) q(1,3) q(8,7) q(4,2) q(7,4) q(9,5) q(6,1) 
+
+q(3,7) q(5,8) q(1,3) q(8,9) q(6,6) q(2,1) q(4,2) q(7,4) q(9,5) 
+
+q(2,8) q(1,6) q(5,9) q(3,5) q(6,7) q(4,2) q(7,4) q(9,3) q(8,1) 
+
+q(1,6) q(5,9) q(3,5) q(6,7) q(8,8) q(2,1) q(4,2) q(7,4) q(9,3) 
+
+q(2,7) q(5,9) q(1,4) q(3,5) q(8,8) q(7,6) q(4,2) q(6,1) q(9,3) 
+
+q(1,8) q(5,9) q(2,5) q(4,6) q(6,7) q(3,3) q(8,4) q(7,1) q(9,2) 
+
+q(1,7) q(5,9) q(2,5) q(4,6) q(7,8) q(3,1) q(6,3) q(8,4) q(9,2) 
+
+q(5,9) q(2,5) q(4,6) q(7,8) q(1,1) q(3,2) q(9,7) q(6,3) q(8,4) 
+
+q(2,7) q(1,5) q(4,6) q(7,8) q(9,9) q(3,2) q(5,3) q(8,4) q(6,1) 
+
+q(3,9) q(1,4) q(4,6) q(6,7) q(8,8) q(2,1) q(5,3) q(9,5) q(7,2) 
+
+q(1,5) q(6,9) q(4,6) q(2,3) q(7,7) q(9,8) q(3,1) q(5,2) q(8,4) 
+
+q(3,8) q(1,5) q(6,9) q(4,6) q(2,3) q(9,7) q(5,2) q(8,4) q(7,1) 
+
+q(3,8) q(5,9) q(2,5) q(4,6) q(1,2) q(9,7) q(6,3) q(8,4) q(7,1) 
+
+q(3,8) q(1,5) q(4,6) q(6,7) q(9,9) q(2,1) q(5,3) q(8,4) q(7,2) 
+
+q(3,8) q(2,6) q(7,9) q(4,5) q(1,1) q(8,7) q(6,4) q(5,2) q(9,3) 
+
+q(3,8) q(2,6) q(6,9) q(1,3) q(4,5) q(7,7) q(5,1) q(9,4) q(8,2) 
+
+q(3,8) q(2,6) q(6,9) q(1,3) q(4,5) q(7,7) q(5,2) q(8,4) q(9,1) 
+
+q(1,7) q(6,9) q(2,4) q(4,5) q(8,8) q(7,6) q(3,1) q(5,2) q(9,3) 
+
+q(2,9) q(4,8) q(1,3) q(3,4) q(5,5) q(7,6) q(9,7) q(6,2) q(8,1) 
+
+q(4,8) q(3,6) q(2,4) q(8,9) q(1,1) q(6,5) q(9,7) q(5,2) q(7,3) 
+
+q(2,8) q(5,9) q(3,6) q(1,3) q(8,7) q(7,5) q(4,1) q(6,2) q(9,4) 
+
+q(3,6) q(5,7) q(2,3) q(8,8) q(6,5) q(4,2) q(9,4) q(7,1) q(1,9) 
+
+q(2,8) q(1,5) q(3,6) q(7,9) q(6,7) q(5,3) q(4,1) q(8,4) q(9,2) 
+
+q(2,8) q(4,9) q(1,5) q(3,6) q(7,7) q(5,3) q(8,4) q(6,1) q(9,2) 
+
+q(2,8) q(4,9) q(3,6) q(1,3) q(6,5) q(9,7) q(5,2) q(8,4) q(7,1) 
+
+q(2,6) q(5,8) q(3,3) q(6,5) q(9,7) q(4,1) q(8,4) q(7,2) q(1,9) 
+
+q(1,6) q(3,7) q(5,8) q(2,4) q(8,9) q(6,5) q(4,1) q(7,2) q(9,3) 
+
+q(2,9) q(5,8) q(1,3) q(3,4) q(6,6) q(8,7) q(4,1) q(9,5) q(7,2) 
+
+q(2,9) q(1,6) q(5,8) q(3,5) q(8,7) q(6,4) q(4,1) q(7,2) q(9,3) 
+
+q(2,9) q(1,6) q(5,8) q(3,3) q(8,7) q(6,4) q(4,1) q(9,5) q(7,2) 
+
+q(1,7) q(5,8) q(2,4) q(8,9) q(6,6) q(4,3) q(3,1) q(9,5) q(7,2) 
+
+q(2,8) q(1,4) q(3,5) q(8,9) q(6,6) q(4,3) q(9,7) q(5,1) q(7,2) 
+
+q(2,9) q(5,8) q(1,3) q(3,4) q(6,6) q(8,7) q(4,2) q(9,5) q(7,1) 
+
+q(2,9) q(1,6) q(5,8) q(3,5) q(7,7) q(4,2) q(6,3) q(8,4) q(9,1) 
+
+q(5,8) q(3,5) q(2,3) q(7,7) q(4,2) q(9,6) q(8,4) q(6,1) q(1,9) 
+
+q(2,9) q(1,5) q(5,8) q(4,6) q(3,2) q(9,7) q(6,3) q(8,4) q(7,1) 
+
+q(2,8) q(5,9) q(3,5) q(6,7) q(1,1) q(4,3) q(9,6) q(8,4) q(7,2) 
+
+q(1,8) q(2,6) q(7,9) q(6,7) q(5,5) q(4,3) q(3,1) q(8,4) q(9,2) 
+
+q(2,7) q(5,9) q(1,4) q(3,5) q(7,8) q(6,6) q(4,2) q(8,3) q(9,1) 
+
+q(2,7) q(5,8) q(3,4) q(6,6) q(4,2) q(9,5) q(8,3) q(7,1) q(1,9) 
+
+q(1,7) q(5,8) q(7,9) q(3,4) q(6,6) q(2,1) q(4,2) q(9,5) q(8,3) 
+
+q(2,8) q(1,6) q(5,9) q(3,3) q(6,5) q(9,7) q(4,1) q(8,4) q(7,2) 
+
+q(2,6) q(5,8) q(3,4) q(7,7) q(6,5) q(4,2) q(9,3) q(8,1) q(1,9) 
+
+q(2,7) q(5,9) q(1,3) q(3,4) q(8,8) q(6,5) q(4,2) q(9,6) q(7,1) 
+
+q(3,9) q(2,5) q(4,6) q(7,8) q(1,1) q(5,4) q(9,7) q(6,2) q(8,3) 
+
+q(1,7) q(5,8) q(4,6) q(2,3) q(9,9) q(6,5) q(3,1) q(8,4) q(7,2) 
+
+q(1,6) q(3,7) q(5,8) q(2,3) q(9,9) q(6,5) q(4,2) q(8,4) q(7,1) 
+
+q(3,7) q(5,8) q(7,9) q(2,3) q(1,1) q(6,5) q(4,2) q(9,6) q(8,4) 
+
+q(5,8) q(2,4) q(4,5) q(7,7) q(3,1) q(9,6) q(6,2) q(8,3) q(1,9) 
+
+q(3,9) q(1,6) q(5,8) q(2,4) q(4,5) q(7,7) q(6,2) q(8,3) q(9,1) 
+
+q(5,8) q(2,4) q(4,5) q(6,6) q(3,2) q(9,7) q(8,3) q(7,1) q(1,9) 
+
+q(2,8) q(1,4) q(5,7) q(4,5) q(9,9) q(7,6) q(3,1) q(6,2) q(8,3) 
+
+q(2,8) q(1,5) q(5,7) q(3,4) q(9,9) q(7,6) q(4,1) q(6,2) q(8,3) 
+
+q(1,8) q(3,9) q(2,4) q(5,5) q(7,6) q(9,7) q(4,1) q(6,2) q(8,3) 
+
+q(1,8) q(6,9) q(5,7) q(3,4) q(2,2) q(7,6) q(4,1) q(9,5) q(8,3) 
+
+q(1,7) q(3,8) q(5,9) q(2,5) q(7,6) q(4,2) q(6,3) q(8,4) q(9,1) 
+
+q(2,8) q(6,9) q(5,7) q(3,4) q(1,1) q(7,6) q(4,2) q(9,5) q(8,3) 
+
+q(2,7) q(4,8) q(7,9) q(3,4) q(1,1) q(6,5) q(5,3) q(9,6) q(8,2) 
+
+q(1,5) q(5,8) q(4,6) q(2,3) q(9,9) q(8,7) q(3,1) q(7,4) q(6,2) 
+
+q(3,9) q(1,5) q(5,8) q(4,6) q(2,3) q(9,7) q(7,4) q(6,2) q(8,1) 
+
+q(2,7) q(1,5) q(5,8) q(4,6) q(8,9) q(3,2) q(7,4) q(6,1) q(9,3) 
+
+q(1,6) q(4,8) q(6,9) q(2,4) q(7,7) q(3,2) q(5,3) q(8,5) q(9,1) 
+
+q(1,7) q(4,8) q(2,4) q(5,6) q(9,9) q(3,2) q(8,5) q(7,3) q(6,1) 
+
+q(4,8) q(6,9) q(2,4) q(5,6) q(1,1) q(3,2) q(9,7) q(8,5) q(7,3) 
+
+q(2,7) q(4,8) q(1,3) q(5,6) q(9,9) q(3,2) q(6,4) q(8,5) q(7,1) 
+
+q(2,7) q(4,8) q(1,4) q(7,9) q(5,6) q(3,3) q(8,5) q(6,2) q(9,1) 
+
+q(1,6) q(4,8) q(6,9) q(2,3) q(7,7) q(5,4) q(3,1) q(8,5) q(9,2) 
+
+q(2,7) q(5,9) q(1,4) q(4,6) q(7,8) q(3,3) q(8,5) q(6,1) q(9,2) 
+
+q(3,9) q(2,7) q(1,4) q(4,6) q(7,8) q(5,3) q(8,5) q(6,1) q(9,2) 
+
+q(2,7) q(5,9) q(1,4) q(4,6) q(7,8) q(3,1) q(8,5) q(6,2) q(9,3) 
+
+q(5,9) q(1,4) q(4,6) q(7,8) q(3,3) q(2,1) q(9,7) q(8,5) q(6,2) 
+
+q(1,8) q(6,9) q(4,6) q(3,4) q(7,7) q(2,1) q(5,3) q(8,5) q(9,2) 
+
+q(3,9) q(2,7) q(1,4) q(5,6) q(9,8) q(4,2) q(8,5) q(7,3) q(6,1) 
+
+q(1,6) q(5,9) q(4,7) q(2,4) q(7,8) q(3,1) q(8,5) q(6,2) q(9,3) 
+
+q(1,7) q(5,9) q(2,4) q(7,8) q(6,6) q(4,3) q(3,1) q(8,5) q(9,2) 
+
+q(2,7) q(5,9) q(1,4) q(7,8) q(6,6) q(4,3) q(3,1) q(8,5) q(9,2) 
+
+q(1,8) q(3,9) q(2,6) q(7,7) q(4,3) q(6,4) q(8,5) q(5,1) q(9,2) 
+
+q(1,8) q(3,9) q(2,4) q(5,6) q(7,7) q(4,3) q(8,5) q(6,2) q(9,1) 
+
+q(1,6) q(4,4) q(6,9) q(5,7) q(2,3) q(9,8) q(3,1) q(8,5) q(7,2) 
+
+q(1,6) q(4,4) q(3,7) q(6,9) q(2,3) q(9,8) q(8,5) q(5,1) q(7,2) 
+
+q(2,9) q(1,5) q(4,4) q(5,7) q(7,8) q(3,2) q(8,6) q(6,3) q(9,1) 
+
+q(1,7) q(4,9) q(2,4) q(7,8) q(5,5) q(3,2) q(8,6) q(6,1) q(9,3) 
+
+q(4,7) q(3,5) q(7,8) q(2,2) q(8,6) q(6,3) q(5,1) q(9,4) q(1,9) 
+
+q(3,9) q(4,7) q(1,3) q(7,8) q(5,5) q(2,1) q(8,6) q(6,2) q(9,4) 
+
+q(3,9) q(2,7) q(1,3) q(7,8) q(5,5) q(8,6) q(4,1) q(6,2) q(9,4) 
+
+q(2,7) q(1,5) q(5,8) q(7,9) q(3,4) q(8,6) q(4,1) q(6,2) q(9,3) 
+
+q(3,9) q(2,7) q(1,5) q(5,8) q(4,3) q(8,6) q(7,4) q(6,2) q(9,1) 
+
+q(1,8) q(3,9) q(2,4) q(6,7) q(5,5) q(4,3) q(8,6) q(7,1) q(9,2) 
+
+q(2,8) q(1,4) q(3,5) q(6,7) q(9,9) q(4,3) q(8,6) q(5,1) q(7,2) 
+
+q(3,8) q(1,5) q(7,9) q(6,7) q(2,2) q(5,4) q(8,6) q(4,1) q(9,3) 
+
+q(4,7) q(3,5) q(7,8) q(2,2) q(5,4) q(8,6) q(6,1) q(9,3) q(1,9) 
+
+q(4,9) q(3,7) q(1,4) q(7,8) q(2,2) q(6,5) q(8,6) q(5,1) q(9,3) 
+
+q(3,9) q(2,7) q(4,4) q(1,3) q(7,8) q(6,5) q(8,6) q(5,2) q(9,1) 
+
+q(4,9) q(3,7) q(2,4) q(7,8) q(1,1) q(6,5) q(8,6) q(5,2) q(9,3) 
+
+q(1,7) q(3,8) q(6,9) q(2,4) q(5,5) q(8,6) q(4,1) q(7,2) q(9,3) 
+
+q(3,8) q(1,5) q(6,9) q(5,7) q(2,2) q(8,6) q(4,1) q(7,3) q(9,4) 
+
+q(3,8) q(1,5) q(4,4) q(6,9) q(5,7) q(2,3) q(8,6) q(7,2) q(9,1) 
+
+q(1,5) q(6,9) q(5,7) q(3,4) q(2,2) q(9,8) q(8,6) q(4,1) q(7,3) 
+
+q(2,8) q(4,9) q(1,5) q(5,7) q(3,4) q(8,6) q(6,3) q(7,1) q(9,2) 
+
+q(2,7) q(4,8) q(6,9) q(1,3) q(5,5) q(3,2) q(8,6) q(9,4) q(7,1) 
+
+q(2,7) q(4,8) q(6,9) q(1,3) q(3,4) q(5,5) q(8,6) q(7,1) q(9,2) 
+
+q(1,7) q(4,8) q(7,9) q(3,4) q(5,5) q(2,1) q(8,6) q(6,3) q(9,2) 
+
+q(2,7) q(4,8) q(6,9) q(3,5) q(1,1) q(8,6) q(5,2) q(7,3) q(9,4) 
+
+q(4,8) q(1,4) q(3,5) q(6,7) q(9,9) q(2,1) q(8,6) q(5,2) q(7,3) 
+
+q(4,8) q(2,5) q(1,3) q(6,7) q(9,9) q(3,2) q(8,6) q(7,4) q(5,1) 
+
+q(1,7) q(4,8) q(2,5) q(7,9) q(3,2) q(8,6) q(6,3) q(5,1) q(9,4) 
+
+q(4,8) q(3,6) q(2,4) q(7,7) q(5,3) q(8,5) q(6,1) q(9,2) q(1,9) 
+
+q(5,9) q(3,6) q(2,4) q(7,8) q(1,1) q(4,3) q(9,7) q(8,5) q(6,2) 
+
+q(2,9) q(4,4) q(3,6) q(1,3) q(6,7) q(9,8) q(7,5) q(5,1) q(8,2) 
+
+q(2,9) q(3,6) q(1,3) q(6,7) q(5,5) q(9,8) q(4,2) q(8,4) q(7,1) 
+
+q(2,7) q(1,5) q(4,4) q(5,8) q(7,9) q(3,2) q(8,6) q(6,1) q(9,3) 
+
+q(1,7) q(3,6) q(7,9) q(2,3) q(5,5) q(9,8) q(4,2) q(8,4) q(6,1) 
+
+q(3,6) q(5,7) q(2,3) q(8,8) q(4,2) q(7,4) q(9,5) q(6,1) q(1,9) 
+
+q(4,4) q(3,7) q(2,5) q(7,9) q(1,2) q(9,8) q(8,6) q(6,3) q(5,1) 
+
+q(1,8) q(4,4) q(2,5) q(7,9) q(6,7) q(3,2) q(8,6) q(5,1) q(9,3) 
+
+q(3,9) q(4,4) q(2,5) q(1,3) q(6,7) q(9,8) q(8,6) q(5,1) q(7,2) 
+
+q(3,8) q(4,4) q(2,5) q(6,7) q(8,6) q(5,1) q(7,2) q(9,3) q(1,9) 
+
+q(3,7) q(2,5) q(1,3) q(7,8) q(9,9) q(5,4) q(8,6) q(4,1) q(6,2) 
+
+q(4,9) q(3,7) q(2,5) q(7,8) q(1,1) q(5,4) q(8,6) q(6,2) q(9,3) 
+
+q(2,5) q(5,7) q(7,8) q(3,3) q(8,6) q(4,1) q(6,2) q(9,4) q(1,9) 
+
+q(1,8) q(4,9) q(2,5) q(5,7) q(3,3) q(8,6) q(7,4) q(6,2) q(9,1) 
+
+q(1,7) q(5,8) q(2,4) q(4,5) q(9,9) q(3,2) q(8,6) q(7,3) q(6,1) 
+
+q(3,7) q(5,8) q(1,3) q(4,5) q(9,9) q(2,1) q(8,6) q(7,4) q(6,2) 
+
+q(1,7) q(5,8) q(7,9) q(3,4) q(2,2) q(6,5) q(8,6) q(4,1) q(9,3) 
+
+q(4,8) q(2,5) q(6,7) q(3,3) q(5,4) q(8,6) q(7,1) q(9,2) q(1,9) 
+
+q(2,7) q(4,8) q(3,3) q(6,5) q(8,6) q(5,2) q(9,4) q(7,1) q(1,9) 
+
+q(2,7) q(4,8) q(1,4) q(7,9) q(3,3) q(6,5) q(8,6) q(5,2) q(9,1) 
+
+q(2,9) q(1,7) q(6,8) q(5,5) q(4,3) q(3,1) q(9,6) q(8,4) q(7,2) 
+
+q(3,9) q(2,6) q(1,4) q(6,8) q(4,3) q(9,7) q(8,5) q(5,1) q(7,2) 
+
+q(2,9) q(1,6) q(4,4) q(3,7) q(6,8) q(8,5) q(5,1) q(7,2) q(9,3) 
+
+q(3,9) q(1,6) q(4,4) q(6,8) q(2,3) q(9,7) q(8,5) q(5,1) q(7,2) 
+
+q(3,9) q(1,5) q(4,4) q(6,8) q(2,3) q(7,6) q(9,7) q(5,2) q(8,1) 
+
+q(1,5) q(4,7) q(6,8) q(2,3) q(9,9) q(7,6) q(3,1) q(5,2) q(8,4) 
+
+q(1,7) q(4,9) q(6,8) q(2,3) q(5,5) q(3,1) q(9,6) q(8,4) q(7,2) 
+
+q(2,7) q(4,4) q(6,8) q(3,2) q(7,5) q(9,6) q(5,1) q(8,3) q(1,9) 
+
+q(3,9) q(2,7) q(1,5) q(4,4) q(6,8) q(7,6) q(5,2) q(8,3) q(9,1) 
+
+q(2,7) q(1,5) q(4,4) q(6,8) q(8,9) q(7,6) q(3,1) q(5,2) q(9,3) 
+
+q(2,7) q(1,5) q(6,8) q(3,4) q(9,9) q(7,6) q(5,3) q(4,1) q(8,2) 
+
+q(2,5) q(6,8) q(5,6) q(3,3) q(9,7) q(4,1) q(8,4) q(7,2) q(1,9) 
+
+q(1,7) q(4,9) q(2,5) q(6,8) q(5,6) q(3,3) q(8,4) q(7,2) q(9,1) 
+
+q(4,4) q(2,5) q(6,8) q(5,6) q(8,7) q(3,1) q(7,2) q(9,3) q(1,9) 
+
+q(4,9) q(3,7) q(2,5) q(6,8) q(1,1) q(5,3) q(9,6) q(8,4) q(7,2) 
+
+q(3,7) q(2,5) q(6,8) q(1,2) q(9,9) q(7,6) q(5,3) q(4,1) q(8,4) 
+
+q(3,9) q(4,4) q(2,5) q(6,8) q(1,2) q(7,6) q(9,7) q(5,1) q(8,3) 
+
+q(3,9) q(2,7) q(1,4) q(6,8) q(5,5) q(4,2) q(9,6) q(8,3) q(7,1) 
+
+q(3,9) q(1,6) q(6,8) q(2,3) q(5,5) q(8,7) q(4,2) q(9,4) q(7,1) 
+
+q(2,9) q(1,7) q(6,8) q(3,4) q(5,5) q(7,6) q(4,2) q(9,3) q(8,1) 
+
+q(3,9) q(2,5) q(6,8) q(5,6) q(1,1) q(8,7) q(4,2) q(7,3) q(9,4) 
+
+q(2,9) q(1,7) q(6,8) q(4,5) q(3,3) q(7,6) q(5,2) q(8,4) q(9,1) 
+
+q(3,9) q(2,6) q(6,8) q(4,5) q(1,1) q(8,7) q(5,2) q(7,3) q(9,4) 
+
+q(2,6) q(1,4) q(6,8) q(4,5) q(9,9) q(8,7) q(3,1) q(5,2) q(7,3) 
+
+q(3,9) q(1,4) q(6,8) q(4,5) q(2,2) q(7,6) q(9,7) q(5,1) q(8,3) 
+
+q(2,9) q(3,6) q(6,8) q(1,2) q(5,5) q(4,3) q(9,7) q(8,4) q(7,1) 
+
+q(2,9) q(1,7) q(3,6) q(6,8) q(4,3) q(7,5) q(5,1) q(9,4) q(8,2) 
+
+q(2,6) q(4,7) q(6,8) q(1,2) q(9,9) q(5,4) q(3,1) q(8,5) q(7,3) 
+
+q(4,9) q(3,7) q(2,5) q(6,8) q(1,2) q(5,4) q(9,6) q(8,3) q(7,1) 
+
+q(1,6) q(3,7) q(6,8) q(2,3) q(9,9) q(5,4) q(4,2) q(8,5) q(7,1) 
+
+        4.62 real         4.53 user         0.06 sys
+===========================================================================================
+

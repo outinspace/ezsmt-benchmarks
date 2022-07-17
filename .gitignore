@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+tmp/
+
+
+*.grounded
+*.preparsed
+SMT*
+Model*
+dimacs-completion*
+*.temp
